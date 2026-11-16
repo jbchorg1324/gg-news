@@ -1,12 +1,16 @@
 {
-  "updatedAt": "2026-11-16T17:32:22+09:00",
+  "updatedAt": "2026-11-16T19:49:24+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
-    "수원": "정상",
-    "화성": "정상",
-    "오산": "정상"
+    "수원": "오류 (이전 데이터 유지)",
+    "화성": "오류 (이전 데이터 유지)",
+    "오산": "오류 (이전 데이터 유지)"
   },
-  "errors": [],
+  "errors": [
+    "수원: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%EC%88%98%EC%9B%90%EC%8B%9C%20OR%20%EC%88%98%EC%9B%90%EA%B2%BD%",
+    "화성: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%ED%99%94%EC%84%B1%EC%8B%9C%20OR%20%ED%99%94%EC%84%B1%EA%B2%BD%",
+    "오산: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28%EC%98%A4%EC%82%B0%EC%8B%9C%20OR%20%EC%98%A4%EC%82%B0%EA%B2%BD%"
+  ],
   "articles": [
     {
       "city": "화성",
