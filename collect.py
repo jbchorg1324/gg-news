@@ -2,6 +2,7 @@
 Designed for GitHub Actions. Never invents articles or incident occurrence times.
 """
 import datetime as dt
+import calendar
 import json
 import os
 import re
@@ -49,7 +50,7 @@ def fetch_city(city):
         for entry in feed.entries[:70]:
             date=None
             if entry.get('published_parsed'):
-                date=dt.datetime.fromtimestamp(time.mktime(entry.published_parsed), dt.timezone.utc)
+                date=dt.datetime.fromtimestamp(calendar.timegm(entry.published_parsed), dt.timezone.utc)
             elif entry.get('published'):
                 date=parsedate_to_datetime(entry.published).astimezone(dt.timezone.utc)
             if not date or not NOW-dt.timedelta(hours=48) <= date <= NOW+dt.timedelta(minutes=10):
