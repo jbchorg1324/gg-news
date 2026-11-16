@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-11-17T08:03:54+09:00",
+  "updatedAt": "2026-11-17T08:17:37+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
-    "수원": "정상",
+    "수원": "오류 (이전 데이터 유지)",
     "화성": "정상",
     "오산": "정상"
   },
-  "errors": [],
+  "errors": [
+    "수원: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%28%EC%88%98%EC%9B%90%EC%8B%9C%20OR%20%EC%88%98%EC%9B%90%EA%B2%BD%EC"
+  ],
   "articles": [
+    {
+      "city": "화성",
+      "title": "화성시 민·정·관, 16일 경기국제공항 반대 촉구 공동입장문 발표",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OalkwSkNxbElCTDRBbkk0bmR4TUFHOXRPX19QS2N2bHZFWjRHR3BwX2M1TG4tT0JYcjhkMUU3SG16MGZYb3NHc2lEQlZCdzNjckgxeWpZQU9sY3dDZEdYUC1NX0JieVQ1enFNMlBLUQ?oc=5",
+      "publisher": "기호일보",
+      "publishedAt": "2026-11-17T08:12:52+09:00"
+    },
     {
       "city": "화성",
       "title": "화성시어린이문화센터, 19~22일 아동권리주간 운영",
@@ -93,13 +102,6 @@
       "publishedAt": "2026-11-17T02:29:22+09:00"
     },
     {
-      "city": "화성",
-      "title": "화성시 민·정·관, 16일 경기국제공항 반대 촉구 공동입장문 발표",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OalkwSkNxbElCTDRBbkk0bmR4TUFHOXRPX19QS2N2bHZFWjRHR3BwX2M1TG4tT0JYcjhkMUU3SG16MGZYb3NHc2lEQlZCdzNjckgxeWpZQU9sY3dDZEdYUC1NX0JieVQ1enFNMlBLUQ?oc=5",
-      "publisher": "기호일보",
-      "publishedAt": "2026-11-17T02:22:31+09:00"
-    },
-    {
       "city": "오산",
       "title": "오산시, 신규 공직자 연수 두 차례 운영…민원 응대부터 공문서 작성까지 실무 익혀",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QbVlwMW1wY1VBZ1d6R2ctWlVsVE8xdDdTSGRkVUlDZ2E0Y1FGS1hLNndxZS1mTmpjUi0yOGdmbkYtQUNYMEZ6Y2ppRXFGOUlLako0bXE2LVYxLTNLNXhrbmlhY3lhX2Fq?oc=5",
@@ -140,13 +142,6 @@
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fenFWZk1ZZnhhVTZycGxKdmZSLVhCVVNNTlFqLXQ2NWNnYXBZaUMyM0VSS1hFLWdEZXZyeG5kUkgyMEZCVFZfOXU5ZGU1UnVTZ1VoeGVuOFVRX21TN1lDdXdTRlRodURI?oc=5",
       "publisher": "광교신문",
       "publishedAt": "2026-11-17T01:26:17+09:00"
-    },
-    {
-      "city": "화성",
-      "title": "수원군공항 화성시 이전 반대 특별위원회, 민·관·정 공동입장문 발표 통해 공동대응 의지 재확인",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0a2VsQU1acHdnUHBlUEUyNTA0RkhaakFaVG5wMk1kbGlIQ2pQeGZaNFp1YzlJR0ZDN0Z0cFZVemhUVnlveEpDeWVjNU0zUVI3RWkzSE4zXzFONzZMblVfRzBkeUZKSzRv?oc=5",
-      "publisher": "광교신문",
-      "publishedAt": "2026-11-17T01:26:13+09:00"
     },
     {
       "city": "오산",
@@ -280,6 +275,13 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE43R0dUbjNsS2lTeUhzS09mdzBtWUZQYThveGM3TFc2NC1MUTg2SjVxLUZVaEhtUWVKVjBkX1hCbXdmb0NZeW9sUDN1YVpkUnJkVUp1blpWQnNJWTBfZzNod3FlY18xM3ZvY0hCOGdn?oc=5",
       "publisher": "현대일보",
       "publishedAt": "2026-11-16T19:12:32+09:00"
+    },
+    {
+      "city": "화성",
+      "title": "수원군공항 화성시 이전 반대 특별위원회, 민·관·정 공동입장문 발표 통해 공동대응 의지 재확인",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJSE1KQnpKU0ROdG8zMkhvQUk1SWk0SVc1QmU2eFd6OWJkWE9wVHViTWpOQlc0b0RfMXZFd2kzR3VmWnkzVERnQ2NZVmRvejJHbHdpYzAtaXBxV21uMXVTRG5TU0VWOUxwU29v?oc=5",
+      "publisher": "투데이경제",
+      "publishedAt": "2026-11-16T18:58:38+09:00"
     },
     {
       "city": "오산",
@@ -620,7 +622,7 @@
     {
       "city": "오산",
       "title": "오산시의회, 현장 경험 담아 자치법규 내실 다진다",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fRGtuQzVEYTFJZW1lckZZbk1HZW5waVNaWGRYYVVpMUtDeW8wa2FrOHNyZVhKRFpxUFFzQnpGcmg5MjNNMWJ3d2R4STBQWXJoMUJ5cGhfektqRFV0SUxYTjAyM09zWnVCMFNKa9IBb0FVX3lxTE9GcktZb2pXSzR1QjNzUXFhM2U0Q3lrQTZtRTR1STd0ODUxNkxmRUl2RERGQzBHdjFYcUdhSWFCQlUzNjF4eHU1SE1jQktSSEZzMFJZam5qNU15NTFXbXBraWx3dG56X3RoNGNSaDd4Yw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tOE1RNEtyNWRpRVVPT2Fhb0ZacFR5R08wVGZYcVd0S2FvOThxc28xVFdzUklNV2k5MU1COFAxM2l4dWZ1UlNsUTA5dHA0QXJFLTYzQmo1WjJFTVZrcWU5RElQSlo1RVBjenZN0gFvQVVfeXFMT0ZyS1lvaldLNHVCM3NRcWEzZTRDeWtBNm1FNHVJN3Q4NTE2TGZFSXZEREZDMEd2MVhxR2FJYUJCVTM2MXh4dTVITWNCS1JIRnMwUllqbmo1TXk1MVdtcGtpbHd0bnpfdGg0Y1JoN3hj?oc=5",
       "publisher": "서울일보",
       "publishedAt": "2026-11-16T16:36:11+09:00"
     },
@@ -1003,6 +1005,13 @@
       "publishedAt": "2026-11-16T13:38:45+09:00"
     },
     {
+      "city": "오산",
+      "title": "오산시, 새내기 공직자 연수 운영…민원·공문서 실무 교육",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1qdjVqQ294ZDZzTjd1cmFvTDYzSEg4TE9QRm9CeDVLcXZmaWlUUlAxMFd2dWhyMkpJbGhCRHAzaXpkLXlQMkdxWnpMb2ZJTXBxVVR5R2g5S2pSVVloZlZCaFplYXFxWTYyblA0?oc=5",
+      "publisher": "한국사회복지저널",
+      "publishedAt": "2026-11-16T13:35:29+09:00"
+    },
+    {
       "city": "화성",
       "title": "화성시 민·정·관 \"수원군공항 이전 반대\"…국방부 용역 백지화 촉구",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBTdndnRExnZGQ2NnFQelRLVXUxM3R5SmxiaG1kZ3p3ZDhwR2xlRWtaN1ozUFg1ZkRWTDNNSENBVHphakxudFBKUGVZa0tfS3kzM1BGV3REWFdBUVUxNFBNV1plR3V3RXdsZ1ZfVWd1QdIBc0FVX3lxTE9VQWI0Um80UnhpN1ZTZ2lOZThHS1dSNUdRSndqTlJzR2lRNmp3V1FsYnlWQ1N4Q3YwaFZhNXl5VzctYnBEc0RWYTJ5Wjc5STNmYjRZUFd0c2pnUmZBWGF5OEpldTJxQ3d3Qm1EVjJzTWJHd0U?oc=5",
@@ -1015,13 +1024,6 @@
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBmd3dzSUR0MVRwNGZHRldpVHBaT0pCTmlsMDJrdDJYR09yd0FsMHQ2MWdGR3lTYW9GV0hPaGRYSXVCT3hadkZqbU1tOS16Zw?oc=5",
       "publisher": "전자신문",
       "publishedAt": "2026-11-16T13:33:57+09:00"
-    },
-    {
-      "city": "오산",
-      "title": "오산시, 서동탄역 인근 급전구분소 이전 협의…대체지는 미정",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBOd0JHZmdMTnRMRGZVa1BmQ2VkRE9vM1FYMWxmX01GNEZWeWloaDFjeUVtc0IwWVJfc1RQWjViVnlmclV5ZDFQN0hJVE82emU2NWVFT3VaTGhZclNnY0VNUTZ1QzEydEVPQlBzY245TdIBc0FVX3lxTFB1VnpzZjZPQVh2cUtkbHhTVjRDRjJvUzhGQjg2NkNuVDNoWEk2OG9pS3dKLWgtMWRESnNZUTRmRFJjb3p6VExiNlFkTkF4eHpfd0hPaUI3Umw5TzhoUjlLOGJ6U29oRlRQRUp0WUJBblQ5SWM?oc=5",
-      "publisher": "뉴스웍스",
-      "publishedAt": "2026-11-16T13:33:15+09:00"
     },
     {
       "city": "오산",
@@ -1068,7 +1070,7 @@
     {
       "city": "오산",
       "title": "오산시 신장1동, 함께자람센터서 김치와 성금 기탁받아…아이들이 담근 김치, 이웃의 밥상으로",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93MFptbm9SdWtxeFlMN2hwaFlHMjlHVE9NVEJteVAwQllLRDlVbUlxbjdGWEoxeHB2U3dGTEVtbFpCM19kU1U5TmxpMk9tbmxLS0d5dDFxM1I1NEo4aVZiYkRLMkpyUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5KVC1jcG85dUlmUGlOU0tSeUpTOWhGa084dWYxd0NyUC1wVW5lcnZ3bmg1Z1dQTlZxcEJ3VWZIdkFkcU5YV01QWFU3N0dCb3dnUXNpakRJOHNZM0pZYnVkZDlUUQ?oc=5",
       "publisher": "경기탑뉴스",
       "publishedAt": "2026-11-16T13:10:13+09:00"
     },
@@ -1270,26 +1272,26 @@
     }
   ],
   "weather": {
-    "updatedAt": "2026-11-17T08:03:54+09:00",
+    "updatedAt": "2026-11-17T08:17:37+09:00",
     "source": "Open-Meteo",
     "cities": {
       "수원": {
-        "temperature": 8.3,
+        "temperature": 8.5,
         "weatherCode": 2,
         "precipitationProbability": 14
       },
       "화성": {
-        "temperature": 9.0,
+        "temperature": 9.2,
         "weatherCode": 2,
         "precipitationProbability": 23
       },
       "용인": {
-        "temperature": 8.7,
+        "temperature": 8.9,
         "weatherCode": 2,
         "precipitationProbability": 10
       },
       "오산": {
-        "temperature": 8.8,
+        "temperature": 9.0,
         "weatherCode": 2,
         "precipitationProbability": 14
       },
@@ -1299,12 +1301,12 @@
         "precipitationProbability": 23
       },
       "평택": {
-        "temperature": 9.4,
+        "temperature": 9.6,
         "weatherCode": 3,
         "precipitationProbability": 5
       },
       "이천": {
-        "temperature": 7.6,
+        "temperature": 7.8,
         "weatherCode": 2,
         "precipitationProbability": 11
       },
