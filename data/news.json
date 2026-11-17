@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T20:17:53+09:00",
+  "updatedAt": "2026-11-17T21:07:14+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -25,7 +25,7 @@
     {
       "city": "수원",
       "title": "경기 수원시, 아주대의료원·KCMC와 손잡고 바이오 CMC 산업 육성 나선다",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5UOWxRNHUwSC16OW1KamR1d3ZRLUZfYjVPY0o1RldkMGwtdjZuUndOeFRndkpTS1prUVdSVmRkOHVmb0w1aHYtVE5TT0E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5OYlNpN2NkUDdOb0R1Z0ZRX1haZHVyTlFEYXpqcWFkbFNndDIzam9FWnIzOENNay1OU3hpZTBDOEt6U1ItRTBPZHdXRQ?oc=5",
       "publisher": "아이뉴스24",
       "publishedAt": "2026-11-17T19:58:13+09:00"
     },
@@ -42,13 +42,6 @@
       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE03TTg2VXdzVW15MWRJa05IYkpmZjJqWm8tWnlTcDZLNEdTTFI2QXFJWjhfQ25EUUdZSlhycDFhOUhCd2RU?oc=5",
       "publisher": "화성 투데이",
       "publishedAt": "2026-11-17T19:29:00+09:00"
-    },
-    {
-      "city": "오산",
-      "title": "조용호 오산시장, 시장군수협의회서 도체전 지원·세교3지구 개발 대책 건의",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA5czQtSE9NWXVYeFhKNk1iMU5EbWdLeFowWTFnbXhaR3JDa1g4ZkVYblI5UWlTakxnQXg0T1Q2RUFJYWM0dUZOTzBKOHhVY0FGZ0haa2xoREdoM2hDd3N3bFVSdGVueGFuSEdPVGxPWFVpMDN6?oc=5",
-      "publisher": "경기종합뉴스",
-      "publishedAt": "2026-11-17T19:15:29+09:00"
     },
     {
       "city": "오산",
@@ -91,6 +84,13 @@
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZR0RLQTdhcnNLaU9VNXZLRzY4amduUEVWcVJ3Tlp6U1lMbVQ0ZHYwRWI4S0FCY3NGR1pLbGE1c1Q5Z1YySHkwQnJPTUl3NFZjcUJOLXA0bXFvd1oyVTdzVmRkXzA?oc=5",
       "publisher": "열린뉴스통신",
       "publishedAt": "2026-11-17T18:19:01+09:00"
+    },
+    {
+      "city": "오산",
+      "title": "조용호 오산시장, 시장군수협의회서 도체전 지원·세교3지구 개발 대책 건의",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9OS2ZsUGRYM29mOERiNTVxa1h5Z0kyRm1GV3JmcURSVl9ycGh1andEZ2Nfd25RNWNvcHc4NlY2aGhTRWFHX1VTeWdiMzA3bjlnZTMxQ0xwcEVBYlM3WU1WSlVPeFI?oc=5",
+      "publisher": "중앙뉴스타임스",
+      "publishedAt": "2026-11-17T17:50:06+09:00"
     },
     {
       "city": "화성",
@@ -429,6 +429,13 @@
       "publishedAt": "2026-11-17T16:25:50+09:00"
     },
     {
+      "city": "수원",
+      "title": "수원시 자치분권 청년기획단 제4기 활동 마무리",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBMOFQ5WDZLWGJRUnJtNlo1NnlVa0w2NWdxcmF4UURGQXl3RnpUVVdVSzRDbHRkTldWY2gxWElIbEZocVp0Rm15dWgyN3Y4MWhKREtWOWsweXRObE9nS1RTenRkV3A5aHFq?oc=5",
+      "publisher": "환경일보",
+      "publishedAt": "2026-11-17T16:23:59+09:00"
+    },
+    {
       "city": "오산",
       "title": "조용호 시장, 경기도체전 도비 20억·세교3지구 자족용지 30만평 건의",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XczdNUkpubzNwcGZsdFhsSTBBUHJpX2R6TlBJc2dWS2ItQXE2UXhkU3RCLUNRSGtFUktMcHVhb0U1U3ZfanNhUWdyRXBTY0hING1CQXE0QUJIZEppWmM3Vg?oc=5",
@@ -592,7 +599,7 @@
     {
       "city": "오산",
       "title": "오산시의회 민주당 “국공립어린이집 위탁심사 의혹 근거 밝혀야”",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4xN21udlI2WUFmeUdEMmJZNHUtY3FNNjFiYnNndjRyNWJ1X0Zvdzk2NFFiTjhncEotN3pITko5Z1k0UllvMDMzR1hHd3Z4SXJwR2tmMGpWS0FTeWpZ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IQTRzRjd1UWlIOFR4eERhUlR1eUhxU0U4NjBFVTdaTlVNeC1hS29RTzVfZTRZYXU5UzYzOURtMGhVd0dGZlp1Q0JxVjJONW5OeU5aSWZkUVlVSDN0Z3NDODhzTHFBOG4zRFE?oc=5",
       "publisher": "오산인터넷뉴스",
       "publishedAt": "2026-11-17T15:56:07+09:00"
     },
@@ -786,13 +793,6 @@
       "publishedAt": "2026-11-17T15:03:32+09:00"
     },
     {
-      "city": "수원",
-      "title": "수원시의회 김장김치 사랑나눔",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1pdkZuWEJMOE9TczBmWlE0bUVteV84UnpIeVZMcXhVVlh2dEVJcDRNZmVTMkFWLXBuRVN3cDdaTHMtVHh4dlltTGZUWHl1elVKc3c1VmhDamk1aEhRRDFsUVgzUlg?oc=5",
-      "publisher": "suwonilbo.kr",
-      "publishedAt": "2026-11-17T15:03:18+09:00"
-    },
-    {
       "city": "오산",
       "title": "오산시, 20년 이상 영업한 골목 노포 식당 5곳 '오~랜맛집' 선정",
       "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxQbVNSVTFQbk01YzJra0syMmM5TVlvcWVCMFFtXzhJVEFsRlhjLS1wYklVZzlZZDFXX3ktUGFxS1dSdjB2ZVRZQkQtRVhKcGdKbDBzUmdYZUZIWFNNNXVjanVpRm85Rmlhb0NwcjdqREl5TGtmX1B5a3JtdUhpU1Btd2FZR2Z5WkluYnZ6VVJPa3JUTTZURnJjOWR0VnptMUFCSVZ6c1lHVTdyc0VXblZZYUxzNWZiZEpDX01iTWRkbHJkQ25zcG44SjdHMUhNaTg4UUdMNHl1cXpNcVk3RmYxOTl4bU1HV3hPb0VVWU9xVFZRVU1zUkd1Z2hTVGdZZ19FdFJ6UXJmV19fT3pGZC1NSVBQLXYzMHNvdzBEWmVHdlpuVkZMOWZYVUJhQUJINkdfeHBQTDNtMW80Umh5WU9JRnQ5WVNlYmpjeW9CZTQwbHJTWkxCb2IzOWZnVmN3ZXloanVYV2tYakl4cExadURUbmJ3?oc=5",
@@ -854,6 +854,13 @@
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1uM05mQXkwSzIxQTVvSzUta3FVU20waFFOMDZEVklwaUNqTUtKdG96WUYtaFh2LWxnZUV5VFJqejhlT0RTTHRzaDBGbmhRcVZNTThlNDdPVHBWdlJZQnBlamdxU09ROUJ5clJiMEV1UG9LZ2pwU0pSVk1R?oc=5",
       "publisher": "수원시 인터넷신문",
       "publishedAt": "2026-11-17T14:49:45+09:00"
+    },
+    {
+      "city": "수원",
+      "title": "[정자2동] 주민자치회, 주민자치 역량강화 벤치마킹 추진",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8tbDc1dmtENm9abFBiYjU0d2xkbVpCMG9Ec1AyWWdMaG9FZnhJMU5pQU9talUya3VMSFpmampDRkNOVEw5cTJVN0I1RHNabHFRSllJSS1mNVpBQnJSbUF4Sm94YkROOEpZajdNVnJ3T29MVFprSTBRTGNR?oc=5",
+      "publisher": "수원시 인터넷신문",
+      "publishedAt": "2026-11-17T14:47:46+09:00"
     },
     {
       "city": "화성",
@@ -968,25 +975,18 @@
       "publishedAt": "2026-11-17T13:54:41+09:00"
     },
     {
+      "city": "수원",
+      "title": "수원시의회, ‘2026 사랑의 김장 나눔’ 행사 개최",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fLUMteVIwVGtHZXF2ZVdYZ0duM1pVWWRQTFJnRm1LNmRjNWZybkZMSDU1eTRReDNVc3J1ZVQzVF9ROVozVVFyZUVCZDdwUjV1bDJkSHlhS3dDc2lnc3N4MklR?oc=5",
+      "publisher": "경기뉴스광장",
+      "publishedAt": "2026-11-17T13:48:41+09:00"
+    },
+    {
       "city": "오산",
       "title": "민주당 오산시의원들 \"특혜 의혹 근거 제시해야\"",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBJSGhSVll2eTg5b20xX3JBUlFacVJXTFE3dVJ3djNyQTRhcDBuTVp4bGZrZEtHcFdDaG9NallhcnoxNmhtc3BPMGZDLVc5NmRtS3VUS0EwYlpvQ2FZdFNqX2o2NEdYbjd6WmZFQl9tN0U?oc=5",
       "publisher": "SK브로드밴드 회사소개",
       "publishedAt": "2026-11-17T13:45:00+09:00"
-    },
-    {
-      "city": "수원",
-      "title": "[포커스 인 수원] “병원에서 집으로, 돌봄 공백 없앤다”…수원시, 의료·주거 아우르는 통합돌봄 확대",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5rSWk5UXZjOHdZVGhtTXJFbUFOS1NfXzhoTUdtSVRRMnZyTGxhYTF2Q3lZMDJZY3Z1bms4cFlRTFpYa01JZWlMenNpRG5kTTBxcDBtU0ZqNk5Ua3RPR2NDOUZB?oc=5",
-      "publisher": "경기신문",
-      "publishedAt": "2026-11-17T13:42:20+09:00"
-    },
-    {
-      "city": "수원",
-      "title": "수원시 의료봉사단, 캄보디아 수원마을 의료봉사",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE51Qzg5ZjFqdndMNUFEWUhHcmYwS3M1WDVqU1AybkhpOFdBZ1FVYjRrMHAwSkd5NVA2Njlaa3pKSEp5dW9zYldfUHpXS2VpT1ltUjJOdkdpM1Y5Z29CSDJRSEJZcF9OaEc0?oc=5",
-      "publisher": "환경일보",
-      "publishedAt": "2026-11-17T13:42:03+09:00"
     }
   ],
   "weather": {
