@@ -1,15 +1,22 @@
 {
-  "updatedAt": "2026-11-17T08:58:52+09:00",
+  "updatedAt": "2026-11-17T09:02:00+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
     "화성": "정상",
-    "오산": "정상"
+    "오산": "오류 (이전 데이터 유지)"
   },
   "errors": [
-    "weather: 수원: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed o; 화성: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed o; 용인: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed o; 오산: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed o; 안산: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed o; 평택: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed o; 이천: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed o; 과천: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed o"
+    "오산: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%28%EC%98%A4%EC%82%B0%EC%8B%9C%20OR%20%EC%98%A4%EC%82%B0%EA%B2%BD%EC"
   ],
   "articles": [
+    {
+      "city": "수원",
+      "title": "수원특례시의회, 이대선 의원. 탑동 주차난 해소 위한 현장 점검 나서",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1TRU5FZ1JpSGtjWGhxeWIyYk1objJOYTBaY0FXUmhjZm9vNGFRMVZGTngwdEhXWGx2a3hidlFNaEZkMmFWWWhNVlF6d0hUYWFRS09hVmNZVE16dWkwRGx2bmhHdFFyOGYxdFpj?oc=5",
+      "publisher": "일간투데이",
+      "publishedAt": "2026-11-17T08:50:33+09:00"
+    },
     {
       "city": "수원",
       "title": "이재준 수원시장, 주거까지 품은 통합돌봄…“시민 누구도 돌봄 공백 없도록 하겠다”",
@@ -30,6 +37,13 @@
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE55cjZFUXVQc2ljTmNGZHVISVJvUTNmUWZSckREbXl2cUwzWnVMNFA4dFdUY2syTWhpTEc5SFpFYUd5RWRlMDhTejVsWQ?oc=5",
       "publisher": "뉴스체인지",
       "publishedAt": "2026-11-17T08:46:00+09:00"
+    },
+    {
+      "city": "화성",
+      "title": "화성시어린이문화센터, ‘2026 아동권리주간’ 운영",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LX2RwOTZ3VS1Xd2RaMWUyVmJtMlpEVlVZa0xmLUtrclBNRGFuclgxOHN2QUhPTjFPR3V0eGE1OEtJdTE3d2RaZFNTbENPdUNhOWRtZUgySGlPOXFLUXJwZ3BxcV9aNUZL?oc=5",
+      "publisher": "수도권지역뉴스",
+      "publishedAt": "2026-11-17T08:42:31+09:00"
     },
     {
       "city": "오산",
@@ -96,13 +110,6 @@
     },
     {
       "city": "화성",
-      "title": "\"영화와 책으로 어린이 권리 존중해요\" 화성시어린이문화센터, '2026 아동권리주간' 운영",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBLcjY3aWIyb1pOMGU3ckJMNUZaNmNodlVybDFhbUtoSXNqUE82cmY0WEZ6YU45a0hvQ0owM3VidGhLOU9zMXJUR1ZRQWFXUERfLWhScVNNWTlPTDAyX3Z1bnVpbw?oc=5",
-      "publisher": "경기탑뉴스",
-      "publishedAt": "2026-11-17T08:30:04+09:00"
-    },
-    {
-      "city": "화성",
       "title": "【기획】 배양동 조합 ‘힐스테이트’ 모집.. 화성시, 실효 이후 무엇을 확인했나",
       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE15aGZWNGdzZVBsdTN1OTA0U3hiZnJuOWR0b3hpNVhubzZPamMxaGNUOVc3NXVkMFVBZC1CMUF3NG5COVNw?oc=5",
       "publisher": "화성 투데이",
@@ -128,13 +135,6 @@
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1uRS04Nlo3WGtTWjRqZ191UjQxcmhaaFlwU05TSlJUMzdReWdQX0ZyZUZiUkpGckNIbXpxRjNDQjJCNzdYdElSQ1pXd04tOWhnajlLeUU4NGdSX3pONW83aW1B?oc=5",
       "publisher": "경인미래신문",
       "publishedAt": "2026-11-17T08:06:35+09:00"
-    },
-    {
-      "city": "수원",
-      "title": "\"회복에만 집중하세요, 나머지는 수원시가 지원할게요!\"",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE83OUo0WjF4QnVwWUdxQkhEM2hoOEt4TWRMR01OcHAyQzdJeGM4eHl0cGw5US0ydC1uRHdPS05sNGRYYkl4THZYaVdn?oc=5",
-      "publisher": "www.mediatoday.asia",
-      "publishedAt": "2026-11-17T07:50:00+09:00"
     },
     {
       "city": "화성",
@@ -240,13 +240,6 @@
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8wcjRtNFBpaFJDandOVHZKc19EYl9JR3hpZk9VTGRnRTY0dFNKWVp6ck5SSXg5QnlDLXJfTGJCSktvbE10VTkwODQ1OVdfOWpDenl1R3JvcDd1cEZ1aXZlNWhpYWo0OGJl?oc=5",
       "publisher": "광교신문",
       "publishedAt": "2026-11-17T01:30:36+09:00"
-    },
-    {
-      "city": "수원",
-      "title": "이대선 수원시의원, 탑동 주차난 해소 위한 현장 점검 나서",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9qcU1YUGRYVFktb0dNemRjeHQ1WXZWY0daM2VpZWJZWERpbnJNa0pFNndwSlFJUm5HNjF5bjkxT1pRR2NjMmxwRUo4NUdyRUFnVkxKLWVCeWFXUV9NNXlPblYtdHZxTmxr?oc=5",
-      "publisher": "광교신문",
-      "publishedAt": "2026-11-17T01:26:17+09:00"
     },
     {
       "city": "수원",
@@ -758,6 +751,13 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CaTUtV1dTelkzN1d1QjFRb2x2ZWYxMEo2YjhqNTlXS1NOYWJOSmxrR1RiUW1NT2lYbXhtVm5Wa2tUYjBrRUVfNTlGSTg2ODZNeVo2SUxvT29qclFYUWlEWUVPWDkxRHV3Ync?oc=5",
       "publisher": "의학신문",
       "publishedAt": "2026-11-16T16:22:19+09:00"
+    },
+    {
+      "city": "수원",
+      "title": "[현장 속 의정활동] 수원 탑동 주차난 해소 나선 이대선 시의원…공영주차장 확충 검토",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tOTFjbmI1Zl9yZnlsOEhzaDV4ZC01RkFnZUE2dHVWNUI1OXhKc3I4YTJFU2NkMUFWakRITkxIWUJhazNJQm4yUlQzY0JEYWN5SDVDc010MVRCODhHZHB2Nmk1M3pjT1NSajNzVDJXMTk?oc=5",
+      "publisher": "인천일보",
+      "publishedAt": "2026-11-16T16:22:00+09:00"
     },
     {
       "city": "수원",
