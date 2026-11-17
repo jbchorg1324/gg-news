@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T01:18:16+09:00",
+  "updatedAt": "2026-11-18T02:23:36+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -140,13 +140,6 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5VcGtNbkh3OWpJcnMxcXRONmlsS2E0cmtzd3BjbXl2SWpjanRRaWhnMzFJM0ViWFV4RjlNNUVKWll6N2stR3pDdGttMU1KVlc4VldNVmdhcGoyUWd6RjQyTm5OMC1URE04VmltMkRR?oc=5",
       "publisher": "국제뉴스",
       "publishedAt": "2026-11-17T21:08:15+09:00"
-    },
-    {
-      "city": "오산",
-      "title": "오산시의회, 오산청년회의소 신임 임원진과 간담회 갖고 소통 강화",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1yQnhMZjRyYVhsRlloQlp6RjBQclRJUXBiZnkxMGNlUG5rLUVfSGRHUnMtem5JUVBYdUhrcWgzZ0ZaRkhMZENOZ1k3cFY?oc=5",
-      "publisher": "모닝투데이",
-      "publishedAt": "2026-11-17T21:06:00+09:00"
     },
     {
       "city": "오산",
@@ -340,8 +333,8 @@
     {
       "city": "화성",
       "title": "화성시기독교총연합회, 개최",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40aU0zbHh6X1N4bXZNdXpscmRHaUJnV1FuYTcyLXk3X1JraF92RFlJV19oVHFXS0xqNkFYWVFvYUpwNHhMN0Z1X0R6bDVGMTJGdzNZ?oc=5",
-      "publisher": "유스연합",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1pVm5tdUZTMmhBanlzX3N5NjYyLXlJcHJRUmRIdnZ3Nko3d3NiUUZKVlJ6T0c3eG9hOFc2ZjJSekxXaTg?oc=5",
+      "publisher": "한국공공정책신문",
       "publishedAt": "2026-11-17T16:56:55+09:00"
     },
     {
@@ -438,7 +431,7 @@
     {
       "city": "오산",
       "title": "오산시, 도체전 ‘재정 현실화’·세교3지구 ‘자족도시화’ 승부수",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5sSEFWVVRyQTZuZC1KWlB1RUdCV1pmTGN4WkVQSHhrODlTa3Zxd3RBUWlxNEFncmtwY0pWWVRqX3hkRThvSDVrR2ttRjZZXzBkcExNaVhzVmxwTmpiZjU5dVBn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51cUxJS2lKbE5uaVgtSXd3Vm9zeWRjUmZjRGlaN1NoMFBDR2ZGcERrajR3NmRqMmItT016YldObHVoeTRTMDFlMjFzUEplaExVSGh5SENoNllMZ0Y4S2JDdGlEdGQ?oc=5",
       "publisher": "경기신문",
       "publishedAt": "2026-11-17T16:35:23+09:00"
     },
@@ -709,13 +702,6 @@
       "publishedAt": "2026-11-17T15:48:25+09:00"
     },
     {
-      "city": "화성",
-      "title": "정부 ‘수능 AI 대책’... “단추 구멍 막아라”",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUkRYM2JuS2dXMnJ4ZWx1UFBWNW45YVBUTW8zMEVNNnFUTGxoand2d1M0SWNyRjFjMTZudHBIZlRkMTBGYjllUUZqZHN2bF9lX1NVWURJb1JNWlFaaFAtMlJBQjd3c0lwSjJJUTV2SkxERTV5XzVGeV9adERCV2hDbFVKSFN5UEE?oc=5",
-      "publisher": "조선일보",
-      "publishedAt": "2026-11-17T15:46:09+09:00"
-    },
-    {
       "city": "오산",
       "title": "오산시, 도시농부학교·토요어린이농부학교 마무리…씨 뿌리고 거두며 배운 먹거리의 소중함",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBld1NUSEZrUDZsWU5UVF8weVFPMnhPWTRWbWo1YXBvWGVPMWxteHBibTRnZU1iZ2Q5RE1CVlRWckNadF9ScWhpYjlEaEtuMDYzTFRNT09ZVEZNaTl2ajhfdkpn?oc=5",
@@ -856,6 +842,13 @@
       "publishedAt": "2026-11-17T15:14:38+09:00"
     },
     {
+      "city": "화성",
+      "title": "시민과 목공 전문가가 만드는 `목공프로젝트`",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE10YmpVTWJydXdyVTFYMFlIQmhXZmdmWkw3STB0UUtzR25NRWdlaTZKMHlqR1VYMlZYU2xvMm91WF9BTUo5?oc=5",
+      "publisher": "화성 투데이",
+      "publishedAt": "2026-11-17T15:11:00+09:00"
+    },
+    {
       "city": "수원",
       "title": "수원시 권선구 금곡동 단체장협의회, 김장김치로 전하는 따뜻한 겨울 인사",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1pR3JBVVpLUDBTOGR0dVVFSkpwVHlqYUdMZEtJS2lDZGRKZEVFTER2LU1aTVJabXVnWXcyN3RfWnJZRkNZOV9zSkJJc09sMlRrNi03OV90cDAtdnJnZVE?oc=5",
@@ -879,7 +872,7 @@
     {
       "city": "화성",
       "title": "포토뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE81bDI4cVR3M3BHS0N3RE1DTzNBaTRYQXFOekFmSER5VHMzQWZTVXJfTmlBVGN0dllBbHVhUW8xSXVWN2UycVdzOVhGOXVMUlhHRnlXWllmVl9ObWd4NlJTdnVab19ELUxEM2dOaEJEbEdOSk5kQ3dyVGNn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9UMlhKbEV4N05NZlhSbUFYbXUwa0cxeU5TY3dFZDlFaGU5SzE3eWxSRTBpNlJiMEFCeFUyazJMRHFfbDRqbEdKZWtSVThEWFJ5S0l6VTVWUl8xZTZzNVZGdmpLVDJ2d2pMOTNwQVZWUk55bThFM1Iw?oc=5",
       "publisher": "화성뉴스",
       "publishedAt": "2026-11-17T14:58:51+09:00"
     },
@@ -987,6 +980,13 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9RU24zc2FhOW5pVVRGdTc3Qkl1R3JmRkpjLW5OWW5RTnd6Z3NEVVE0SzkyTTI3aWRNUGhCOUlHajZIaWxvQkgzSUk4RGk3WnN2VXdwRHhyRm45YnE1cGwwY0paM2lwQ0JZemVhUWdB?oc=5",
       "publisher": "수원뉴스",
       "publishedAt": "2026-11-17T14:18:25+09:00"
+    },
+    {
+      "city": "오산",
+      "title": "오산시, 도시농부학교-토요어린이농부학교 마무리",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE91NkZFSndXako1YnVORW1qUVV0ZUdlc3pZeVJ4VUhWZE5lV0lCNGVaUEdZTmhOUXF4T1V5WFN6aTNuVEx1ZjV4NWNZbDBQVXA1MkV3S25GZG5CTkNaRlJTY2tXRS1JNUxaWVBF?oc=5",
+      "publisher": "CNB뉴스",
+      "publishedAt": "2026-11-17T14:15:01+09:00"
     }
   ],
   "weather": {
