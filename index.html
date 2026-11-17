@@ -6,8 +6,6 @@
   <meta name="theme-color" content="#675DAB">
   <meta name="description" content="수원·화성·오산 중심 경기남부 뉴스 모니터링 대시보드">
   <title>경기남부 뉴스지도 | 뉴스 데스크</title>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
   <style>
     :root{font-family:Pretendard,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;color:#182330;background:#f3f5f8;--red:#2365BD;--red-dark:#174C98;--ink:#172B46;--navy:#153967;--muted:#657387;--line:#e3e8f0;--paper:#fff;--radius:17px}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}button,input,textarea{font:inherit}button{cursor:pointer}a{color:inherit}a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #8AB8F5;outline-offset:3px}
@@ -144,21 +142,77 @@
     .map-pane .leaflet-tooltip.region-label{border:1px solid #DFD6F6;color:#4B4178;font-weight:800;background:#fff;box-shadow:0 2px 8px #271c5524;padding:3px 7px}
     .map-pane .leaflet-tooltip.region-label:before{display:none}
     @media(max-width:760px){#real-city-map{height:300px}}
+
+/* 원형 뉴스 데스크의 밝고 여유로운 화면 구성을 본뜬 라벤더 뉴스룸 */
+:root{--red:#7161B8;--red-dark:#544696;--ink:#292843;--navy:#34334F;--muted:#77758E;--line:#E9E7F1;--paper:#fff;--radius:17px}
+body{background:#F8F8FB;color:#333148;font-family:Pretendard,'Apple SD Gothic Neo','Malgun Gothic',sans-serif}
+.ticker{background:#ECEAF7;color:#5C548F;border-bottom:1px solid #E4E0F1}
+.ticker-inner{max-width:1240px;padding:8px 25px;gap:12px}
+.ticker b{background:#6D61A7;color:#fff;border:0;border-radius:6px;font-size:10px;letter-spacing:.09em;padding:5px 9px}
+.ticker span{opacity:.85}
+.topnav{background:#fff;color:#3F3B62;border-bottom:1px solid #EBE9F2;box-shadow:0 3px 10px #4F43800A}
+.nav-inner{max-width:1240px;min-height:72px}
+.brand-mark{background:#7467B6;color:white;border-radius:11px;width:39px;height:39px}
+.brand-text strong{color:#333151;font-size:16px}.brand-text small{color:#9790B8}
+.topnav nav a{color:#625D7C;font-weight:700;font-size:12px}.topnav nav a:hover{color:#6252AC}
+.shell{max-width:1240px;padding:28px 22px 75px}
+.hero{min-height:355px;background:linear-gradient(112deg,#EFEFFC 0%,#F0EDFA 47%,#E7E4F8 100%);border:1px solid #E5E1F3;box-shadow:0 12px 26px rgba(78,65,124,.06);border-radius:24px;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);color:#332D58}
+.hero:before{width:380px;height:380px;border-color:#A29AD020;right:22%;top:-65%}
+.hero-copy{padding:54px 47px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}
+.hero .eyebrow{font-size:11px;color:#7265B0;letter-spacing:.18em;font-weight:900}
+.hero h1{font-size:clamp(43px,5vw,65px);margin:15px 0 16px;line-height:1.12;color:#38315B;letter-spacing:-.075em}
+.hero p{color:#787193;line-height:1.8;font-size:14px}
+.hero-buttons{margin-top:19px}.hero .stamp{color:#857E9C}
+.primary{background:#7163B4;border-radius:10px;box-shadow:none}.primary:hover{background:#5A4DA0}
+.map-pane{padding:20px 30px;background:linear-gradient(135deg,#EFEDFA,#E5E2F5);border-left:1px solid #E1DCF1;gap:8px;min-height:350px}
+.map-title{font-size:13px;font-weight:900;color:#524A87;display:flex;justify-content:space-between;align-items:center;width:100%;margin-bottom:0}
+.map-title span{font-weight:600;font-size:10px;color:#918AB2}
+.map-pane .desk-map{height:230px;width:100%;max-width:420px;filter:drop-shadow(0 5px 12px #786DB32A)}
+.map-region{cursor:pointer;transition:filter .2s,stroke-width .2s}.map-region:hover,.map-region.selected{stroke:#6A57B0;stroke-width:6;filter:brightness(1.04)}
+.map-pane .city{background:#ffffffc9;color:#655897;border:1px solid #D6D0EA;min-width:61px;padding:9px 13px;border-radius:9px}
+.map-pane .city.active,.map-pane .city:hover{color:white;background:#6B5DB0;border-color:#6B5DB0}
+.map-note{font-size:10px;line-height:1.5;color:#8C85A7;max-width:370px}
+.status-line{border-left:4px solid #8574C1;background:#fff;border-radius:12px;color:#625D7E}
+.status-line.warning{background:#FAF7FE;border-left-color:#9A86C1}
+.dashboard-summary{margin:20px 0 36px}.summary-tile{border-radius:15px;box-shadow:none;border:1px solid #E9E6F1;background:#fff}.summary-tile strong{color:#524784}.summary-tile.selected{background:#F4F1FC;border-color:#B4A8DB}
+.section-heading{border-bottom:1px solid #E8E6EF;padding-bottom:12px}
+.section-heading h2{font-size:22px;color:#393451;font-weight:850}
+.section-heading h2:before{background:#8471C6;width:5px;height:23px}
+.section-heading .pill{border:1px solid #E6E0F3;color:#7765AB;background:#F4F1FA}
+.heading-kicker{font-size:11px;padding:5px 8px;border-radius:7px;color:#fff;background:#7465B5}
+.cards{gap:15px}.article,.panel,.empty{background:#fff;border:1px solid #E9E7EF;border-radius:16px;box-shadow:0 5px 18px #39335C08}
+.article{padding:21px}.article h3{font-weight:800;color:#3F3A55}.article a:hover{color:#7161B8}
+.breaking .article{background:#FBFAFE;border-top:3px solid #7765B9}.incident .article{background:#fff;border-top:3px solid #B0A5D4}
+.editorial-section .article{border-top:3px solid #8A7CBF}
+.editorial-section .article:before{content:'취재 검토';display:inline-block;font-size:10px;font-weight:850;letter-spacing:.03em;color:#7162AC;background:#F1EDFA;padding:5px 7px;border-radius:5px;margin-bottom:10px}
+.search-links{display:flex;gap:10px;flex-wrap:wrap}.search-links a{padding:13px 18px;background:white;border:1px solid #E1DDEC;border-radius:11px;text-decoration:none;color:#5C518E;font-size:13px;font-weight:750}.search-links a:hover{background:#F1EDFA}
+.weather .article{border-color:#E9E6F0}.editor input:focus,.editor textarea:focus{outline:2px solid #DAD3F4;border-color:#8E7BC9}
+.card-preview{background:linear-gradient(118deg,#35304F,#5A5187 64%,#8F7FC7);box-shadow:none}.card-preview:after{background:#A291D6}
+footer{border-top:1px solid #E8E6F0;color:#858198}
+@media(max-width:920px){.hero-copy{padding:32px 25px}.map-pane{padding:20px}.hero h1{font-size:45px}}
+@media(max-width:760px){.topnav nav{display:flex;overflow-x:auto;flex-wrap:nowrap;width:100%;padding-bottom:9px}.nav-inner{flex-wrap:wrap;padding-top:10px}.nav-inner .brand{width:100%}.hero{grid-template-columns:1fr}.hero-copy{padding:32px 25px}.map-pane{border-left:0;border-top:1px solid #E1DCF1;min-height:0}.map-pane .desk-map{height:205px}.dashboard-summary{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:450px){.hero h1{font-size:40px}.hero-copy{padding:28px 20px}.map-pane{padding:14px}.map-pane .desk-map{height:186px}}
   </style>
 </head>
 <body>
   <div class="ticker"><div class="ticker-inner"><b>NEWS DESK</b><span>경기남부 주요 현안 · 속보 · 사건·사고 모니터링</span></div></div>
-  <div class="topnav"><div class="nav-inner"><a href="#top" class="brand"><span class="brand-mark">N</span><span class="brand-text"><strong>경기남부 뉴스 데스크</strong><small>GYEONGGI SOUTH NEWS</small></span></a><nav aria-label="주요 메뉴"><a href="#breaking">속보</a><a href="#incident">사건·사고</a><a href="#news">주요 뉴스</a><a href="#interest">관심 뉴스</a><a href="#weather">날씨</a><a href="#image-card">이미지 카드</a></nav></div></div>
+  <div class="topnav"><div class="nav-inner"><a href="#top" class="brand"><span class="brand-mark">B</span><span class="brand-text"><strong>경기남부 뉴스 데스크</strong><small>GYEONGGI SOUTH NEWS</small></span></a><nav aria-label="주요 메뉴"><a href="#breaking">속보</a><a href="#incident">사건·사고</a><a href="#editorial">보도 판단</a><a href="#news">주요 뉴스</a><a href="#interest">관심 뉴스</a><a href="#weather">날씨</a><a href="#image-card">이미지 카드</a></nav></div></div>
   <main class="shell" id="top">
     <div class="hero">
-      <div class="hero-copy"><div class="eyebrow">LOCAL NEWS MONITORING</div><h1>경기남부<br>뉴스지도 <span style="color:#776BB7">2.0</span></h1><p>수원·화성·오산 지역 보도를 한눈에 확인하는<br>취재용 뉴스 모니터링 대시보드입니다.</p><div class="hero-buttons"><button type="button" class="primary" onclick="load()">↻ 최신 뉴스 새로고침</button><span class="stamp" id="updated">데이터 확인 중…</span></div></div>
+      <div class="hero-copy"><div class="eyebrow">GYEONGGI SOUTH · NEWS MAP</div><h1>경기남부<br>뉴스 지도</h1><p>지도에서 도시를 선택해 해당 지역의 주요 뉴스를 확인하세요.<br>수원 · 화성 · 오산, 지역 취재를 위한 뉴스 데스크</p><div class="hero-buttons"><button type="button" class="primary" onclick="load()">↻ 최신 뉴스 새로고침</button><span class="stamp" id="updated">데이터 확인 중…</span></div></div>
       <div class="map-pane" id="regional-map">
-      <div class="map-title">경기남부 지역 뉴스지도 <span>실제 도로지도 · 행정경계 오버레이</span></div>
-      <div id="real-city-map" role="region" aria-label="수원·화성·오산 실제 도로지도 및 공개 행정경계"></div>
-      <div id="map-message" class="map-message" role="status" aria-live="polite">도로지도를 불러오는 중입니다.</div>
-      <div class="city-row" role="group" aria-label="지역별 기사 선택"><button type="button" class="city active" data-city="전체" onclick="setCity('전체')">전체</button><button type="button" class="city" data-city="수원" onclick="setCity('수원')">수원</button><button type="button" class="city" data-city="화성" onclick="setCity('화성')">화성</button><button type="button" class="city" data-city="오산" onclick="setCity('오산')">오산</button></div>
-      <small class="map-note" id="map-source-note">도로지도 © OpenStreetMap 기여자 · 경계: 국가공간정보포털 2023년 자료 가공</small>
-    </div>
+        <div class="map-title">경기도 남부 <span>지역 선택 안내도</span></div>
+        <svg class="desk-map" viewBox="0 0 450 300" xmlns="http://www.w3.org/2000/svg" role="group" aria-label="수원 화성 오산 선택용 개념 지도. 실제 행정구역 경계가 아닙니다.">
+          <defs><linearGradient id="suwonFill" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#BEB8EE"/><stop offset="1" stop-color="#9289D5"/></linearGradient><linearGradient id="hwaseongFill" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D9D0F4"/><stop offset="1" stop-color="#B7ACED"/></linearGradient></defs>
+          <path d="M30 110 L77 54 154 39 188 67 228 62 261 96 248 135 279 162 267 210 225 247 159 250 131 270 90 244 45 246 23 197 38 164 Z" fill="url(#hwaseongFill)" stroke="#fff" stroke-width="4" class="map-region" data-city="화성" role="button" tabindex="0" aria-label="화성 뉴스 선택" onclick="setCity('화성')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();setCity('화성')}"/>
+          <path d="M237 35 L289 17 360 38 399 83 374 129 331 144 277 127 254 98 Z" fill="url(#suwonFill)" stroke="#fff" stroke-width="4" class="map-region" data-city="수원" role="button" tabindex="0" aria-label="수원 뉴스 선택" onclick="setCity('수원')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();setCity('수원')}"/>
+          <path d="M281 147 L327 138 369 151 383 189 351 225 311 224 284 194 Z" fill="#B3A1E5" stroke="#fff" stroke-width="4" class="map-region" data-city="오산" role="button" tabindex="0" aria-label="오산 뉴스 선택" onclick="setCity('오산')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();setCity('오산')}"/>
+          <g fill="#3E3568" font-weight="900" font-size="18" text-anchor="middle" font-family="Pretendard,'Malgun Gothic',sans-serif" pointer-events="none"><text x="117" y="167">화성</text><text x="318" y="84">수원</text><text x="333" y="186">오산</text></g>
+          <g fill="#756B9F" font-size="10" font-weight="700" text-anchor="middle" pointer-events="none"><text x="120" y="185">HWASEONG</text><text x="318" y="101">SUWON</text><text x="332" y="201">OSAN</text></g>
+        </svg>
+        <div class="city-row" role="group" aria-label="지역별 기사 선택"><button type="button" class="city active" data-city="전체" onclick="setCity('전체')">전체</button><button type="button" class="city" data-city="수원" onclick="setCity('수원')">수원</button><button type="button" class="city" data-city="화성" onclick="setCity('화성')">화성</button><button type="button" class="city" data-city="오산" onclick="setCity('오산')">오산</button></div>
+        <small class="map-note">* 클릭형 개념도이며 실제 행정구역 경계·면적·위치를 정확히 나타내지 않습니다.</small>
+      </div>
     </div>
     <div id="status" class="status-line" role="status" aria-live="polite">뉴스 데이터를 불러오는 중입니다.</div>
     <p class="data-disclaimer">기사 수는 최근 수집 데이터 기준입니다. 전체 기사의 정확성·발행 시각은 원문에서 확인해 주세요.</p>
@@ -168,12 +222,14 @@
       <button type="button" class="summary-tile" data-summary-city="화성" onclick="setCity('화성')"><small>화성 뉴스</small><strong id="count-hwaseong">—</strong><span>선택하여 기사 보기 ↗</span></button>
       <button type="button" class="summary-tile" data-summary-city="오산" onclick="setCity('오산')"><small>오산 뉴스</small><strong id="count-osan">—</strong><span>선택하여 기사 보기 ↗</span></button>
     </div>
-    <section id="breaking" class="breaking"><div class="section-heading"><h2>경기남부 속보</h2><span class="pill">제목 기준 · 최근 3시간</span></div><div class="cards" id="breaking-list"></div></section>
-    <section id="incident" class="incident"><div class="section-heading"><h2>사건·사고 관련 보도</h2><span class="pill">기사 발행 기준 · 최근 12시간</span></div><p class="muted">검색어로 분류한 보도입니다. 실제 사건 발생시각은 기사 원문에서 확인해야 합니다.</p><div class="cards" id="incident-list"></div></section>
+    <section id="breaking" class="breaking"><div class="section-heading"><h2><span class="heading-kicker">속보</span> 경기남부 속보</h2><span class="pill">제목 기준 · 최근 3시간</span></div><div class="cards" id="breaking-list"></div></section>
+    <section id="incident" class="incident"><div class="section-heading"><h2>지역별 사건·사고 현황</h2><span class="pill">기사 발행 기준 · 최근 12시간</span></div><p class="muted">검색어로 분류한 보도입니다. 실제 사건 발생시각은 기사 원문에서 확인해야 합니다.</p><div class="cards" id="incident-list"></div></section>
+    <section id="editorial" class="editorial-section"><div class="section-heading"><h2>오늘의 보도 판단 TOP 3</h2><span class="pill">취재 검토 후보</span></div><p class="muted">실제 수집 기사 중 취재할 주제를 추리는 참고 목록입니다. 중요도와 사실관계는 취재자가 확인해야 합니다.</p><div class="cards" id="editorial-list"></div></section>
     <section id="news"><div class="section-heading"><h2>주요 뉴스</h2><span class="pill">최근 발행 기사</span></div><div class="cards" id="news-list"></div></section>
-    <section id="interest"><div class="section-heading"><h2>지역별 관심 뉴스</h2><span class="pill">최근 기사 5건 · 조회수 순위 아님</span></div><p class="muted">언론사별 실제 조회수 데이터가 없어 도시별 최근 발행 기사 5건을 보여줍니다.</p><div class="grid2" id="interest-list"></div></section>
-    <section id="weather"><div class="section-heading"><h2>경기남부 8개 도시 날씨</h2><span class="pill">수집 시각 별도 표시</span></div><p id="weather-stamp" class="stamp"></p><div class="weather" id="weather-list"></div><p class="weather-note">출처: Open-Meteo. 현재 데이터는 기상청 자료가 아닙니다. 수집되지 않은 지역은 표시되지 않을 수 있습니다.</p></section>
-    <section id="image-card"><div class="section-heading"><h2>기사 이미지 카드 생성기</h2><span class="pill">브라우저에서 PNG 생성</span></div><div class="grid2"><div class="panel editor"><label for="card-title">뉴스 제목</label><input id="card-title" maxlength="200" placeholder="기사 제목을 입력하세요"><label for="card-body">기사 내용</label><textarea id="card-body" placeholder="이미지에 넣을 핵심 내용을 입력하세요."></textarea><div class="actions"><button type="button" class="primary" onclick="makeCard()">카드 미리보기</button><button type="button" class="secondary" onclick="saveCard()">PNG 이미지 저장</button></div></div><div class="card-preview" id="preview"><small>GYEONGGI SOUTH · NEWS DESK</small><b id="preview-title">취재 내용을<br>뉴스 이미지로</b><small id="preview-desc">경기남부 뉴스 데스크</small></div></div></section>
+    <section id="city-search"><div class="section-heading"><h2>도시별 뉴스 검색</h2><span class="pill">외부 검색</span></div><p class="muted">언론사에서 최근 게시한 기사도 직접 검색할 수 있습니다.</p><div class="search-links"><a href="https://search.naver.com/search.naver?where=news&amp;query=%EC%88%98%EC%9B%90%EC%8B%9C" target="_blank" rel="noopener noreferrer">수원 최신 기사 ↗</a><a href="https://search.naver.com/search.naver?where=news&amp;query=%ED%99%94%EC%84%B1%EC%8B%9C" target="_blank" rel="noopener noreferrer">화성 최신 기사 ↗</a><a href="https://search.naver.com/search.naver?where=news&amp;query=%EC%98%A4%EC%82%B0%EC%8B%9C" target="_blank" rel="noopener noreferrer">오산 최신 기사 ↗</a></div></section>
+    <section id="interest"><div class="section-heading"><h2>지역별 인기 기사 TOP 5</h2><span class="pill">최근 기사 5건 · 실제 조회수 순위 아님</span></div><p class="muted">언론사별 실제 조회수 데이터가 없어 도시별 최근 발행 기사 5건을 보여줍니다.</p><div class="grid2" id="interest-list"></div></section>
+    <section id="weather"><div class="section-heading"><h2>경기남부 주요도시 날씨</h2><span class="pill">수집 시각 별도 표시</span></div><p id="weather-stamp" class="stamp"></p><div class="weather" id="weather-list"></div><p class="weather-note">출처: Open-Meteo. 현재 데이터는 기상청 자료가 아닙니다. 수집되지 않은 지역은 표시되지 않을 수 있습니다.</p></section>
+    <section id="image-card"><div class="section-heading"><h2>기사 이미지 카드</h2><span class="pill">브라우저에서 PNG 생성</span></div><div class="grid2"><div class="panel editor"><label for="card-title">뉴스 제목</label><input id="card-title" maxlength="200" placeholder="기사 제목을 입력하세요"><label for="card-body">기사 내용</label><textarea id="card-body" placeholder="이미지에 넣을 핵심 내용을 입력하세요."></textarea><div class="actions"><button type="button" class="primary" onclick="makeCard()">카드 미리보기</button><button type="button" class="secondary" onclick="saveCard()">PNG 이미지 저장</button></div></div><div class="card-preview" id="preview"><small>GYEONGGI SOUTH · NEWS DESK</small><b id="preview-title">취재 내용을<br>뉴스 이미지로</b><small id="preview-desc">경기남부 뉴스 데스크</small></div></div></section>
   </main>
   <footer>경기남부 뉴스 데스크 · 기사 원문과 작성시각을 확인한 후 취재에 활용하세요.<br>이 페이지는 방송사 공식 홈페이지가 아닌 뉴스 모니터링용 대시보드입니다.</footer>
   <script>
@@ -185,99 +241,13 @@
     function age(a){return(Date.now()-new Date(a.publishedAt).getTime())/3600000}
     function news(){return(db.articles||[]).filter(a=>city==='전체'||a.city===city)}
     function renderCards(id,items,max=6){const el=document.getElementById(id);el.innerHTML=items.length?items.slice(0,max).map(a=>`<article class="article"><div class="meta">${safe(a.city)} · ${safe(a.publisher)} · ${ts(a.publishedAt)}</div><h3><a target="_blank" rel="noopener noreferrer" href="${safe(a.url)}">${safe(a.title)}</a></h3><div class="stamp">기사 원문 및 사실관계 확인 ↗</div></article>`).join(''):'<div class="empty">해당 조건에 맞는 기사가 없습니다. 수집 상태와 원문을 확인하세요.</div>'}
-    function render(){const all=db.articles||[];document.getElementById('count-all').textContent=all.length.toLocaleString('ko-KR');[['수원','count-suwon'],['화성','count-hwaseong'],['오산','count-osan']].forEach(([c,id])=>document.getElementById(id).textContent=all.filter(x=>x.city===c).length.toLocaleString('ko-KR'));document.querySelectorAll('[data-summary-city]').forEach(e=>{const selected=e.dataset.summaryCity===city;e.classList.toggle('selected',selected);e.setAttribute('aria-pressed',String(selected))});document.querySelectorAll('.city').forEach(e=>{let active=e.dataset.city===city;e.classList.toggle('active',active);e.setAttribute('aria-pressed',String(active))});document.querySelectorAll('.map-region,.map-label').forEach(e=>e.classList.toggle('selected',city!=='전체'&&e.dataset.city===city));const a=news();renderCards('news-list',a,12);renderCards('breaking-list',a.filter(x=>age(x)>=0&&age(x)<=3&&/속보|긴급|대피|큰불|붕괴|폭발|지진|호우경보|산불/.test(x.title)),9);renderCards('incident-list',a.filter(x=>age(x)>=0&&age(x)<=12&&/화재|사망|숨져|추락|교통사고|충돌|폭발|실종|침수|붕괴|구조|경찰|검거|긴급/.test(x.title)),9);document.getElementById('interest-list').innerHTML=cities.filter(c=>city==='전체'||c===city).map(c=>`<div class="panel"><h3>${c} 최근 기사 5건</h3>${a.filter(x=>x.city===c).slice(0,5).map(x=>`<div class="interest-item"><a target="_blank" rel="noopener noreferrer" href="${safe(x.url)}">${safe(x.title)}</a><small class="stamp">${ts(x.publishedAt)} · ${safe(x.publisher)}</small></div>`).join('')||'<p class="muted">표시할 기사가 없습니다.</p>'}</div>`).join('');const w=db.weather||{};document.getElementById('weather-stamp').textContent='날씨 마지막 확인: '+ts(w.updatedAt);document.getElementById('weather-list').innerHTML=Object.entries(w.cities||{}).map(([c,v])=>`<div class="article"><div class="stamp">${safe(c)}</div><b>${v.temperature==null?'—':safe(v.temperature)+'°C'}</b><p>강수확률 ${v.precipitationProbability==null?'미확인':safe(v.precipitationProbability)+'%'}</p></div>`).join('')||'<div class="empty">날씨 데이터가 없습니다.</div>'}
+    function render(){const all=db.articles||[];document.getElementById('count-all').textContent=all.length.toLocaleString('ko-KR');[['수원','count-suwon'],['화성','count-hwaseong'],['오산','count-osan']].forEach(([c,id])=>document.getElementById(id).textContent=all.filter(x=>x.city===c).length.toLocaleString('ko-KR'));document.querySelectorAll('[data-summary-city]').forEach(e=>{const selected=e.dataset.summaryCity===city;e.classList.toggle('selected',selected);e.setAttribute('aria-pressed',String(selected))});document.querySelectorAll('.city').forEach(e=>{let active=e.dataset.city===city;e.classList.toggle('active',active);e.setAttribute('aria-pressed',String(active))});document.querySelectorAll('.map-region,.map-label').forEach(e=>e.classList.toggle('selected',city!=='전체'&&e.dataset.city===city));const a=news();renderCards('news-list',a,12);renderCards('breaking-list',a.filter(x=>age(x)>=0&&age(x)<=3&&/속보|긴급|대피|큰불|붕괴|폭발|지진|호우경보|산불/.test(x.title)),9);renderCards('incident-list',a.filter(x=>age(x)>=0&&age(x)<=12&&/화재|사망|숨져|추락|교통사고|충돌|폭발|실종|침수|붕괴|구조|경찰|검거|긴급/.test(x.title)),9);const candidates=a.filter(x=>/교통|안전|예산|사고|복지|개발|교육|환경|공사|민원|주민|행정/.test(x.title)).slice(0,3);renderCards('editorial-list',candidates,3);document.getElementById('interest-list').innerHTML=cities.filter(c=>city==='전체'||c===city).map(c=>`<div class="panel"><h3>${c} 최근 기사 5건</h3>${a.filter(x=>x.city===c).slice(0,5).map(x=>`<div class="interest-item"><a target="_blank" rel="noopener noreferrer" href="${safe(x.url)}">${safe(x.title)}</a><small class="stamp">${ts(x.publishedAt)} · ${safe(x.publisher)}</small></div>`).join('')||'<p class="muted">표시할 기사가 없습니다.</p>'}</div>`).join('');const w=db.weather||{};document.getElementById('weather-stamp').textContent='날씨 마지막 확인: '+ts(w.updatedAt);document.getElementById('weather-list').innerHTML=Object.entries(w.cities||{}).map(([c,v])=>`<div class="article"><div class="stamp">${safe(c)}</div><b>${v.temperature==null?'—':safe(v.temperature)+'°C'}</b><p>강수확률 ${v.precipitationProbability==null?'미확인':safe(v.precipitationProbability)+'%'}</p></div>`).join('')||'<div class="empty">날씨 데이터가 없습니다.</div>'}
     function setCity(c){city=c;render();updateMapSelection()}
     async function load(){const status=document.getElementById('status');try{const r=await fetch('./data/news.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);const incoming=await r.json();if(!Array.isArray(incoming.articles))throw new Error('기사 배열이 없습니다');db=incoming;const last=db.updatedAt?Date.now()-new Date(db.updatedAt).getTime():Infinity;document.getElementById('updated').textContent='뉴스 마지막 수집 '+ts(db.updatedAt);const stale=last>2*3600000;status.classList.toggle('warning',stale||Boolean(db.errors?.length));status.textContent=stale?'마지막 수집 이후 2시간 이상 지났습니다. GitHub Actions 실행 기록을 확인하세요.':`수집 상태: ${Object.entries(db.status||{}).map(([k,v])=>k+' '+v).join(' · ')||'첫 수집 전'}`;if(db.errors?.length)status.textContent+=' · 수집 오류 '+db.errors.length+'건';render()}catch(e){status.classList.add('warning');status.textContent='뉴스 데이터를 읽을 수 없습니다: '+e.message;render()}}
     function makeCard(){const title=document.getElementById('card-title').value.trim()||'경기남부 뉴스';const body=document.getElementById('card-body').value.trim();document.getElementById('preview-title').textContent=title;document.getElementById('preview-desc').textContent=body.slice(0,105)||'경기남부 뉴스 데스크'}
     function saveCard(){makeCard();const canvas=document.createElement('canvas');canvas.width=1200;canvas.height=675;const ctx=canvas.getContext('2d');const grad=ctx.createLinearGradient(0,0,1200,675);grad.addColorStop(0,'#33334f');grad.addColorStop(1,'#8f84be');ctx.fillStyle=grad;ctx.fillRect(0,0,1200,675);ctx.fillStyle='#a99bd5';ctx.fillRect(0,660,1200,15);ctx.fillRect(65,88,55,8);ctx.fillStyle='#e2dff7';ctx.font='bold 25px sans-serif';ctx.fillText('GYEONGGI SOUTH · NEWS DESK',65,68);function wrap(t,y,font,maxLines,lineHeight){ctx.font=font;ctx.fillStyle='#fff';let line='',lines=[];for(const c of [...t]){if(ctx.measureText(line+c).width>1060&&line){lines.push(line);line=c}else line+=c}if(line)lines.push(line);lines.slice(0,maxLines).forEach((s,i)=>ctx.fillText(s,70,y+i*lineHeight))}wrap(document.getElementById('card-title').value.trim()||'경기남부 뉴스',250,'bold 55px sans-serif',4,75);wrap(document.getElementById('card-body').value.trim().slice(0,120),558,'29px sans-serif',2,40);const a=document.createElement('a');a.download='gg-news-card.png';a.href=canvas.toDataURL('image/png');a.click()}
 
-    // Leaflet은 EPSG:3857 투영법을 적용한 배경지도를 사용합니다.
-    // 경계: 2023년 국가공간정보포털 자료 가공본. 최신 경계를 보장하지 않습니다.
-    let newsMap=null;
-    const mapLayers={수원:[],화성:[],오산:[]};
-    const mapColors={수원:'#7161AD',화성:'#A390D0',오산:'#8F71C0'};
-    function mapStatus(message){document.getElementById('map-message').textContent=message}
-    function updateMapSelection(){
-      if(!newsMap)return;
-      for(const [c,layers] of Object.entries(mapLayers))for(const layer of layers){
-        const active=city===c;
-        layer.setStyle({color:active?'#34216F':'#6F5BB0',weight:active?4:2.5,fillColor:active?'#6A4BB3':mapColors[c],fillOpacity:active?.43:.16});
-        if(active)layer.bringToFront();
-      }
-    }
-    async function fetchBoundaries(){
-      const sources=[
-        'https://raw.githubusercontent.com/KnellBalm/kr-admin-geojson/main/sig.geojson',
-        'https://cdn.jsdelivr.net/gh/KnellBalm/kr-admin-geojson@main/sig.geojson'
-      ];
-      for(const url of sources){
-        const controller=new AbortController(), timer=setTimeout(()=>controller.abort(),12000);
-        try{
-          const response=await fetch(url,{signal:controller.signal,cache:'default'});
-          if(!response.ok)throw new Error('HTTP '+response.status);
-          const json=await response.json();
-          if(json.type!=='FeatureCollection'||!Array.isArray(json.features))throw new Error('GeoJSON 형식 오류');
-          return json.features;
-        }catch(error){console.warn('행정경계 연결 실패:',url,error)}
-        finally{clearTimeout(timer)}
-      }
-      throw new Error('행정경계 파일을 가져오지 못했습니다');
-    }
-    function matchRegion(feature){
-      const p=feature.properties||{};
-      const code=String(p.SIG_CD||'');
-      const full=String(p.FULL_NM||'');
-      const name=String(p.SIG_KOR_NM||'');
-      if(!code.startsWith('41'))return null;
-      if(['41111','41113','41115','41117'].includes(code)||full.includes('수원시')||name.includes('수원시'))return '수원';
-      if(code==='41590'||full.includes('화성시')||name==='화성시')return '화성';
-      if(code==='41370'||full.includes('오산시')||name==='오산시')return '오산';
-      return null;
-    }
-    async function loadAdminMap(){
-      const el=document.getElementById('real-city-map');
-      if(typeof L==='undefined'){
-        el.textContent='지도 라이브러리를 불러오지 못했습니다.';
-        mapStatus('지도 프로그램 연결 실패 · 아래 지역 선택 버튼으로 뉴스는 계속 이용할 수 있습니다.');
-        return;
-      }
-      newsMap=L.map(el,{scrollWheelZoom:false,zoomControl:true,preferCanvas:true}).setView([37.216,127.015],10);
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
-        maxZoom:18,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors'
-      }).addTo(newsMap);
-      // 경계가 실패해도 가짜 도형을 지도 위에 표시하지 않습니다.
-      for(const [c,point] of Object.entries({수원:[37.2636,127.0286],화성:[37.200,126.830],오산:[37.149,127.077]})){
-        L.circleMarker(point,{radius:6,weight:2,color:'#fff',fillColor:mapColors[c],fillOpacity:.95})
-          .addTo(newsMap).bindTooltip(c,{direction:'top'}).on('click',()=>setCity(c));
-      }
-      mapStatus('도로지도 로딩 중 · 실제 행정구역 경계 연결 중');
-      try{
-        const features=await fetchBoundaries();
-        const selected=[];
-        const counts={수원:0,화성:0,오산:0};
-        for(const feature of features){const region=matchRegion(feature);if(region&&feature.geometry){selected.push({...feature,properties:{...(feature.properties||{}),_newsRegion:region}});counts[region]++}}
-        if(counts.수원!==4||counts.화성<1||counts.오산<1)throw new Error('행정경계에 필요한 도시 또는 수원 4개 구가 누락됐습니다: '+JSON.stringify(counts));
-        const group=L.geoJSON({type:'FeatureCollection',features:selected},{
-          style:f=>({color:'#6F5BB0',weight:2.5,fillColor:mapColors[f.properties._newsRegion],fillOpacity:.16}),
-          onEachFeature:(f,layer)=>{
-            const c=f.properties._newsRegion;
-            mapLayers[c].push(layer);
-            layer.bindTooltip(f.properties.SIG_KOR_NM||c,{sticky:true,className:'region-label'});
-            layer.on('click',()=>setCity(c));
-          }
-        }).addTo(newsMap);
-        if(!group.getBounds().isValid())throw new Error('경계 좌표 범위 오류');
-        newsMap.fitBounds(group.getBounds().pad(.12),{maxZoom:11});
-        document.getElementById('map-source-note').textContent='도로지도 © OpenStreetMap · 행정경계: 국가공간정보포털 2023년 가공본 (최신 경계 아님)';
-        mapStatus('행정구역 경계 표시됨 · 지도의 도시를 클릭하면 해당 지역 뉴스로 전환됩니다.');
-        updateMapSelection();
-      }catch(error){
-        console.warn('행정경계 미표시:',error);
-        mapStatus('도로지도만 표시 중 · 행정경계 연결 실패. 경계가 없는 지도이며, 지역 버튼은 정상 이용할 수 있습니다.');
-      }
-      setTimeout(()=>newsMap.invalidateSize(),200);
-    }
-    loadAdminMap();
+    function updateMapSelection(){document.querySelectorAll('.map-region').forEach(e=>{const active=e.dataset.city===city;e.classList.toggle('selected',active);e.setAttribute('aria-pressed',String(active))});}
     load();setInterval(load,5*60*1000);
   </script>
 </body>
