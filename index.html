@@ -6,6 +6,8 @@
   <meta name="theme-color" content="#675DAB">
   <meta name="description" content="수원·화성·오산 중심 경기남부 뉴스 모니터링 대시보드">
   <title>경기남부 뉴스지도 | 뉴스 데스크</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
   <style>
     :root{font-family:Pretendard,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;color:#182330;background:#f3f5f8;--red:#2365BD;--red-dark:#174C98;--ink:#172B46;--navy:#153967;--muted:#657387;--line:#e3e8f0;--paper:#fff;--radius:17px}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}button,input,textarea{font:inherit}button{cursor:pointer}a{color:inherit}a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #8AB8F5;outline-offset:3px}
@@ -128,6 +130,20 @@
     #real-city-map .map-label.selected{fill:#fff;stroke:#3F3678}
     #real-city-map .map-fallback{font-size:14px;fill:#51468F}
     @media(max-width:760px){.map-pane{border-left:0;border-top:1px solid #E4E0F1}#real-city-map{min-height:230px}}
+
+    /* 2.4: 지도 엔진 기반 지형/도로 + 행정경계 오버레이 */
+    .map-pane{padding:22px 22px 18px;gap:10px;min-width:0}
+    #real-city-map{height:305px;min-height:260px;width:100%;max-height:none;max-width:none;border:1px solid #E3DEF1;border-radius:13px;overflow:hidden;filter:none;background:#EDEFF5;z-index:0}
+    #real-city-map .leaflet-container{font-family:inherit}
+    #real-city-map .leaflet-control-attribution{font-size:9px}
+    #real-city-map .leaflet-interactive:focus{outline:2px solid #55479F;outline-offset:1px}
+    .map-message{font-size:11px;line-height:1.55;color:#514878;background:#F8F6FF;border:1px solid #E6E0F4;border-radius:8px;padding:7px 10px;width:100%;text-align:center}
+    .map-pane .map-title{line-height:1.35}
+    .map-pane svg{width:auto;height:auto;filter:none}
+    .map-pane .leaflet-marker-icon{filter:none}
+    .map-pane .leaflet-tooltip.region-label{border:1px solid #DFD6F6;color:#4B4178;font-weight:800;background:#fff;box-shadow:0 2px 8px #271c5524;padding:3px 7px}
+    .map-pane .leaflet-tooltip.region-label:before{display:none}
+    @media(max-width:760px){#real-city-map{height:300px}}
   </style>
 </head>
 <body>
@@ -137,12 +153,11 @@
     <div class="hero">
       <div class="hero-copy"><div class="eyebrow">LOCAL NEWS MONITORING</div><h1>경기남부<br>뉴스지도 <span style="color:#776BB7">2.0</span></h1><p>수원·화성·오산 지역 보도를 한눈에 확인하는<br>취재용 뉴스 모니터링 대시보드입니다.</p><div class="hero-buttons"><button type="button" class="primary" onclick="load()">↻ 최신 뉴스 새로고침</button><span class="stamp" id="updated">데이터 확인 중…</span></div></div>
       <div class="map-pane" id="regional-map">
-      <div class="map-title">경기남부 지역 뉴스지도 <span>행정구역 경계 기반</span></div>
-      <svg id="real-city-map" viewBox="0 0 480 350" role="group" aria-label="수원·화성·오산의 행정경계 지도. 지역을 선택하면 해당 도시 뉴스가 표시됩니다.">
-        <text x="240" y="160" text-anchor="middle" fill="#675DAB" font-size="16">행정구역 지도 불러오는 중…</text>
-      </svg>
+      <div class="map-title">경기남부 지역 뉴스지도 <span>실제 도로지도 · 행정경계 오버레이</span></div>
+      <div id="real-city-map" role="region" aria-label="수원·화성·오산 실제 도로지도 및 공개 행정경계"></div>
+      <div id="map-message" class="map-message" role="status" aria-live="polite">도로지도를 불러오는 중입니다.</div>
       <div class="city-row" role="group" aria-label="지역별 기사 선택"><button type="button" class="city active" data-city="전체" onclick="setCity('전체')">전체</button><button type="button" class="city" data-city="수원" onclick="setCity('수원')">수원</button><button type="button" class="city" data-city="화성" onclick="setCity('화성')">화성</button><button type="button" class="city" data-city="오산" onclick="setCity('오산')">오산</button></div>
-      <small class="map-note" id="map-source-note">경계 자료: 국가공간정보포털 2023년 자료 가공 · 행정구역 변경 가능성 있음</small>
+      <small class="map-note" id="map-source-note">도로지도 © OpenStreetMap 기여자 · 경계: 국가공간정보포털 2023년 자료 가공</small>
     </div>
     </div>
     <div id="status" class="status-line" role="status" aria-live="polite">뉴스 데이터를 불러오는 중입니다.</div>
@@ -171,99 +186,96 @@
     function news(){return(db.articles||[]).filter(a=>city==='전체'||a.city===city)}
     function renderCards(id,items,max=6){const el=document.getElementById(id);el.innerHTML=items.length?items.slice(0,max).map(a=>`<article class="article"><div class="meta">${safe(a.city)} · ${safe(a.publisher)} · ${ts(a.publishedAt)}</div><h3><a target="_blank" rel="noopener noreferrer" href="${safe(a.url)}">${safe(a.title)}</a></h3><div class="stamp">기사 원문 및 사실관계 확인 ↗</div></article>`).join(''):'<div class="empty">해당 조건에 맞는 기사가 없습니다. 수집 상태와 원문을 확인하세요.</div>'}
     function render(){const all=db.articles||[];document.getElementById('count-all').textContent=all.length.toLocaleString('ko-KR');[['수원','count-suwon'],['화성','count-hwaseong'],['오산','count-osan']].forEach(([c,id])=>document.getElementById(id).textContent=all.filter(x=>x.city===c).length.toLocaleString('ko-KR'));document.querySelectorAll('[data-summary-city]').forEach(e=>{const selected=e.dataset.summaryCity===city;e.classList.toggle('selected',selected);e.setAttribute('aria-pressed',String(selected))});document.querySelectorAll('.city').forEach(e=>{let active=e.dataset.city===city;e.classList.toggle('active',active);e.setAttribute('aria-pressed',String(active))});document.querySelectorAll('.map-region,.map-label').forEach(e=>e.classList.toggle('selected',city!=='전체'&&e.dataset.city===city));const a=news();renderCards('news-list',a,12);renderCards('breaking-list',a.filter(x=>age(x)>=0&&age(x)<=3&&/속보|긴급|대피|큰불|붕괴|폭발|지진|호우경보|산불/.test(x.title)),9);renderCards('incident-list',a.filter(x=>age(x)>=0&&age(x)<=12&&/화재|사망|숨져|추락|교통사고|충돌|폭발|실종|침수|붕괴|구조|경찰|검거|긴급/.test(x.title)),9);document.getElementById('interest-list').innerHTML=cities.filter(c=>city==='전체'||c===city).map(c=>`<div class="panel"><h3>${c} 최근 기사 5건</h3>${a.filter(x=>x.city===c).slice(0,5).map(x=>`<div class="interest-item"><a target="_blank" rel="noopener noreferrer" href="${safe(x.url)}">${safe(x.title)}</a><small class="stamp">${ts(x.publishedAt)} · ${safe(x.publisher)}</small></div>`).join('')||'<p class="muted">표시할 기사가 없습니다.</p>'}</div>`).join('');const w=db.weather||{};document.getElementById('weather-stamp').textContent='날씨 마지막 확인: '+ts(w.updatedAt);document.getElementById('weather-list').innerHTML=Object.entries(w.cities||{}).map(([c,v])=>`<div class="article"><div class="stamp">${safe(c)}</div><b>${v.temperature==null?'—':safe(v.temperature)+'°C'}</b><p>강수확률 ${v.precipitationProbability==null?'미확인':safe(v.precipitationProbability)+'%'}</p></div>`).join('')||'<div class="empty">날씨 데이터가 없습니다.</div>'}
-    function setCity(c){city=c;render()}
+    function setCity(c){city=c;render();updateMapSelection()}
     async function load(){const status=document.getElementById('status');try{const r=await fetch('./data/news.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);const incoming=await r.json();if(!Array.isArray(incoming.articles))throw new Error('기사 배열이 없습니다');db=incoming;const last=db.updatedAt?Date.now()-new Date(db.updatedAt).getTime():Infinity;document.getElementById('updated').textContent='뉴스 마지막 수집 '+ts(db.updatedAt);const stale=last>2*3600000;status.classList.toggle('warning',stale||Boolean(db.errors?.length));status.textContent=stale?'마지막 수집 이후 2시간 이상 지났습니다. GitHub Actions 실행 기록을 확인하세요.':`수집 상태: ${Object.entries(db.status||{}).map(([k,v])=>k+' '+v).join(' · ')||'첫 수집 전'}`;if(db.errors?.length)status.textContent+=' · 수집 오류 '+db.errors.length+'건';render()}catch(e){status.classList.add('warning');status.textContent='뉴스 데이터를 읽을 수 없습니다: '+e.message;render()}}
     function makeCard(){const title=document.getElementById('card-title').value.trim()||'경기남부 뉴스';const body=document.getElementById('card-body').value.trim();document.getElementById('preview-title').textContent=title;document.getElementById('preview-desc').textContent=body.slice(0,105)||'경기남부 뉴스 데스크'}
     function saveCard(){makeCard();const canvas=document.createElement('canvas');canvas.width=1200;canvas.height=675;const ctx=canvas.getContext('2d');const grad=ctx.createLinearGradient(0,0,1200,675);grad.addColorStop(0,'#33334f');grad.addColorStop(1,'#8f84be');ctx.fillStyle=grad;ctx.fillRect(0,0,1200,675);ctx.fillStyle='#a99bd5';ctx.fillRect(0,660,1200,15);ctx.fillRect(65,88,55,8);ctx.fillStyle='#e2dff7';ctx.font='bold 25px sans-serif';ctx.fillText('GYEONGGI SOUTH · NEWS DESK',65,68);function wrap(t,y,font,maxLines,lineHeight){ctx.font=font;ctx.fillStyle='#fff';let line='',lines=[];for(const c of [...t]){if(ctx.measureText(line+c).width>1060&&line){lines.push(line);line=c}else line+=c}if(line)lines.push(line);lines.slice(0,maxLines).forEach((s,i)=>ctx.fillText(s,70,y+i*lineHeight))}wrap(document.getElementById('card-title').value.trim()||'경기남부 뉴스',250,'bold 55px sans-serif',4,75);wrap(document.getElementById('card-body').value.trim().slice(0,120),558,'29px sans-serif',2,40);const a=document.createElement('a');a.download='gg-news-card.png';a.href=canvas.toDataURL('image/png');a.click()}
 
-    // 행정구역 경계: 공개 데이터(2023년 기준)를 로드하여 수원 4개 구를 통합 표시
-    async function loadAdminMap(){
-      const svg=document.getElementById('real-city-map');
-      const note=document.getElementById('map-source-note');
-      const ns='http://www.w3.org/2000/svg';
+    // Leaflet은 EPSG:3857 투영법을 적용한 배경지도를 사용합니다.
+    // 경계: 2023년 국가공간정보포털 자료 가공본. 최신 경계를 보장하지 않습니다.
+    let newsMap=null;
+    const mapLayers={수원:[],화성:[],오산:[]};
+    const mapColors={수원:'#7161AD',화성:'#A390D0',오산:'#8F71C0'};
+    function mapStatus(message){document.getElementById('map-message').textContent=message}
+    function updateMapSelection(){
+      if(!newsMap)return;
+      for(const [c,layers] of Object.entries(mapLayers))for(const layer of layers){
+        const active=city===c;
+        layer.setStyle({color:active?'#34216F':'#6F5BB0',weight:active?4:2.5,fillColor:active?'#6A4BB3':mapColors[c],fillOpacity:active?.43:.16});
+        if(active)layer.bringToFront();
+      }
+    }
+    async function fetchBoundaries(){
       const sources=[
-        'https://cdn.jsdelivr.net/gh/KnellBalm/kr-admin-geojson@main/sig.geojson',
-        'https://raw.githubusercontent.com/KnellBalm/kr-admin-geojson/main/sig.geojson'
+        'https://raw.githubusercontent.com/KnellBalm/kr-admin-geojson/main/sig.geojson',
+        'https://cdn.jsdelivr.net/gh/KnellBalm/kr-admin-geojson@main/sig.geojson'
       ];
-      let features=null;
       for(const url of sources){
+        const controller=new AbortController(), timer=setTimeout(()=>controller.abort(),12000);
         try{
-          const response=await fetch(url,{cache:'force-cache'});
+          const response=await fetch(url,{signal:controller.signal,cache:'default'});
           if(!response.ok)throw new Error('HTTP '+response.status);
           const json=await response.json();
-          if(!Array.isArray(json.features))throw new Error('경계 자료 형식 오류');
-          features=json.features;
-          break;
-        }catch(e){console.warn('지도 경계 데이터:',e.message)}
+          if(json.type!=='FeatureCollection'||!Array.isArray(json.features))throw new Error('GeoJSON 형식 오류');
+          return json.features;
+        }catch(error){console.warn('행정경계 연결 실패:',url,error)}
+        finally{clearTimeout(timer)}
       }
-      if(!features){
-        svg.innerHTML='<text x="240" y="148" text-anchor="middle" class="map-fallback">지도를 불러올 수 없습니다</text><text x="240" y="177" text-anchor="middle" font-size="12" fill="#867DAA">아래 지역 버튼으로 뉴스를 선택할 수 있어요</text>';
-        note.textContent='행정경계 데이터를 불러오지 못했습니다. 인터넷 연결을 확인해 주세요.';
+      throw new Error('행정경계 파일을 가져오지 못했습니다');
+    }
+    function matchRegion(feature){
+      const p=feature.properties||{};
+      const code=String(p.SIG_CD||'');
+      const full=String(p.FULL_NM||'');
+      const name=String(p.SIG_KOR_NM||'');
+      if(!code.startsWith('41'))return null;
+      if(['41111','41113','41115','41117'].includes(code)||full.includes('수원시')||name.includes('수원시'))return '수원';
+      if(code==='41590'||full.includes('화성시')||name==='화성시')return '화성';
+      if(code==='41370'||full.includes('오산시')||name==='오산시')return '오산';
+      return null;
+    }
+    async function loadAdminMap(){
+      const el=document.getElementById('real-city-map');
+      if(typeof L==='undefined'){
+        el.textContent='지도 라이브러리를 불러오지 못했습니다.';
+        mapStatus('지도 프로그램 연결 실패 · 아래 지역 선택 버튼으로 뉴스는 계속 이용할 수 있습니다.');
         return;
       }
-      const suwon=new Set(['장안구','권선구','팔달구','영통구']);
-      const picked=features.map(f=>{
-        const p=f.properties||{};
-        // SIG_KOR_NM이 구 이름만 포함하는 자료는 경기 수원 4개 구 코드를 사용하여 식별
-        const code=String(p.SIG_CD||'');
-        const name=p.SIG_KOR_NM||'';
-        const city=(code.startsWith('4111')&&suwon.has(name))||(suwon.has(name)&&p.SIDO_NM==='경기도')?'수원':name==='화성시'?'화성':name==='오산시'?'오산':null;
-        return {feature:f,city};
-      }).filter(x=>x.city);
-      const counts={수원:0,화성:0,오산:0};picked.forEach(x=>counts[x.city]++);
-      // 수원 4구, 화성시, 오산시의 경계가 모두 있어야만 지도 표시
-      if(counts['수원']<4||counts['화성']<1||counts['오산']<1){
-        svg.innerHTML='<text x="240" y="170" text-anchor="middle" class="map-fallback">행정경계 데이터를 확인할 수 없습니다</text>';
-        note.textContent='필요한 시·구 경계가 누락돼 지도를 표시하지 않았습니다.';
-        return;
+      newsMap=L.map(el,{scrollWheelZoom:false,zoomControl:true,preferCanvas:true}).setView([37.216,127.015],10);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+        maxZoom:18,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors'
+      }).addTo(newsMap);
+      // 경계가 실패해도 가짜 도형을 지도 위에 표시하지 않습니다.
+      for(const [c,point] of Object.entries({수원:[37.2636,127.0286],화성:[37.200,126.830],오산:[37.149,127.077]})){
+        L.circleMarker(point,{radius:6,weight:2,color:'#fff',fillColor:mapColors[c],fillOpacity:.95})
+          .addTo(newsMap).bindTooltip(c,{direction:'top'}).on('click',()=>setCity(c));
       }
-      function polys(geometry){
-        if(!geometry)return [];
-        if(geometry.type==='Polygon')return [geometry.coordinates];
-        if(geometry.type==='MultiPolygon')return geometry.coordinates;
-        return [];
+      mapStatus('도로지도 로딩 중 · 실제 행정구역 경계 연결 중');
+      try{
+        const features=await fetchBoundaries();
+        const selected=[];
+        const counts={수원:0,화성:0,오산:0};
+        for(const feature of features){const region=matchRegion(feature);if(region&&feature.geometry){selected.push({...feature,properties:{...(feature.properties||{}),_newsRegion:region}});counts[region]++}}
+        if(counts.수원!==4||counts.화성<1||counts.오산<1)throw new Error('행정경계에 필요한 도시 또는 수원 4개 구가 누락됐습니다: '+JSON.stringify(counts));
+        const group=L.geoJSON({type:'FeatureCollection',features:selected},{
+          style:f=>({color:'#6F5BB0',weight:2.5,fillColor:mapColors[f.properties._newsRegion],fillOpacity:.16}),
+          onEachFeature:(f,layer)=>{
+            const c=f.properties._newsRegion;
+            mapLayers[c].push(layer);
+            layer.bindTooltip(f.properties.SIG_KOR_NM||c,{sticky:true,className:'region-label'});
+            layer.on('click',()=>setCity(c));
+          }
+        }).addTo(newsMap);
+        if(!group.getBounds().isValid())throw new Error('경계 좌표 범위 오류');
+        newsMap.fitBounds(group.getBounds().pad(.12),{maxZoom:11});
+        document.getElementById('map-source-note').textContent='도로지도 © OpenStreetMap · 행정경계: 국가공간정보포털 2023년 가공본 (최신 경계 아님)';
+        mapStatus('행정구역 경계 표시됨 · 지도의 도시를 클릭하면 해당 지역 뉴스로 전환됩니다.');
+        updateMapSelection();
+      }catch(error){
+        console.warn('행정경계 미표시:',error);
+        mapStatus('도로지도만 표시 중 · 행정경계 연결 실패. 경계가 없는 지도이며, 지역 버튼은 정상 이용할 수 있습니다.');
       }
-      const rings=[];
-      picked.forEach(({feature})=>polys(feature.geometry).forEach(poly=>poly.forEach(r=>rings.push(r))));
-      const coords=rings.flat();
-      const lat0=37.22*Math.PI/180;
-      const cos=Math.cos(lat0);
-      const xx=p=>p[0]*cos,yy=p=>-p[1];
-      const minx=Math.min(...coords.map(xx)), maxx=Math.max(...coords.map(xx));
-      const miny=Math.min(...coords.map(yy)), maxy=Math.max(...coords.map(yy));
-      const padding=20,W=480,H=350;
-      const scale=Math.min((W-2*padding)/(maxx-minx),(H-2*padding)/(maxy-miny));
-      const ox=(W-(maxx-minx)*scale)/2,oy=(H-(maxy-miny)*scale)/2;
-      const px=p=>ox+(xx(p)-minx)*scale,py=p=>oy+(yy(p)-miny)*scale;
-      const pathFor=geometry=>polys(geometry).map(poly=>poly.map(r=>r.map((p,i)=>(i?'L':'M')+px(p).toFixed(1)+','+py(p).toFixed(1)).join(' ')+'Z').join(' ')).join(' ');
-      svg.replaceChildren();
-      // 화성 배경 위에 수원·오산 경계를 선명하게 표시
-      for(const c of ['화성','수원','오산']){
-        for(const {feature,city:region} of picked.filter(x=>x.city===c)){
-          const path=document.createElementNS(ns,'path');
-          path.setAttribute('d',pathFor(feature.geometry));
-          path.setAttribute('class','map-region');
-          path.setAttribute('data-city',region);
-          path.setAttribute('fill-rule','evenodd');
-          path.setAttribute('tabindex','0');
-          path.setAttribute('role','button');
-          path.setAttribute('aria-label',region+' 뉴스 선택');
-          path.addEventListener('click',()=>setCity(region));
-          path.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();setCity(region)}});
-          const title=document.createElementNS(ns,'title');title.textContent=region+' 뉴스 보기';path.appendChild(title);
-          svg.appendChild(path);
-        }
-      }
-      // 도시명은 지리적 위치를 기준으로 배치
-      for(const [c,location] of Object.entries({화성:[126.845,37.205],수원:[127.015,37.278],오산:[127.075,37.147]})){
-        const el=document.createElementNS(ns,'text');
-        el.setAttribute('x',px(location).toFixed(1));el.setAttribute('y',py(location).toFixed(1));
-        el.setAttribute('class','map-label');el.setAttribute('data-city',c);
-        el.textContent=c;svg.appendChild(el);
-      }
-      svg.setAttribute('aria-label','행정경계 기반 수원·화성·오산 지역 선택 지도');
-      note.textContent='경계 자료: 국가공간정보포털 2023년 기준(재가공) · 현재 행정경계와 다를 수 있음';
-      render();
+      setTimeout(()=>newsMap.invalidateSize(),200);
     }
     loadAdminMap();
     load();setInterval(load,5*60*1000);
