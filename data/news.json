@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T04:26:02+09:00",
+  "updatedAt": "2026-11-18T06:12:21+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -8,6 +8,20 @@
   },
   "errors": [],
   "articles": [
+    {
+      "city": "수원",
+      "title": "수원시 통합돌봄 사업",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9qeFIxSDI4bEg0RjFUbE1CVXc5S1puWmhCbDNKT1M0WXQ4MXcyZ0RqOWNrTjVwNUF1R1VXS2tvcWhjMnI0MzVqZmJ1b0xGYlBCaklWeEh4eFJnT2toNVpUSVZiN2NFM2Q2MUI3YldlUQ?oc=5",
+      "publisher": "기호일보",
+      "publishedAt": "2026-11-18T05:35:36+09:00"
+    },
+    {
+      "city": "수원",
+      "title": "유재광 수원시의회 부의장, 권선1동 공영주차장 준공식서 축사",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwdzlpU21nU1BISE9VSmFkZERXQm5MX3h0TnFfSUtwQ0hiazhRUm53TS0yTHlqX0thWDhXczBMUkZ5UVIxWVBFM1hTSGRQRjFFSHlmMU8xdDhMVWhpME9yVHNIU2Y?oc=5",
+      "publisher": "매일일보",
+      "publishedAt": "2026-11-18T04:38:43+09:00"
+    },
     {
       "city": "오산",
       "title": "[사설] 세교 물류센터 갈등, 시장들 역할과 도지사 책임",
@@ -28,27 +42,6 @@
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE93ZTRTY09TMjEtZmdyWHNhUFJjYzNCMHZLQ1BkNExVdFZtYU9vY2lSQnJwM2liZWQ3M3VVYklYaEVfeTJIUDNoSm9aWG5fanZ6U0JXWUZkNkVZSE1vc05lRU9yRndaVHh3YU1uZFRvWlVFZjA?oc=5",
       "publisher": "동방일보",
       "publishedAt": "2026-11-17T23:41:58+09:00"
-    },
-    {
-      "city": "수원",
-      "title": "이재준 수원시장 “정책이 삶의 변화로 이어지는지 점검해 달라”",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBZamhQOWtRRGQ3dFd5LVQ1cVo1NHN6RTdudlBQNjA4LXF3cE4yc2t6SmdKN0VKQkJFeGxlbG9EZUJyUTdBNzFqcnZWeW5rZFBnZHpkbTdkWjR2MWRqck1pM3R6T1I0SjlnaXROU0l1YlBYWDQ?oc=5",
-      "publisher": "동방일보",
-      "publishedAt": "2026-11-17T23:40:57+09:00"
-    },
-    {
-      "city": "수원",
-      "title": "수원시 통합돌봄 사업",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9qeFIxSDI4bEg0RjFUbE1CVXc5S1puWmhCbDNKT1M0WXQ4MXcyZ0RqOWNrTjVwNUF1R1VXS2tvcWhjMnI0MzVqZmJ1b0xGYlBCaklWeEh4eFJnT2toNVpUSVZiN2NFM2Q2MUI3YldlUQ?oc=5",
-      "publisher": "기호일보",
-      "publishedAt": "2026-11-17T23:35:36+09:00"
-    },
-    {
-      "city": "수원",
-      "title": "[기획] 살던 곳에서 건강한 치료 받는다…수원형 통합돌봄의 실험",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JWWJhZllndGY4VXFlQVkxQjlyXzIwSjJieGQweTllTmhxY1BFajVaR0VJTnpaWm5rQzAtdnJDb01kaEpLN29Jc3lHV2t0Q0FSMlJsZkYyekdxVHRiRXdKSlBhZ3A?oc=5",
-      "publisher": "suwonilbo.kr",
-      "publishedAt": "2026-11-17T23:27:36+09:00"
     },
     {
       "city": "오산",
@@ -203,6 +196,13 @@
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9PVnRyblprbEwxc0tySWRMMmVFc1lQaVBSNk45R0ZTaWZpT1NyNlVvMXNqT0lOaWlSZi1lT1ZydVdDeHB6Uy1GcER3Y1B5RTQxS0hBR3NDdVlKSGVBRklzSjdJVDVIN2dlOHBJS2gwZWcyMzBDbzRTblNB?oc=5",
       "publisher": "수원시 인터넷신문",
       "publishedAt": "2026-11-17T18:19:04+09:00"
+    },
+    {
+      "city": "오산",
+      "title": "조용호 오산시장, 반도체·세교3지구·체육 현안 총력…“미래형 자족도시로”",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0tNmhXTWhManp2SU9jX2VfOFZpNVBtb0FLbVFPUFhfQzBEdnpWeGd4bENncW9wOXd3WHBTOV9MSDlwMHFvWHZQSEtuOFUwdEsyUXFFeHBIRHVNT2ZWQ2plNHh1b2plVGk4MkYwaFJMbjBWQV9vZDQzaU1GclA?oc=5",
+      "publisher": "비욘드포스트",
+      "publishedAt": "2026-11-17T17:58:26+09:00"
     },
     {
       "city": "화성",
@@ -424,7 +424,7 @@
     {
       "city": "오산",
       "title": "오산시, 도체전 ‘재정 현실화’·세교3지구 ‘자족도시화’ 승부수",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5sSEFWVVRyQTZuZC1KWlB1RUdCV1pmTGN4WkVQSHhrODlTa3Zxd3RBUWlxNEFncmtwY0pWWVRqX3hkRThvSDVrR2ttRjZZXzBkcExNaVhzVmxwTmpiZjU5dVBn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51cUxJS2lKbE5uaVgtSXd3Vm9zeWRjUmZjRGlaN1NoMFBDR2ZGcERrajR3NmRqMmItT016YldObHVoeTRTMDFlMjFzUEplaExVSGh5SENoNllMZ0Y4S2JDdGlEdGQ?oc=5",
       "publisher": "경기신문",
       "publishedAt": "2026-11-17T16:35:23+09:00"
     },
@@ -556,13 +556,6 @@
     },
     {
       "city": "수원",
-      "title": "수원특례시·일본 사이타마시, 축구로 우정 이어가",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pXzZyTjViRVc5YTVsNUF5T3JhbmczQXdnNFRza05Sb1Z2ZDRyQ3RwMUc0SkgyUmQwVFBnWW5rT08xQlBIeWIwcFotcXA1aHE4dFBvTmhEUTdQRjA?oc=5",
-      "publisher": "경기일보",
-      "publishedAt": "2026-11-17T16:12:45+09:00"
-    },
-    {
-      "city": "수원",
       "title": "수원시의회 앞마당서 펼쳐진 김장김치 1004박스 온정",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9qZ0l4UXFlRmxlYTdiRzJpamFUWEdudWl3bzhJRGJyT19zSm9IU1hmS3FkekptV2p1X1hSQklLSEEwU3VmU3hFV0tnUTIzUnZUZXRzbUVfb040Ti10VzF5QWVuQko3dE8zRTdXdEhn?oc=5",
       "publisher": "현대일보",
@@ -623,6 +616,13 @@
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1KMUZUSUJKOEhPaFFEOFJIT3Q0Z0pqWVI5SUxIZ1NHd0hTU19sWFN1MUZEZmJ6b2Z1RERMc1NXZ3V1M2M0YzllN0lRbjRxUm5Kek1qcXB6MA?oc=5",
       "publisher": "오산인터넷뉴스",
       "publishedAt": "2026-11-17T16:05:32+09:00"
+    },
+    {
+      "city": "수원",
+      "title": "수원시 3개 노인복지관, 공동연구 통해 초고령사회 노인복지의 미래를 그리다",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSeDdXTDY2TkI5em1najUwNGJZVk5JV1ZFdjFsWGZjT3VUcDRaM1lDdlNHeEpFRDJlejduLW5LdzRyS0pHclZOQlVJMkszUXZ0bWg0X2RXRjUtZ0dCVWFkWHFRZnVrMkx2MVc2cw?oc=5",
+      "publisher": "CEO경제신문",
+      "publishedAt": "2026-11-17T16:03:00+09:00"
     },
     {
       "city": "수원",
@@ -723,6 +723,13 @@
       "publishedAt": "2026-11-17T15:41:18+09:00"
     },
     {
+      "city": "오산",
+      "title": "[경기] 오산시, 20년 넘게 자리 지킨 '오~랜맛집' 5곳 선정",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0azNNazIwaXN2T1phc0hMUTkwRThfZG1ZdHFpdTlWYXJOLTVfMGxBWFR2VmVrMFpWN3lPZk1BbWNjLWlfTVRQZHVpeTB4X1pUeUx2V3d3N2szTF9BZmc?oc=5",
+      "publisher": "YTN",
+      "publishedAt": "2026-11-17T15:41:00+09:00"
+    },
+    {
       "city": "수원",
       "title": "[송죽동] 주민자치센터, ‘AI디지털배움터’ 운영으로 주민 디지털 역량 강화",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5lcWM4RTdfVm5FSVNYdWh4Ul9uTXdDZUh6QTdOcmJxVUpfdWRQX2ZSQ0UtYUFOdkJCcG5wM0cwbDZLUUFDZlMxY1BYN0NOQWIxZ2ZGcU1jbXZXUEVFVzNZYmFyZ1RrVVA1U3NWWkszU0k4VndSYk1yWURn?oc=5",
@@ -787,13 +794,6 @@
     },
     {
       "city": "수원",
-      "title": "수원시 3개 노인복지관, 공동연구 통해 초고령사회 노인복지의 미래를 그리다",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9CVEM3akFoQzk1MzNkcEI4UHNfQXRNV1dfcGJiYm5LalhHMnN5S2Y5ZzM2SHotd3lSMkV3Sk9RcWVKLWR0RDhzazh1V1k4em9CMG9IaG1UT0MteWFNclVsWDlrUmFmUG5qMTEwQkpSbU9HbjhaNHFCbUpn?oc=5",
-      "publisher": "수원시 인터넷신문",
-      "publishedAt": "2026-11-17T15:26:09+09:00"
-    },
-    {
-      "city": "수원",
       "title": "[세류1동] 어르신 대상 찾아가는 치매 인지선별검사 실시",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9hd1F0Tk8zMGtZZjFzbWJCNnNwQVRtWmQ3ZnlPenBvRzl0bzJVREt1TG1lcFQ5dk1pbGVEOFdjZERocnJtVEVTSjl4UmlfU3JaOERyZHZKQXpFcmV4V3RMSTBZWF9rSF9mdDd2bVFMMGZNV2RsOWpkakhR?oc=5",
       "publisher": "수원시 인터넷신문",
@@ -821,32 +821,11 @@
       "publishedAt": "2026-11-17T15:15:51+09:00"
     },
     {
-      "city": "오산",
-      "title": "오산시, 도시농부학교·토요어린이농부학교 종료…시민·어린이 25명 체험",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE45eE1FS1N6UGo0Zk1KbTZoWFdZU2NxMTBFMjhPZTF3OWs3Nlp2a1hNazBFb2J3ekJrU2ZSQmwxdlRPclJkSnJ2NUVDNjdXcHJFUHBLMGZnUzEzUjgtb0FoU2V0cVpFbHRDVmNz?oc=5",
-      "publisher": "한국사회복지저널",
-      "publishedAt": "2026-11-17T15:15:29+09:00"
-    },
-    {
       "city": "수원",
       "title": "[장안구] 지역 발전을 위한 김승원 국회의원 초청 간담회 개최",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DUGh4dWQwMU9rd05pbkh2NDRHTVA4ZWFJTFhabUM1ajF5MWZ0X3RDNzFSOGJGNXJac0wtMzBTSW81bEY5TFZfRHV6d2pZQVpteVUzZTZSSEtHTkRXSFZKV04yaHdwaHpTTDRSd2puZGdnRUJRMnQyR3d3?oc=5",
       "publisher": "수원시 인터넷신문",
       "publishedAt": "2026-11-17T15:14:38+09:00"
-    },
-    {
-      "city": "화성",
-      "title": "시민과 목공 전문가가 만드는 `목공프로젝트`",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE10YmpVTWJydXdyVTFYMFlIQmhXZmdmWkw3STB0UUtzR25NRWdlaTZKMHlqR1VYMlZYU2xvMm91WF9BTUo5?oc=5",
-      "publisher": "화성 투데이",
-      "publishedAt": "2026-11-17T15:11:00+09:00"
-    },
-    {
-      "city": "수원",
-      "title": "수원시 권선구 금곡동 단체장협의회, 김장김치로 전하는 따뜻한 겨울 인사",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1pR3JBVVpLUDBTOGR0dVVFSkpwVHlqYUdMZEtJS2lDZGRKZEVFTER2LU1aTVJabXVnWXcyN3RfWnJZRkNZOV9zSkJJc09sMlRrNi03OV90cDAtdnJnZVE?oc=5",
-      "publisher": "이런뉴스",
-      "publishedAt": "2026-11-17T15:10:06+09:00"
     },
     {
       "city": "수원",
@@ -987,6 +966,27 @@
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84LUNiOXJOR0JWZlNrMjlNUnNHM1FjMmI0Q2lCTTNjWUwtdV9HRzZTQjBpajlTckMzYnJteTJDWTZIem5ERWUxRzMxMUp4bUR5NFFJbFVBWHBVWTVF?oc=5",
       "publisher": "뉴스핌",
       "publishedAt": "2026-11-17T14:15:00+09:00"
+    },
+    {
+      "city": "수원",
+      "title": "사정희 수원시의회 예결위원장, 매탄3동 공영주차장 건의 청취",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IcWs3a1hHZDZNVHFPb0k1d1BxcFJoaHZ3Ty1WeGNfR3FxSjdlc01UM2RQMHNET2wtWF9fZ2luTS1vQlBlaXdRbGRzY2NjVUdjdVJXVGU4NTNyTktvVFJaS1RJNDhSWUFs?oc=5",
+      "publisher": "경인매일",
+      "publishedAt": "2026-11-17T14:14:49+09:00"
+    },
+    {
+      "city": "오산",
+      "title": "“도심 속에서 배우는 흙의 소중함”…오산시, 농업교육 인기",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGTDlGai15WVdmSURJYUVmLWJkckFCajBydDY2VWxfN1plYkJsbU12a3ZNUW1qTFd0d3RuY3IxS2FxRXlJLWFTcHB4cVpNRHBT?oc=5",
+      "publisher": "문화일보",
+      "publishedAt": "2026-11-17T14:12:37+09:00"
+    },
+    {
+      "city": "수원",
+      "title": "수원시 팔달구, 신규 공직자를 위한 ‘오늘의 모닝 메신저’ 교육 운영",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE54c1lwal9SSGNwVjByQkFuc2ZGUHpMcUdoZHM4dlV0REV5U3BDeTdNc0dDenE2ZGlhQ2preF83QXFmTGluYzBOcU5CcWluT2tpQ3RNSFYtMGVaanQ2Z252TVFqWm02a2lHN1VIazh3?oc=5",
+      "publisher": "수원뉴스",
+      "publishedAt": "2026-11-17T14:11:32+09:00"
     }
   ],
   "weather": {
