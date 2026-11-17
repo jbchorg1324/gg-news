@@ -69,6 +69,48 @@
     footer {border-top-color:#E7E6EF}
     a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible {outline:3px solid #B1A7D6}
     @media(max-width:760px){.map-pane{border-left:0;border-top:1px solid #E4E0F1}}
+
+    /* 뉴스룸 대시보드 v2.1: 밝은 카드와 분명한 정보 위계 */
+    :root{--accent:#675DAB;--accent-dark:#46416E;--accent-wash:#F4F2FB}
+    .ticker-inner{justify-content:space-between;flex-wrap:wrap}
+    .ticker{background:linear-gradient(100deg,#48436C,#6A6297)}
+    .topnav .nav-inner{gap:18px}
+    .topnav nav a{padding:8px 2px;border-bottom:2px solid transparent;transition:color .2s,border-color .2s}
+    .topnav nav a:hover,.topnav nav a:focus-visible{border-color:#8678C8}
+    .hero{min-height:310px}
+    .hero-copy{padding:36px 38px}
+    .hero h1{letter-spacing:-.055em}
+    .hero-buttons{flex-wrap:wrap}
+    .map-pane{padding:24px 22px}
+    .map-pane .city{min-width:60px;transition:all .18s ease}
+    .map-pane .city:focus-visible{outline:3px solid #B1A7D6;outline-offset:3px}
+    .status-line{box-shadow:0 5px 18px rgba(42,35,88,.035)}
+    .dashboard-summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin:16px 0 30px}
+    .summary-tile{background:#fff;border:1px solid #E7E4F0;border-radius:16px;padding:19px 21px;box-shadow:0 5px 16px rgba(35,31,73,.035);min-width:0}
+    .summary-tile small{display:block;color:#77738B;font-size:12px;font-weight:650;margin-bottom:8px}
+    .summary-tile strong{display:block;color:#403A68;font-size:28px;line-height:1.1;letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+    .summary-tile span{display:block;color:#928DA4;font-size:11px;margin-top:7px}
+    .summary-tile.selected{border-color:#A99DDA;background:#F9F8FD}
+    .summary-tile[data-summary-city]{cursor:pointer;transition:transform .2s,border-color .2s}
+    .summary-tile[data-summary-city]:hover{transform:translateY(-2px);border-color:#A99DDA}
+    section{scroll-margin-top:100px}
+    .section-heading{margin-bottom:14px}
+    .section-heading h2{font-size:21px;letter-spacing:-.035em}
+    .section-heading .pill{white-space:normal;text-align:right}
+    .cards{gap:15px}
+    .article{transition:transform .2s,box-shadow .2s,border-color .2s}
+    .article:hover{transform:translateY(-2px);border-color:#D9D2EE}
+    .article h3{font-size:16px;line-height:1.55}
+    .article .stamp{font-size:11px}
+    .breaking .article{background:linear-gradient(180deg,#F8F6FD,#fff 52%)}
+    .incident .article{background:linear-gradient(180deg,#FAF9FD,#fff 52%)}
+    .editor label{font-weight:750;color:#494365}
+    .editor input,.editor textarea{background:#fff}
+    .card-preview{box-shadow:0 10px 28px rgba(70,61,114,.18)}
+    .data-disclaimer{border-top:1px solid #EAE7F3;padding-top:12px;margin:0 0 16px;font-size:12px;color:#827E94}
+    @media(max-width:1000px){.dashboard-summary{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-copy{padding:28px 26px}}
+    @media(max-width:760px){.ticker-inner{padding:8px 14px}.hero-copy{padding:24px 20px}.dashboard-summary{gap:9px}.summary-tile{padding:14px 15px}.summary-tile strong{font-size:24px}.topnav nav{width:100%;overflow-x:auto;white-space:nowrap;display:flex;padding-bottom:3px;scrollbar-width:thin}.topnav .nav-inner{gap:8px}.section-heading{align-items:flex-start}.section-heading .pill{font-size:11px}}
+    @media(max-width:420px){.summary-tile{padding:12px}.summary-tile strong{font-size:22px}.summary-tile small{font-size:11px}.hero h1{font-size:37px}}
   </style>
 </head>
 <body>
@@ -80,6 +122,13 @@
       <div class="map-pane"><svg viewBox="0 0 350 220" role="img" aria-label="수원 화성 오산을 표시한 개념도. 실제 행정구역 경계는 아닙니다."><defs><linearGradient id="shapeFill" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8E87B8"/><stop offset="1" stop-color="#59577D"/></linearGradient></defs><path d="M36 100 L112 27 175 58 221 21 319 85 329 171 240 202 145 175 68 204 18 154Z" fill="url(#shapeFill)" stroke="#7773A4" stroke-width="2"/><path d="M98 62 L149 120 L236 95 M149 120 L202 168" stroke="#B4ABCE" stroke-opacity=".5" stroke-width="2" stroke-dasharray="5 5" fill="none"/><g class="map-point" tabindex="0" role="button" aria-label="수원 뉴스 선택" onclick="setCity('수원')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();setCity('수원')}"><circle cx="116" cy="78" r="28" fill="#7063AD"/><text x="116" y="83" text-anchor="middle" font-size="15" font-weight="800" fill="#fff">수원</text></g><g class="map-point" tabindex="0" role="button" aria-label="화성 뉴스 선택" onclick="setCity('화성')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();setCity('화성')}"><circle cx="247" cy="135" r="31" fill="#847DB9"/><text x="247" y="140" text-anchor="middle" font-size="15" font-weight="800" fill="#fff">화성</text></g><g class="map-point" tabindex="0" role="button" aria-label="오산 뉴스 선택" onclick="setCity('오산')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();setCity('오산')}"><circle cx="145" cy="159" r="25" fill="#A19BCC"/><text x="145" y="164" text-anchor="middle" font-size="14" font-weight="800" fill="#fff">오산</text></g></svg><div class="city-row" role="group" aria-label="지역별 기사 선택"><button type="button" class="city active" data-city="전체" onclick="setCity('전체')">전체</button><button type="button" class="city" data-city="수원" onclick="setCity('수원')">수원</button><button type="button" class="city" data-city="화성" onclick="setCity('화성')">화성</button><button type="button" class="city" data-city="오산" onclick="setCity('오산')">오산</button></div><small class="map-note">지역 위치를 단순화한 개념도 · 실제 행정경계 아님</small></div>
     </div>
     <div id="status" class="status-line" role="status" aria-live="polite">뉴스 데이터를 불러오는 중입니다.</div>
+    <p class="data-disclaimer">기사 수는 최근 수집 데이터 기준입니다. 전체 기사의 정확성·발행 시각은 원문에서 확인해 주세요.</p>
+    <div class="dashboard-summary" role="group" aria-label="지역별 수집 기사 현황">
+      <div class="summary-tile" id="summary-all"><small>전체 수집 기사</small><strong id="count-all">—</strong><span>현재 데이터 기준</span></div>
+      <button type="button" class="summary-tile" data-summary-city="수원" onclick="setCity('수원')"><small>수원 뉴스</small><strong id="count-suwon">—</strong><span>선택하여 기사 보기 ↗</span></button>
+      <button type="button" class="summary-tile" data-summary-city="화성" onclick="setCity('화성')"><small>화성 뉴스</small><strong id="count-hwaseong">—</strong><span>선택하여 기사 보기 ↗</span></button>
+      <button type="button" class="summary-tile" data-summary-city="오산" onclick="setCity('오산')"><small>오산 뉴스</small><strong id="count-osan">—</strong><span>선택하여 기사 보기 ↗</span></button>
+    </div>
     <section id="breaking" class="breaking"><div class="section-heading"><h2>경기남부 속보</h2><span class="pill">제목 기준 · 최근 3시간</span></div><div class="cards" id="breaking-list"></div></section>
     <section id="incident" class="incident"><div class="section-heading"><h2>사건·사고 관련 보도</h2><span class="pill">기사 발행 기준 · 최근 12시간</span></div><p class="muted">검색어로 분류한 보도입니다. 실제 사건 발생시각은 기사 원문에서 확인해야 합니다.</p><div class="cards" id="incident-list"></div></section>
     <section id="news"><div class="section-heading"><h2>주요 뉴스</h2><span class="pill">최근 발행 기사</span></div><div class="cards" id="news-list"></div></section>
@@ -97,7 +146,7 @@
     function age(a){return(Date.now()-new Date(a.publishedAt).getTime())/3600000}
     function news(){return(db.articles||[]).filter(a=>city==='전체'||a.city===city)}
     function renderCards(id,items,max=6){const el=document.getElementById(id);el.innerHTML=items.length?items.slice(0,max).map(a=>`<article class="article"><div class="meta">${safe(a.city)} · ${safe(a.publisher)} · ${ts(a.publishedAt)}</div><h3><a target="_blank" rel="noopener noreferrer" href="${safe(a.url)}">${safe(a.title)}</a></h3><div class="stamp">기사 원문 및 사실관계 확인 ↗</div></article>`).join(''):'<div class="empty">해당 조건에 맞는 기사가 없습니다. 수집 상태와 원문을 확인하세요.</div>'}
-    function render(){document.querySelectorAll('.city').forEach(e=>{let active=e.dataset.city===city;e.classList.toggle('active',active);e.setAttribute('aria-pressed',String(active))});const a=news();renderCards('news-list',a,12);renderCards('breaking-list',a.filter(x=>age(x)>=0&&age(x)<=3&&/속보|긴급|대피|큰불|붕괴|폭발|지진|호우경보|산불/.test(x.title)),9);renderCards('incident-list',a.filter(x=>age(x)>=0&&age(x)<=12&&/화재|사망|숨져|추락|교통사고|충돌|폭발|실종|침수|붕괴|구조|경찰|검거|긴급/.test(x.title)),9);document.getElementById('interest-list').innerHTML=cities.filter(c=>city==='전체'||c===city).map(c=>`<div class="panel"><h3>${c} 최근 기사 5건</h3>${a.filter(x=>x.city===c).slice(0,5).map(x=>`<div class="interest-item"><a target="_blank" rel="noopener noreferrer" href="${safe(x.url)}">${safe(x.title)}</a><small class="stamp">${ts(x.publishedAt)} · ${safe(x.publisher)}</small></div>`).join('')||'<p class="muted">표시할 기사가 없습니다.</p>'}</div>`).join('');const w=db.weather||{};document.getElementById('weather-stamp').textContent='날씨 마지막 확인: '+ts(w.updatedAt);document.getElementById('weather-list').innerHTML=Object.entries(w.cities||{}).map(([c,v])=>`<div class="article"><div class="stamp">${safe(c)}</div><b>${v.temperature==null?'—':safe(v.temperature)+'°C'}</b><p>강수확률 ${v.precipitationProbability==null?'미확인':safe(v.precipitationProbability)+'%'}</p></div>`).join('')||'<div class="empty">날씨 데이터가 없습니다.</div>'}
+    function render(){const all=db.articles||[];document.getElementById('count-all').textContent=all.length.toLocaleString('ko-KR');[['수원','count-suwon'],['화성','count-hwaseong'],['오산','count-osan']].forEach(([c,id])=>document.getElementById(id).textContent=all.filter(x=>x.city===c).length.toLocaleString('ko-KR'));document.querySelectorAll('[data-summary-city]').forEach(e=>{const selected=e.dataset.summaryCity===city;e.classList.toggle('selected',selected);e.setAttribute('aria-pressed',String(selected))});document.querySelectorAll('.city').forEach(e=>{let active=e.dataset.city===city;e.classList.toggle('active',active);e.setAttribute('aria-pressed',String(active))});const a=news();renderCards('news-list',a,12);renderCards('breaking-list',a.filter(x=>age(x)>=0&&age(x)<=3&&/속보|긴급|대피|큰불|붕괴|폭발|지진|호우경보|산불/.test(x.title)),9);renderCards('incident-list',a.filter(x=>age(x)>=0&&age(x)<=12&&/화재|사망|숨져|추락|교통사고|충돌|폭발|실종|침수|붕괴|구조|경찰|검거|긴급/.test(x.title)),9);document.getElementById('interest-list').innerHTML=cities.filter(c=>city==='전체'||c===city).map(c=>`<div class="panel"><h3>${c} 최근 기사 5건</h3>${a.filter(x=>x.city===c).slice(0,5).map(x=>`<div class="interest-item"><a target="_blank" rel="noopener noreferrer" href="${safe(x.url)}">${safe(x.title)}</a><small class="stamp">${ts(x.publishedAt)} · ${safe(x.publisher)}</small></div>`).join('')||'<p class="muted">표시할 기사가 없습니다.</p>'}</div>`).join('');const w=db.weather||{};document.getElementById('weather-stamp').textContent='날씨 마지막 확인: '+ts(w.updatedAt);document.getElementById('weather-list').innerHTML=Object.entries(w.cities||{}).map(([c,v])=>`<div class="article"><div class="stamp">${safe(c)}</div><b>${v.temperature==null?'—':safe(v.temperature)+'°C'}</b><p>강수확률 ${v.precipitationProbability==null?'미확인':safe(v.precipitationProbability)+'%'}</p></div>`).join('')||'<div class="empty">날씨 데이터가 없습니다.</div>'}
     function setCity(c){city=c;render()}
     async function load(){const status=document.getElementById('status');try{const r=await fetch('./data/news.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);const incoming=await r.json();if(!Array.isArray(incoming.articles))throw new Error('기사 배열이 없습니다');db=incoming;const last=db.updatedAt?Date.now()-new Date(db.updatedAt).getTime():Infinity;document.getElementById('updated').textContent='뉴스 마지막 수집 '+ts(db.updatedAt);const stale=last>2*3600000;status.classList.toggle('warning',stale||Boolean(db.errors?.length));status.textContent=stale?'마지막 수집 이후 2시간 이상 지났습니다. GitHub Actions 실행 기록을 확인하세요.':`수집 상태: ${Object.entries(db.status||{}).map(([k,v])=>k+' '+v).join(' · ')||'첫 수집 전'}`;if(db.errors?.length)status.textContent+=' · 수집 오류 '+db.errors.length+'건';render()}catch(e){status.classList.add('warning');status.textContent='뉴스 데이터를 읽을 수 없습니다: '+e.message;render()}}
     function makeCard(){const title=document.getElementById('card-title').value.trim()||'경기남부 뉴스';const body=document.getElementById('card-body').value.trim();document.getElementById('preview-title').textContent=title;document.getElementById('preview-desc').textContent=body.slice(0,105)||'경기남부 뉴스 데스크'}
