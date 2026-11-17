@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T15:20:38+09:00",
+  "updatedAt": "2026-11-17T15:27:04+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -8,6 +8,13 @@
   },
   "errors": [],
   "articles": [
+    {
+      "city": "화성",
+      "title": "화성시아이돌봄센터, 돌봄 현장의 다양한 판단과 대응 역량 강화를 위한 교육 실시",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE85elREZDdNR08wMHZTS05yemRBdUJfSWdXUHBDZVZkWjF2QVRWUmZfbm5jY2xsRk1YVlRVRFkweDJXbWJZdFlhcWlCVDhrVmthcjc5X2VtRS1ndGpIOHFQSW5BcUlvdw?oc=5",
+      "publisher": "화성저널",
+      "publishedAt": "2026-11-17T15:18:43+09:00"
+    },
     {
       "city": "수원",
       "title": "수원시의회, 이웃을 위한 김장 나눔 실천",
@@ -18,9 +25,9 @@
     {
       "city": "수원",
       "title": "수원시 권선구 금곡동 단체장협의회, 김장김치로 전하는 따뜻한 겨울 인사",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE02MjBfc0d3Nkp5SlVYei1ZWWY2eEFkSF94WkVPMldXcmVCTU02QUZ5aUlRZlBpNTdTZzFTWTZkX0ZfMFhCUUgta19tMjJqSlZSU243eHVZS2lqakhjMS0xQkwwSQ?oc=5",
-      "publisher": "중부시사신문",
-      "publishedAt": "2026-11-17T15:10:09+09:00"
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5vbWRpQU9ZcG9BRHM5T2ZCNG05U0hHemVMSzNTb0pxdzY0TjZ6NUN6b2pyV215YmdlUGU5YTA5aUc4cDI5Mk5KUHZFdzF2YjVQMTYwWm1aVGkxOUs0OVRVOHR4MA?oc=5",
+      "publisher": "경기탑뉴스",
+      "publishedAt": "2026-11-17T15:10:05+09:00"
     },
     {
       "city": "화성",
@@ -234,13 +241,6 @@
     },
     {
       "city": "오산",
-      "title": "오산시, 도시농부학교·토요어린이농부학교 마무리…씨 뿌리고 거두며 배운 먹거리의 소중함",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1oN3U0QmFwNDdaYjdkcFBmNzlxMGsyeUVsUnZtd1RaNmRYODhub3pBTmtHVXpQN05fMmdQS01Kc1E5SlZpM3NjU3d0NFJRUnRkWE1oaHBlT2VCUEZaYUZQdUdVTjYtUQ?oc=5",
-      "publisher": "화성저널",
-      "publishedAt": "2026-11-17T13:59:00+09:00"
-    },
-    {
-      "city": "오산",
       "title": "국공립어린이집 위탁심사 공정성 논란… 오산시의회 여야 ‘정면충돌’",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1TR2JCWkhJTDViTlpjUmVoRGFuMDRXTl9VTFpFYzJSRUpNY05zQ2RXeUhXelRybHBNTGlDcktrWEJZX3VlWmpmWUxmWUJ4YloyWHZrVWIxNDR3S19sS3E1cnJUOUF4d0JBVkdz?oc=5",
       "publisher": "서울뉴스통신",
@@ -294,6 +294,13 @@
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9yaVNaM3A1S1N3dGx0VGN4SlFlMV9KdHMzT0FtTG9KVXVtVE42ajJ4WTdtbXpSLUxpNkI5cUMzUmtZZlFxRVlhZWYxZw?oc=5",
       "publisher": "아이뉴스24",
       "publishedAt": "2026-11-17T13:42:15+09:00"
+    },
+    {
+      "city": "수원",
+      "title": "수원시 의료봉사단, 캄보디아 수원마을 의료봉사",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE51Qzg5ZjFqdndMNUFEWUhHcmYwS3M1WDVqU1AybkhpOFdBZ1FVYjRrMHAwSkd5NVA2Njlaa3pKSEp5dW9zYldfUHpXS2VpT1ltUjJOdkdpM1Y5Z29CSDJRSEJZcF9OaEc0?oc=5",
+      "publisher": "환경일보",
+      "publishedAt": "2026-11-17T13:42:03+09:00"
     },
     {
       "city": "화성",
@@ -422,6 +429,20 @@
       "publishedAt": "2026-11-17T12:32:03+09:00"
     },
     {
+      "city": "수원",
+      "title": "“회복에만 집중하세요, 나머지는 수원시가 지원할게요!”",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9rbzQxcGo1aVcyQzlDR1BES1RQaFFjUmx4LUJST0otXzBnT0k0MVNmQk9rNVZKU1BtdXlNWUcwRFlVdlFJM2FCQzU3a1l6WTdyRC1paFZlbU96RTE5THctVExkT1V0OWRQNlJZWTdR?oc=5",
+      "publisher": "수원뉴스",
+      "publishedAt": "2026-11-17T12:29:03+09:00"
+    },
+    {
+      "city": "오산",
+      "title": "오산시 ‘도시농부학교·토요어린이농부학교’ 성료",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1pVlVxTEN3bUZBdmJ0bTZZakE0TGhpWHF2SzAxRGVaS1V3aHNlQ2luYkFoaU9hX1BudUtjODNaRWxqVUo0MVVIMW92bjBlUzBERXhRVUstMnJ5ckgx?oc=5",
+      "publisher": "오산인터넷뉴스",
+      "publishedAt": "2026-11-17T12:25:47+09:00"
+    },
+    {
       "city": "오산",
       "title": "“오산 대표 맛집 5곳 선정”…오산시, 20년 이상‘오산 오~랜맛집’",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5ZX2VZMWxwMEF6YVpHVU5oUGlZU3I2QlhIdkFsV0FoMmFLZFRUak8tVGIxbXRUemYtMXBsejZBYVFJNjAxYU1wVkhxZw?oc=5",
@@ -506,13 +527,6 @@
       "publishedAt": "2026-11-17T11:50:49+09:00"
     },
     {
-      "city": "수원",
-      "title": "수원시 장안구, 김승원 국회의원 초청 간담회 열어",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE14VDZBLVVJNUc0UDc1bnVnZW43cDdyalBuV3pscU1mdG5DODJUMVItLUtwUThBOGdqRjJlODJ5d3RBdWN2YWFhWmNEWlV3eGtHaU0wOG9LWlI5bkIyT0RSOW0zS0s0ZzlsRFVmRi03LU16QQ?oc=5",
-      "publisher": "웹이코노미",
-      "publishedAt": "2026-11-17T11:49:34+09:00"
-    },
-    {
       "city": "오산",
       "title": "오산시 중앙동에 직접 키운 배추·무 기탁…박영순 통장협의회 부회장, 올해도 김장 나눔에 힘 보태",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeWZTX1N3bnRyeGpBbjZhWGRDS2tqbldSMTdrZEFWVDV1bEpUTEdGa3pBOHgtT1VER1l6T2hVbkROc0d3Wng5dHJJa29XUmFndUNoTjcxLWVFaGYyUjV1Ny1Jal9JQUY4UnNyUll2dXhBMGJkRjA0TDVqWXItRmNGR1pMdmNUb1lGYkNIM2RHZGxjWHNmTXRYSg?oc=5",
@@ -583,13 +597,6 @@
       "publishedAt": "2026-11-17T11:24:46+09:00"
     },
     {
-      "city": "화성",
-      "title": "반도문화재단, 美 팝 보컬 멜라니 아마로 초청 무료 콘서트 개최",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9nalVzZnVLeUhrZFhZSHJvVmZ3ZG1ZbWszUzF3MVVRVUdzSHhoamtLVGhNQ1NiNHZ4TkVZYlE4UTJpYXlOcDVjc2hHQ0htdG5ldGM1dVl5WExmNlFmalctcjBoc0lzZzVkZjRtM0VDaE9OaXJJeGdLdnVka0Y?oc=5",
-      "publisher": "비욘드포스트",
-      "publishedAt": "2026-11-17T11:24:17+09:00"
-    },
-    {
       "city": "수원",
       "title": "[영통3동] 지역사회보장협의체, 취약계층에 따뜻한 겨울나기 온열매트 지원",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5UaUhxXzBlT0NNdllFaC1ac2ZNSjJqR3JHa245LXAtNWc0MFk4RmdIRWplQm9XdzhpM3lXbnRIYWdyN1AtMjFRV18xRjhJc1hDMnh5c2N2RExXVWtmZVMwb1NpbFktWkxpRkk1c1hubTZXRS1WMlF6NWxB?oc=5",
@@ -640,13 +647,6 @@
     },
     {
       "city": "수원",
-      "title": "수원시 3개 노인복지관, 300명 참여 맞춤 서비스 전략 발표",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1POEpSZWloRWtxSm5XNW1NTUUyNHFhMTJvTFpZdnIyVnZlcS1oODJLT0dDY2hXUnJPQUhJN3R3SC1QSmN1cDBZZ00xOTZBOTVFUDMwMVlBRGdJVDdWcmNITjNzRjFESHpNQlRDaXVMbzZ5SU0?oc=5",
-      "publisher": "스페셜타임스",
-      "publishedAt": "2026-11-17T11:08:51+09:00"
-    },
-    {
-      "city": "수원",
       "title": "스타필드수원, 수원시 장안구에 동절기 김장나눔 지원",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9uLXZRNExxMnJmc0tjakpDbGgtQnRPUEY4bkVvaHFzdmlxblBpWkc0Y3drSFZjSVNCT3BYczhIR0JmUmxvbWJvZUdEMGY1dWNiWHRsa1dOZDQwVC1tQ2JPR2xRaDREdlQw?oc=5",
       "publisher": "뉴스피크",
@@ -693,13 +693,6 @@
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA1NWFhbnJfdUZDa3BiWFZlZEVvcEdybFl1MUZIRk9jXzl4NGZTQU00aTJvQjFsLTV2UVh5eHVOR3kxeEtrVVoxUlhwTkNWZGtIdVQxUmxLVC1WRTdyMGlQeUVB?oc=5",
       "publisher": "경기신문",
       "publishedAt": "2026-11-17T10:55:31+09:00"
-    },
-    {
-      "city": "화성",
-      "title": "시지바이오 ‘노보팩토리’, 美 FDA 실사 ‘지적사항 0건’",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsWmhPTW16dlpEb25PMXlCNVRMTGh0bUlJS3RFUmVJbHlDdFY1QkliQ1BkNTNMZGc1V0xkckdWSHdxRU5fTWZZQ3VRVmdxQ1lwb014Mk42ZzhTbXc?oc=5",
-      "publisher": "사이언스엠디뉴스",
-      "publishedAt": "2026-11-17T10:54:24+09:00"
     },
     {
       "city": "화성",
@@ -921,7 +914,7 @@
     {
       "city": "수원",
       "title": "수원시, 병원에서 집까지 돌봄 잇는다…79종 서비스로 ‘살던 곳에서 건강한 노후’",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iUHBXWkctbGxkRHF3WFRUN0ZKOHFJMjBZUUlueGxiaVZraFhRVl9Mc1BvRUdLOXpXR2FFNlZoQ2tiYVRqd2dmQ1VaZ1E4dVhtNk1vN0lFZTc1U1k?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBUnljdE12cnVLblNkQXgwSFhvaVU1aVlHU3VZQ2Jpa01OU3FuQjZNdUUtVlJPYTQya2JRZjZzOG11Y3JLeUpLTmp4elRCay1zWFBXMW9nMG5oZWJ3WWNubHpaMA?oc=5",
       "publisher": "에너지경제신문",
       "publishedAt": "2026-11-17T09:48:12+09:00"
     },
@@ -987,6 +980,13 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9pbk1tVGNSbHR5ZURTTWVWdU41STMzYnN4X0FucDFURTRhek5DRWdqaFNJdzN6ZUlkZUFuMXZfcU53ZWRjamFqQmhnV2s1WVlrOVgtODE3WHNLVXFVNDNNOHJuaWVXRlZOOS1Cam9SOGpIZw?oc=5",
       "publisher": "웹이코노미",
       "publishedAt": "2026-11-17T09:23:26+09:00"
+    },
+    {
+      "city": "수원",
+      "title": "박희붕외과봉사단·민들레봉사단, 수원시 영통구 매탄4동에 전하는 이웃사랑",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcUIwc0FETXdUZ3NrQ0hPWWlHT0VKZU1hS1JOQ3daemZLLXdmODluWVlXZnlJa3NXVzJCUVBxMmlmZnlRQUJzTHl1RWtyeTItOU9HVDY1Mk53UnM5OEJ6ekRfdDV3QXNIV0VZaktFM1NHZFlIb2NkMDlBZmw3bGhMc0dLd2h2OV9kcFFCNk8zZUJzZw?oc=5",
+      "publisher": "성남포커스",
+      "publishedAt": "2026-11-17T09:22:00+09:00"
     }
   ],
   "weather": {
