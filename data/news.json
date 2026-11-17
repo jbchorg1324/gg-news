@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T02:23:36+09:00",
+  "updatedAt": "2026-11-18T04:26:02+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -9,11 +9,11 @@
   "errors": [],
   "articles": [
     {
-      "city": "화성",
-      "title": "[LH] 3기 신도시 레미콘 품질관리 강화…민간참여 공공주택 2만4000가구 추진…화성동탄2 바랑골 느티공원 국무총리상",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZT1BPbjVja1E3Ykdjc0E0NkRTbGRlcTB6ZnVLbDBNNDV0UEptUWVGUzdYMm12MWRQdHFua1JsdEVwVGFwSEYySUEwN28zRUZXbUlTYVI2MEx0WEg0eGJ3aEpYSm5HbWh5Sl96OUF4T2ZXZw?oc=5",
-      "publisher": "웹이코노미",
-      "publishedAt": "2026-11-18T00:46:36+09:00"
+      "city": "오산",
+      "title": "[사설] 세교 물류센터 갈등, 시장들 역할과 도지사 책임",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GVXp5N01nRGw1U2tGbkk2cS14Q25BZE9Hd2RTblVqVWEtR05OejV5WGxDT1d3QVVoUlJHMzdlWEUybzIwTldrY3V0bzFwQmpBSUF3Q1RvQXU1QWs?oc=5",
+      "publisher": "경기일보",
+      "publishedAt": "2026-11-18T03:04:00+09:00"
     },
     {
       "city": "수원",
@@ -77,6 +77,13 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTWTk4dmVoOGVlb3JoQndCU1lnanAxREY0bVc0WlBPNE9PVkpxdmxTRjdQTWw5eVBneWxRUnM5QkdwZDlVN29XRFVYNDBGMlNqV1JnT0o3cXp2dldxSTVLdlNuWEtLbWZlRG9maGJEdU53UQ?oc=5",
       "publisher": "웹이코노미",
       "publishedAt": "2026-11-17T22:44:16+09:00"
+    },
+    {
+      "city": "화성",
+      "title": "화성시 동탄구보건소, 화성소방서와 산후조리원 소방 및 안전 합동점검 실시 > 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9IeEYyYjFWSlVsMURuR0Z0QnhRd3dfM3lGZmc5ZnhaeS1XZHZyOTJIbktocG5lalZKV3Z2VEt6TkNwQ2N6cU5POXpWMA?oc=5",
+      "publisher": "더코리아",
+      "publishedAt": "2026-11-17T22:16:57+09:00"
     },
     {
       "city": "화성",
@@ -184,13 +191,6 @@
       "publishedAt": "2026-11-17T19:03:44+09:00"
     },
     {
-      "city": "화성",
-      "title": "동탄은 호찌민 주석의 모범을 배우고 따르는 정신을 전파하고 있습니다.",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFdlpoTVRhbkpZbU9WQXQxSmJoVTB5eVkxRmt0ZGpiLXVhYUJTOXp6LXFwX2dfOVZRLTFVSWktUWFlWjlvN1R1cnBKSjE3UG9sRUloZHB0eDlfRG1uSlp5QV9FTDJDVWptV0xWak1HYkU5eTBlVjM2ck93ZEVXUVk?oc=5",
-      "publisher": "Vietnam.vn",
-      "publishedAt": "2026-11-17T18:56:56+09:00"
-    },
-    {
       "city": "수원",
       "title": "봉화 청년 농업인들, 배추 2.8t으로 수원 청년들과 김장 나눔",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5DTFpxbjdtcmRVZkxNZW1nTktWSXp4OGlzX2h0SXFBb29ES0JSY2p6aDFMQUtXT2MydHpXVW1GY2RIV2NHMkNsWVFLREtfS0ZPbkxNVVB0SldzTWFTSUFkaUJMUy1vbTBNTVd4eU9vTQ?oc=5",
@@ -203,13 +203,6 @@
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9PVnRyblprbEwxc0tySWRMMmVFc1lQaVBSNk45R0ZTaWZpT1NyNlVvMXNqT0lOaWlSZi1lT1ZydVdDeHB6Uy1GcER3Y1B5RTQxS0hBR3NDdVlKSGVBRklzSjdJVDVIN2dlOHBJS2gwZWcyMzBDbzRTblNB?oc=5",
       "publisher": "수원시 인터넷신문",
       "publishedAt": "2026-11-17T18:19:04+09:00"
-    },
-    {
-      "city": "수원",
-      "title": "수원시의회 2026 사랑의 김장 나눔 행사 1004포기 담가",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZR0RLQTdhcnNLaU9VNXZLRzY4amduUEVWcVJ3Tlp6U1lMbVQ0ZHYwRWI4S0FCY3NGR1pLbGE1c1Q5Z1YySHkwQnJPTUl3NFZjcUJOLXA0bXFvd1oyVTdzVmRkXzA?oc=5",
-      "publisher": "열린뉴스통신",
-      "publishedAt": "2026-11-17T18:19:01+09:00"
     },
     {
       "city": "화성",
@@ -333,8 +326,8 @@
     {
       "city": "화성",
       "title": "화성시기독교총연합회, 개최",
-      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1pVm5tdUZTMmhBanlzX3N5NjYyLXlJcHJRUmRIdnZ3Nko3d3NiUUZKVlJ6T0c3eG9hOFc2ZjJSekxXaTg?oc=5",
-      "publisher": "한국공공정책신문",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40aU0zbHh6X1N4bXZNdXpscmRHaUJnV1FuYTcyLXk3X1JraF92RFlJV19oVHFXS0xqNkFYWVFvYUpwNHhMN0Z1X0R6bDVGMTJGdzNZ?oc=5",
+      "publisher": "유스연합",
       "publishedAt": "2026-11-17T16:56:55+09:00"
     },
     {
@@ -431,7 +424,7 @@
     {
       "city": "오산",
       "title": "오산시, 도체전 ‘재정 현실화’·세교3지구 ‘자족도시화’ 승부수",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51cUxJS2lKbE5uaVgtSXd3Vm9zeWRjUmZjRGlaN1NoMFBDR2ZGcERrajR3NmRqMmItT016YldObHVoeTRTMDFlMjFzUEplaExVSGh5SENoNllMZ0Y4S2JDdGlEdGQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5sSEFWVVRyQTZuZC1KWlB1RUdCV1pmTGN4WkVQSHhrODlTa3Zxd3RBUWlxNEFncmtwY0pWWVRqX3hkRThvSDVrR2ttRjZZXzBkcExNaVhzVmxwTmpiZjU5dVBn?oc=5",
       "publisher": "경기신문",
       "publishedAt": "2026-11-17T16:35:23+09:00"
     },
@@ -632,13 +625,6 @@
       "publishedAt": "2026-11-17T16:05:32+09:00"
     },
     {
-      "city": "화성",
-      "title": "시의회, 제19회 순국선열 애국지사 추모제 참석",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5UcFRIQlBpQ0JueHVONXcxNklqaTFzQ2pILUtocGFLVnl4ckZLa2NvUUcyVEpFNGpWQUctcmxIbVJjaG12?oc=5",
-      "publisher": "화성 투데이",
-      "publishedAt": "2026-11-17T16:01:00+09:00"
-    },
-    {
       "city": "수원",
       "title": "[세류2동] 쟈스민클럽, 반찬 나눔으로 전한 따뜻한 사랑",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5BX0JiZFhTQXNuOUY3Z09FUUExVFhST0lWbTZSajk3WGczdGE2Z2Y3X0UwbnpsTlUzc1hFRUE1RmpHLW5WX01wU0NuRGxVRHB4UnBHc0pFeGF1NU1paU93UnQzYjZ6eHVDakVwaVNjSFlZWVhSR0VmSTdR?oc=5",
@@ -700,6 +686,13 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5rbkxsazFQdl9DTGFrdVhUX1FuWEVpVGl3Z0Rpa2ZvZkRVSWdfS1BTRTdua1NZOERGLUVfQzZmUE9lTVpTWEtLVml2MVg1S3BoYzZVcHlTRnFuZUpqTnNVeWRtcXpXZFBjdDNEQWxB?oc=5",
       "publisher": "현대일보",
       "publishedAt": "2026-11-17T15:48:25+09:00"
+    },
+    {
+      "city": "화성",
+      "title": "화성시의회, 제19회 순국선열·애국지사 추모제 참석",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB0TnVnbVI1OGUweTFXUXVyMUxCMWlEQWlOemFPeDdrcUExVDJrVVBTOVJ1UHg4V1ZZVExaSjZUR2NLSFJQVDBjVGh1cWxHT09ERTZYT0xLcjBrX3JINlRuN3pNalV5dnMxWEZuYW13?oc=5",
+      "publisher": "현대일보",
+      "publishedAt": "2026-11-17T15:48:16+09:00"
     },
     {
       "city": "오산",
@@ -987,6 +980,13 @@
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE91NkZFSndXako1YnVORW1qUVV0ZUdlc3pZeVJ4VUhWZE5lV0lCNGVaUEdZTmhOUXF4T1V5WFN6aTNuVEx1ZjV4NWNZbDBQVXA1MkV3S25GZG5CTkNaRlJTY2tXRS1JNUxaWVBF?oc=5",
       "publisher": "CNB뉴스",
       "publishedAt": "2026-11-17T14:15:01+09:00"
+    },
+    {
+      "city": "화성",
+      "title": "화성 향남 롯데캐슬 시그니처, 주거 서비스 도입",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84LUNiOXJOR0JWZlNrMjlNUnNHM1FjMmI0Q2lCTTNjWUwtdV9HRzZTQjBpajlTckMzYnJteTJDWTZIem5ERWUxRzMxMUp4bUR5NFFJbFVBWHBVWTVF?oc=5",
+      "publisher": "뉴스핌",
+      "publishedAt": "2026-11-17T14:15:00+09:00"
     }
   ],
   "weather": {
