@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T04:20:21+09:00",
+  "updatedAt": "2026-11-19T06:12:24+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -8,6 +8,13 @@
   },
   "errors": [],
   "articles": [
+    {
+      "city": "화성",
+      "title": "한강벨트는 급랭, 반도체벨트는 후끈…동탄 거래 절반이 신고가[집슐랭]",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zQWNOQ1Q3ajFOSTJ5UGJENTZzZ05LcHNucnItWGEtb2UxcjBwRENJN1RVX0xneTFqd2ZlNjdrdTNrVExUMm5FMkRxWmdoM1J2ZnfSAVNBVV95cUxOUk5jSTVrWXg3SFFZdEZDeXJWX1V4UGc0UUVBTXo2a0JJVS0wVU0tdGVJNHFodWgxTlNNaWZZX2tQb3VfaWMyaG1Ndkg3cF9UTHVKMA?oc=5",
+      "publisher": "서울경제",
+      "publishedAt": "2026-11-19T06:00:00+09:00"
+    },
     {
       "city": "오산",
       "title": "[청년의 도전을 응원하는 민선9기 오산시 ④]동네 카페·공방이 청년들의 공부방으로…'오산청춘스팟’'",
@@ -63,6 +70,13 @@
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE44dG1Xc2N2ZW12Y2lVMHpCQ0hSYXFzbkNMN3BOcE5lOWVacUhzMmNxc2ZrVy11d21aOHAxc3FESm00R2JUV0FrNlFTa29JSlA5b2lQMm1qYW8wU0lsS21vTdIBeEFVX3lxTFBZTndoa2N2Q1FYRnlxeVItQl9TT3JiZm51N1c3ckJwVS1ZdFpCZDNZWWNnbjBYeURmZ3ozMVNLT1JnNEs4dTdRNWZTWjV6VkFKektOUjZob211bFRNb3BkcTZnZDQ4d2VDTmhLeEhJR1NZTXV4Tm1tQw?oc=5",
       "publisher": "뉴시스",
       "publishedAt": "2026-11-19T00:00:00+09:00"
+    },
+    {
+      "city": "수원",
+      "title": "아시아 4개국 노인복지 관계자, 수원시 찾아 통합돌봄 정책·현장 살펴",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjYXNVNXAwVW1NVTA0S3dwNHk5V1E5c0FZT3VLUG80OFUtTXBuN1lrWE54Z195TEFtTVZUV3NrLWYtUjVzMGZjaHdNMkxkZGZvZUY0UktpcHN0elNiVi1MMktlU01ZNlY1?oc=5",
+      "publisher": "경기청소년신문",
+      "publishedAt": "2026-11-18T23:36:28+09:00"
     },
     {
       "city": "오산",
@@ -150,13 +164,6 @@
     },
     {
       "city": "수원",
-      "title": "수원시, ‘통합돌봄 정책·현장’ 아시아 노인복지 관계자 탐방",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5heGh3SzFOX2RxZVZEaEJXOUJ1OUllQmxuMVZSN1dBZUpNdGNTWGd4QnV3TmQwSUZKXzYwUTVjX2ZQaThOVGNJWEpjMzdpVjJCN1U1aFlzU2lNZHRKWmM0RFVaeDBHZGZr?oc=5",
-      "publisher": "환경일보",
-      "publishedAt": "2026-11-18T20:07:11+09:00"
-    },
-    {
-      "city": "수원",
       "title": "수원시의회, 제406회 제2차 정례회 개회",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5FWUhKZXJUVmNKVWlZaFZreE5TNVNGNVlPWWpWMU04QnNIOU0ydF9PRDNfRU12bTNTaFFrTFBUMFdqa1hzV0pUZ2VsY1dsUlkwZUdybUNnWXI2YWtiWWRVcGY3c0h0RjN2Vk9VdlRJTThPOUk?oc=5",
       "publisher": "동방일보",
@@ -224,20 +231,6 @@
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBCWk5vVFN3Z25PWC0wOUVyNVpjb0F5R3JGbkg4VHRpMTdGZENyREpWR25hUGFSQWhXc05qYVdnQjJkTUszOHl1Z183RUI3cnI0Qk5TMDN4VFBMUEFYR1pmZEtKVzhUdw?oc=5",
       "publisher": "화성저널",
       "publishedAt": "2026-11-18T18:05:30+09:00"
-    },
-    {
-      "city": "수원",
-      "title": "[인계동] 새마을지도자부녀회, 이주여성과 함께하는 ‘행복밥상’ 마무리",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB2MEZwcGZPY1paaGU0N2ZnMXZDOWRkamNMNlFaQXVyaHdMdW9OWkFGNlZVSUpBc250VUZjZ2EtUlMyY3hQc2FiY3FJeU45TnEwdV9wQ3NiMUhCTmJVbnBOSWlOd3ZvbU9Xc2JxT0lCbmkwRWtkQXM4UU5B?oc=5",
-      "publisher": "수원시 인터넷신문",
-      "publishedAt": "2026-11-18T18:03:08+09:00"
-    },
-    {
-      "city": "수원",
-      "title": "[권선2동] 새마을지도자 부녀회 ‘어르신 생신상 차리기’ 추진",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAxSmwyNVBNTjE3U1R6Rk15UzZhLXphOHFqcEpxNnROOEZQVGVaWEEwcFRFX1J0azR0dVdwZHBtTXd4OW45bnZuRkQ4UVFyTE1YZW0xMDR4YUtrVzVHWnV1bG1haE9LM1JjUmppcDJHekxmQW16UFZIQ1VR?oc=5",
-      "publisher": "수원시 인터넷신문",
-      "publishedAt": "2026-11-18T18:02:25+09:00"
     },
     {
       "city": "화성",
@@ -501,9 +494,9 @@
     {
       "city": "오산",
       "title": "국공립어린이집 위탁심사 논란에 오산시의회 여야 갈등 재점화",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1KbDlpVXB3Wi1oRmo3Y2ZaMkM5RHk5ZDlaMkN2MzBuY2Nram1BRmJtRkJMQ3E1dXZtSmxKZ1ExWDNGUzc3UGF4V01XelQ0cXY1Ty1yQUozSmdSOHFFZW5TSXJfc0Q1WFYzZ19FQ3N3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9tNjZ2SjZheDdtUTVvUnpmZXVPbTdzQ2ViZWU0dEpvbGhQeVh5bzJXR0NXTDNMcGNJQ3ZPQkxhV3dTTGRpX1ppakVSWFR2c1BIQ3pzanpVSGxzY0JEVF9YenZsZldRNjg0UnExWElKdw?oc=5",
       "publisher": "중부일보",
-      "publishedAt": "2026-11-18T15:23:41+09:00"
+      "publishedAt": "2026-11-18T15:23:00+09:00"
     },
     {
       "city": "수원",
@@ -518,6 +511,13 @@
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5kTHlLTGRIMmFEbkM2SFdwVEtreDhGVlJ6djRKLTNfbkZKN0k3SmVHbnI2SEMxNWhPOFgxdVhLSEJQbUxZeDJ5X1BxajBnb2JSN0c3VmhJNDBrRGhyeTNvUW9Gck0?oc=5",
       "publisher": "뉴스Q",
       "publishedAt": "2026-11-18T15:21:00+09:00"
+    },
+    {
+      "city": "수원",
+      "title": "수원시 2027년 예산안 4조 2,002억 원·19.4% 증가…이재준 시장 “정책은 실행으로, 성과는 시민에게”",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9xdWVKYUVqLURzc3hOR1NvVlFvQndTN2thQlNBTjJHNWFmSnBjQmItcnZiLTFrdC1QTnpneFVYVEVOYm9vR25kQzdwQjZucDlRajNsc2UwSlJjRVlYd0NoVmV4X0ZxVmVCbGw1X2Jucw?oc=5",
+      "publisher": "월드장애인사랑뉴스",
+      "publishedAt": "2026-11-18T15:20:12+09:00"
     },
     {
       "city": "수원",
@@ -919,6 +919,13 @@
       "publishedAt": "2026-11-18T11:30:50+09:00"
     },
     {
+      "city": "수원",
+      "title": "수원시 권선구 호매실동 통장협의회, 역량 강화 및 화합 위한 2026년 워크숍 개최",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9SaXM0QXNqenBCZzRicEFLMDBtNXRjUDZ6UnBYZDIweXJ3b1hVRVkxNUw4cDZWQk84eDNPbzdNNHIzRWpaNElLX3pQUmpyY2FOMWhMRGIwaWo3SXFL?oc=5",
+      "publisher": "누리일보",
+      "publishedAt": "2026-11-18T11:30:47+09:00"
+    },
+    {
       "city": "화성",
       "title": "㈜범천정밀·경기적십자사, 화성시 취약계층에 김장김치·실버카 지원",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONGpTa2FMZTlybm5Hd3k2RXFoTXpfS3A1d1FMcEo3NTllZ2VQTElzUWtaZlprRl9RR2F4UThZa0VnbVB2c1RYdGp2OUlDNk1wcFlmd0ljb3ZLSUVMb09SQWlESmpGQkdiLVJoU2xvRlBNdnMzblFnSF9UVFd5cFJvaU9PLVNONHZHbEZnZTJYRG1SR0VveXFoOXB0Qy1rMHdGUFBmWmkxQXJORk5qYW5F?oc=5",
@@ -945,13 +952,6 @@
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1WTm8zVGdDb1JVeVhtSEJJRDVadjlXWFZTbWIyWTJQOGlWZ2lJcFBwdllOSXpHUmF2YXpBcV9TeDctYnBudHNKVGg4SFJzeGtuREZYNXh2WGNCR3BUZXRlTlpB?oc=5",
       "publisher": "경기신문",
       "publishedAt": "2026-11-18T11:19:03+09:00"
-    },
-    {
-      "city": "수원",
-      "title": "아시아 4개국 노인복지 관계자, 수원시 찾아 통합돌봄 정책·현장 살펴",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GTEpIM1gwRlNjdVdScHNvN1JvbjF1cnhvMk1CVl9FTUtGYkV3NWlyTEpkbzl4alZ6QjFlczhHM3hMMm1xU1Y3UXBkWWgyZ1prRHpYVUVkOFRpVGEwY0R1bQ?oc=5",
-      "publisher": "경기경제신문",
-      "publishedAt": "2026-11-18T11:14:00+09:00"
     },
     {
       "city": "화성",
