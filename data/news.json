@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T01:20:35+09:00",
+  "updatedAt": "2026-11-19T02:24:30+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -154,13 +154,6 @@
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5FWUhKZXJUVmNKVWlZaFZreE5TNVNGNVlPWWpWMU04QnNIOU0ydF9PRDNfRU12bTNTaFFrTFBUMFdqa1hzV0pUZ2VsY1dsUlkwZUdybUNnWXI2YWtiWWRVcGY3c0h0RjN2Vk9VdlRJTThPOUk?oc=5",
       "publisher": "동방일보",
       "publishedAt": "2026-11-18T20:03:38+09:00"
-    },
-    {
-      "city": "화성",
-      "title": "수능 시험장 제설·난방·교통까지…화성시 총력 점검",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1FSFpReDVITWlwUzV2bDdoUGlVeE1nWEprcDZoU2xyaFZOMlk3WWdXNC0xamZfdGMyay1Sb05wVm5WNzVsRHhTY0lyekp5QmxlSDVUZi1iS1dmU21JUm8tWGY0em4?oc=5",
-      "publisher": "suwonilbo.kr",
-      "publishedAt": "2026-11-18T19:48:11+09:00"
     },
     {
       "city": "오산",
@@ -681,6 +674,13 @@
       "publishedAt": "2026-11-18T14:07:00+09:00"
     },
     {
+      "city": "화성",
+      "title": "화성특례시, 제19회 순국선열·애국지사 추모제 개최",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jNFV1NU0zQlViRkZYM3Fpc3NSRXNlZ0ZRYkNSVWl3c2NIRXhQSTM5X2VUVEM3OEZhYmNzSmptVDhtRHpUTmw1U0Z1SDlRWHdYSUpLa0pXdlY2MUZ2WGpaT1lwS3B4UVVO?oc=5",
+      "publisher": "경인매일",
+      "publishedAt": "2026-11-18T14:06:07+09:00"
+    },
+    {
       "city": "오산",
       "title": "오산시, 시청 광장서 '겨울빛 누리마켓'…공연·트리 점등",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjVDZJWDhYUFVPNkYzNUZwMThVenpKY3dZZFNrb0pBWjJfUC14SkRPSXBWb3JFODNkTFdTMEVMcGhjOE9PemplNklFM1k1aWZUeFpObmcyYnVsOXJYVWJQUWQyTlVVWHVsN25LLW9lMUt1U0lSSW5rS9IBeEFVX3lxTFBjVDZJWDhYUFVPNkYzNUZwMThVenpKY3dZZFNrb0pBWjJfUC14SkRPSXBWb3JFODNkTFdTMEVMcGhjOE9PemplNklFM1k1aWZUeFpObmcyYnVsOXJYVWJQUWQyTlVVWHVsN25LLW9lMUt1U0lSSW5rSw?oc=5",
@@ -746,8 +746,8 @@
     {
       "city": "수원",
       "title": "수원시 권선구 세류2동, ‘2026년 사랑의 김장 나눔 행사’ 개최",
-      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9wRUJHakViRXBDV05nT0kxRnJrRDdacHhHdHpsY1JQVGhPUE1mQVNvQTBRVkRYLVNBcDgtNVA5T0NudU0?oc=5",
-      "publisher": "성남포커스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE41aDhVUVAyRS04a1NraG5JSmNuRlB2SDNTYU4tVGwzal9QaHNtYmgza0xlemxmN0hDREhRWWV4NDhVSnEyb3hLMWJR?oc=5",
+      "publisher": "경기평화신문",
       "publishedAt": "2026-11-18T13:20:00+09:00"
     },
     {
@@ -756,6 +756,13 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5DZ2k0NXpHdGIzMFVqVkZDRVVxMGRaSDFFZE1oOUVaYzVING1Kb0M2LUJpc0FuMnlzZVYzT0w1QmlnNnNwQmFTLXctYzBibWhlcURZaXBtdkhOTFVuZklVdk9yYkJNSU42Ym5vNzNR?oc=5",
       "publisher": "전국매일신문",
       "publishedAt": "2026-11-18T13:16:58+09:00"
+    },
+    {
+      "city": "수원",
+      "title": "호매실동 대회의실에 ‘소통의 빛’ 켜졌다... LED 전광판 설치",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE56Y3c3VDZ6SUlzakl3Q20tNTVuU0lWYUJWRDZreHpEb1VzN0tRZUFFd0ZwMno4aV93V1F1QS1CRklIdi1xT3ZINDZ4eDFYSTZYUnBib1JpMHVURFl4YjkyVU1kblluZ29yNVBLcjd2Y2JuRUNUWXNhRGtB?oc=5",
+      "publisher": "수원시 인터넷신문",
+      "publishedAt": "2026-11-18T13:16:40+09:00"
     },
     {
       "city": "화성",
@@ -978,13 +985,6 @@
       "city": "수원",
       "title": "[매교동] 쓰레기 방치 중장년 1인가구 발굴 수원 새빛돌봄 주거안전 서비스 연계",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9FNXF6S2FDN1dDTGYzUHJ1Wm9za3YyWUNkZlpUU3c3VGVfaUlPQ3RMZFJNYXoyRGVxb1FGNk1CSEFmSWMyMEludHdxcUZLLUxYR3JaVDVSaElNVWQ4bGJEUGo4MzhZR1lFUlk1WFIxZkktSDZDRFNldzlB?oc=5",
-      "publisher": "수원시 인터넷신문",
-      "publishedAt": "2026-11-18T10:59:27+09:00"
-    },
-    {
-      "city": "수원",
-      "title": "[입북동] 사랑의 김장 나눔으로 따뜻한 겨울 준비",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1RzZSTUx3T2lDS3Y0WnI3Nk1ReFhxTFdNdkV1WVNLMmtYbDJObkxVOG9iMUFSYTJjaTd2eklIWjhMSUVVcExsQmtKTVcyN1N0ZVNtaFYtTVc4SXpEZUI2LU9JWUhZb3R3TVZkWk9vcUpOUmJDQ0prSVBR?oc=5",
       "publisher": "수원시 인터넷신문",
       "publishedAt": "2026-11-18T10:59:27+09:00"
     }
