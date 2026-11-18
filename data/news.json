@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T02:24:30+09:00",
+  "updatedAt": "2026-11-19T04:20:21+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -129,6 +129,13 @@
     },
     {
       "city": "화성",
+      "title": "화성시어린이문화센터, 초등학생 대상 AI 감염병 예방 교육 운영 > 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1YWWRSTmNpUHM0elMyUW5neTljRm1WNmFEN1NiVk1sRU9SaUFfVThUY0V4QWN3X3JoUWZzY05ROXc1T29xNGt1WFFCbw?oc=5",
+      "publisher": "더코리아",
+      "publishedAt": "2026-11-18T20:28:39+09:00"
+    },
+    {
+      "city": "화성",
       "title": "화성특례시, 순국선열·애국지사 추모제 개최 > 뉴스",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBnZnRIWEM1cmhCU3NhNTlQVWRJcERHX1ViNDQ0ZkZHQ1pOeFdQS09pNC1QSkgzeU1oWG5Lc2JhUy1iNnVfcENDeElESQ?oc=5",
       "publisher": "더코리아",
@@ -193,7 +200,7 @@
     {
       "city": "화성",
       "title": "수원지법 화성시법원 신축부지에 '병점복합타운' 선정",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBER2FPX21tZVFQRC01dGZTaHprUnU0aGNCRmk1TTFLeE8zbTJFMDVHNGxhZEVCSUZOYWp1blhCc2ozaU16d0s3MFVRU1NBaENQbnJtVU1PSVVoSm1DOUJyTWRRQU9KZ1JhUF9mZ2RxelFIQ3JxSnllLdIBeEFVX3lxTFBER2FPX21tZVFQRC01dGZTaHprUnU0aGNCRmk1TTFLeE8zbTJFMDVHNGxhZEVCSUZOYWp1blhCc2ozaU16d0s3MFVRU1NBaENQbnJtVU1PSVVoSm1DOUJyTWRRQU9KZ1JhUF9mZ2RxelFIQ3JxSnllLQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8xSzc3ZkFxY0VOdWJhSGN6YW0wQ2tuUHZQZURGaVdXQmt0SFdtWDNlVlBTMnUtbnVkNHFBc2NfQmloQTRtMnRhRkRtX3ROTlRRMUhBMDNBWllueFFqMjRGatIBeEFVX3lxTFBER2FPX21tZVFQRC01dGZTaHprUnU0aGNCRmk1TTFLeE8zbTJFMDVHNGxhZEVCSUZOYWp1blhCc2ozaU16d0s3MFVRU1NBaENQbnJtVU1PSVVoSm1DOUJyTWRRQU9KZ1JhUF9mZ2RxelFIQ3JxSnllLQ?oc=5",
       "publisher": "뉴시스",
       "publishedAt": "2026-11-18T18:48:10+09:00"
     },
@@ -336,13 +343,6 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA0RjVkZWVkYnM4T0xrTmhITE9ndGcxQ21XVVdYYkNNV0xzN2JreF9DZ3FJVjZzX3hSVjJHVzc1ZkRIOFByaERqZzZnZXNtN05jdTB4dVdFN2pQQdIBVEFVX3lxTE9PSm5sUko4Q25sV2lGUDVIa0VWLVhCbzU0dkRyRHlpaFZnZ2dqaURSMkZXRl93YXVkdzFxRFB3ZS1hMGRIeUR3bGRfdkVQaEZ3NEN0cQ?oc=5",
       "publisher": "더팩트",
       "publishedAt": "2026-11-18T17:05:19+09:00"
-    },
-    {
-      "city": "수원",
-      "title": "이재준 수원시장 \"특례시 발전 위해 재정 특례·법적 지위 확보 필요\"",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE82LXNEcjBXSjRqQl9nclUzUVZfc3kzcmwwQjJCN2cwN3I0YURoUzBtY1FTeG1tODRjY2RFZ1RYN0hmRUVjU0FLWWR3QzJWUmVOLS1ZWjFtSDF3TzNaREROd19B?oc=5",
-      "publisher": "경기신문",
-      "publishedAt": "2026-11-18T16:57:55+09:00"
     },
     {
       "city": "오산",
@@ -604,13 +604,6 @@
       "publishedAt": "2026-11-18T14:46:40+09:00"
     },
     {
-      "city": "수원",
-      "title": "[포토] \"수험표는 받았고 합격은 받으러 간다\"… 수능 예비소집일 수험표 배부 및 후배들 응원전 열려",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5vVnRhRzVPTTRUbkd6OGp6OUtpekxsTWZVb0hEcEZmdXAySVhxUndFYllNektBSjNBTW9PZ3A5VmhrZ296QWtYcTFkREhlZ2pFNE16U0haal9XX0hmV2RpamVB?oc=5",
-      "publisher": "경기신문",
-      "publishedAt": "2026-11-18T14:43:31+09:00"
-    },
-    {
       "city": "화성",
       "title": "화성시, 순국·애국지사의 숭고한 넋 기려",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9qQ2NTcGRMYWxNNG9LNkliRFZsQ2ZqeVBLUHFPOUlRWC1aNXNYQk1nRGVuZ1hRbm9UTHlOWDhkUUwyV2NMLUU2ZVYwR1ZXOVgweU1vSWpVcUhnUTcxbWZCMUNJbjZXYVo4dzB2d3BR?oc=5",
@@ -711,9 +704,9 @@
     {
       "city": "오산",
       "title": "오산시 초평동, 8개 단체 손 모아 김장 900포기…이틀간 담근 김치 취약계층에 전한다",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA1Q0EycHhTOWY0eFQxQjVHMjQwbWRuV3Q2VVZhb096NWdqMXowcHBDX1lFZUVjd2FjcGhfRXlYUHllVWlQTEQyYzZqVGE3aUpKYmRBb2Vid25feDIyNGNBRDRxcw?oc=5",
-      "publisher": "중부시사신문",
-      "publishedAt": "2026-11-18T13:51:19+09:00"
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YemZEOEctdkZVYTVEd2l4MXB2U3pIV1RQWl9oSFpTZDZuVWlPMFIta1Vobk1tWkFzTXMzZXZaRHVlVXRaTjZUandhaUt1V3FjUDR0eUEwMnBpaEJfT1FJYWI3dFI?oc=5",
+      "publisher": "리버럴미디어",
+      "publishedAt": "2026-11-18T13:51:09+09:00"
     },
     {
       "city": "수원",
@@ -864,6 +857,13 @@
     },
     {
       "city": "수원",
+      "title": "수원시 내년 예산 19.4% 증가…반도체 호황에 급증한 법인세가 견인",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE92WWFlNURLTHFveUpYTFY1Q3E4NmdCSjNCSjNUNnUyU3RGUW00MWtORnRpSnI5U0ZZZUxtSWtZQkZTRUtxQjJNLTJCNk8yLXBrQkg5U3JGdVk3dEpWOXJUbkVxQQ?oc=5",
+      "publisher": "쿠키뉴스",
+      "publishedAt": "2026-11-18T12:30:27+09:00"
+    },
+    {
+      "city": "수원",
       "title": "수원시, ‘주차난’ 권선1동에 공영주차장 준공… 3주간 무료 개방",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zbHFwMHJnX3Q0Rm4yVjRsd092cWdDYXNpOE1oTmxWaHcxWjhzclM4Y0FfWFlneFEyWWx4MEtoelpIWHRNSjRPSXlaamlneno1a21zMC1sZVZqUDhRZHVYaWxKdXRhUWhlMkE?oc=5",
       "publisher": "천지일보",
@@ -968,13 +968,6 @@
       "publishedAt": "2026-11-18T11:04:32+09:00"
     },
     {
-      "city": "화성",
-      "title": "화성시, 제87회 순국선열·애국지사 추모제 17일 개최",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBpSEN0ZWV4OFhHdHpsd3ZvTndfMHFDZUY4ZWNsLVc0bVJncDJCNUM3SWZUV0FmaE5nY2R2amQ1Q0FIemxmV1FoWFhXQU1tT1VVYTRWdFhzejE1MGExUkxGWko5REM3VGNNMDJj?oc=5",
-      "publisher": "한국사회복지저널",
-      "publishedAt": "2026-11-18T11:01:51+09:00"
-    },
-    {
       "city": "수원",
       "title": "수원시 팔달구 매산동 지역사회보장협의체, 위기가구 100가구에 따뜻한 겨울 선물",
       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB3aVpJTTE3Y0lrZGtfN2JXSnRiVnZTcHlMMlhyNk5QMk01VUIzTjlxNWFseUc3Q21vMl8zTHVXaFZxeGZwY2M1QVV3?oc=5",
@@ -985,6 +978,13 @@
       "city": "수원",
       "title": "[매교동] 쓰레기 방치 중장년 1인가구 발굴 수원 새빛돌봄 주거안전 서비스 연계",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9FNXF6S2FDN1dDTGYzUHJ1Wm9za3YyWUNkZlpUU3c3VGVfaUlPQ3RMZFJNYXoyRGVxb1FGNk1CSEFmSWMyMEludHdxcUZLLUxYR3JaVDVSaElNVWQ4bGJEUGo4MzhZR1lFUlk1WFIxZkktSDZDRFNldzlB?oc=5",
+      "publisher": "수원시 인터넷신문",
+      "publishedAt": "2026-11-18T10:59:27+09:00"
+    },
+    {
+      "city": "수원",
+      "title": "[입북동] 사랑의 김장 나눔으로 따뜻한 겨울 준비",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1RzZSTUx3T2lDS3Y0WnI3Nk1ReFhxTFdNdkV1WVNLMmtYbDJObkxVOG9iMUFSYTJjaTd2eklIWjhMSUVVcExsQmtKTVcyN1N0ZVNtaFYtTVc4SXpEZUI2LU9JWUhZb3R3TVZkWk9vcUpOUmJDQ0prSVBR?oc=5",
       "publisher": "수원시 인터넷신문",
       "publishedAt": "2026-11-18T10:59:27+09:00"
     }
