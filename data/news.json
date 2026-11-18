@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T00:17:07+09:00",
+  "updatedAt": "2026-11-19T01:20:35+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -8,6 +8,55 @@
   },
   "errors": [],
   "articles": [
+    {
+      "city": "오산",
+      "title": "[청년의 도전을 응원하는 민선9기 오산시 ④]동네 카페·공방이 청년들의 공부방으로…'오산청춘스팟’'",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xSW1LaGd0cWJoTXJHbkZyMkVHX3R4b29DMlAtOUk1czlKbWdfNmV1VmYwUHA5Q2VrbWUzcENfUjRaUEdLeTZfdGdWd2FyTnFsdU1pcjRFRG5ja3hOSDhz?oc=5",
+      "publisher": "광흥타임즈",
+      "publishedAt": "2026-11-19T00:28:38+09:00"
+    },
+    {
+      "city": "오산",
+      "title": "오산 시민사회·진보당, 국민의힘 ‘오산시정 발목잡기’ 질타... “과거 인사 파행 돌아보라!”",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE44MFFpaUp4OU9wR0RYTFZIeUNDSFZHNWpNZTNRbUhVUDVEZ05jRHJhX04tci01NTZ4QXpzS2ZzWk9JUnFScW0zT3NMWHVjNU5welpzNEVMVmFHTmc1dUxPdjVjRDRDdmdPQ1lpSXlROA?oc=5",
+      "publisher": "뉴스파노라마",
+      "publishedAt": "2026-11-19T00:21:12+09:00"
+    },
+    {
+      "city": "오산",
+      "title": "청소년 범죄예방위원 오산지구위원회, 올해 마지막 등굣길 캠페인…학교폭력·딥페이크 예방 알려",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE94OXg5RXVSTmd4OHNEZnBfSmIwd2E1Z2ZkU0s1RkJUamM5MGFWMjRRZk1xeVh5c0dPcUNHT3dCSzZJN2pmeVYxYTZoQ3MzNVJ3MmdKYUJWeWZXRHBZeGJDYW9YbmlHT3lidEhncU5Vdw?oc=5",
+      "publisher": "뉴스파노라마",
+      "publishedAt": "2026-11-19T00:05:41+09:00"
+    },
+    {
+      "city": "오산",
+      "title": "사)경기도여성단체협의회 오산시지회, 김장 나눔으로 이웃사랑 실천",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5sMGRueGpsWEtuVDRQUTd1NDVzUHd1R2lZck14R2FnMkJPejEzbVhRWUJ3Njc4NlRSZmZwTlJSekc2NWtXVVRaWG9VQ09sQm1TTnFEcVZObjgwX0gxRFF6X2V4U3UwNDR4aUhQVl82dw?oc=5",
+      "publisher": "뉴스파노라마",
+      "publishedAt": "2026-11-19T00:05:26+09:00"
+    },
+    {
+      "city": "오산",
+      "title": "오산시 드림스타트, 졸업 앞둔 아동 13명과 1박 2일 졸업여행…창덕궁·한강 유람선서 새 출발 응원",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1xZHo0THVfZUt6WVRveFJGTWVVTkhJTHE1SFBoMy1lU29ZT3RLRGlDS2pnYW5sVWlBRTI5UkxZb2U2UUdMZ0xrQzEzOFd0UWQ2UEFaNVBVMjJxa0NnSmtfM1hMQjFxZU8wSW9rZXFZUQ?oc=5",
+      "publisher": "뉴스파노라마",
+      "publishedAt": "2026-11-19T00:05:26+09:00"
+    },
+    {
+      "city": "오산",
+      "title": "오산시 초평동, 함께자람센터 우미린센트럴시티점서 김장김치 20박스·목도리 30개 기탁 받아…이웃 나눔 실천",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9oLWlGU2tBbzV1T2tBbUZWZDQ3MF8yOXR6RHF6cUpiZkJueF83aG5GUFRpU0pzUEpLQi1zTVE3SllfV2czcXZoaTFIX0JvaFlSRDIwVW5pWU5Ub0F5emRBTllUSUxIVVZ2NzZCWlVJTQ?oc=5",
+      "publisher": "뉴스파노라마",
+      "publishedAt": "2026-11-19T00:05:26+09:00"
+    },
+    {
+      "city": "오산",
+      "title": "오산시 대원2동, 7개 단체 손잡고 김장김치 담가 100곳에 전달…통장들이 직접 키운 배추 350포기로",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9QbGpibDluUkpWQkp5clREUFJtOEZETV9seHFDeWNyS09NYXJJZDdSaWVfSEpheEVQSklWSGViQTREa2wydUcwSE9QaHFiamZOOFRVZkZiRFBRSURVS1BROVp3V0padl8tQlI3aWFiZw?oc=5",
+      "publisher": "뉴스파노라마",
+      "publishedAt": "2026-11-19T00:05:26+09:00"
+    },
     {
       "city": "화성",
       "title": "\"지하 2층에서만 99칸 날려\"…얼굴에 침 뱉기 감수하고 고발한 주차 실태",
@@ -23,13 +72,6 @@
       "publishedAt": "2026-11-18T23:34:14+09:00"
     },
     {
-      "city": "오산",
-      "title": "오산시 드림스타트, 졸업 앞둔 아동 13명과 1박 2일 졸업여행…창덕궁·한강 유람선서 새 출발 응원",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41dElBdDJwelpPQ0lmMWRRNzRkTTdpUkEzR3ZNYnN1SThFZkdCQm5sMmZOZTkzTWFjMkVrWU5lY3hDcTJOeXZYQ1dmZ1o1YjRIWHExRTNsZkg2QTV4N055aTM4ZUpkWE04?oc=5",
-      "publisher": "광교신문",
-      "publishedAt": "2026-11-18T23:30:14+09:00"
-    },
-    {
       "city": "수원",
       "title": "수원시 장안구, 여성합창단과 오찬간담회 개최",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aLWZtQm1ZODRCNS1hRHJpZzJGc3NyajRwak1sam9STDBFTTJVclRkWGxZNS14U1FfeTZqX2NGZGpkRTVtX0NNRlZLM2o0UkNGaEZlNTk4VF9TcVcwNk1ZdGtNcnJMd0k3?oc=5",
@@ -42,13 +84,6 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQWnlIRkZxdk91SUx4UUsxTW0zbEpSaUx0a1EtMGpzMjhXd3h1LUhIX2kweXZPV1ZCR2ZGdFN1TWRleG9veGlKcEhPdHRwbUdoaVJKd2NSemExS3NoYUJuNk5obEppUDFNRFE?oc=5",
       "publisher": "천지일보",
       "publishedAt": "2026-11-18T22:48:52+09:00"
-    },
-    {
-      "city": "화성",
-      "title": "수원지법 화성시법원 신축부지로 '병점복합타운' 선정",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5PcmJhLTMxekIxTzZ3YXJCbHU0cXFoTlc4S2pQN09pT1lQOGc1RFJtYmNjbHVPd3BDR01LbHFIN1VsczNnaUI2YjduZDRzQkJtNGZCU3FwUmp6eG8?oc=5",
-      "publisher": "경기일보",
-      "publishedAt": "2026-11-18T22:45:11+09:00"
     },
     {
       "city": "화성",
@@ -72,16 +107,9 @@
       "publishedAt": "2026-11-18T22:00:43+09:00"
     },
     {
-      "city": "오산",
-      "title": "[청년의 도전을 응원하는 민선9기 오산시 ④]동네 카페·공방이 청년들의 공부방으로…'오산청춘스팟’'",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fWVVzcVpoR2Zod0dyYkZwb21uM2hFUzZ6QkZpbm01UjVHS2pXN3ZUWkxlcjBuODBQNGJIM1R3Y0VGQ3ZWRlZWcFh2Mk5yZng2VzZJa1lRNUJtdw?oc=5",
-      "publisher": "경기헤드뉴스",
-      "publishedAt": "2026-11-18T21:51:37+09:00"
-    },
-    {
       "city": "화성",
       "title": "‘동탄→영통→기흥’ 뜨거운 경기 남부…양극화는 심화",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1fdDZ0S1ZRQWRGUHNfMGQzS2REUG5wUVRmdjJqN0ZnS01oQ1EyMG9qRXdENnJvc0VqS2tqcjM5UDVBdW1tY1RjYmR5VGhtdzR1UWs2SUxVbGFPeHNCdTFSbHlFX0RRQQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9EQW5fa3VhNG1uM1pKVzAwdVVINS04b2hPaGRBTnZxdFpRY3lwOWFTS3RhTm1zcmd2ZFpIX1BqdUhmVkZ6TXRZYkw5V0xyRlBTdzB6blB3ZnJrV28?oc=5",
       "publisher": "KBS 뉴스",
       "publishedAt": "2026-11-18T21:40:00+09:00"
     },
@@ -140,6 +168,13 @@
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB3ZWpHT2NhM2haU1VMblpYT0tDOVdtMFBWNUFqdWJWRWFVUFIzWUo3QlNydFpvZVY2ZlFfVmRuRk1XT05YSDhMcUxaQ0hjWWpudnZKZ0VEcnZVNE0wYmc?oc=5",
       "publisher": "뉴스투데이",
       "publishedAt": "2026-11-18T19:37:00+09:00"
+    },
+    {
+      "city": "화성",
+      "title": "수원지법 화성시법원 신축부지로 '병점복합타운' 선정",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5PcmJhLTMxekIxTzZ3YXJCbHU0cXFoTlc4S2pQN09pT1lQOGc1RFJtYmNjbHVPd3BDR01LbHFIN1VsczNnaUI2YjduZDRzQkJtNGZCU3FwUmp6eG8?oc=5",
+      "publisher": "경기일보",
+      "publishedAt": "2026-11-18T19:13:37+09:00"
     },
     {
       "city": "수원",
@@ -256,7 +291,7 @@
     {
       "city": "수원",
       "title": "수원시 안전정책, 지역 행사·일상까지 넓힌다…시의회 연구회 실행 로드맵 제안",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMkhGUG04Snc2WFFjVHpZYlZLclhONGd6dUdWcVVMRGx5OTVZeWZ5OGlQTFVSZ0JJTFRZaTVMdmdaTWdBUkZEZERZS0NYcmNGTFNkMHcyaGFpbUZ0MFBqOERyaFJaTUh5Y2VULUVBcHNzTkFXWHVtejRSNGxmb2hGbEVNOGlRb1VvSHl3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMWRubmZOVXJRYUtIeHQwNXRMRHN0RnlYblhZR3FfbGNZMkJIS3pKNHZGcl9hcF9ZN3ZyS3hkUGg3VEVDODk3SEFNclg4eEhuMkpILTlQaXZXNFBEeDlHb2tYY1N0RGF2UHJWX1JSSGJVR1R4SFdlVlJLTnQ4YXBYd004NA?oc=5",
       "publisher": "글로벌이코노믹",
       "publishedAt": "2026-11-18T17:30:35+09:00"
     },
@@ -385,13 +420,6 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5seGFQREFJcXYwcC0yTzBENDFwdGdsU1ZMSFN3dzY0V1k2NGFIajJFVDZnY0V6LUo3LTRHaENqU3NDX2drb2Q5UDZXaVNtTGc1NnExQlNlNHFpZG1SMmtycGpNRzNsWkZtSmxWSjdCTnRwUQ?oc=5",
       "publisher": "웹이코노미",
       "publishedAt": "2026-11-18T16:22:32+09:00"
-    },
-    {
-      "city": "오산",
-      "title": "오산시 초평동, 함께자람센터 우미린센트럴시티점서 김장김치 20박스·목도리 30개 기탁 받아…이웃 나눔 실천",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8zQUtpbXJtdjZLdkhoY2pCdjZVaHMweVVqeUg5c1c5dXlTdXM5eHRfMkxFbmFKYzVkSVdPNkpFOGFNaTNfZGpoSXdvOUdnMVl2YzRwQThSckgzaEJOYnpMVmpISDFqVFlRODFpMWg1anFZdw?oc=5",
-      "publisher": "웹이코노미",
-      "publishedAt": "2026-11-18T16:21:31+09:00"
     },
     {
       "city": "오산",
@@ -535,8 +563,8 @@
     },
     {
       "city": "수원",
-      "title": "[패트롤] 수원시-수원시의회",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9UVFcwQUh4aVpYU3RpSEJqTk9aTkRwU2ZSQWJBMGo2V0R3bEZxRW9Tc0FtR1JlajY1b3RNRGRuMEpERXczZUx5ZUp2dzl3ZUdfX3lEUWNiNmpxWGZiWXNNSk5ibw?oc=5",
+      "title": "[패트롤] 수원시-수원시의회-평택시",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByd1haeUw0WFJ6UjVyOXowMmFTYmpEZHF6WjlsbFE3SmtSQzNLQ0JOTU5yU3RPM1Q5bjVMY0FSVG02a1pxNVo0dmVlXzUyUlY2T0RiVWowNDFWWWM?oc=5",
       "publisher": "에너지경제신문",
       "publishedAt": "2026-11-18T14:58:32+09:00"
     },
@@ -682,31 +710,10 @@
     },
     {
       "city": "오산",
-      "title": "사)경기도여성단체협의회 오산시지회, 김장 나눔으로 이웃사랑 실천",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1tMy1xaEM3ZEZsMjNTN1BlVkk3QXdiQk9XbGZiWExOYlNqTTA5R1o2bzhHMjF4Z1hNVFNuN1pIMGdaNk5hSW1yYnJBWkgyWHA2b2h4Qkd2TGVfMGhhRU9wRFAyVQ?oc=5",
-      "publisher": "경기탑뉴스",
-      "publishedAt": "2026-11-18T13:50:55+09:00"
-    },
-    {
-      "city": "오산",
       "title": "오산시 초평동, 8개 단체 손 모아 김장 900포기…이틀간 담근 김치 취약계층에 전한다",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9SZ293YjNHRnotR24yMVBmRTViRGY5LWJneXlDYUV6eUNOMlVydlNPM1hJcmI3YmhBTlFrU01HaFdWcENuUmtUSTZGQms2aEJZV3hzNW1aVXZJRE10YUJBdXZyOA?oc=5",
-      "publisher": "경기탑뉴스",
-      "publishedAt": "2026-11-18T13:50:54+09:00"
-    },
-    {
-      "city": "오산",
-      "title": "오산시 대원2동, 7개 단체 손잡고 김장김치 담가 100곳에 전달…통장들이 직접 키운 배추 350포기로",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE96YkpLZFQwWkJKRzFNS1J3OHY4bXJxVC1kRWUtYzJhSW95UXBiVFczaGRLMkt4M0M1MXhzWDNQb3NJWVNNMElaYS1jRDJHN3pKU0tGUEhBdUdvQmE1d3luV1FaMA?oc=5",
-      "publisher": "경기탑뉴스",
-      "publishedAt": "2026-11-18T13:50:51+09:00"
-    },
-    {
-      "city": "오산",
-      "title": "청소년 범죄예방위원 오산지구위원회, 올해 마지막 등굣길 캠페인…학교폭력·딥페이크 예방 알려",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9weEt1dDc3YkpnMVh0ZXZWY3Q2ZDFJR3Y3VDlWc1FaOWNqYzRKVVBrX3ZkUkRXWlByUDBiNWttQ3huWk1VYkgzMEY0SU80MWpRTzNVN1pjc2pnOXZKeXRCcTJmcw?oc=5",
-      "publisher": "경기탑뉴스",
-      "publishedAt": "2026-11-18T13:50:49+09:00"
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA1Q0EycHhTOWY0eFQxQjVHMjQwbWRuV3Q2VVZhb096NWdqMXowcHBDX1lFZUVjd2FjcGhfRXlYUHllVWlQTEQyYzZqVGE3aUpKYmRBb2Vid25feDIyNGNBRDRxcw?oc=5",
+      "publisher": "중부시사신문",
+      "publishedAt": "2026-11-18T13:51:19+09:00"
     },
     {
       "city": "수원",
@@ -892,6 +899,13 @@
     },
     {
       "city": "수원",
+      "title": "수원시 팔달구 매교동, '수원 새빛돌봄' 주거안전 서비스로 중장년 1인 가구 주거환경 정비",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5lSFlyejJSQWVXSUwyUXF1eWFhUmR6dGhGSFc1V21nVWhhbXNyVHkyVWlSLV9fbUd2Z2ZZcGJwUlR0Y0dSUGdCY1ZMcE1NeGx6S2hwMw?oc=5",
+      "publisher": "타임뉴스",
+      "publishedAt": "2026-11-18T11:32:01+09:00"
+    },
+    {
+      "city": "수원",
       "title": "시립행복숲어린이집, 수원시 팔달구 인계동에 따뜻한 후원금 전달",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvRGxMTzRxdWNhc2hremNDSk9FUHlZMnN4R3p5R1p2WWNyZkN1b3dZZnpVeDNRWmwyTDdzWlRzazZXeFVPakFnNjQyMldsR2w4Tzc1c29mYV9xQ2FWT1dPLXVaVQ?oc=5",
       "publisher": "경기탑뉴스",
@@ -955,13 +969,6 @@
     },
     {
       "city": "수원",
-      "title": "수원시 팔달구 매교동, `수원 새빛돌봄` 주거안전 서비스로 중장년 1인 가구 주거환경 정비",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE41VDIyVVNvWHdGVy1LbDd0bC1sMjZoaUJSakdSN3JtUnhNSEItWGQ4Tm5KOVJ4SVR0dF9OZWlEdDdVNW5zdlVRUk53?oc=5",
-      "publisher": "경기평화신문",
-      "publishedAt": "2026-11-18T11:00:00+09:00"
-    },
-    {
-      "city": "수원",
       "title": "수원시 팔달구 매산동 지역사회보장협의체, 위기가구 100가구에 따뜻한 겨울 선물",
       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB3aVpJTTE3Y0lrZGtfN2JXSnRiVnZTcHlMMlhyNk5QMk01VUIzTjlxNWFseUc3Q21vMl8zTHVXaFZxeGZwY2M1QVV3?oc=5",
       "publisher": "경기평화신문",
@@ -980,13 +987,6 @@
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1RzZSTUx3T2lDS3Y0WnI3Nk1ReFhxTFdNdkV1WVNLMmtYbDJObkxVOG9iMUFSYTJjaTd2eklIWjhMSUVVcExsQmtKTVcyN1N0ZVNtaFYtTVc4SXpEZUI2LU9JWUhZb3R3TVZkWk9vcUpOUmJDQ0prSVBR?oc=5",
       "publisher": "수원시 인터넷신문",
       "publishedAt": "2026-11-18T10:59:27+09:00"
-    },
-    {
-      "city": "수원",
-      "title": "보훈공단 수원지역 4개 기관, 장애 청소년 자립 지원을 위한 후원금 전달",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9scnFSdkgtS2x1VVUtZGdNZ0VmV29JZzhHTkJxX1IxNEVEaGk3V0c2LXd2MDk2RzlTREFhLTlNTTlhOE04QjdxMWNMbXczdEk4V2JJaHA5VVZpakdCOWFrNmI2NEJIOXNZTm5HQXNZanBpX2p2VndlaW9n?oc=5",
-      "publisher": "수원시 인터넷신문",
-      "publishedAt": "2026-11-18T10:58:52+09:00"
     }
   ],
   "weather": {
