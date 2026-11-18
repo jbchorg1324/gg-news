@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T07:10:21+09:00",
+  "updatedAt": "2026-11-19T08:10:45+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -9,11 +9,32 @@
   "errors": [],
   "articles": [
     {
-      "city": "화성",
-      "title": "화성특례시 동탄구 발전협의회 발대식 개최… 나눔·봉사로 지역 활력 높인다",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9tZXlSdnR2OFNLSjBFczQxOE1SMTloZFk5Uy1YX2FSOWozSnVfRGg3anBrMkNVdDZ1bFl3Nk5pV2ZieldySUNLVjNKcTBNSjgwQklOb3UtRElPODF6ODF2ZlU0WndIalRtN1dHU0pB?oc=5",
+      "city": "수원",
+      "title": "수원특례시 적극행정 성과… 노인 주야간보호센터 차량도 ‘장애인 주차표지’ 발급 길 열려",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NeWgzM092X1ZPYjNfc0lpY1pvdnMybXFZak1qdHFOeU9rUTFvNF9meEVBOGhEdXNad3VLSFg5V19VUXFrMGlGaFBRQXVqdGQ0OFhCczROdm5WellCR3JDblhOUl9pcVN6YmRWX0NR?oc=5",
       "publisher": "서프라이즈뉴스",
-      "publishedAt": "2026-11-19T06:12:44+09:00"
+      "publishedAt": "2026-11-19T07:53:58+09:00"
+    },
+    {
+      "city": "수원",
+      "title": "이재준 수원특례시장, “시민 안전에 관련된 사항은 과잉 대응을 해도 지나치지 않다”",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8xOXlEQ3RjdUcyQ1ZDUnlrV1JONVVIQU5KRko2anpzTllsRzkyQ21lVUhnVzlNUmk3OHlXQXptTXIySDJiUElycTNCTk9tLVNUXzZRcnU3ZlBCUUdpYVc5QzUtRENVcXJpSktFUDFR?oc=5",
+      "publisher": "서프라이즈뉴스",
+      "publishedAt": "2026-11-19T07:53:37+09:00"
+    },
+    {
+      "city": "화성",
+      "title": "화성시, 도시·농촌 여건 맞춰 29개 읍면동 주민자치회 운영 손본다",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtSHk5cTMta3lTZXFLa2tYMFN2WDhZeFVzbktnNUhHalFSLVZlSGJMUExSS1JWOXkzRmg3M1A2VGd4U09rbTdWWFk2VjRCV2MwZ2taN29ySHBiN0lhbExjSw?oc=5",
+      "publisher": "아시아경제",
+      "publishedAt": "2026-11-19T07:25:23+09:00"
+    },
+    {
+      "city": "화성",
+      "title": "화성특례시 동탄구 발전협의회 발대식 개최...나눔·봉사로 지역 활력 높인다",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9rU0dIMWE3X0NhSGoxOWRFQ2puLWZzWmlGU2ZMZXVVR0hvWjBhUTNnQkZrT3hoSGlkWXF6eVpwOHZ3SmFTc1VkN1NuUFZDeGtsOXZQMWRrWHVKamRHdHZaRE5BMUQ?oc=5",
+      "publisher": "뉴스Q",
+      "publishedAt": "2026-11-19T06:35:44+09:00"
     },
     {
       "city": "화성",
@@ -301,13 +322,6 @@
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1yeUZfZGZiRENVU1Z1SDFVa0lONEdoUWtRdDU1eVduX21tUUZYOUNpLU9DMXNNczNEMEJockVqRHdsUFRmblFiUHFVd0ZTT3E4MG5jdWhNNjQ4WTN0MGFIcHFR?oc=5",
       "publisher": "경기신문",
       "publishedAt": "2026-11-18T17:30:26+09:00"
-    },
-    {
-      "city": "수원",
-      "title": "수원시다함께돌봄센터2호점, 아이들과 함께하는 '즐거운 김치 담그기' 체험",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE80RjZubzFwMENNdFJLMHQ5NXFvTDZWREpwaklPYTQzUnllWkZVY2JLSF82V2xFdl9XdjgyampIWXBYOURCczE4MUczZjF6X1Q0SHVqQlJoSTg5MmVRTjgtSGZSWF8?oc=5",
-      "publisher": "뉴스Q",
-      "publishedAt": "2026-11-18T17:29:22+09:00"
     },
     {
       "city": "화성",
@@ -933,6 +947,13 @@
       "publishedAt": "2026-11-18T11:30:50+09:00"
     },
     {
+      "city": "수원",
+      "title": "수원시 권선구 곡선동 주민자치회, 제3대 임원진 선출…장상대 회장 연임",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE80UFhTQWkxcUE3TTVvYU9TX2FNd25YaklGUmlZM3N5SmNfVkJ6WTJOVnRyWmtOYm9DWG1FV0FQb0UzQVVSRi13cGs0S1hIMEllaU9la2JmaFQtaG1r?oc=5",
+      "publisher": "누리일보",
+      "publishedAt": "2026-11-18T11:30:50+09:00"
+    },
+    {
       "city": "화성",
       "title": "㈜범천정밀·경기적십자사, 화성시 취약계층에 김장김치·실버카 지원",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONGpTa2FMZTlybm5Hd3k2RXFoTXpfS3A1d1FMcEo3NTllZ2VQTElzUWtaZlprRl9RR2F4UThZa0VnbVB2c1RYdGp2OUlDNk1wcFlmd0ljb3ZLSUVMb09SQWlESmpGQkdiLVJoU2xvRlBNdnMzblFnSF9UVFd5cFJvaU9PLVNONHZHbEZnZTJYRG1SR0VveXFoOXB0Qy1rMHdGUFBmWmkxQXJORk5qYW5F?oc=5",
@@ -966,71 +987,50 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxeV9GSE1BYjQzZjl6Rm9YMVo1TWxpbFpwNU1ROElQODJtUWRtcTRjZ04yTGEyX0FFQ1h6b0ZJczNJWUpwLWpOQVlXQWhzbF91ZVhrd25TVHRZc2JEVXltdDJJekhEN0E0S29aNdIBckFVX3lxTE85MnNHU3Rpc0xkcnhQNGZadEdzdmJHN0NTSldoNWJoRjg5aVdjYUhjeVJRajFpeTdwRDFuaVNCN3J4S2ZRcjJJckNuQk9iWlg2aUxENGo3VGN3eWZPM0JqdDh6R3AxdnJYSXBzNFV0dDRqUQ?oc=5",
       "publisher": "머니투데이",
       "publishedAt": "2026-11-18T11:09:16+09:00"
-    },
-    {
-      "city": "수원",
-      "title": "[망포1동] 행복한베들레헴교회, 추수감사절을 맞아 망포1동에 백미 50포 전달",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1RUkhseDZtQ0V4bXN2cWFDbWVPaTFlbmthLUVCQTZRVC1DN3RGTXZxQmRReHFtcEZfZWhkNEszdVJvejZEZkpPMDhrLVlxZ1JvRDZvcU1aaW54RDFjYkZvaThjUEJ0X0lZUnUydzRQT1Z6N0swZXN6VnFn?oc=5",
-      "publisher": "수원시 인터넷신문",
-      "publishedAt": "2026-11-18T11:04:32+09:00"
-    },
-    {
-      "city": "수원",
-      "title": "수원시 팔달구 매산동 지역사회보장협의체, 위기가구 100가구에 따뜻한 겨울 선물",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB3aVpJTTE3Y0lrZGtfN2JXSnRiVnZTcHlMMlhyNk5QMk01VUIzTjlxNWFseUc3Q21vMl8zTHVXaFZxeGZwY2M1QVV3?oc=5",
-      "publisher": "경기평화신문",
-      "publishedAt": "2026-11-18T11:00:00+09:00"
-    },
-    {
-      "city": "수원",
-      "title": "[매교동] 쓰레기 방치 중장년 1인가구 발굴 수원 새빛돌봄 주거안전 서비스 연계",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9FNXF6S2FDN1dDTGYzUHJ1Wm9za3YyWUNkZlpUU3c3VGVfaUlPQ3RMZFJNYXoyRGVxb1FGNk1CSEFmSWMyMEludHdxcUZLLUxYR3JaVDVSaElNVWQ4bGJEUGo4MzhZR1lFUlk1WFIxZkktSDZDRFNldzlB?oc=5",
-      "publisher": "수원시 인터넷신문",
-      "publishedAt": "2026-11-18T10:59:27+09:00"
     }
   ],
   "weather": {
-    "updatedAt": "2026-11-19T00:17:07+09:00",
+    "updatedAt": "2026-11-19T08:10:45+09:00",
     "source": "Open-Meteo",
     "cities": {
       "수원": {
-        "temperature": 0.9,
-        "weatherCode": 0,
+        "temperature": -1.9,
+        "weatherCode": 2,
         "precipitationProbability": 0
       },
       "화성": {
-        "temperature": 2.7,
+        "temperature": 0.3,
         "weatherCode": 2,
         "precipitationProbability": 0
       },
       "용인": {
-        "temperature": 0.3,
-        "weatherCode": 0,
+        "temperature": -2.1,
+        "weatherCode": 1,
         "precipitationProbability": 0
       },
       "오산": {
-        "temperature": 1.7,
+        "temperature": -1.2,
         "weatherCode": 1,
         "precipitationProbability": 0
       },
       "안산": {
-        "temperature": 2.1,
-        "weatherCode": 1,
+        "temperature": 0.1,
+        "weatherCode": 2,
         "precipitationProbability": 0
       },
       "평택": {
-        "temperature": 2.1,
-        "weatherCode": 2,
-        "precipitationProbability": 4
+        "temperature": -0.4,
+        "weatherCode": 1,
+        "precipitationProbability": 6
       },
       "이천": {
-        "temperature": 1.0,
-        "weatherCode": 0,
+        "temperature": -2.0,
+        "weatherCode": 1,
         "precipitationProbability": 0
       },
       "과천": {
-        "temperature": 0.1,
-        "weatherCode": 0,
+        "temperature": -1.9,
+        "weatherCode": 1,
         "precipitationProbability": 0
       }
     }
