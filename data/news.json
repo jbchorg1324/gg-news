@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T06:12:24+09:00",
+  "updatedAt": "2026-11-19T07:10:21+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -10,17 +10,17 @@
   "articles": [
     {
       "city": "화성",
+      "title": "화성특례시 동탄구 발전협의회 발대식 개최… 나눔·봉사로 지역 활력 높인다",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9tZXlSdnR2OFNLSjBFczQxOE1SMTloZFk5Uy1YX2FSOWozSnVfRGg3anBrMkNVdDZ1bFl3Nk5pV2ZieldySUNLVjNKcTBNSjgwQklOb3UtRElPODF6ODF2ZlU0WndIalRtN1dHU0pB?oc=5",
+      "publisher": "서프라이즈뉴스",
+      "publishedAt": "2026-11-19T06:12:44+09:00"
+    },
+    {
+      "city": "화성",
       "title": "한강벨트는 급랭, 반도체벨트는 후끈…동탄 거래 절반이 신고가[집슐랭]",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zQWNOQ1Q3ajFOSTJ5UGJENTZzZ05LcHNucnItWGEtb2UxcjBwRENJN1RVX0xneTFqd2ZlNjdrdTNrVExUMm5FMkRxWmdoM1J2ZnfSAVNBVV95cUxOUk5jSTVrWXg3SFFZdEZDeXJWX1V4UGc0UUVBTXo2a0JJVS0wVU0tdGVJNHFodWgxTlNNaWZZX2tQb3VfaWMyaG1Ndkg3cF9UTHVKMA?oc=5",
       "publisher": "서울경제",
       "publishedAt": "2026-11-19T06:00:00+09:00"
-    },
-    {
-      "city": "오산",
-      "title": "[청년의 도전을 응원하는 민선9기 오산시 ④]동네 카페·공방이 청년들의 공부방으로…'오산청춘스팟’'",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xSW1LaGd0cWJoTXJHbkZyMkVHX3R4b29DMlAtOUk1czlKbWdfNmV1VmYwUHA5Q2VrbWUzcENfUjRaUEdLeTZfdGdWd2FyTnFsdU1pcjRFRG5ja3hOSDhz?oc=5",
-      "publisher": "광흥타임즈",
-      "publishedAt": "2026-11-19T00:28:38+09:00"
     },
     {
       "city": "오산",
@@ -54,6 +54,13 @@
       "city": "오산",
       "title": "오산시 초평동, 함께자람센터 우미린센트럴시티점서 김장김치 20박스·목도리 30개 기탁 받아…이웃 나눔 실천",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9oLWlGU2tBbzV1T2tBbUZWZDQ3MF8yOXR6RHF6cUpiZkJueF83aG5GUFRpU0pzUEpLQi1zTVE3SllfV2czcXZoaTFIX0JvaFlSRDIwVW5pWU5Ub0F5emRBTllUSUxIVVZ2NzZCWlVJTQ?oc=5",
+      "publisher": "뉴스파노라마",
+      "publishedAt": "2026-11-19T00:05:26+09:00"
+    },
+    {
+      "city": "오산",
+      "title": "오산시 초평동, 8개 단체 손 모아 김장 900포기…이틀간 담근 김치 취약계층에 전한다",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBxQ3FCckdZUURKX0JlZDEtYWoxRlhBQy1HOWtIejNjSHdXY1BrVE1wNTZtNkJndEVoVFJTV0kxQ1R1a2VqX3hCeWdyeGNja29JcENtSVBuSWNvdjR3N0I4bEtveFFzcjI5QTE0NGtKVQ?oc=5",
       "publisher": "뉴스파노라마",
       "publishedAt": "2026-11-19T00:05:26+09:00"
     },
@@ -343,6 +350,13 @@
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1yTV9oSVAyV1dzaTc5dnVUbUhXQ005RF83NU5VcnNwOXZDVzY4TzRfMWwwR2hqYlk4dllfdi1aRjMyVUl4OWVqWVNiWjg4TERzTVYtbjJrODV0TGdpcGpoZTJ3?oc=5",
       "publisher": "에너지경제신문",
       "publishedAt": "2026-11-18T16:55:29+09:00"
+    },
+    {
+      "city": "수원",
+      "title": "[사설] 재정위기 속 엇갈린 경기도와 수원시… 이재준 시장의 지방채 상환과 의회 존중이 주는 교훈",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TM3FacFBEaDR4eEZhVlBwLVBZWXJERWxiZGJ1dmFEeUNKcDc0dG05bGYyRUNTY3lKa0h4eWhMZnVsNUs1YlNBMlcxYVBtUXZMT0JsWjVRdy02aWV1NjFnbQ?oc=5",
+      "publisher": "케이부동산뉴스",
+      "publishedAt": "2026-11-18T16:49:17+09:00"
     },
     {
       "city": "오산",
@@ -703,10 +717,10 @@
     },
     {
       "city": "오산",
-      "title": "오산시 초평동, 8개 단체 손 모아 김장 900포기…이틀간 담근 김치 취약계층에 전한다",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YemZEOEctdkZVYTVEd2l4MXB2U3pIV1RQWl9oSFpTZDZuVWlPMFIta1Vobk1tWkFzTXMzZXZaRHVlVXRaTjZUandhaUt1V3FjUDR0eUEwMnBpaEJfT1FJYWI3dFI?oc=5",
-      "publisher": "리버럴미디어",
-      "publishedAt": "2026-11-18T13:51:09+09:00"
+      "title": "[청년의 도전을 응원하는 민선9기 오산시 ④]동네 카페·공방이 청년들의 공부방으로…'오산청춘스팟’'",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xSW1LaGd0cWJoTXJHbkZyMkVHX3R4b29DMlAtOUk1czlKbWdfNmV1VmYwUHA5Q2VrbWUzcENfUjRaUEdLeTZfdGdWd2FyTnFsdU1pcjRFRG5ja3hOSDhz?oc=5",
+      "publisher": "광흥타임즈",
+      "publishedAt": "2026-11-18T13:50:51+09:00"
     },
     {
       "city": "수원",
@@ -919,13 +933,6 @@
       "publishedAt": "2026-11-18T11:30:50+09:00"
     },
     {
-      "city": "수원",
-      "title": "수원시 권선구 호매실동 통장협의회, 역량 강화 및 화합 위한 2026년 워크숍 개최",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9SaXM0QXNqenBCZzRicEFLMDBtNXRjUDZ6UnBYZDIweXJ3b1hVRVkxNUw4cDZWQk84eDNPbzdNNHIzRWpaNElLX3pQUmpyY2FOMWhMRGIwaWo3SXFL?oc=5",
-      "publisher": "누리일보",
-      "publishedAt": "2026-11-18T11:30:47+09:00"
-    },
-    {
       "city": "화성",
       "title": "㈜범천정밀·경기적십자사, 화성시 취약계층에 김장김치·실버카 지원",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONGpTa2FMZTlybm5Hd3k2RXFoTXpfS3A1d1FMcEo3NTllZ2VQTElzUWtaZlprRl9RR2F4UThZa0VnbVB2c1RYdGp2OUlDNk1wcFlmd0ljb3ZLSUVMb09SQWlESmpGQkdiLVJoU2xvRlBNdnMzblFnSF9UVFd5cFJvaU9PLVNONHZHbEZnZTJYRG1SR0VveXFoOXB0Qy1rMHdGUFBmWmkxQXJORk5qYW5F?oc=5",
@@ -978,13 +985,6 @@
       "city": "수원",
       "title": "[매교동] 쓰레기 방치 중장년 1인가구 발굴 수원 새빛돌봄 주거안전 서비스 연계",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9FNXF6S2FDN1dDTGYzUHJ1Wm9za3YyWUNkZlpUU3c3VGVfaUlPQ3RMZFJNYXoyRGVxb1FGNk1CSEFmSWMyMEludHdxcUZLLUxYR3JaVDVSaElNVWQ4bGJEUGo4MzhZR1lFUlk1WFIxZkktSDZDRFNldzlB?oc=5",
-      "publisher": "수원시 인터넷신문",
-      "publishedAt": "2026-11-18T10:59:27+09:00"
-    },
-    {
-      "city": "수원",
-      "title": "[입북동] 사랑의 김장 나눔으로 따뜻한 겨울 준비",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1RzZSTUx3T2lDS3Y0WnI3Nk1ReFhxTFdNdkV1WVNLMmtYbDJObkxVOG9iMUFSYTJjaTd2eklIWjhMSUVVcExsQmtKTVcyN1N0ZVNtaFYtTVc4SXpEZUI2LU9JWUhZb3R3TVZkWk9vcUpOUmJDQ0prSVBR?oc=5",
       "publisher": "수원시 인터넷신문",
       "publishedAt": "2026-11-18T10:59:27+09:00"
     }
