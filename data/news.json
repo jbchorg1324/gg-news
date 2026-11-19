@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T04:21:02+09:00",
+  "updatedAt": "2026-11-20T05:37:21+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -7,9 +7,7 @@
     "오산": "정상",
     "용인": "정상"
   },
-  "errors": [
-    "사건검색 화성: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%28%28%ED%99%94%EC%84%B1%20OR%20%EB%8F%99%ED%83%84%20OR%20"
-  ],
+  "errors": [],
   "articles": [
     {
       "city": "화성",
@@ -209,6 +207,17 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9WRlNTc08ycUIySVJpV05jV3Jpc0dPQjV1SXhtQmhPZUV5WjBWeTB3bHlGTXdtTjY5dHFRNGhKb2JuVGl1bzMwOFVLRDRJalpFSTRRalU4bUpwekdaUWhBMHNqMnEwd3htb0JfNWpTX295QQ?oc=5",
       "publisher": "웹이코노미",
       "publishedAt": "2026-11-19T22:27:16+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "오산",
+      "title": "오산시, 세교3 교통투자 확대·주택 기반시설 개선 건의",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5vWUFLUUlLQmdHS20xaDk0a3hIMTZiejViUExkR2VjcXVvODdEM05JN1VqeENGNmNWV2xhc2hYaGtfLUtjaGdvTkpBalBBVm5Dc0VRbERvQmd1aDQzUDBaNWhCT3JiUmF6dl9MVlF3?oc=5",
+      "publisher": "뉴스타운",
+      "publishedAt": "2026-11-19T22:19:08+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -419,8 +428,17 @@
       "publisher": "뉴스파노라마",
       "publishedAt": "2026-11-19T20:28:50+09:00",
       "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
+      "relatedArticles": [
+        {
+          "city": "수원",
+          "title": "서형미 수원시의원 “광교 웰빙타운 주민 건강권 보장 위해 영통구 보건분소 설치 촉구”",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QYlBxUUcyUUI1ZC1ONVJodzFIQnVkSXZ1dldKejV2dGVMSG9oRlpKMnRERnE2bzE3amhtVFg5SlBJdFczaWtwclhrNEVGOWhVZHhMRHdCSGhvS0o5RldEdUgtUjBsdTI4?oc=5",
+          "publisher": "뉴스피크",
+          "publishedAt": "2026-11-19T13:20:22+09:00",
+          "incident": false
+        }
+      ],
+      "relatedCount": 1,
       "relevance": "지역기사"
     },
     {
@@ -503,8 +521,8 @@
     {
       "city": "수원",
       "title": "영통구 12개 동 중 6개 동 수강료 이월액 불일치...",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE13alBzZjRmMy0xVU1oMjJ3aGdHVFhyRkRqTURRb2tqSWxOR19UaTVlclV4ZFExZkFpTmtuSGxsWWJ0Y1l1NUhmc0g2OWdYX0J4T1U5TEZsV2JTR2F0a3h6djN5OHhaNE1FNHgtNHNJTQ?oc=5",
-      "publisher": "뉴스파이어",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ya29VRWhyWnA1OWphLURhVFh5OEJ4NEZxa3ZkR1lBUVN6SXhsMlFNWGJrQlB3LTU5bVJSeFIya3FmSk16eGRsMU9LNTk5ZFZPa0NvYUg1Y05PcGl5cjJzSV9jM3dCNFN0SHhCbWhzdw?oc=5",
+      "publisher": "서프라이즈뉴스",
       "publishedAt": "2026-11-19T19:21:17+09:00",
       "incident": false,
       "relatedArticles": [],
@@ -1953,8 +1971,17 @@
       "publisher": "데일리안",
       "publishedAt": "2026-11-19T15:07:00+09:00",
       "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
+      "relatedArticles": [
+        {
+          "city": "용인",
+          "title": "[속보] 용인 고교 수능 고사장서 초소형카메라·이어폰 발견",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zM1AwMUhZVF9ERHZIX1B5X2RDZDRVSUpIRXdxZXpFOVhEOGhsVkhxNGM0dlNnWTY3LVNBSDBPX3NkMWQ4VlQ0RXBVTjNPNnE0UDFDRmM3SU1pUQ?oc=5",
+          "publisher": "한국경제",
+          "publishedAt": "2026-11-19T14:34:06+09:00",
+          "incident": false
+        }
+      ],
+      "relatedCount": 1,
       "relevance": "지역기사"
     },
     {
@@ -2357,17 +2384,6 @@
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9LV0JNdEE4Q3d1UmU5Zy1aN09tWmRVRW1Mc2t3RUxMVHExWnV0SGJxdHFSV3hLQlJ2dzRpTnpPcU1VblAwRUNVcXdXckFnVEUwV1JuQ29jYmwtdm1IM2tXOEJNNl9mV002cUNraTVGSVNRUi1qRnNQclFB?oc=5",
       "publisher": "수원시 인터넷신문",
       "publishedAt": "2026-11-19T13:56:26+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "용인",
-      "title": "“날짜·업체·금액까지 판박이”… 이상욱 용인시의회 의원, 2천만 원 한도 회피 ‘쪼개기 계약’ 의혹 제기",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00bHF1SF9DZzd4S3Jia0MtdjNaX05pdWJ1U3JYbVBNLW8zMHhNWGNhTGJLWkFWZ1FOYTcya3luNVZoM05rcHBLSmMtLVg0Y3FqLU93eDVINjVrMy05MXI5VA?oc=5",
-      "publisher": "경기경제신문",
-      "publishedAt": "2026-11-19T13:40:00+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -2792,17 +2808,6 @@
       "relevance": "지역기사"
     },
     {
-      "city": "오산",
-      "title": "오산시, 수능 수험표 지참 선착순 100명에 올리브영 e쿠폰",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9aekNKYTVaNmtqZi02TkdIelRXV09iaFJxbW9sblJ1ak55ZlYtWEFxM19LeU9ybTNLOVJnUl9KTmR2Q0luUnBia2JFQ093U1pLRXZzRXgtWnJfRC14Vy1WSlBxWWFka211QkxmbmF0RmQ?oc=5",
-      "publisher": "이뉴스투데이",
-      "publishedAt": "2026-11-19T11:30:00+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
       "city": "수원",
       "title": "수원시 영통3동, 아동 식사지원 위한 민관 협약 체결",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKZlZzRVFrY3EwUTZGUTRNNWl0Wmo4aHhvMk1wS2MwS05MWGFKTThNamdYQTk5dThBZlFoVEZLZlVQSl8ycEtWT2NENi1FZXZzLXl1Ymc1SjlyQ3BKRnJqNDZZU2k3eWEyOVlWeVNYbXo4dw?oc=5",
@@ -2874,17 +2879,6 @@
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1jdDl2VW9JYm96V1RDZXhCcXFZTEJGRjl4UzJtamh4OU0wVXZOSGpIMmh3elI1QXdYamltNTIyNnUtbi1SVVJic2lBVHhwSmt3ZFkxaG80cXhaMUluZjNtRTdMV29aTE1IYTRZbkV0T3VsMkw5REZCb0tB?oc=5",
       "publisher": "수원시 인터넷신문",
       "publishedAt": "2026-11-19T11:00:34+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "수원",
-      "title": "수원시, 주야간보호센터 차량 장애인 주차 불편 해소",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92emh3aFBheWNmckVaY0ZabDNZTmFGaUlsem1IUnY5dEthMVdrenFrNDR3TnB3Y3pwaXpNRzdBUXNBZlQ3UmR5czhwMThnaUtYdmViQ3JaS0NVR1hMSVBGcWlfQ3lINkhaY3JlbHdJakbSAXRBVV95cUxQaWFkOUYwckVITUd0NjZybk5vVlhuVTN5alpzcllDU050SjNtaEE5Wko5U1hyQ0lWT1Jmbmt6RFdrRXNZU2ZjZzRRUDFzZWYxN2dNV19nVFUyTVNUdjBnQ2VfYVlSUDFsd2VGcmctanVCaXo2VA?oc=5",
-      "publisher": "이뉴스투데이",
-      "publishedAt": "2026-11-19T11:00:00+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -2963,8 +2957,8 @@
     "incidentRetentionHours": 72,
     "generalRetentionHours": 36,
     "incidentCount": 12,
-    "groupCount": 254,
-    "relatedReports": 12,
+    "groupCount": 252,
+    "relatedReports": 14,
     "note": "기사 발행시각 기준 보존. 사건 발생시각 및 실제 긴급성은 검증되지 않음"
   }
 }
