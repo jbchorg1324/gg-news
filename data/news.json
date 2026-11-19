@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T05:37:21+09:00",
+  "updatedAt": "2026-11-20T06:36:26+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -9,6 +9,37 @@
   },
   "errors": [],
   "articles": [
+    {
+      "city": "화성",
+      "title": "롯데온, 롯데百 동탄점서 소상공인 우수 브랜드 팝업",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10a29QdV9yU2JKTkFLZW5qUzVwNGw5eHRJVzgtZkZVYWwxNXQtVFdfdHJWTUlMZHBYSFNhUTlISkpCbHZVb0FtRG96TXI1TUJ6cHNYU21raFJmLWvSAWBBVV95cUxPakVsYlRoa1I0OG8zbWphLVVRT1dleGk5V2xmOVk1ZmlWaVIxTEpOYm1YSV9pYlhXQWlzcXdWT2dHT244NGw1ektoc3R1UWFfbzBHSnRqOTVzeDhtdDJFUHg?oc=5",
+      "publisher": "연합뉴스",
+      "publishedAt": "2026-11-20T06:00:06+09:00",
+      "incident": false,
+      "relatedArticles": [
+        {
+          "city": "화성",
+          "title": "롯데온, 소상공인 브랜드 판로 지원…롯데百 동탄점서 팝업",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBoSVgtSUhPOVFvZ1VOV0NnRFYwZ3gybUtoUG05WUZaQVFJOGlZRi1RNWswQkJ4V19GRXlFLVpUVWswaGJsbkRncVBoSnRfcl9ZWERIVlNfRjFxVVZUczU4?oc=5",
+          "publisher": "뉴스1",
+          "publishedAt": "2026-11-20T06:00:00+09:00",
+          "incident": false
+        }
+      ],
+      "relatedCount": 1,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "용인",
+      "title": "기흥 국평이 16억…반도체벨트 집값 줄줄이 전고점 돌파",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WUGJrRVlxc3h0d0pQV3ZJRXZIaU9RWHBmMExKekF1cFdtSmdiX25OOGQ5VHVWbDF3bEY5SVFBaWc2SUhpNHBWM0wtQXJxODlocE5PNmhvRmp6SDYyZEFsetIBeEFVX3lxTE94WDlYQklFdGNpMi1MT2ZzOFN6SXVnUmpjZUNJUl96SzJTbzNuN25fZXJPY3hseUhMZXlyS1FsZUJRaGpYY2dtREdaTGFDVkZXY0pmUFBiZ0VfVk1XOGlOQnU2SWhaSl85THc1MXpYa1dhdnJGZUhzMQ?oc=5",
+      "publisher": "뉴시스",
+      "publishedAt": "2026-11-20T06:00:00+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
     {
       "city": "화성",
       "title": "[人사이트]박승현 화성시 AI실장, 제조·돌봄을 함께 연결하는 'AI 도시' 구현 구상",
@@ -117,6 +148,17 @@
     },
     {
       "city": "수원",
+      "title": "수원시 장안구, 개별주택 특성 조사원 모집",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBxX0ZkZElHM2o0MnFLN2RUd0F4a1p3a2N1Y05XR1NCRmdiUDNndzMzTmp0ZUNpTnJDOGk2TkpvblRsUkpITHZwU0ZaTEU2aS1pdV9MYUJ3NWRhVzcwN2VZc2QyVHlzekdTem5xOUcxaw?oc=5",
+      "publisher": "뉴스파이어",
+      "publishedAt": "2026-11-20T00:00:05+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "수원",
       "title": "수원시 장안구 정자1동 새마을지도자부녀회, 수원청년회의소와 함께 김장김치 나눔",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mdE9kSm5uLVZ1SkpZbEtldHNtaXJ2YUZndDViM0Z5TDFlRDVpYXhtbEs4YlNvbGw4b0J1ZkxjTE50VWY4VHRxWERVNWgxT041TWZ0WkVIdGlxWjlFa0djT1hWVXBoM05YVXdLd2RPQQ?oc=5",
       "publisher": "뉴스파이어",
@@ -144,17 +186,6 @@
         }
       ],
       "relatedCount": 1,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "수원",
-      "title": "수원시 장안구, 개별주택 특성 조사원 모집",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50TXIwUFZORkk4a2ZsRHBsdHhHTEx0MWlyZUJlSDF0akxFWlBIZ21kU2NtWTRSWlFicmQ1d3BiWmFTNkprbzdBcmZodjE5RVhiWWwxaURHZFBzaENCWWxKZDJVVUhhb3JJZnc?oc=5",
-      "publisher": "도민연합뉴스",
-      "publishedAt": "2026-11-20T00:00:05+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
       "relevance": "지역기사"
     },
     {
@@ -521,8 +552,8 @@
     {
       "city": "수원",
       "title": "영통구 12개 동 중 6개 동 수강료 이월액 불일치...",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ya29VRWhyWnA1OWphLURhVFh5OEJ4NEZxa3ZkR1lBUVN6SXhsMlFNWGJrQlB3LTU5bVJSeFIya3FmSk16eGRsMU9LNTk5ZFZPa0NvYUg1Y05PcGl5cjJzSV9jM3dCNFN0SHhCbWhzdw?oc=5",
-      "publisher": "서프라이즈뉴스",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE13alBzZjRmMy0xVU1oMjJ3aGdHVFhyRkRqTURRb2tqSWxOR19UaTVlclV4ZFExZkFpTmtuSGxsWWJ0Y1l1NUhmc0g2OWdYX0J4T1U5TEZsV2JTR2F0a3h6djN5OHhaNE1FNHgtNHNJTQ?oc=5",
+      "publisher": "뉴스파이어",
       "publishedAt": "2026-11-19T19:21:17+09:00",
       "incident": false,
       "relatedArticles": [],
@@ -1271,17 +1302,8 @@
       "publisher": "현대일보",
       "publishedAt": "2026-11-19T17:34:32+09:00",
       "incident": false,
-      "relatedArticles": [
-        {
-          "city": "화성",
-          "title": "화성특례시의회, 화성시 농업인 포럼 참석",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SX3pNLUtmdEw2ZXhYR04tblRycjJvMjBRMVhSSVdaVTFpczJzT2ItRWw5YjJoTHZJc0sxUzhlSExJbXJtcnNOODFVb3ltSmZnUHNQNENocjFBM19oOW5DUlNLajNuRXFJU3c?oc=5",
-          "publisher": "국민투데이",
-          "publishedAt": "2026-11-19T15:21:07+09:00",
-          "incident": false
-        }
-      ],
-      "relatedCount": 1,
+      "relatedArticles": [],
+      "relatedCount": 0,
       "relevance": "지역기사"
     },
     {
@@ -1591,6 +1613,17 @@
       "relevance": "지역기사"
     },
     {
+      "city": "용인",
+      "title": "용인시 명예시민 된 러시 교수…4년간 영어교실·무료급식 봉사",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5uaHkxRllXYkxlVkVpbVJSMFZKcVNYTzRJWkNZSmdhbENFNTdVMFU3NnlpdnZBNXFlMXFBR2p1Q1p3eXhUX1FzcnJ4NkVETGNVMUxnUjBEc0hrcGRjWXc?oc=5",
+      "publisher": "아시아타임즈",
+      "publishedAt": "2026-11-19T16:33:00+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
       "city": "수원",
       "title": "[서둔동] 따뜻한 겨울나기를 위한 경기도 먹거리 광장 김장김치 나눔 실천",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5JeHVNTC1VeW5NX3FjbEQ3MUREcVM1dEFTTV9Kc0Vxby1sOFZLUWNGVlNodmFXakhzR2RhY3FGaDlZQURJTmY5UEtqbG5Ba3h6SFhSb2JDYVhLRHQwRWVZajl0RDl1QjA2ZU05OWxWV25hOFk3Q21BbWtR?oc=5",
@@ -1871,17 +1904,6 @@
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBrS3ZVOXUtX0xPUHVNMENLb2hUcWhlYldiOFNFelFybkU4ZVA2SV9CQ0VPWFZrUkoyNVFYODFlX21pYWF4NUs5YkRnSDhrTWJjX2FHV1NfVmh4SjlKUU5oSg?oc=5",
       "publisher": "NSP통신",
       "publishedAt": "2026-11-19T15:24:26+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "화성",
-      "title": "이내응 화성시전국체전시민추진단장, 민선3기 경기도체육회장 선거 출마 선언",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5vNVY2bUpVeUJYWndhamZwZ1otS3d4S09scmtoOVh1V3FBUVRmOTh6bnJjRHNlWkwtYy1pNms2amtFcVNTMUtVaVpLZU9BT09MZEl3R2xCWE9Da2FaQVQtb2ZmZ2pNaEJ5bjIwc0hlWQ?oc=5",
-      "publisher": "기호일보",
-      "publishedAt": "2026-11-19T15:22:08+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -2335,33 +2357,11 @@
       "relevance": "지역기사"
     },
     {
-      "city": "용인",
-      "title": "용인시, 시장 국외출장 중 업무추진비 집행 적법성 정면 반박",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9QLXBRSF9IaTBLRG40TXFlcndOMF9ZWG1MT2l2ZFRfdUVsZEJHdkFheGlhNEdQUEtjOWg0eEEwVkNIc0pmZGpKS2pNeTNlU3BEeHdpMThTUUZ5NENJVFJ5ZkFUaU5nLWdKZ1NiZDdSV0tZdnM?oc=5",
-      "publisher": "대한경제",
-      "publishedAt": "2026-11-19T14:00:05+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
       "city": "수원",
       "title": "수원시, 민·관·경 합동 안전·치안 협력체계 강화…생활밀착형 안전도시 구축",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ndk1qYWZKLVNIdUNxTDBIcnpmTEwtaFhiMEZnMUpEY3IyVFQ2MG5qdHBqSUxfaXBSLW9jLTFfMHNobE1sZHUtcTlrNklkVTlrdUUySzdjRWNCN0xtb0RoYWxrSDNNckFfRXdYRUppTGtsU3Ft?oc=5",
       "publisher": "대한경제",
       "publishedAt": "2026-11-19T13:59:36+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "용인",
-      "title": "용인시산업진흥원·단국대, 대학 기술사업화·창업기업 육성 협력",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9jMnNyZ0p3M3NidEc2LWV4bHhFaHc5S002RWwwTGVPRlA0b0V1S2trQm5NU3l0Q254NFR5d3M3NUM2ZHZlZlZTTzRSNnhkZ1hueks0c2s4SGptc3ptZ1NRRENuS1JjazVfY08yMm9IdkVYVVE?oc=5",
-      "publisher": "오늘경제",
-      "publishedAt": "2026-11-19T13:59:24+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -2600,6 +2600,17 @@
     },
     {
       "city": "오산",
+      "title": "오산세교종합사회복지관, 나린그룹 임직원 13명과 김장김치 배달 봉사…집집마다 찾아 안부 살펴",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9hekJsaFIxdng2cjJ6bzZ1ZHRXVS1QdGdEUWJicWR2RnlGVVY2OGNQTHBaY2p3U1NjVmtzXy04TjR3Y0NRWFhXbkZGN1Y4OXktc1h1aUF5Wm1qSTNIRWo2azI1RUFHemU2R1E?oc=5",
+      "publisher": "한국시사경제",
+      "publishedAt": "2026-11-19T12:52:00+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "오산",
       "title": "오산세교종합사회복지관, 오색시장 상인회 등과 '우리동네 김장나눔'…취약계층 100가정에 김장김치",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KQVBRWXctWldDNUhBVmp6bTg1U2xCNElNTTdVb1hPa2FxMC1EeEd4Y2p0NWN6VV9wSXFrdnBrS05uN3BVY3MzTnVESFdFVmVBeGJpLXlYNnRqR3c3QVU4MTF2S0l4NUxhdEE?oc=5",
       "publisher": "한국시사경제",
@@ -2637,17 +2648,6 @@
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5aajVVRjBkUlBGR0dNb3VYM01faS12R1RzV1VGM2tlc1pRMjJQaW1vNk9ZeXR0SDhybmNxRkdNVTBPNG9EM2tKMGFxaEpHT0E5SWNpOWxkZHo5b24zUUFZSHJxSnNidw?oc=5",
       "publisher": "경기탑뉴스",
       "publishedAt": "2026-11-19T12:50:45+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "오산",
-      "title": "오산세교종합사회복지관, 나린그룹 임직원 13명과 김장김치 배달 봉사…집집마다 찾아 안부 살펴",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE54bUhEbmpIMmJVczk1RDdjb2NjY25icmRjZllBMEV2dWxsYlVZelB4bW53MEtkZXNlVGtzM0ozd3NMVUxXbzdaUlg2cXNEU056RkhqdlM2d0RCQTRCYlhGYjBFODJMZw?oc=5",
-      "publisher": "경기탑뉴스",
-      "publishedAt": "2026-11-19T12:50:37+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
