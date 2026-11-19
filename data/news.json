@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T21:48:00+09:00",
+  "updatedAt": "2026-11-19T23:28:38+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -9,6 +9,28 @@
   },
   "errors": [],
   "articles": [
+    {
+      "city": "수원",
+      "title": "이승철 수원시의원, 두레뜰공원 예비비 집행률 6.7% 지적…“연내 집행·설계변경 관리 강화해야”",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBOVlNib18yWmJackxKWlYyaUI5eGtNc0VvYkc4bTVKUzN5QUNZdDhqV2Z1M040SXVCS191OHVralk2Vnk2bVpoXzZvWnUzQ2M3MldQMXBTNW1IZUFiZko4Y3hER3FxZ3pUVEt2SkpVbw?oc=5",
+      "publisher": "월드장애인사랑뉴스",
+      "publishedAt": "2026-11-19T22:07:06+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "화성",
+      "title": "화성시의회, 농업인 포럼서 안정적 영농환경·권익 증진 강조",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9fVHNGdUVoMndZTUpRRGZTVnB4VDhmb2NycE9yNkxNUkk4cnhFRnQ2TmJKUUQyaXo3MmVublMyVm1YUUxfVkM0dzJBMkF2NzA0aU5rVTJnM1RnYVNMaE5ocVln?oc=5",
+      "publisher": "경인미래신문",
+      "publishedAt": "2026-11-19T21:46:10+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
     {
       "city": "용인",
       "title": "이민희 의원, 용인시 명예기자단 부실 관리·재위촉 절차 지적",
@@ -22,10 +44,10 @@
     },
     {
       "city": "화성",
-      "title": "\"헬기까지 떴다\"…양수 터진 쌍둥이 산모, 동탄서 대구로 이송",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5mNnA5M1V1S0ppRUJFQVg3OFZzQXlySnBMb3VoZ21sdHM2ei1RNnpYbkUyUlh4Z3dqWEVVbjByMzl1cTlNaFBUcTBJakkzcHhwdDFMZVIzWWRqRWtaWDlJMw?oc=5",
-      "publisher": "뉴시스",
-      "publishedAt": "2026-11-19T21:30:29+09:00",
+      "title": "“헬기까지 떴다”…양수 터진 쌍둥이 산모, 동탄서 대구로 이송",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5VTmg2eHQwTGs4Sno5dGt5VTVUYVcyRXA0Z3JuNnpBNlVEemZYOE5YZVhaTHRJSUVvQXBBamdRREJkWVV0cW9HczdOMWloVjN1NFhYNWJFaElQSk5rdDY3NFhpQlhuUdIBZkFVX3lxTE5VTmg2eHQwTGs4Sno5dGt5VTVUYVcyRXA0Z3JuNnpBNlVEemZYOE5YZVhaTHRJSUVvQXBBamdRREJkWVV0cW9HczdOMWloVjN1NFhYNWJFaElQSk5rdDY3NFhpQlhuUQ?oc=5",
+      "publisher": "동아일보",
+      "publishedAt": "2026-11-19T21:35:38+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -159,33 +181,8 @@
       "publisher": "뉴스파노라마",
       "publishedAt": "2026-11-19T20:28:50+09:00",
       "incident": false,
-      "relatedArticles": [
-        {
-          "city": "수원",
-          "title": "수원시의회, 생명안전 기본 조례 제정 위한 의정토론회 개최",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1FcnAzOXlmakxReS1yTWc5bWF1ZHlZdVFLUzY5VkV2czBlazJMd3VaMGl3UjNNVjFicjNrLVR2WHJZYU9hR0J1WUZ5dVJ1LXZabzFmRjBBSEhyeklQRkVhSVJXTksyY3M5eHl6WFpTSEhIdw?oc=5",
-          "publisher": "웹이코노미",
-          "publishedAt": "2026-11-19T14:33:43+09:00",
-          "incident": false
-        },
-        {
-          "city": "수원",
-          "title": "조인희 수원시의원, 생명안전 기본 조례 제정 위한 의정토론회 개최",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xQUVKNllYaTgwRXJYSldERTZUdGItejR5TUNpU3d6c2M2OXpsd0hQaXJmS2VUMkhMUkp0aTRobjRiRVhIWVdXcy02a0U2Z2c5VGpLTFBBUkhnc2drcnhBM0NyMnJiNFhP?oc=5",
-          "publisher": "뉴스피크",
-          "publishedAt": "2026-11-19T13:22:38+09:00",
-          "incident": false
-        },
-        {
-          "city": "수원",
-          "title": "수원시의회 조인희 의원, 생명안전 기본 조례 제정 위한 의정토론회 개최",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9LX21nVGRuOXFvS2hnclBvU3hGVVR1Mi1WbG43bTFHeXdPMDJueHQ0S1l1REFnX2VVTUFaX1Jua3ZPNTRDby12WllJejFUa2pURkhpcnBBTUp3OUJQV3lhUEd1dw?oc=5",
-          "publisher": "경기탑뉴스",
-          "publishedAt": "2026-11-19T11:30:19+09:00",
-          "incident": false
-        }
-      ],
-      "relatedCount": 3,
+      "relatedArticles": [],
+      "relatedCount": 0,
       "relevance": "지역기사"
     },
     {
@@ -1512,6 +1509,17 @@
       "relevance": "지역기사"
     },
     {
+      "city": "수원",
+      "title": "수원 화성 탐조여행, 성곽 따라 날아든 작은 생명의 노래",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9aQ1BqVW1BeGlER0lsS0w3S2ZyX2Z0U2hoWnBtNDBEQ0k1aW03X2c0RmJuUzRfd0ZOaEZqOEZQdG1jZU8waURybFo5Sko4ZXdZTVNXb1VpNG43Q1UwWHpYclFyVzdSVXE0X3c1dHZUeUhKS1BTU0JOMHNR?oc=5",
+      "publisher": "수원시 인터넷신문",
+      "publishedAt": "2026-11-19T16:09:02+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
       "city": "용인",
       "title": "[패트롤] 성남시-여주시-용인시-경기광주시-성남시의회",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DN21mM1M4TEtLWFRrYU9ac0FEc0RpSWd1U0xaRDBVY2JvYmxKbFFISUFwS2JzTVZkdHFMR2szeEgtc3NldzlyT1k4UU56R1I4QV9KUkJwZE91ZEk?oc=5",
@@ -1797,7 +1805,7 @@
         {
           "city": "용인",
           "title": "[속보] \"용인 모 고교 수능 고사장서 초소형카메라·이어폰 발견\"",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVHNYMklTUmYwZkoxeXVFNkt2U3hQTlJWX3J0TFRLTU1CZEo3RkZBWl9WUGIxZFZZQkpIZ3YxY0E3QzgxdVUtR2dlUGZQcmF4eFlmNERoNVZIODVDS25ZQVFtWHIzMUZzaWpaWFdEMFlIQmV3LVdZTTdtYm9ET085Tnh5VUV1Y2lGTUkweUh0a2EwWDh3ZWZVVUg1X1hZUm0zMWoxZ3N1Wi1xOVVOLVkyY3pDeFM0T1MtUXhLSFJsb3pyQ25uUDBBWnVpdGVBaVBJZUJxcUtEYnZ3Zw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUkJ3WkNrV2hyY1JvcnBkZlBMem12WEg0ZlpFOHQ2SDhubTdrRkNFeGFyaV9ycHhoQXlUUEs4ODFMOVdBMzRPWVNiZGRtNldrSmFoSW1ReHhDQWtRSllLVjd4VF8teGRRWlhxaFZQQXQyRkdlX3ZyLTg0TlpVYWNBRE0weFRrY3dfdlpGbW1VOG5RZWx3eFJBaGI5Y29KQ3JlNHNlZGFnLWFFVExSRkJZMDBLY2h4dXhJem9kd1V0M1BCYXNRS2pYakhqdTNjYjNmd1I1Y25sMDg?oc=5",
           "publisher": "부산일보",
           "publishedAt": "2026-11-19T14:34:44+09:00",
           "incident": false
@@ -1823,17 +1831,6 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xa3dtYlRYLTJOSTUyNGVEcTRwRGpBVThHMko3MkU0SVJLVWN6ckRLcUgzbG0xZlpHX3ZaTDBvVUwzLUxabXhXWEVVNjFPejcwV0kyNTNRemQ1MEMtZnJnRDlYQ0xBSXo4ekNVVE53?oc=5",
       "publisher": "아시아투데이",
       "publishedAt": "2026-11-19T15:01:16+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "화성",
-      "title": "권칠승 의원 \"화성시법원, 병점복합타운에 들어서...예산 꼼꼼히 챙기겠다\"",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE92dTdXZVJjcUZBdmFWSnA0d1ZSMzlqMzFnZXgxUXJXS1BVTXFTekRxaVhicTJ5MlRvMERQTXZkb1FMclY4bWNCMWF4YXoydEs4T01aNldBRGM5VGNH?oc=5",
-      "publisher": "뉴스핌",
-      "publishedAt": "2026-11-19T14:59:00+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -2224,6 +2221,17 @@
     },
     {
       "city": "수원",
+      "title": "12년 배움의 결실을 향해… 수능시험장 앞 풍경",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9LV0JNdEE4Q3d1UmU5Zy1aN09tWmRVRW1Mc2t3RUxMVHExWnV0SGJxdHFSV3hLQlJ2dzRpTnpPcU1VblAwRUNVcXdXckFnVEUwV1JuQ29jYmwtdm1IM2tXOEJNNl9mV002cUNraTVGSVNRUi1qRnNQclFB?oc=5",
+      "publisher": "수원시 인터넷신문",
+      "publishedAt": "2026-11-19T13:56:26+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "수원",
       "title": "수원고등학교 제18시험장. 긴장과 응원으로 물든 아침",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9LV0JNdEE4Q3d1UmU5Zy1aN09tWmRVRW1Mc2t3RUxMVHExWnV0SGJxdHFSV3hLQlJ2dzRpTnpPcU1VblAwRUNVcXdXckFnVEUwV1JuQ29jYmwtdm1IM2tXOEJNNl9mV002cUNraTVGSVNRUi1qRnNQclFB?oc=5",
       "publisher": "수원시 인터넷신문",
@@ -2522,7 +2530,7 @@
     {
       "city": "오산",
       "title": "오산세교종합사회복지관, 나린그룹 임직원 13명과 김장김치 배달 봉사…집집마다 찾아 안부 살펴",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE05OUlIbnpmSG5JcDJUdlBrZzI3NFZlbENsQS1jSnhqQjE2cEpZWlFlRG45THFGSlVoVGc5dlpITGJvdUZ0c3lxdXh5MnRPNVBHSkd4TTdtS3Jvd0h0ekpXUWtWWQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE54bUhEbmpIMmJVczk1RDdjb2NjY25icmRjZllBMEV2dWxsYlVZelB4bW53MEtkZXNlVGtzM0ozd3NMVUxXbzdaUlg2cXNEU056RkhqdlM2d0RCQTRCYlhGYjBFODJMZw?oc=5",
       "publisher": "경기탑뉴스",
       "publishedAt": "2026-11-19T12:50:37+09:00",
       "incident": false,
@@ -2851,17 +2859,6 @@
     },
     {
       "city": "수원",
-      "title": "수원 송정초, RAS교육 관련 “송정 방과후․돌봄 발표회(전시회) ” 개최",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB3Q3VoSEhZQkROamxPaWJ0U2dISXVZSEdQNHl6YkpPS2lYMzdYVGx6Ukg5Ykxzc3B4bHBOaEh3N0pueUMxUVpLRDhnTHlia3RRVUYtUXlsQndteGY5U2pUcGdmODhSdC1UMDhJVmptWGlaLTlscEZEeURR?oc=5",
-      "publisher": "수원시 인터넷신문",
-      "publishedAt": "2026-11-19T10:17:55+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "수원",
       "title": "수원시 장안구 조원1동, 2026년 소방합동훈련 실시",
       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5feFBVVUJSeUROa1dDelZrQ1VRT2M3dm53Z1d3U2JpZUM5cE1mUUpDQjRUcC1zdHF3eWtaZHJBbWhiS0IwVkJ3a3R3?oc=5",
       "publisher": "경기평화신문",
@@ -2966,8 +2963,8 @@
     "incidentRetentionHours": 72,
     "generalRetentionHours": 36,
     "incidentCount": 12,
-    "groupCount": 253,
-    "relatedReports": 14,
+    "groupCount": 255,
+    "relatedReports": 11,
     "note": "기사 발행시각 기준 보존. 사건 발생시각 및 실제 긴급성은 검증되지 않음"
   }
 }
