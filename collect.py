@@ -97,26 +97,44 @@ def rss(query: str, city: str, window_hours: int, alert_only: bool = False):
 
 
 def normalized(title: str) -> str:
-    # 주요 단어를 없애지 않고 매체명·공백·일부 문장부호만 정리합니다.
+    """분류용 정규화. 수치·지역·기관명은 유지해 다른 사건이 합쳐지지 않게 합니다."""
     title = re.sub(r'\[[^\]]{1,24}\]', '', title).lower()
     return re.sub(r'[^0-9a-z가-힣]', '', title)
 
 
 def dedupe(articles):
+    """같은 도시의 거의 동일한 제목만 합칩니다. 조회수·사건 동일성은 추정하지 않습니다."""
     out = []
-    seen = {}
+    seen = {}  # 도시별 비교 목록
     for item in sorted(articles, key=lambda x: x['publishedAt'], reverse=True):
-        key = normalized(item['title'])
+        key = normalized(item.get('title', ''))
         if not key:
             continue
-        bucket = (item['city'], key[:10])
-        existing = seen.setdefault(bucket, [])
-        if any(key == k or (min(len(key), len(k)) >= 25 and
-                              SequenceMatcher(None, key, k).ratio() >= .91)
-               for k in existing):
+        city = item.get('city', '')
+        try:
+            published = dt.datetime.fromisoformat(item['publishedAt'])
+        except (ValueError, KeyError, TypeError):
             continue
-        existing.append(key)
-        out.append(item)
+        matches = seen.setdefault(city, [])
+        duplicate = False
+        for prior_key, prior_time in matches:
+            if abs((published - prior_time).total_seconds()) > 24 * 3600:
+                continue
+            if key == prior_key:
+                duplicate = True
+                break
+            # 같은 도시라도 특정 날짜·수치가 다른 후속 기사는 보존합니다.
+            numbers = re.findall(r'\d+', key)
+            prior_numbers = re.findall(r'\d+', prior_key)
+            if numbers != prior_numbers:
+                continue
+            if (min(len(key), len(prior_key)) >= 26 and
+                    SequenceMatcher(None, key, prior_key).ratio() >= .90):
+                duplicate = True
+                break
+        if not duplicate:
+            matches.append((key, published))
+            out.append(item)
     return out
 
 
