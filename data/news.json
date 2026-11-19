@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T06:36:26+09:00",
+  "updatedAt": "2026-11-20T07:35:03+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -10,9 +10,53 @@
   "errors": [],
   "articles": [
     {
+      "city": "용인",
+      "title": "용인시, 마을버스 502번 증차…출퇴근 배차 45분서 25분으로",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13N1ExaG5PdHhTakdZc0NYcUY5d0ZwY0J1QzJiaDBXUXdkR1BCWGxGSFQ4a2lxVjY4a3lrcUJDcmM4cDhZT0ZZeWQ1Qkt5bURRMnNqRXhBWk9CWU5DaTdSdQ?oc=5",
+      "publisher": "아시아경제",
+      "publishedAt": "2026-11-20T07:31:52+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "용인",
+      "title": "용인시의회 경제환경위, 신재생에너지·산단 관리 허점 집중 점검",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kQzJYcjFfSTM2Z3JrRG9kZUlkYzNpRzJqbDhCcE9remNoUks3Und6Zk5nTFZqbU93eFpSaG1GMS1fWTlmREp1RVhMcTNXejNLWndQY0pCNDA5TUFZTnhsZG5FOUdaVEpjeEE?oc=5",
+      "publisher": "비즈월드",
+      "publishedAt": "2026-11-20T07:29:00+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "용인",
+      "title": "용인문화재단, ‘2026 찾아가는 문화야시장’ 성료… 시민 6,700여명 참여",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1UaURtVVMyY1k5dWozcGw4WTJqTnFud0R0RlNpanZEdkltWTBLMC1pejhWbmpQeXUxMjhkWndXaWUzUlVlamEwTWZrbnFCX0ZBUERpS1NVQzh2S0VpVldZV1BoVjcweHNndWl5N3Jn?oc=5",
+      "publisher": "서프라이즈뉴스",
+      "publishedAt": "2026-11-20T07:05:46+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "화성",
+      "title": "롯데온, 소상공인 브랜드와 동탄서 팝업 운영",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1IZERpWTVCTXZmUFNqYTR1V1YwZTJLc2tPUUc2SlBZQzhkZm9pZ2tCOGt5RDhXUE5KQ3JUWHFscnpzMVVBYUdGeHFXRGFCT0c3NGRJR3UtSHZ4QlNLYzRuWHNESXdJZw?oc=5",
+      "publisher": "싱글리스트",
+      "publishedAt": "2026-11-20T07:02:32+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
       "city": "화성",
       "title": "롯데온, 롯데百 동탄점서 소상공인 우수 브랜드 팝업",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10a29QdV9yU2JKTkFLZW5qUzVwNGw5eHRJVzgtZkZVYWwxNXQtVFdfdHJWTUlMZHBYSFNhUTlISkpCbHZVb0FtRG96TXI1TUJ6cHNYU21raFJmLWvSAWBBVV95cUxPakVsYlRoa1I0OG8zbWphLVVRT1dleGk5V2xmOVk1ZmlWaVIxTEpOYm1YSV9pYlhXQWlzcXdWT2dHT244NGw1ektoc3R1UWFfbzBHSnRqOTVzeDhtdDJFUHg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9qRWxiVGhrUjQ4bzNtamEtVVFPV2V4aTlXbGY5WTVmaVZpUjFMSk5ibVhJX2liWFdBaXNxd1ZPZ0dPbjg0bDV6S2hzdHVRYV9vMEdKdGo5NXN4OG10MkVQeNIBYEFVX3lxTE9qRWxiVGhrUjQ4bzNtamEtVVFPV2V4aTlXbGY5WTVmaVZpUjFMSk5ibVhJX2liWFdBaXNxd1ZPZ0dPbjg0bDV6S2hzdHVRYV9vMEdKdGo5NXN4OG10MkVQeA?oc=5",
       "publisher": "연합뉴스",
       "publishedAt": "2026-11-20T06:00:06+09:00",
       "incident": false,
@@ -35,6 +79,17 @@
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WUGJrRVlxc3h0d0pQV3ZJRXZIaU9RWHBmMExKekF1cFdtSmdiX25OOGQ5VHVWbDF3bEY5SVFBaWc2SUhpNHBWM0wtQXJxODlocE5PNmhvRmp6SDYyZEFsetIBeEFVX3lxTE94WDlYQklFdGNpMi1MT2ZzOFN6SXVnUmpjZUNJUl96SzJTbzNuN25fZXJPY3hseUhMZXlyS1FsZUJRaGpYY2dtREdaTGFDVkZXY0pmUFBiZ0VfVk1XOGlOQnU2SWhaSl85THc1MXpYa1dhdnJGZUhzMQ?oc=5",
       "publisher": "뉴시스",
       "publishedAt": "2026-11-20T06:00:00+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "용인",
+      "title": "용인시 징수행정 빛낸 이춘경 과장…퇴임 앞두고 시의회서 감사·격려 이어져",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oZmZQYzFmeHdEMVBpVDlmZ3NEbFRsQXVVZ2hreXNmRm5FaVhOQnRWSjI2X2hJRGU0eW41TE5EVkhCdUx3RnF0UXVUYVBGdmp0Mkc5MzF5cXlfbVUxUFZ2VUNtNW04QjQ?oc=5",
+      "publisher": "경기매일",
+      "publishedAt": "2026-11-20T05:59:54+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -1888,17 +1943,6 @@
       "relevance": "지역기사"
     },
     {
-      "city": "화성",
-      "title": "화성시 만세사랑위원회, 청소년·장애인 위한 후원금 전달",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jdkVUNlplYjlsR3VKYXRDdUxTcVgyNmpwWW5kd2RsbGZDVEoxTVNjUko5Rm1OSG82a1pyWGR0dEY3WS1hM0VlQl9nMHFvUlFCd3lIWC1NX09UVzB4akNjdGN6RmtEMjNQVDZBc1dCYXk?oc=5",
-      "publisher": "인천일보",
-      "publishedAt": "2026-11-19T15:25:00+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
       "city": "오산",
       "title": "오산시, 수능 끝난 청년 이루잡이 미래 설계 돕는다",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBrS3ZVOXUtX0xPUHVNMENLb2hUcWhlYldiOFNFelFybkU4ZVA2SV9CQ0VPWFZrUkoyNVFYODFlX21pYWF4NUs5YkRnSDhrTWJjX2FHV1NfVmh4SjlKUU5oSg?oc=5",
@@ -2249,31 +2293,9 @@
       "relevance": "지역기사"
     },
     {
-      "city": "용인",
-      "title": "대한노인회 경기 용인시 처인구지회, 2026년 제1기 남사노인대학 졸업식 개최",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5uWG1vQ1VvVjB1a1FpdGpMQ0c5WjF6cFcxNWhtcGx3bjY1cTBkdHRreDBpakp3WnZaZ0ZFU3M4WFBiSDBpZzZ2WjlxS3o3cVo2OUF6MXZUcDlfRzFZVUNBcnNSSE1qUXhLMG1r?oc=5",
-      "publisher": "백세시대",
-      "publishedAt": "2026-11-19T14:16:42+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
       "city": "오산",
       "title": "오산시, 수능 끝낸 청년에게 ‘이루잡’ 문 활짝…수험표 들고 오면 선착순 100명 e쿠폰",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tYnVJbEZmTVJxeDJGbFhDWWxrNzZRMm5KYWdDWFA3Ym9BMkhwYVJ2Q3RNSlBoLUZDcTk5aDJ1MUM4cXNxeTdxU2lvSkVJNWJHMERicVcxVHRYSEh4T3RmM09wUTVDbWlhbUZMLTA2Y3E?oc=5",
-      "publisher": "인천일보",
-      "publishedAt": "2026-11-19T14:14:00+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "용인",
-      "title": "용인특례시, 보정동 카페거리 7900원 투어패스 출시",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9yVmQtNHdXNVdHci15eVFUMTE4NGFlQTQtRWFOVmVjejlRTlRPQW9reVo2bFZPM0FFVElHajFuMmhldDBjZjFrZEw1b3MwM19WMG9ycG9LcHd5LXBjdENLeUZ5N2V5eDU3YWZMWnFtcFo?oc=5",
       "publisher": "인천일보",
       "publishedAt": "2026-11-19T14:14:00+09:00",
       "incident": false,
@@ -2324,33 +2346,11 @@
       "relevance": "지역기사"
     },
     {
-      "city": "용인",
-      "title": "용인시, 7900원에 카페 2곳 이용…보정동 ‘보카 투어패스’ 출시",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MRjQyNlZGVmcxdGd3MmlCR3AxOEFzcnNJVk90andJMHFNQmhETWpPcTZFSUxnY1BiVWlnUnVyUGJSZnppbXlJYU9rUXF2Q2lpRWdIR0dZa1hNZw?oc=5",
-      "publisher": "데일리엔뉴스",
-      "publishedAt": "2026-11-19T14:08:48+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
       "city": "오산",
       "title": "오산시, 수능 수험생 이루잡 이벤트",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3NzZvbnM2dzF6dndoVC1tTlAySTFGQXRFY1gxVlctT01FXy0tV3FFbzVuZVFZcXVIaDBHMDdNOXR5ZWpybktsbFpfSFVMeHZVZlhUZ1hJWi1SY2trb1Y1U3VTclN0aF8zZlE?oc=5",
       "publisher": "국민투데이",
       "publishedAt": "2026-11-19T14:04:07+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "용인",
-      "title": "용인시, 시민 평화통일 공론장 마련·전통 규방공예 계승",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9uY29pWXpaNVRQVElqc1NybGtzM1dKbjhKWDI0SE5hOGgtanVHdG1zZFliQXRjWTE5ZmVUN0wyem5GZnRUdXkxeEFtTC1oZGRRa3kzWU5XN1lqdC0yaVlyVVM5OF9EUEhmcFRnRUxxak1GclU?oc=5",
-      "publisher": "대한경제",
-      "publishedAt": "2026-11-19T14:00:38+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
