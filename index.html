@@ -212,6 +212,14 @@ footer{border-top:1px solid #E8E6F0;color:#858198}
     .topic-match{margin:7px 0 0;font-size:12px;font-weight:700;color:#68599C}
     .topic-badge{display:inline-block;margin-right:6px;border-radius:5px;padding:2px 6px;background:#F1EDFA;color:#6554A2;font-size:11px;font-weight:750}
     @media(max-width:600px){.topic-toolbar{padding:15px 13px}.topic-button{font-size:12px;padding:9px 11px}}
+
+    /* 2.8: 취재데스크용 기사군 및 편집 우선순위 */
+    .story-related{margin-top:12px;border-top:1px solid #EEEAF6;padding-top:9px;font-size:12px;color:#695F89}
+    .story-related summary{cursor:pointer;font-weight:750;padding:5px 0}
+    .story-related ul{margin:6px 0 0;padding-left:18px;line-height:1.65}
+    .story-related li{margin:8px 0}.story-related a{color:#54468C}
+    .story-label{display:inline-block;margin-left:6px;background:#F5F2FC;color:#66599C;border-radius:5px;padding:2px 6px;font-size:10px}
+    .section-notice{font-size:12px;color:#777187;margin-top:5px;line-height:1.6}
   </style>
 </head>
 <body>
@@ -257,12 +265,12 @@ footer{border-top:1px solid #E8E6F0;color:#858198}
       </div>
       <p class="topic-caption">제목의 주요 단어로 자동 분류합니다. 한 기사가 여러 분야에 속할 수 있으며, 주제 선택은 뉴스 목록과 취재 후보에 적용됩니다.</p>
     </div>
-    <section id="breaking" class="breaking"><div class="section-heading"><h2><span class="heading-kicker">속보</span> 경기남부 속보</h2><span class="pill">최근 발행 6시간 · 주요 긴급 보도</span></div><div class="cards" id="breaking-list"></div></section>
-    <section id="incident" class="incident"><div class="section-heading"><h2>지역별 사건·사고 현황</h2><span class="pill">기사 발행 기준 · 최근 72시간</span></div><p class="muted">경찰·소방·범죄·화재·구조·교통사고 등 제목 기반 검색 결과를 발행 후 최대 72시간 보존합니다. 경찰 관련 기사가 모두 범죄는 아닙니다. 사건 발생시각과 사실관계는 원문을 확인하세요.</p><div class="cards" id="incident-list"></div></section>
+    <section id="breaking" class="breaking"><div class="section-heading"><h2><span class="heading-kicker">속보</span> 경기남부 속보</h2><span class="pill">최근 6시간 · 긴급 보도 후보</span></div><div class="cards" id="breaking-list"></div></section>
+    <section id="incident" class="incident"><div class="section-heading"><h2>지역별 사건·사고 · 경찰·소방</h2><span class="pill">기사 발행 기준 · 최근 72시간</span></div><p class="muted">경찰·소방·범죄·화재·구조·교통사고 등 제목 기반 검색 결과를 발행 후 최대 72시간 보존하고, 같은 사건의 관련 보도를 묶습니다. 경찰 관련 기사가 모두 범죄는 아닙니다. 사건 발생시각과 사실관계는 원문을 확인하세요.</p><div class="cards" id="incident-list"></div></section>
     <section id="editorial" class="editorial-section"><div class="section-heading"><h2>오늘의 보도 판단 TOP 3</h2><span class="pill">취재 검토 후보</span></div><p class="muted">실제 수집 기사 중 취재할 주제를 추리는 참고 목록입니다. 중요도와 사실관계는 취재자가 확인해야 합니다.</p><div class="cards" id="editorial-list"></div></section>
     <section id="news"><div class="section-heading"><h2>주요 뉴스</h2><span class="pill">최근 발행 기사</span></div><div class="cards" id="news-list"></div></section>
     <section id="city-search"><div class="section-heading"><h2>도시별 뉴스 검색</h2><span class="pill">외부 검색</span></div><p class="muted">언론사에서 최근 게시한 기사도 직접 검색할 수 있습니다.</p><div class="search-links"><a href="https://search.naver.com/search.naver?where=news&amp;query=%EC%88%98%EC%9B%90%EC%8B%9C" target="_blank" rel="noopener noreferrer">수원 최신 기사 ↗</a><a href="https://search.naver.com/search.naver?where=news&amp;query=%ED%99%94%EC%84%B1%EC%8B%9C" target="_blank" rel="noopener noreferrer">화성 최신 기사 ↗</a><a href="https://search.naver.com/search.naver?where=news&amp;query=%EC%98%A4%EC%82%B0%EC%8B%9C" target="_blank" rel="noopener noreferrer">오산 최신 기사 ↗</a><a href="https://search.naver.com/search.naver?where=news&amp;query=%EC%9A%A9%EC%9D%B8%EC%8B%9C" target="_blank" rel="noopener noreferrer">용인 최신 기사 ↗</a></div></section>
-    <section id="interest"><div class="section-heading"><h2>지역별 인기 기사 TOP 5</h2><span class="pill">최근 기사 5건 · 실제 조회수 순위 아님</span></div><p class="muted">언론사별 실제 조회수 데이터가 없어 도시별 최근 발행 기사 5건을 보여줍니다.</p><div class="grid2" id="interest-list"></div></section>
+    <section id="interest"><div class="section-heading"><h2>지역별 인기 기사 TOP 5</h2><span class="pill">주요 기사 5건 · 실제 조회수 순위 아님</span></div><p class="muted">언론사별 실제 조회수 데이터가 없어 도시별 최근 발행 기사 5건을 보여줍니다.</p><div class="grid2" id="interest-list"></div></section>
     <section id="weather"><div class="section-heading"><h2>경기남부 주요도시 날씨</h2><span class="pill">수집 시각 별도 표시</span></div><p id="weather-stamp" class="stamp"></p><div class="weather" id="weather-list"></div><p class="weather-note">출처: Open-Meteo. 현재 데이터는 기상청 자료가 아닙니다. 수집되지 않은 지역은 표시되지 않을 수 있습니다.</p></section>
     <section id="image-card"><div class="section-heading"><h2>기사 이미지 카드</h2><span class="pill">브라우저에서 PNG 생성</span></div><div class="grid2"><div class="panel editor"><label for="card-title">뉴스 제목</label><input id="card-title" maxlength="200" placeholder="기사 제목을 입력하세요"><label for="card-body">기사 내용</label><textarea id="card-body" placeholder="이미지에 넣을 핵심 내용을 입력하세요."></textarea><div class="actions"><button type="button" class="primary" onclick="makeCard()">카드 미리보기</button><button type="button" class="secondary" onclick="saveCard()">PNG 이미지 저장</button></div></div><div class="card-preview" id="preview"><small>GYEONGGI SOUTH · NEWS DESK</small><b id="preview-title">취재 내용을<br>뉴스 이미지로</b><small id="preview-desc">경기남부 뉴스 데스크</small></div></div></section>
   </main>
@@ -287,8 +295,53 @@ footer{border-top:1px solid #E8E6F0;color:#858198}
     function news(){return(db.articles||[]).filter(a=>(city==='전체'||a.city===city)&&matchesTopic(a))}
     function setTopic(t){if(t!=='전체'&&!TOPIC_PATTERNS[t])return;topic=t;render()}
     
-    function renderCards(id,items,max=6){const el=document.getElementById(id);el.innerHTML=items.length?items.slice(0,max).map(a=>`<article class="article"><div class="meta"><span class="topic-badge">${safe(topicLabel(a))}</span>${safe(a.city)} · ${safe(a.publisher)} · ${ts(a.publishedAt)}</div><h3><a target="_blank" rel="noopener noreferrer" href="${safe(a.url)}">${safe(a.title)}</a></h3><div class="stamp">기사 원문 및 사실관계 확인 ↗</div></article>`).join(''):'<div class="empty">해당 조건에 맞는 기사가 없습니다. 수집 상태와 원문을 확인하세요.</div>'}
-    function render(){const all=db.articles||[];document.getElementById('count-all').textContent=all.length.toLocaleString('ko-KR');[['수원','count-suwon'],['화성','count-hwaseong'],['오산','count-osan'],['용인','count-yongin']].forEach(([c,id])=>document.getElementById(id).textContent=all.filter(x=>x.city===c).length.toLocaleString('ko-KR'));document.querySelectorAll('[data-summary-city]').forEach(e=>{const selected=e.dataset.summaryCity===city;e.classList.toggle('selected',selected);e.setAttribute('aria-pressed',String(selected))});document.querySelectorAll('.city').forEach(e=>{let active=e.dataset.city===city;e.classList.toggle('active',active);e.setAttribute('aria-pressed',String(active))});document.querySelectorAll('.map-region,.map-label').forEach(e=>e.classList.toggle('selected',city!=='전체'&&e.dataset.city===city));const a=news();document.querySelectorAll('.topic-button').forEach(e=>{const active=e.dataset.topic===topic;e.classList.toggle('active',active);e.setAttribute('aria-pressed',String(active))});document.getElementById('topic-count').textContent=(city==='전체'?'전체 지역':city)+' · '+topic+' · '+a.length+'건';renderCards('news-list',a,12);renderCards('breaking-list',a.filter(x=>age(x)>=0&&age(x)<=6&&(/속보|긴급|대피|큰불|붕괴|폭발|지진|호우경보|산불|화재|사망|실종|검거|체포|경찰|사건|범죄|교통사고|수사|구조/.test(x.title)||x.incident===true)),9);renderCards('incident-list',a.filter(x=>age(x)>=0&&age(x)<=72&&(x.incident===true||/화재|사망|숨져|추락|교통사고|충돌|폭발|실종|침수|붕괴|구조|경찰|검거|긴급|범죄|사건|수사|체포|소방|폭행|사기|절도|구속|입건|송치|피싱|음주운전|119/.test(x.title))),18);const candidates=a.filter(x=>/교통|안전|예산|사고|복지|개발|교육|환경|공사|민원|주민|행정/.test(x.title)).slice(0,3);renderCards('editorial-list',candidates,3);document.getElementById('interest-list').innerHTML=cities.filter(c=>city==='전체'||c===city).map(c=>`<div class="panel"><h3>${c} 최근 기사 5건</h3>${a.filter(x=>x.city===c).slice(0,5).map(x=>`<div class="interest-item"><a target="_blank" rel="noopener noreferrer" href="${safe(x.url)}">${safe(x.title)}</a><small class="stamp">${ts(x.publishedAt)} · ${safe(x.publisher)}</small></div>`).join('')||'<p class="muted">표시할 기사가 없습니다.</p>'}</div>`).join('');const w=db.weather||{};document.getElementById('weather-stamp').textContent='날씨 마지막 확인: '+ts(w.updatedAt);document.getElementById('weather-list').innerHTML=Object.entries(w.cities||{}).map(([c,v])=>`<div class="article"><div class="stamp">${safe(c)}</div><b>${v.temperature==null?'—':safe(v.temperature)+'°C'}</b><p>강수확률 ${v.precipitationProbability==null?'미확인':safe(v.precipitationProbability)+'%'}</p></div>`).join('')||'<div class="empty">날씨 데이터가 없습니다.</div>'}
+    const STRONG_INCIDENT=/화재|산불|붕괴|추락|사망|숨져|숨진|실종|폭발|검거|체포|구속|입건|송치|흉기|폭행|살인|절도|사기|교통사고|충돌|전복|침수|음주운전|구조|대피|부상|방화|수사|범죄|피싱|마약|고발|기소|구급|119구급/;
+    const EMERGENCY=/\[속보\]|속보[:：]|긴급|대피령|긴급대피|큰불|대형화재|붕괴|폭발|지진|호우경보|산불|실종자 수색|인명피해/;
+    const EDITORIAL=/교통|철도|트램|안전|예산|감사|민원|사고|복지|개발|교육|환경|공사|주민|행정|학교|위탁|미분양|보상|피해/;
+    function isIncident(a){return STRONG_INCIDENT.test(a.title||'')}
+    function isBreaking(a){return age(a)>=0&&age(a)<=6&&EMERGENCY.test(a.title||'')}
+    function relevance(a){return a.relevance==='종합기사'||/\[패트롤\]|^\[종합\]|^패트롤/.test(a.title||'')?-3:0}
+    function priority(a){let s=relevance(a);if(EDITORIAL.test(a.title||''))s+=3;if(isIncident(a))s+=1;if(/민원|감사|예산|주민|피해|안전/.test(a.title||''))s+=2;return s}
+    function rankStories(items){return [...items].sort((a,b)=>priority(b)-priority(a)||new Date(b.publishedAt)-new Date(a.publishedAt))}
+    function renderCards(id,items,max=6){
+      const el=document.getElementById(id);
+      el.innerHTML=items.length?items.slice(0,max).map(a=>{
+        const related=(a.relatedArticles||[]).filter(x=>x&&x.title&&/^https:\/\//.test(x.url||''));
+        const links=related.length?`<details class="story-related"><summary>관련 보도 ${Number(a.relatedCount)||related.length}건 보기</summary><ul>${related.map(x=>`<li><a href="${safe(x.url)}" target="_blank" rel="noopener noreferrer">${safe(x.title)}</a> <small>· ${safe(x.publisher||'매체 미확인')}</small></li>`).join('')}</ul></details>`:'';
+        return `<article class="article"><div class="meta"><span class="topic-badge">${safe(topicLabel(a))}</span>${safe(a.city)} · ${safe(a.publisher)} · ${ts(a.publishedAt)}${a.relevance==='종합기사'?'<span class="story-label">여러 지역 종합</span>':''}</div><h3><a target="_blank" rel="noopener noreferrer" href="${safe(a.url)}">${safe(a.title)}</a></h3><div class="stamp">기사 원문 및 사실관계 확인 ↗</div>${links}</article>`
+      }).join(''):'<div class="empty">해당 조건에 맞는 기사가 없습니다. 원문·수집 상태를 확인하세요.</div>';
+    }
+    function render(){
+      const all=db.articles||[];
+      document.getElementById('count-all').textContent=all.length.toLocaleString('ko-KR');
+      [['수원','count-suwon'],['화성','count-hwaseong'],['오산','count-osan'],['용인','count-yongin']].forEach(([c,id])=>document.getElementById(id).textContent=all.filter(x=>x.city===c).length.toLocaleString('ko-KR'));
+      document.querySelectorAll('[data-summary-city]').forEach(e=>{const selected=e.dataset.summaryCity===city;e.classList.toggle('selected',selected);e.setAttribute('aria-pressed',String(selected))});
+      document.querySelectorAll('.city').forEach(e=>{let active=e.dataset.city===city;e.classList.toggle('active',active);e.setAttribute('aria-pressed',String(active))});
+      document.querySelectorAll('.map-region,.map-label').forEach(e=>e.classList.toggle('selected',city!=='전체'&&e.dataset.city===city));
+      const a=news();
+      document.querySelectorAll('.topic-button').forEach(e=>{const active=e.dataset.topic===topic;e.classList.toggle('active',active);e.setAttribute('aria-pressed',String(active))});
+      document.getElementById('topic-count').textContent=(city==='전체'?'전체 지역':city)+' · '+topic+' · '+a.length+'개 대표 기사';
+      const breaking=rankStories(a.filter(isBreaking));
+      const incidents=rankStories(a.filter(x=>age(x)>=0&&age(x)<=72&&isIncident(x)&&!breaking.includes(x)));
+      const used=new Set([...breaking,...incidents].map(x=>x.url));
+      const general=rankStories(a.filter(x=>!used.has(x.url)));
+      // 주요 뉴스는 사건·속보와 중복 표시하지 않고, 지역성을 우선합니다.
+      renderCards('breaking-list',breaking,9);
+      renderCards('incident-list',incidents,18);
+      // TOP 3와 주요 뉴스의 대표 카드를 중복 표시하지 않습니다.
+      // TOP 3는 RSS 제목에 의한 참고 후보. 실제 기사 가치·진위는 기자가 검증해야 함.
+      const editorial=rankStories(general.filter(x=>EDITORIAL.test(x.title||''))).slice(0,3);
+      renderCards('editorial-list',editorial,3);
+      const editorialUrls=new Set(editorial.map(x=>x.url));
+      renderCards('news-list',general.filter(x=>!editorialUrls.has(x.url)),12);
+      document.getElementById('interest-list').innerHTML=cities.filter(c=>city==='전체'||c===city).map(c=>{
+        const items=rankStories(general.filter(x=>x.city===c)).slice(0,5);
+        return `<div class="panel"><h3>${c} 주요 기사 5건</h3>${items.map(x=>`<div class="interest-item"><a target="_blank" rel="noopener noreferrer" href="${safe(x.url)}">${safe(x.title)}</a><small class="stamp">${ts(x.publishedAt)} · ${safe(x.publisher)}</small></div>`).join('')||'<p class="muted">표시할 기사가 없습니다.</p>'}</div>`;
+      }).join('');
+      const w=db.weather||{};
+      document.getElementById('weather-stamp').textContent='날씨 마지막 확인: '+ts(w.updatedAt);
+      document.getElementById('weather-list').innerHTML=Object.entries(w.cities||{}).map(([c,v])=>`<div class="article"><div class="stamp">${safe(c)}</div><b>${v.temperature==null?'—':safe(v.temperature)+'°C'}</b><p>강수확률 ${v.precipitationProbability==null?'미확인':safe(v.precipitationProbability)+'%'}</p></div>`).join('')||'<div class="empty">날씨 데이터가 없습니다.</div>';
+    }
     function setCity(c){city=c;render();updateMapSelection()}
     async function load(){const status=document.getElementById('status');try{const r=await fetch('./data/news.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);const incoming=await r.json();if(!Array.isArray(incoming.articles))throw new Error('기사 배열이 없습니다');db=incoming;const last=db.updatedAt?Date.now()-new Date(db.updatedAt).getTime():Infinity;document.getElementById('updated').textContent='뉴스 마지막 수집 '+ts(db.updatedAt);const stale=last>2*3600000;status.classList.toggle('warning',stale||Boolean(db.errors?.length));status.textContent=stale?'마지막 수집 이후 2시간 이상 지났습니다. GitHub Actions 실행 기록을 확인하세요.':`수집 상태: ${Object.entries(db.status||{}).map(([k,v])=>k+' '+v).join(' · ')||'첫 수집 전'}`;if(db.errors?.length)status.textContent+=' · 수집 오류 '+db.errors.length+'건';render()}catch(e){status.classList.add('warning');status.textContent='뉴스 데이터를 읽을 수 없습니다: '+e.message;render()}}
     function makeCard(){const title=document.getElementById('card-title').value.trim()||'경기남부 뉴스';const body=document.getElementById('card-body').value.trim();document.getElementById('preview-title').textContent=title;document.getElementById('preview-desc').textContent=body.slice(0,105)||'경기남부 뉴스 데스크'}
