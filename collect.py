@@ -31,14 +31,38 @@ CORE_QUERY = {
     '오산': '오산시 OR 오산경찰 OR 세교',
     '용인': '용인시 OR 용인시청 OR 용인경찰 OR 처인구 OR 기흥구 OR 수지구',
 }
-INCIDENT_WORDS = ('화재', '불길', '불이 나', '큰불', '산불', '폭발', '붕괴', '추락', '사망',
-                  '숨져', '숨진', '부상', '중상', '사고', '충돌', '전복', '침수', '실종',
-                  '구조', '대피', '검거', '체포', '살인', '강도', '흉기', '폭행',
-                  '재난', '지진', '폭우', '호우경보', '정전', '가스누출')
+# 제목 기준: '경찰'은 경찰 관련 보도이며 범죄 확정 분류가 아닙니다.
+INCIDENT_WORDS = (
+    '화재', '불길', '불이 나', '큰불', '산불', '폭발', '붕괴', '추락', '사망',
+    '숨져', '숨진', '숨졌', '부상', '중상', '사고', '충돌', '전복', '침수',
+    '실종', '구조', '대피', '검거', '체포', '살인', '강도', '흉기', '폭행',
+    '재난', '지진', '폭우', '호우경보', '정전', '가스누출', '경찰', '소방',
+    '방화', '절도', '사기', '마약', '성범죄', '성폭력', '폭행', '폭력',
+    '피싱', '보이스피싱', '수사', '입건', '기소', '송치', '구속', '실종자',
+    '인명피해', '응급', '구급', '교통사고', '뺑소니', '음주운전', '사건', '범죄',
+    '119', '112', '구조대', '경찰서', '소방서', '테러', '유괴', '납치'
+)
 INCIDENT_RE = re.compile('|'.join(re.escape(w) for w in INCIDENT_WORDS), re.I)
-AREA_RE = {c: re.compile(re.escape(c)) for c in SOUTH}
-# 구글 뉴스 검색에 나오는 시·군명과 제목을 동시에 확인해 유사 지명을 거릅니다.
-ALERT_QUERY = '(화재 OR 교통사고 OR 추락 OR 붕괴 OR 폭발 OR 구조 OR 실종 OR 사망 OR 대피 OR 검거 OR 산불 OR 침수 OR 충돌 OR 사건)'
+AREA_ALIASES = {
+    '수원': ('수원', '영통구', '팔달구', '장안구', '권선구', '광교'),
+    '화성': ('화성', '동탄', '향남', '봉담', '병점', '남양읍', '정남면'),
+    '오산': ('오산', '세교', '오산천'),
+    '용인': ('용인', '처인구', '기흥구', '수지구', '동백동', '죽전동', '역북동'),
+    '평택': ('평택', '송탄', '고덕국제'),
+    '안산': ('안산', '단원구', '상록구'),
+    '안성': ('안성',), '이천': ('이천',), '과천': ('과천',),
+}
+AREA_RE = {city: re.compile('|'.join(map(re.escape, names))) for city, names in AREA_ALIASES.items()}
+# 검색어를 나누어 RSS 한 회의 결과 제한 때문에 개별 사건 보도가 밀리는 것을 줄입니다.
+SEARCH_GROUPS = (
+    '(경찰 OR 사건 OR 범죄 OR 수사 OR 검거 OR 체포 OR 구속 OR 송치 OR 입건 OR 사기 OR 절도 OR 폭행 OR 흉기)',
+    '(화재 OR 소방 OR 119 OR 불길 OR 산불 OR 폭발 OR 붕괴 OR 대피 OR 구조 OR 실종)',
+    '(교통사고 OR 추락 OR 사망 OR 숨져 OR 부상 OR 충돌 OR 전복 OR 침수 OR 음주운전 OR 뺑소니)',
+)
+# 조용한 키워드도 검색하지만 '경찰 지원'을 범죄로 단정하지 않습니다.
+RETENTION_HOURS = 72
+GENERAL_HOURS = 36
+
 PLACES = {
     '수원': (37.2636, 127.0286), '화성': (37.1995, 126.8312),
     '용인': (37.2411, 127.1776), '오산': (37.1498, 127.0772),
@@ -54,7 +78,7 @@ def iso(value: dt.datetime) -> str:
 
 
 def rss(query: str, city: str, window_hours: int, alert_only: bool = False):
-    url = ('https://news.google.com/rss/search?q=' + quote(f'({query}) when:2d')
+    url = ('https://news.google.com/rss/search?q=' + quote(f'({query}) when:4d')
            + '&hl=ko&gl=KR&ceid=KR:ko')
     last_error = None
     for attempt in range(2):
@@ -65,7 +89,7 @@ def rss(query: str, city: str, window_hours: int, alert_only: bool = False):
             if feed.bozo and not feed.entries:
                 raise ValueError('RSS 파싱 실패')
             result = []
-            for entry in feed.entries[:90]:
+            for entry in feed.entries[:100]:
                 published = entry.get('published_parsed')
                 if published:
                     date = dt.datetime.fromtimestamp(calendar.timegm(published), dt.timezone.utc)
@@ -87,7 +111,7 @@ def rss(query: str, city: str, window_hours: int, alert_only: bool = False):
                     continue
                 result.append({'city': city, 'title': title, 'url': link,
                                'publisher': publisher or 'Google 뉴스 RSS',
-                               'publishedAt': iso(date)})
+                               'publishedAt': iso(date), 'incident': bool(alert_only)})
             return result, None
         except (requests.RequestException, ValueError, OverflowError) as exc:
             last_error = str(exc)[:140]
@@ -172,6 +196,32 @@ def get_weather(previous):
     return {'updatedAt': iso(NOW), 'source': 'Open-Meteo', 'cities': result}, ('; '.join(failures) if failures else None)
 
 
+def parse_date(item):
+    try:
+        value = dt.datetime.fromisoformat(item['publishedAt'])
+        return value if value.tzinfo else value.replace(tzinfo=dt.timezone.utc)
+    except (ValueError, KeyError, TypeError):
+        return None
+
+
+def keep_recent(items, hours):
+    cutoff = NOW - dt.timedelta(hours=hours)
+    return [a for a in items if isinstance(a, dict) and (d := parse_date(a))
+            and cutoff <= d.astimezone(dt.timezone.utc) <= NOW + dt.timedelta(minutes=10)]
+
+
+def trim_by_city(items, cap):
+    """시간순 보존. 특정 도시 보도가 다른 도시를 전부 밀지 않도록 도시별 상한 적용."""
+    counts, output = {}, []
+    for a in sorted(dedupe(items), key=lambda x: x['publishedAt'], reverse=True):
+        c = a.get('city')
+        if counts.get(c, 0) >= cap:
+            continue
+        counts[c] = counts.get(c, 0) + 1
+        output.append(a)
+    return output
+
+
 def main():
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     try:
@@ -179,51 +229,83 @@ def main():
     except (OSError, ValueError):
         previous = {}
     previous_articles = previous.get('articles', [])
-    errors = []
-    status = {}
-    general = []
-    alerts = []
-    ok_count = 0
+    errors, status = [], {}
+    general, alerts = [], []
+    successful_requests = 0
+
     for city in CORE:
-        items, err = rss(CORE_QUERY[city], city, 48)
+        items, err = rss(CORE_QUERY[city], city, GENERAL_HOURS)
         if err:
             errors.append(f'일반뉴스 {city}: {err}')
-            items = [a for a in previous_articles if a.get('city') == city]
-            status[city] = '오류 (이전 데이터 유지)'
+            status[city] = '일반뉴스 오류 (이전 기사 보존)'
         else:
-            ok_count += 1
+            successful_requests += 1
             status[city] = '정상'
-        general.extend(items)
+            general.extend(items)
 
+    # 핵심 4개 도시는 경찰·소방·교통사고를 각각 검색합니다.
+    # 주변 5개 도시는 핵심 검색어를 합친 한 번의 RSS로 수집합니다.
     for city in SOUTH:
-        items, err = rss(f'{city} {ALERT_QUERY}', city, 24, alert_only=True)
-        if err:
-            errors.append(f'사건검색 {city}: {err}')
-            items = [a for a in previous_articles if a.get('city') == city
-                     and INCIDENT_RE.search(a.get('title', ''))]
-        else:
-            ok_count += 1
-        alerts.extend(items)
+        searches = SEARCH_GROUPS if city in CORE else (
+            '(경찰 OR 화재 OR 사건 OR 범죄 OR 사고 OR 소방 OR 구조 OR 검거 OR 실종 OR 붕괴 OR 추락)',
+        )
+        city_success = 0
+        aliases = ' OR '.join(AREA_ALIASES[city][:4] if city in CORE else AREA_ALIASES[city][:2])
+        for group in searches:
+            items, err = rss(f'({aliases}) {group}', city, RETENTION_HOURS, alert_only=True)
+            if err:
+                errors.append(f'사건검색 {city}: {err}')
+            else:
+                successful_requests += 1
+                city_success += 1
+                alerts.extend(items)
+        if city in CORE and city_success == 0:
+            status[city] = (status[city] + ' · 사건검색 오류')
 
-    # 모든 뉴스 수집이 실패한 경우 갱신시각을 거짓으로 갱신하지 않습니다.
-    if ok_count == 0:
-        print('모든 RSS 수집 실패: 기존 news.json 보존; ' + '; '.join(errors))
-        raise RuntimeError('모든 뉴스 RSS 수집 실패; 기존 데이터를 보존했습니다')
+    if successful_requests == 0:
+        raise RuntimeError('모든 뉴스 RSS 수집 실패: 기존 news.json 보존')
 
-    core_news = dedupe(general + [a for a in alerts if a['city'] in CORE])
-    south_alerts = dedupe([a for a in alerts if a['city'] not in CORE])
-    # 핵심지역 4개 도시의 뉴스가 충분히 표시되도록 한도를 늘렸습니다.
-    articles = sorted(core_news[:180] + south_alerts[:60],
-                      key=lambda a: a['publishedAt'], reverse=True)
-    w, err = get_weather(previous)
-    if err:
-        errors.append('날씨: ' + err)
-    data = {'updatedAt': iso(NOW),
-            'newsSource': 'Google 뉴스 RSS (기사 제목·발행시각·링크)',
-            'status': status, 'errors': errors, 'articles': articles,
-            'weather': w}
+    # 신규 결과가 없다는 이유로 이전 사건을 삭제하지 않습니다.
+    # 기사 발행시각 기준으로 72시간 동안 보존합니다.
+    prior_incidents = [dict(a, incident=True) for a in previous_articles
+                       if (a.get('incident') is True or INCIDENT_RE.search(a.get('title', '')))
+                       and AREA_RE.get(a.get('city'), re.compile('(?!)')).search(a.get('title', ''))]
+    saved_incidents = keep_recent(prior_incidents + alerts, RETENTION_HOURS)
+    core_incidents = trim_by_city([a for a in saved_incidents if a.get('city') in CORE], 45)
+    surrounding_incidents = trim_by_city([a for a in saved_incidents if a.get('city') not in CORE], 15)
+
+    prior_general = [a for a in previous_articles if a.get('city') in CORE]
+    core_general = trim_by_city(keep_recent(general + prior_general, GENERAL_HOURS), 65)
+
+    # 같은 제목으로 일반/사건 검색에 중복된 경우 incident=True를 유지해야 합니다.
+    merged = {}
+    for article in core_general + core_incidents + surrounding_incidents:
+        key = (article.get('city'), normalized(article.get('title', '')))
+        if not key[1]:
+            continue
+        earlier = merged.get(key)
+        if earlier is None or article.get('incident'):
+            merged[key] = dict(article, incident=bool(article.get('incident') or
+                                                       (earlier or {}).get('incident')))
+    articles = sorted(merged.values(), key=lambda x: x['publishedAt'], reverse=True)
+
+    weather, weather_err = get_weather(previous)
+    if weather_err:
+        errors.append('날씨: ' + weather_err)
+    data = {
+        'updatedAt': iso(NOW),
+        'newsSource': 'Google 뉴스 RSS (기사 제목·발행시각·링크)',
+        'status': status, 'errors': errors,
+        'articles': articles, 'weather': weather,
+        'monitoring': {
+            'incidentRetentionHours': RETENTION_HOURS,
+            'generalRetentionHours': GENERAL_HOURS,
+            'incidentCount': sum(bool(a.get('incident')) for a in articles),
+            'note': '기사 발행시각 기준 보존. 사건 발생시각 및 실제 긴급성은 검증되지 않음',
+        },
+    }
     OUTPUT.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(f'완료: 총 {len(articles)}건 (핵심지역 {len(core_news[:180])}, 주변 사건 {len(south_alerts[:60])}) / 오류 {len(errors)}건')
+    print(f'완료: 총 {len(articles)}건 / 사건·경찰 관련 보도 {data["monitoring"]["incidentCount"]}건 / 수집 오류 {len(errors)}건')
 
 
 if __name__ == '__main__':
