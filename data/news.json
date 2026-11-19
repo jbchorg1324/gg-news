@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T01:47:51+09:00",
+  "updatedAt": "2026-11-20T03:09:04+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -85,6 +85,37 @@
       "relevance": "지역기사"
     },
     {
+      "city": "화성",
+      "title": "화성시법원, 병점복합타운에 들어선다…2032년 3월 개원 예정",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9CbjFaUVRkbnJZLXdUZm9MbDE2RlBLMWFDM3BZU1RobGRETzJ0NnpFd3hnTW91NXNhOVNFb2JRdFpJTllaUC12eW9qZlpMdmV2eXZoY2pjQnd4cUl2NjJSbk5BMA?oc=5",
+      "publisher": "쿠키뉴스",
+      "publishedAt": "2026-11-20T00:16:12+09:00",
+      "incident": false,
+      "relatedArticles": [
+        {
+          "city": "화성",
+          "title": "화성시법원, 병점복합타운에 들어선다…2032년 3월 개원",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBadzNMcHdqMWljZWxMOERidVdDTkRVazRHRkg2YXlEZVdfVVI3eFNzRXV2STd3Q3RfeDVJMllYX2FzbzhrVzRHdHZYQm5DZ2R1Z2ZQQk5DVVRmQQ?oc=5",
+          "publisher": "한국경제",
+          "publishedAt": "2026-11-19T15:47:44+09:00",
+          "incident": false
+        }
+      ],
+      "relatedCount": 1,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "수원",
+      "title": "수원시 장안구, 개별주택 특성 조사원 모집",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBxX0ZkZElHM2o0MnFLN2RUd0F4a1p3a2N1Y05XR1NCRmdiUDNndzMzTmp0ZUNpTnJDOGk2TkpvblRsUkpITHZwU0ZaTEU2aS1pdV9MYUJ3NWRhVzcwN2VZc2QyVHlzekdTem5xOUcxaw?oc=5",
+      "publisher": "뉴스파이어",
+      "publishedAt": "2026-11-20T00:00:05+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
       "city": "수원",
       "title": "수원시 장안구 정자1동 새마을지도자부녀회, 수원청년회의소와 함께 김장김치 나눔",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mdE9kSm5uLVZ1SkpZbEtldHNtaXJ2YUZndDViM0Z5TDFlRDVpYXhtbEs4YlNvbGw4b0J1ZkxjTE50VWY4VHRxWERVNWgxT041TWZ0WkVIdGlxWjlFa0djT1hWVXBoM05YVXdLd2RPQQ?oc=5",
@@ -113,17 +144,6 @@
         }
       ],
       "relatedCount": 1,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "수원",
-      "title": "수원시 장안구, 개별주택 특성 조사원 모집",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50TXIwUFZORkk4a2ZsRHBsdHhHTEx0MWlyZUJlSDF0akxFWlBIZ21kU2NtWTRSWlFicmQ1d3BiWmFTNkprbzdBcmZodjE5RVhiWWwxaURHZFBzaENCWWxKZDJVVUhhb3JJZnc?oc=5",
-      "publisher": "도민연합뉴스",
-      "publishedAt": "2026-11-20T00:00:05+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
       "relevance": "지역기사"
     },
     {
@@ -165,6 +185,17 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9vVXg0bkxUSk9nY2o1RXVqUTVhSFJDck1YdDBvQVFkV3ZWVHZlQTFMRFh4MDlEWG9HWmN4ZEJwUV85QWFPbWdwNm9Jblo4Q3BkMkI0OWlqMklqUlpndXpGR3pVY3Vub09qTzRyeUdn?oc=5",
       "publisher": "뉴스타운",
       "publishedAt": "2026-11-19T23:44:56+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "오산",
+      "title": "조용호 오산시장, 세교3지구 광역교통대책·자족용지 확대 요청",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9WRlNTc08ycUIySVJpV05jV3Jpc0dPQjV1SXhtQmhPZUV5WjBWeTB3bHlGTXdtTjY5dHFRNGhKb2JuVGl1bzMwOFVLRDRJalpFSTRRalU4bUpwekdaUWhBMHNqMnEwd3htb0JfNWpTX295QQ?oc=5",
+      "publisher": "웹이코노미",
+      "publishedAt": "2026-11-19T22:27:16+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -319,6 +350,28 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1oX3oyUzMyRm5zRTJwb2F3em16enlWajh3SkZDRlZCX0JjNVIxcDRuYnJKbzIwcFB2QVlNMHRtU1h6OTBaZkNvTENoQXpnUC1KNHd5WnRPUVhvalFRemMxR3B4bllnajhSSno2TnhURGtTMVdy?oc=5",
       "publisher": "글로벌뉴스통신GNA",
       "publishedAt": "2026-11-19T20:44:42+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "화성",
+      "title": "대학생 멘토가 이끄는 어린이 AI 교실... 화성시어린이문화센터, ‘AI로 ZERO 바이러스’ 운영",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YUmp0eTJfcmtNTFd6WDFMdXZlVkhWRGZCRl84R2RtV19vRy1Za1h5NHZUclZ1NDQySlhKZmY5WHcyRGJHeVpRU1NodFhXNkdDVWRtU3Q5bUQweG1PUktld1ViZU9fSVF5dkE?oc=5",
+      "publisher": "탐사일보",
+      "publishedAt": "2026-11-19T20:41:08+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "수원",
+      "title": "수원특례시의회 서형미 의원, \"광교 웰빙타운 주민 건강권 보장 위해 영통구 보건분소 설치 촉구\"",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1DTFRRRUlwMHdMYVFNdmRiSkNIOERVLWJqYkktSEFONjBRdGNEMDlKM3lWUjVrNVdwaWQ5UmRmcDRzQ1F3QlIyVVNLemNRVEJ3Z2dHVGg4dmJtcFNHbzUyTEs1bGZvcXJHdWVaaXBPdw?oc=5",
+      "publisher": "뉴스파노라마",
+      "publishedAt": "2026-11-19T20:28:50+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -701,26 +754,6 @@
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "화성",
-      "title": "화성시법원, 병점복합타운에 들어선다…2032년 3월 개원 목표",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4wUVFUd3lDZlBhTkZSTGh0RWV6VTRXOFdKQ0E0Vk9jZnliclRodXVNeG94UXBoLWIwLUp5clR2WVlZRWExSmJsRjItS1BhLWEwc1JNRVhIejRwQzZ5LTJ0TVZfdjBuZlRsTTQyRThmQ1_SAXRBVV95cUxQS29PR3R3eU1rY3llMFd2Ukhwcm11dzBQY3Z2NmE2SThLclZjdG9UTnlkOW1MTktQcUxBNFpjZEN5NWIyR2VQM2ZPVzdocjR4dEMwMDgxTUU2elpVcF80a1F1Z1J2R3ROX1FMcFFxdEEyUi1rQw?oc=5",
-      "publisher": "주간한국",
-      "publishedAt": "2026-11-19T18:14:58+09:00",
-      "incident": false,
-      "relatedArticles": [
-        {
-          "city": "화성",
-          "title": "화성시법원, 병점복합타운에 들어선다…2032년 3월 개원",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBadzNMcHdqMWljZWxMOERidVdDTkRVazRHRkg2YXlEZVdfVVI3eFNzRXV2STd3Q3RfeDVJMllYX2FzbzhrVzRHdHZYQm5DZ2R1Z2ZQQk5DVVRmQQ?oc=5",
-          "publisher": "한국경제",
-          "publishedAt": "2026-11-19T15:47:44+09:00",
-          "incident": false
-        }
-      ],
-      "relatedCount": 1,
       "relevance": "지역기사"
     },
     {
@@ -1461,17 +1494,6 @@
       "relevance": "지역기사"
     },
     {
-      "city": "수원",
-      "title": "수원특례시의회 서형미 의원, \"광교 웰빙타운 주민 건강권 보장 위해 영통구 보건분소 설치 촉구\"",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lWEN1M0g3bXZWQkFwSFNVT180MnZCTE1ISGxhejNidmdlZlFGWDFuQURCMW5JblpJZl9oOExnamdTZll5N3cyMzZuZTdWVDlyakNBVS1kZTdFODBMbVNxMXFPNS1oRXFtZTJR?oc=5",
-      "publisher": "투데이경제",
-      "publishedAt": "2026-11-19T16:39:37+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
       "city": "용인",
       "title": "용인시, 제임스 그랜트 러시 루터대 교수 명예시민 선정",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CeFJVR09Sa3A4VVFIbnB0NFNoemtuWVFYMzM0WVI1aVlrZ1NZWVMzMm1LZXhRZUtHRF91akZBN04tejJuRmNIWFl3MkxGMV9zQUVIeDNFakl5OUFVQmo5M0lfRTdKNms3dFVXam93?oc=5",
@@ -1879,17 +1901,6 @@
       "relevance": "지역기사"
     },
     {
-      "city": "화성",
-      "title": "권칠승 의원이 추진한 화성시법원, 병점복합타운 부지 확정",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA3dWFtS280bTh0R2pxY1ZHMkwwZmVLZkJjWEZMUDgxSkdXelI3MWxRSHJxaVJqb2R0cENpbmtQN1I5SGhxRlJzSFl0Z1N3d2R5SnFqTHkzd3hnc3FNQWFDNTcxNkp0SXJjMGJkQkwxQ1AyQVZk?oc=5",
-      "publisher": "글로벌뉴스통신GNA",
-      "publishedAt": "2026-11-19T15:14:48+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
       "city": "용인",
       "title": "용인시산업진흥원-단국대, 대학 우수기술 사업화 협력",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBvaEVoYWgtR1FESU1BU08xWFBzTUVhc1E0RWJGVGJSUVU4Z0E2VTFESWE4Nm4xMmZ0bS1FWUpjSlJ3Y2tGUUFBS1FtTWZjZjBkMmlTbHMwaDZUX2tYUGxWbVA5aFQybmMxUFBOUm5HdmJGTWM?oc=5",
@@ -2186,17 +2197,6 @@
     },
     {
       "city": "오산",
-      "title": "오산 세교 물류센터 갈등…조용호 시장, 화성시와 공동 해법 모색",
-      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBaS1l3RFRRLVBmcjFDVFgtak96b283WVNkZ2pvR3VIYUl5S2J5MFc1Q2o1RTNwRk4teXc3Mmd2YkJIa2M?oc=5",
-      "publisher": "수원화성신문",
-      "publishedAt": "2026-11-19T14:14:00+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "오산",
       "title": "오산시, 수능 끝낸 청년에게 ‘이루잡’ 문 활짝…수험표 들고 오면 선착순 100명 e쿠폰",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tYnVJbEZmTVJxeDJGbFhDWWxrNzZRMm5KYWdDWFA3Ym9BMkhwYVJ2Q3RNSlBoLUZDcTk5aDJ1MUM4cXNxeTdxU2lvSkVJNWJHMERicVcxVHRYSEh4T3RmM09wUTVDbWlhbUZMLTA2Y3E?oc=5",
       "publisher": "인천일보",
@@ -2211,6 +2211,17 @@
       "title": "용인특례시, 보정동 카페거리 7900원 투어패스 출시",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9yVmQtNHdXNVdHci15eVFUMTE4NGFlQTQtRWFOVmVjejlRTlRPQW9reVo2bFZPM0FFVElHajFuMmhldDBjZjFrZEw1b3MwM19WMG9ycG9LcHd5LXBjdENLeUZ5N2V5eDU3YWZMWnFtcFo?oc=5",
       "publisher": "인천일보",
+      "publishedAt": "2026-11-19T14:14:00+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "오산",
+      "title": "오산 세교 물류센터 갈등…조용호 시장, 화성시와 공동 해법 모색",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBaS1l3RFRRLVBmcjFDVFgtak96b283WVNkZ2pvR3VIYUl5S2J5MFc1Q2o1RTNwRk4teXc3Mmd2YkJIa2M?oc=5",
+      "publisher": "수원화성신문",
       "publishedAt": "2026-11-19T14:14:00+09:00",
       "incident": false,
       "relatedArticles": [],
@@ -2603,7 +2614,7 @@
     {
       "city": "오산",
       "title": "오산세교종합사회복지관, 나린그룹 임직원 13명과 김장김치 배달 봉사…집집마다 찾아 안부 살펴",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE54bUhEbmpIMmJVczk1RDdjb2NjY25icmRjZllBMEV2dWxsYlVZelB4bW53MEtkZXNlVGtzM0ozd3NMVUxXbzdaUlg2cXNEU056RkhqdlM2d0RCQTRCYlhGYjBFODJMZw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE05OUlIbnpmSG5JcDJUdlBrZzI3NFZlbENsQS1jSnhqQjE2cEpZWlFlRG45THFGSlVoVGc5dlpITGJvdUZ0c3lxdXh5MnRPNVBHSkd4TTdtS3Jvd0h0ekpXUWtWWQ?oc=5",
       "publisher": "경기탑뉴스",
       "publishedAt": "2026-11-19T12:50:37+09:00",
       "incident": false,
@@ -2893,17 +2904,6 @@
       "publisher": "인디포커스",
       "publishedAt": "2026-11-19T10:25:00+09:00",
       "incident": true,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "오산",
-      "title": "오산시, 20~21일 시청 광장서 '겨울빛 누리마켓' 개최",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1rcHFKRFRrdHRwdU56RkNlRy1nQmpQR3oteS1ZNFVMSFplSmtlZGpaQ085dFBsY1FnVkd0SXktdzc2NGtpdlhycHVVaGUwTzN4bnduMkFnbjU2djU3a0NwdA?oc=5",
-      "publisher": "메트로신문",
-      "publishedAt": "2026-11-19T08:59:07+09:00",
-      "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
       "relevance": "지역기사"
