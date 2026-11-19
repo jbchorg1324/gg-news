@@ -162,6 +162,92 @@ def dedupe(articles):
     return out
 
 
+# 보도 묶음은 제목만으로 판단하는 보수적 추정입니다.
+# 날짜·수치·도시가 다르면 다른 기사로 보존합니다.
+COMMON_WORDS = {'속보','단독','종합','경기','경기도','수원','수원시','화성','화성시','오산','오산시',
+                '용인','용인시','뉴스','기자','오늘','관련','대한','위해','이번','지난','시의회',
+                '시청','경찰','소방','발표','밝혀','추진','진행','개최','논의','나서','강화'}
+MIXED_ROUNDUP = re.compile(r'\[패트롤\]|\[종합\]|^패트롤|[가-힣]+시[-·][가-힣]+시[-·]')
+INCIDENT_HARD = re.compile(r'화재|산불|붕괴|추락|사망|숨져|숨진|실종|폭발|검거|체포|구속|입건|송치|흉기|폭행|살인|절도|사기|교통사고|충돌|전복|침수|음주운전|구조|대피|부상|실종|방화|수사|범죄|피싱|마약|고발|기소')
+
+
+def title_words(title):
+    clean = re.sub(r'\[[^]]{1,35}\]', ' ', title.lower())
+    return {w for w in re.findall(r'[가-힣a-z0-9]{2,}', clean)
+            if w not in COMMON_WORDS and len(w) > 1}
+
+
+def same_story(left, right):
+    if left.get('city') != right.get('city'):
+        return False
+    t1, t2 = parse_date(left), parse_date(right)
+    if not t1 or not t2 or abs((t1 - t2).total_seconds()) > 30 * 3600:
+        return False
+    a, b = normalized(left.get('title', '')), normalized(right.get('title', ''))
+    # 숫자가 다른 후속 보도, 인명·피해 규모 변화를 합치지 않습니다.
+    if re.findall(r'\d+', a) != re.findall(r'\d+', b):
+        return False
+    if a == b:
+        return True
+    if min(len(a), len(b)) >= 26 and SequenceMatcher(None, a, b).ratio() >= .87:
+        return True
+    w1, w2 = title_words(left.get('title', '')), title_words(right.get('title', ''))
+    common = w1 & w2
+    if len(common) < 3 or min(len(w1), len(w2)) < 4:
+        return False
+    return len(common) / max(len(w1), len(w2)) >= .73
+
+
+def story_priority(item):
+    title = item.get('title', '')
+    score = 0
+    if MIXED_ROUNDUP.search(title):
+        score -= 5
+    if INCIDENT_HARD.search(title):
+        score += 2
+    if re.search(r'주민|민원|감사|예산|교통|철도|트램|학교|안전|개발|대책|피해', title):
+        score += 2
+    return score
+
+
+def group_stories(articles):
+    """같은 현안 기사는 대표 1건+관련 보도로 표시합니다."""
+    grouped = []
+    sorted_items = sorted(articles, key=lambda x: x.get('publishedAt', ''), reverse=True)
+    for item in sorted_items:
+        if not isinstance(item, dict) or not item.get('title'):
+            continue
+        # 이전 배포에서 만들어진 relatedArticles도 재활용해 기록을 잃지 않게 함.
+        members = [dict(item, relatedArticles=[])]
+        for related in item.get('relatedArticles', []):
+            if isinstance(related, dict) and related.get('title') and related.get('url'):
+                members.append(dict(related, relatedArticles=[]))
+        for member in members:
+            target = next((g for g in grouped if same_story(g, member)), None)
+            if target is None:
+                target = dict(member)
+                target['relatedArticles'] = []
+                grouped.append(target)
+            else:
+                existing = [target] + target['relatedArticles']
+                if not any(normalized(x['title']) == normalized(member['title']) and
+                           x.get('publisher') == member.get('publisher') for x in existing):
+                    target['relatedArticles'].append({k:member.get(k) for k in
+                        ('city','title','url','publisher','publishedAt','incident')})
+                target['incident'] = bool(target.get('incident') or member.get('incident'))
+    for group in grouped:
+        options = [dict(group, relatedArticles=[])] + group['relatedArticles']
+        options.sort(key=lambda x:(story_priority(x), x.get('publishedAt','')), reverse=True)
+        lead = options[0]
+        lead['incident'] = any(x.get('incident') for x in options)
+        lead['relatedArticles'] = [{k:x.get(k) for k in ('city','title','url','publisher','publishedAt','incident')}
+                                   for x in options[1:][:8]]
+        lead['relatedCount'] = len(options)-1
+        lead['relevance'] = '종합기사' if MIXED_ROUNDUP.search(lead['title']) else '지역기사'
+        group.clear(); group.update(lead)
+    return sorted(grouped, key=lambda x:x.get('publishedAt',''), reverse=True)
+
+
 def get_weather(previous):
     old = previous.get('weather', {})
     current_day = NOW.astimezone(KST).date().isoformat()
@@ -277,17 +363,19 @@ def main():
     prior_general = [a for a in previous_articles if a.get('city') in CORE]
     core_general = trim_by_city(keep_recent(general + prior_general, GENERAL_HOURS), 65)
 
-    # 같은 제목으로 일반/사건 검색에 중복된 경우 incident=True를 유지해야 합니다.
-    merged = {}
-    for article in core_general + core_incidents + surrounding_incidents:
-        key = (article.get('city'), normalized(article.get('title', '')))
-        if not key[1]:
+    # 날짜와 수치가 다른 후속 보도는 별개로 남기고, 동일 현안은 대표 기사로 묶습니다.
+    # 일반/사건 검색 중복도 same_story가 처리합니다.
+    articles = group_stories(core_general + core_incidents + surrounding_incidents)
+    # 중복 목록 자체의 용량 폭증을 막기 위한 도시별 균등 상한
+    counts, capped = {}, []
+    for article in articles:
+        c = article.get('city', '')
+        cap = 90 if c in CORE else 15
+        if counts.get(c, 0) >= cap:
             continue
-        earlier = merged.get(key)
-        if earlier is None or article.get('incident'):
-            merged[key] = dict(article, incident=bool(article.get('incident') or
-                                                       (earlier or {}).get('incident')))
-    articles = sorted(merged.values(), key=lambda x: x['publishedAt'], reverse=True)
+        counts[c] = counts.get(c, 0) + 1
+        capped.append(article)
+    articles = capped
 
     weather, weather_err = get_weather(previous)
     if weather_err:
@@ -301,6 +389,8 @@ def main():
             'incidentRetentionHours': RETENTION_HOURS,
             'generalRetentionHours': GENERAL_HOURS,
             'incidentCount': sum(bool(a.get('incident')) for a in articles),
+            'groupCount': len(articles),
+            'relatedReports': sum(a.get('relatedCount', 0) for a in articles),
             'note': '기사 발행시각 기준 보존. 사건 발생시각 및 실제 긴급성은 검증되지 않음',
         },
     }
