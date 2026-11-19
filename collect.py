@@ -22,12 +22,14 @@ import requests
 KST = ZoneInfo('Asia/Seoul')
 NOW = dt.datetime.now(dt.timezone.utc)
 OUTPUT = Path('data/news.json')
-CORE = ('수원', '화성', '오산')
+# 뉴스지도의 핵심 도시: 용인시 추가
+CORE = ('수원', '화성', '오산', '용인')
 SOUTH = ('수원', '화성', '오산', '용인', '평택', '안산', '안성', '이천', '과천')
 CORE_QUERY = {
     '수원': '수원시 OR 수원경찰 OR 수원시청 OR 영통구',
     '화성': '화성시 OR 화성경찰 OR 동탄 OR 향남',
     '오산': '오산시 OR 오산경찰 OR 세교',
+    '용인': '용인시 OR 용인시청 OR 용인경찰 OR 처인구 OR 기흥구 OR 수지구',
 }
 INCIDENT_WORDS = ('화재', '불길', '불이 나', '큰불', '산불', '폭발', '붕괴', '추락', '사망',
                   '숨져', '숨진', '부상', '중상', '사고', '충돌', '전복', '침수', '실종',
@@ -192,8 +194,8 @@ def main():
 
     core_news = dedupe(general + [a for a in alerts if a['city'] in CORE])
     south_alerts = dedupe([a for a in alerts if a['city'] not in CORE])
-    # 외부 사건 기사로 기존 수원·화성·오산 일반 뉴스가 밀리지 않도록 상한을 분리합니다.
-    articles = sorted(core_news[:140] + south_alerts[:60],
+    # 핵심지역 4개 도시의 뉴스가 충분히 표시되도록 한도를 늘렸습니다.
+    articles = sorted(core_news[:180] + south_alerts[:60],
                       key=lambda a: a['publishedAt'], reverse=True)
     w, err = get_weather(previous)
     if err:
@@ -203,7 +205,7 @@ def main():
             'status': status, 'errors': errors, 'articles': articles,
             'weather': w}
     OUTPUT.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(f'완료: 총 {len(articles)}건 (핵심지역 {len(core_news[:140])}, 주변 사건 {len(south_alerts[:60])}) / 오류 {len(errors)}건')
+    print(f'완료: 총 {len(articles)}건 (핵심지역 {len(core_news[:180])}, 주변 사건 {len(south_alerts[:60])}) / 오류 {len(errors)}건')
 
 
 if __name__ == '__main__':
