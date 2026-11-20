@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T04:45:49+09:00",
+  "updatedAt": "2026-11-21T05:35:10+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -1863,8 +1863,17 @@
       "publisher": "한국금융신문",
       "publishedAt": "2026-11-20T14:59:50+09:00",
       "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
+      "relatedArticles": [
+        {
+          "city": "화성",
+          "title": "롯데온, 소상공인 판로 확대 지원…롯데百 동탄점서 팝업",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTYW5jNzZ0LVFpdWRFdl9XWEJjaFNRcDV4OHhWbWpXWFFHZnRTRkV3Ri1mSmM0YmxvQUNsU3owRmlQSEdtak5sbkxDYnpuSURTX1BOT2RtaTl3QQ?oc=5",
+          "publisher": "파이낸셜뉴스",
+          "publishedAt": "2026-11-20T09:19:41+09:00",
+          "incident": false
+        }
+      ],
+      "relatedCount": 1,
       "relevance": "지역기사"
     },
     {
@@ -3244,7 +3253,7 @@
     "generalRetentionHours": 36,
     "incidentCount": 32,
     "groupCount": 280,
-    "relatedReports": 12,
+    "relatedReports": 13,
     "note": "기사 발행시각 기준 보존. 사건 발생시각 및 실제 긴급성은 검증되지 않음"
   }
 }
