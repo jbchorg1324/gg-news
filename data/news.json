@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T07:30:14+09:00",
+  "updatedAt": "2026-11-21T08:29:39+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -7,8 +7,32 @@
     "오산": "정상",
     "용인": "정상"
   },
-  "errors": [],
+  "errors": [
+    "날씨: 수원: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read ti"
+  ],
   "articles": [
+    {
+      "city": "용인",
+      "title": "[의회 브리핑]김종억 용인시의원, 행감서 환경·농업 사업 실효성 주문",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KNXVzQ040cERMU3RiXzNyUVcwd2NfQXJaNmhtSVozUnY5RlIxZWFlcG56MGwtdHV0VlV1OTZrZEE0a1dqR0RVbTZpdEhralM2MFJ5VEdNWWpRTk1XLUU3UQ?oc=5",
+      "publisher": "NSP통신",
+      "publishedAt": "2026-11-21T08:10:41+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "화성",
+      "title": "(사)필라멘트복지법인, 화성시 취약계층에 김장김치 100박스 전달",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPbUczUU5BVjIyeXZkSzloSVZzUDJWVmphN0pxM2s1TmoycXFVeGdqWndXc2dDUkwtaWhHaXJuOTYxNHhtckg5OUM1aHFiZnFHeWg0RFQybVFLYU9wSUJvY1liV2VMWHM?oc=5",
+      "publisher": "경인신문",
+      "publishedAt": "2026-11-21T07:44:33+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
     {
       "city": "용인",
       "title": "용인시의회 이주연 의원, “백옥쌀, 개발 넘어 상품화로”… 조아용 푸드 판로 확대 촉구",
@@ -16,17 +40,8 @@
       "publisher": "일간투데이",
       "publishedAt": "2026-11-21T06:36:18+09:00",
       "incident": false,
-      "relatedArticles": [
-        {
-          "city": "용인",
-          "title": "“백옥쌀, 개발 넘어 상품화로”… 이주연 용인시의원, 조아용 푸드 판로 확대 촉구",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1RdVpwV3dLVkswUXpXX0xUdXlyVXBQRVgzc0NMR0NMM0tEeGV0VllZYXRBeF9KREtxZW9zZ2tWclpkeEpqN2t5NVl4aUhjeWpMSzc3RnJ1cDQ5bDNySnhMU3ZIUDA?oc=5",
-          "publisher": "매일일보",
-          "publishedAt": "2026-11-20T16:53:01+09:00",
-          "incident": false
-        }
-      ],
-      "relatedCount": 1,
+      "relatedArticles": [],
+      "relatedCount": 0,
       "relevance": "지역기사"
     },
     {
@@ -330,6 +345,17 @@
       "relevance": "지역기사"
     },
     {
+      "city": "용인",
+      "title": "용인시, 백암면 '늘품은 향유센터' 기공식 개최",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNV3M2b0d6WG5oVUlkSlBoYkk5ZkZaZFVHZmJfcXE3NHZwbVhRcFFybFM1SE5mY253ZjEzelVWcC0yT2xib3p3MFRGbW5mbFNwYW9LaE9SU1pGanVEbHNNRXQ5Z3hZNlJRZTg0M2tDRmVOU1E?oc=5",
+      "publisher": "동방일보",
+      "publishedAt": "2026-11-20T20:07:43+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
       "city": "오산",
       "title": "오산시, 도급·용역 담당 공무원 대상 중대재해 예방 교육…지자체 사례로 법적 의무 익혀",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MWjE0cFpMNVdPdmhpZlE0NkRZblVjLXRjaDFBNEo4SDVCeEFuY3NwaUpTY2Z2MkpQaWVmSV85TndfY0d1cjBoXzZGUjRTbzZ4eTdSMy0xamVHVVRFWmc3SE8wZUc0bGdC?oc=5",
@@ -368,17 +394,6 @@
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1UMTROUFdvUmtzbHBfblZXQTJwQmFuVkQ0elU5a2xOaE9LRERMaUM2UHAwRUdWYzJHZnVGZnNsYnlSTDRuZG85b3hMb1JjUDJYVEVMVTJkQ2RWZllndWxoN01VbWlBbXVkUVU0?oc=5",
       "publisher": "미디어와이",
       "publishedAt": "2026-11-20T19:31:54+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "용인",
-      "title": "용인시, 백암면 '늘품은 향유센터' 기공식 개최",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91djNaTDNIdFhzVnpXMFlfWHNOUW5QeW02NWFwNm11MFZuYjdnTElVZlNqNXR5SWlITVU4YThpT3FWOTR1ODNaSnBacmtQSWVHMHdGcXBuZGZ4YlB6akY0VmFva3M3UjB0eDVoZDB3?oc=5",
-      "publisher": "국제뉴스",
-      "publishedAt": "2026-11-20T19:26:54+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -1883,17 +1898,8 @@
       "publisher": "한국금융신문",
       "publishedAt": "2026-11-20T14:59:50+09:00",
       "incident": false,
-      "relatedArticles": [
-        {
-          "city": "화성",
-          "title": "롯데온, 소상공인 판로 확대 지원…롯데百 동탄점서 팝업",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTYW5jNzZ0LVFpdWRFdl9XWEJjaFNRcDV4OHhWbWpXWFFHZnRTRkV3Ri1mSmM0YmxvQUNsU3owRmlQSEdtak5sbkxDYnpuSURTX1BOT2RtaTl3QQ?oc=5",
-          "publisher": "파이낸셜뉴스",
-          "publishedAt": "2026-11-20T09:19:41+09:00",
-          "incident": false
-        }
-      ],
-      "relatedCount": 1,
+      "relatedArticles": [],
+      "relatedCount": 0,
       "relevance": "지역기사"
     },
     {
@@ -3201,7 +3207,7 @@
     }
   ],
   "weather": {
-    "updatedAt": "2026-11-21T00:15:20+09:00",
+    "updatedAt": "2026-11-21T08:29:39+09:00",
     "source": "Open-Meteo",
     "cities": {
       "수원": {
@@ -3210,37 +3216,37 @@
         "precipitationProbability": 0
       },
       "화성": {
-        "temperature": -1.7,
+        "temperature": -2.9,
         "weatherCode": 0,
         "precipitationProbability": 0
       },
       "용인": {
-        "temperature": -4.7,
+        "temperature": -5.9,
         "weatherCode": 0,
         "precipitationProbability": 0
       },
       "오산": {
-        "temperature": -4.0,
+        "temperature": -4.4,
         "weatherCode": 0,
         "precipitationProbability": 0
       },
       "안산": {
-        "temperature": -2.2,
+        "temperature": -3.6,
         "weatherCode": 0,
         "precipitationProbability": 0
       },
       "평택": {
-        "temperature": -3.1,
-        "weatherCode": 1,
+        "temperature": -4.2,
+        "weatherCode": 0,
         "precipitationProbability": 0
       },
       "이천": {
-        "temperature": -4.5,
+        "temperature": -5.3,
         "weatherCode": 0,
         "precipitationProbability": 0
       },
       "과천": {
-        "temperature": -4.7,
+        "temperature": -5.6,
         "weatherCode": 0,
         "precipitationProbability": 0
       }
@@ -3250,8 +3256,8 @@
     "incidentRetentionHours": 72,
     "generalRetentionHours": 36,
     "incidentCount": 32,
-    "groupCount": 279,
-    "relatedReports": 14,
+    "groupCount": 281,
+    "relatedReports": 12,
     "note": "기사 발행시각 기준 보존. 사건 발생시각 및 실제 긴급성은 검증되지 않음"
   }
 }
