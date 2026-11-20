@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T05:35:10+09:00",
+  "updatedAt": "2026-11-21T06:32:27+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -623,6 +623,17 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5UMVdid1ZRRXhpdUt6dzJ5THdmR1lXMVVnNXpWVTZLeElyaURFU3V6VWVSZXlaM1JNTDNUdThhdW1LR3BiZTBzcnhsbUNmWDNkV0hmYnR6UzZuRmZkZzRXelowTWptdUk5djlhaFJuc29XUQ?oc=5",
       "publisher": "웹이코노미",
       "publishedAt": "2026-11-20T17:56:26+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "용인",
+      "title": "용인시, 백암면 늘품은 향유센터 2027년 준공",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QVjhQV2JKM1lIalVsNl9IZUQ1WUI4Z2dCd2ZRcTFQVjlUWERrVUV1SzN5SmZaNmtnaHNJVWNJVV9ZZGVMV0tWSGdMSHB1WmtKQ3oxQXRTRW9oUUQ0WWI0ZFVCN1RmNjF4TW9qak1IVl8yZw?oc=5",
+      "publisher": "디스커버리뉴스(DISCOVERYNEWS)",
+      "publishedAt": "2026-11-20T17:49:57+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -2692,17 +2703,6 @@
       "city": "용인",
       "title": "용인시, 수험생 40명 대상 특별 체험 프로그램 운영",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Xd3NMcTMxbHhTbFY5WXdiTVpDTVNQY2h3Uzl0cGt2TFdIRm53X3Q1LXNQUGlJb2w1Z0dpRmppSVR6Z0tfVWJQaWJXZjhTSUNCbFdJWkVzMkJBVEZ3S2FPX0dIMnRfdHdNbDBqbU5xWVLSAXRBVV95cUxNSXJUSVFWWmY0UEdMZjdnWXp6RzN0ZzI1dmpOR3BCc3dGQWJXdE5lMFZkbmx2REEtLUJfaEpjZU9ERkVGU3pBbmZkR0picDhrbDFQZVNFNlNyUUZtVm5DcllJY2xHcmN5Mm9hdWVuUUtGcmhrNQ?oc=5",
-      "publisher": "이뉴스투데이",
-      "publishedAt": "2026-11-20T11:15:00+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "용인",
-      "title": "용인시, 지역 공예작가 20인 작품 체험 ‘나도 금손’ 개최",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hZ0FHZDlmdnAyUWlKQk55X0RINEUwOVJSRnRvUzY4bHdlNFIwQ2d3RVl2Vng2b1JLVjZ5UXB2QmNJc1BNQko2cGNFR3FaTktxUDFiNkQtQzRaaExQYVVBdG0xTXZsdk01aGoyTEx0R2nSAXRBVV95cUxNNUExWEdxbmw2UW0xS2VlSkdDbXRtdHV2bjVEVzdTbjVZMkI0WUgyTlJyZTNvZVRRbkdkNXdlZi13cWFzV3Joa25tTTh3SUlFazhTbzBrWHBoQUpPSzc3RWd3T0pqUm4zdlk4RFFJTTdMOE1Fcg?oc=5",
       "publisher": "이뉴스투데이",
       "publishedAt": "2026-11-20T11:15:00+09:00",
       "incident": false,
