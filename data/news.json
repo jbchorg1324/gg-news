@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T01:17:49+09:00",
+  "updatedAt": "2026-11-21T02:41:48+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -9,6 +9,42 @@
   },
   "errors": [],
   "articles": [
+    {
+      "city": "용인",
+      "title": "용인문화재단, ‘2026 찾아가는 문화야시장’ 성료… 시민 6,700여명 참여",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE14em9xU0JEZkltMVJYQXhvRmZ4d0pVSVNEaTUyVVMydHpWU0t2akF2UGxxR3RwZTNTZy1IWXp4Q0JwMWUyTlBnSmVFZjBaOHd1eWpWbDQwZmpUdFpadzlQNUZfOE5hbGho?oc=5",
+      "publisher": "광교신문",
+      "publishedAt": "2026-11-21T01:57:50+09:00",
+      "incident": true,
+      "relatedArticles": [
+        {
+          "city": "용인",
+          "title": "용인문화재단, '2026 찾아가는 문화야시장' 성료… 시민 6,700여 명 참여",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE83SWpmZ2tNckw0NG1aZUFHNmUweC1UeVVNbDhmVzE5OE1aazJaaVFSS1RrZ0NrSXJERE5QdnhJa1QyUDNXVnpSUlRQYmR2aC1Oc0JNWHVzWlpZZ29TR1pybVU4bmF6cjBYSzZj?oc=5",
+          "publisher": "투데이경제",
+          "publishedAt": "2026-11-20T16:10:24+09:00",
+          "incident": true
+        },
+        {
+          "city": "용인",
+          "title": "용인문화재단, '2026 찾아가는 문화야시장' 성료… 시민 6,700여 명 참여",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02c3NMQ1FUaTVINFhfT0E0aEYzSmZxRDdWMDdUVEdoOEhELS1rYjhzUEZZczVpbi1UUVo5Sy0zZE9aYzlFUWdyT2xTeko4Xy10QkFMeUtmOVpuYmEtbUZZ?oc=5",
+          "publisher": "뉴스다",
+          "publishedAt": "2026-11-20T11:10:46+09:00",
+          "incident": true
+        },
+        {
+          "city": "용인",
+          "title": "용인문화재단, ‘2026 찾아가는 문화야시장’ 성료… 시민 6,700여명 참여",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1UaURtVVMyY1k5dWozcGw4WTJqTnFud0R0RlNpanZEdkltWTBLMC1pejhWbmpQeXUxMjhkWndXaWUzUlVlamEwTWZrbnFCX0ZBUERpS1NVQzh2S0VpVldZV1BoVjcweHNndWl5N3Jn?oc=5",
+          "publisher": "서프라이즈뉴스",
+          "publishedAt": "2026-11-20T07:05:46+09:00",
+          "incident": true
+        }
+      ],
+      "relatedCount": 3,
+      "relevance": "지역기사"
+    },
     {
       "city": "수원",
       "title": "수원시 팔달문 성곽잇기 사업비 4000억까지 늘어나나… 시의회 우려",
@@ -44,8 +80,8 @@
     },
     {
       "city": "수원",
-      "title": "수원시 장안구 파장동, 수원시다문화협회로부터 고추장 50개 기탁받아 이웃사랑 실천",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5wZjFNcDQ4UDN6b2ktVElTenItYjdxTzdnT09Razc3b0tRaWhqSm1kVm5uaUJUZk5kUXFSeDlVYjJVX2I3N0JfUjZnZlFSQ2VLY1RaRW9kVXlnazZRVUJFdEFtb2hWNmdXazh3STJlSQ?oc=5",
+      "title": "수원시 장안구, 가을맞이 쾌적한 녹지환경 조성",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1DOUdCLUtkLUlrSkdJV2k1aTdSOEpjZHl2S3RaUzFHT0t5UGVmQWNIdkpNR2p1R0pydnpIcm9PdHBfa2JmS1NrQVYtVjcxdEQtZ3hqck5DTzdaVHJVYjgtWlQ1M2xYeGItbXVDMF9nNA?oc=5",
       "publisher": "뉴스파이어",
       "publishedAt": "2026-11-21T00:00:13+09:00",
       "incident": false,
@@ -55,8 +91,8 @@
     },
     {
       "city": "수원",
-      "title": "수원시 장안구, 가을맞이 쾌적한 녹지환경 조성",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1DOUdCLUtkLUlrSkdJV2k1aTdSOEpjZHl2S3RaUzFHT0t5UGVmQWNIdkpNR2p1R0pydnpIcm9PdHBfa2JmS1NrQVYtVjcxdEQtZ3hqck5DTzdaVHJVYjgtWlQ1M2xYeGItbXVDMF9nNA?oc=5",
+      "title": "수원시 장안구 파장동, 수원시다문화협회로부터 고추장 50개 기탁받아 이웃사랑 실천",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5wZjFNcDQ4UDN6b2ktVElTenItYjdxTzdnT09Razc3b0tRaWhqSm1kVm5uaUJUZk5kUXFSeDlVYjJVX2I3N0JfUjZnZlFSQ2VLY1RaRW9kVXlnazZRVUJFdEFtb2hWNmdXazh3STJlSQ?oc=5",
       "publisher": "뉴스파이어",
       "publishedAt": "2026-11-21T00:00:13+09:00",
       "incident": false,
@@ -923,10 +959,10 @@
       "relevance": "지역기사"
     },
     {
-      "city": "화성",
-      "title": "﻿지역 내 신축 갈아타기 수요 집중…‘향남역 그로브 스위첸’ 공급 눈길",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBlRU5xVUx5MV81b2pZQzlwX0pZd0h0Rmp5bXlKSHZ1bmV3Ul9tX3d0NjhVSlpGdTEyQWNtOWgxdUwxeFRubG5kcTN2aVd0Y0hPZy1OekJrMVVJSXFXdTNoTWRTMkJjVXh1RnJPNzBn0gFyQVVfeXFMTnVoYkNQZjVYMy0teWNSUjlVaXZWc3o5WFFyNUgwZm44VjFPeHBRUlBpeXh0U19ld2RwdmxtUE1ReUo4YjAxOW5kWjgtTm1pem54MkIyVEszTXlkRHRPMEd5bGFubmt0ak5GNjd0QTFqS3RB?oc=5",
-      "publisher": "한국목재신문",
+      "city": "용인",
+      "title": "용인시, 특수학교 추가 설립 추진…문화예술 특화학교 검토",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE43U3RpaUljOTM2QnlnTlRxQ3dJUHFsazZHc25LZjZleGVuTHhzclNVZmhmNXlIb3djRDlrVkJYY0FiX0cxT2RDVVZwNDFObDJ0akNfWjVsT0VUNTU4QU5IQnVHazhMU0lPQXphMDB5bzlCaHM?oc=5",
+      "publisher": "배리어프리뉴스",
       "publishedAt": "2026-11-20T16:27:33+09:00",
       "incident": false,
       "relatedArticles": [],
@@ -934,10 +970,10 @@
       "relevance": "지역기사"
     },
     {
-      "city": "용인",
-      "title": "용인시, 특수학교 추가 설립 추진…문화예술 특화학교 검토",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE43U3RpaUljOTM2QnlnTlRxQ3dJUHFsazZHc25LZjZleGVuTHhzclNVZmhmNXlIb3djRDlrVkJYY0FiX0cxT2RDVVZwNDFObDJ0akNfWjVsT0VUNTU4QU5IQnVHazhMU0lPQXphMDB5bzlCaHM?oc=5",
-      "publisher": "배리어프리뉴스",
+      "city": "화성",
+      "title": "﻿지역 내 신축 갈아타기 수요 집중…‘향남역 그로브 스위첸’ 공급 눈길",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBlRU5xVUx5MV81b2pZQzlwX0pZd0h0Rmp5bXlKSHZ1bmV3Ul9tX3d0NjhVSlpGdTEyQWNtOWgxdUwxeFRubG5kcTN2aVd0Y0hPZy1OekJrMVVJSXFXdTNoTWRTMkJjVXh1RnJPNzBn0gFyQVVfeXFMTnVoYkNQZjVYMy0teWNSUjlVaXZWc3o5WFFyNUgwZm44VjFPeHBRUlBpeXh0U19ld2RwdmxtUE1ReUo4YjAxOW5kWjgtTm1pem54MkIyVEszTXlkRHRPMEd5bGFubmt0ak5GNjd0QTFqS3RB?oc=5",
+      "publisher": "한국목재신문",
       "publishedAt": "2026-11-20T16:27:33+09:00",
       "incident": false,
       "relatedArticles": [],
@@ -1056,34 +1092,6 @@
     },
     {
       "city": "용인",
-      "title": "용인문화재단, '2026 찾아가는 문화야시장' 성료… 시민 6,700여 명 참여",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE83SWpmZ2tNckw0NG1aZUFHNmUweC1UeVVNbDhmVzE5OE1aazJaaVFSS1RrZ0NrSXJERE5QdnhJa1QyUDNXVnpSUlRQYmR2aC1Oc0JNWHVzWlpZZ29TR1pybVU4bmF6cjBYSzZj?oc=5",
-      "publisher": "투데이경제",
-      "publishedAt": "2026-11-20T16:10:24+09:00",
-      "incident": true,
-      "relatedArticles": [
-        {
-          "city": "용인",
-          "title": "용인문화재단, '2026 찾아가는 문화야시장' 성료… 시민 6,700여 명 참여",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02c3NMQ1FUaTVINFhfT0E0aEYzSmZxRDdWMDdUVEdoOEhELS1rYjhzUEZZczVpbi1UUVo5Sy0zZE9aYzlFUWdyT2xTeko4Xy10QkFMeUtmOVpuYmEtbUZZ?oc=5",
-          "publisher": "뉴스다",
-          "publishedAt": "2026-11-20T11:10:46+09:00",
-          "incident": true
-        },
-        {
-          "city": "용인",
-          "title": "용인문화재단, ‘2026 찾아가는 문화야시장’ 성료… 시민 6,700여명 참여",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1UaURtVVMyY1k5dWozcGw4WTJqTnFud0R0RlNpanZEdkltWTBLMC1pejhWbmpQeXUxMjhkWndXaWUzUlVlamEwTWZrbnFCX0ZBUERpS1NVQzh2S0VpVldZV1BoVjcweHNndWl5N3Jn?oc=5",
-          "publisher": "서프라이즈뉴스",
-          "publishedAt": "2026-11-20T07:05:46+09:00",
-          "incident": true
-        }
-      ],
-      "relatedCount": 2,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "용인",
       "title": "“국평 16억원 넘겠어요”…반도체벨트 집값 ‘불기둥’",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kRHVTOXJFVHB4SzhvSUhlS3NQcm1qaGo4QV8zTTJ1N1IyVzVfeWduaE1JeTBvQjFpd0V1cXdlN0lUaEVMZWl6VkxxeUg5N29xMkx0UDNn?oc=5",
       "publisher": "매일경제",
@@ -1160,6 +1168,17 @@
       "relevance": "지역기사"
     },
     {
+      "city": "화성",
+      "title": "정명근 화성시장, 농가와 시민 잇는 직거래장터 확대…지역 농산물 소비 촉진",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE95VFhJU3Z0SnRMNEpxSm5IcmY5S1BsdkY0b0ZhR0dVaHdndlZJY1JuaUJvT2ZsbkV3bTdqODg2cTJoc0pnY05aLU1LbXdTanhITVk0MXJQUW5XOHdfX2kxR1VlcDdDa2Ry0gFsQVVfeXFMTmRscjNVN2pZd2ZBMUIySkMycjFlaVZmeDhMXzI2NzVpaGpCMkhIbDh2dzhRNUFveU1SSkhhWWt6YTBCa0ZBdnlDTlR5UTcyS2hPNlBHNERiUmNZSWZoakdKT3BoYVlJRWJtSS1v?oc=5",
+      "publisher": "필드뉴스",
+      "publishedAt": "2026-11-20T16:02:34+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
       "city": "용인",
       "title": "용인시, 수능 마친 고3 수험생에 문화체험 기회",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9kWFpWemR5VWlCM1VmR3A1WUlzbjBkT2pFNnFoYXRvV1VySDg2TDRDaUJkWFZoLUk1MG8xZHh3aWxzS1Z1Ynhha1lDQTY0VzhnTnFNM25hbDhydi1nSm5CVGZMNVdBV3otTjRvY2Jn0gFyQVVfeXFMTVp3VkhKMlg1X3M4YUtIbWFOVjV0a2NFTXVBdW9BVTBfblk4dlotYUJieWVQMTE1YWNXTGtDUk5zNENjZkZ5RURUUGh6NkkyaS0tM1VLR2JpUEY1NUVid1Z1MGFMakFZM1VkcTIxUmN4XzhR?oc=5",
@@ -1209,6 +1228,17 @@
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ZcmN6ak5Ud0g2dFFDQ2hyVUZPR2tQa3dQdTM4OGF1Wl9Ic090a3AxdUFaTFliaWJkdGZMMUZaX2x2OER3V3NWYVg1NjZyLWw3ZEg3YnExU2VsUUliZHgySm40VEpxMkNq?oc=5",
       "publisher": "환경일보",
       "publishedAt": "2026-11-20T15:56:05+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "용인",
+      "title": "[강성원의 현장톡(TALK)] 이상일 용인시장은 홍길동이 아니다, 의혹보다 사실이 먼저",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jLWVyYlZoOVhGQlhWOWdTMU9pcVRzUG55djBvYllxclF1OVdxM2lvUkJqT3BjWHpXYmc4RktxNFRtX2tyMmV6QV9QMVJXa1ZISGhKZDJjVzNJb3U3eHRJLV9PTWZFM0wz0gFsQVVfeXFMTk5oVHFHSFJsc1ZneTZsMTN3QUVlaWhQRzl5S201NUFwMmM2aHVQWVFvQWdRaENvdHBMelZNblJfYWtWLU1Cb3pPdlZ0djhUQ1M4dDQ2ekQxNWlEZlRTekNKem9DVVBsNnZSUE5Q?oc=5",
+      "publisher": "필드뉴스",
+      "publishedAt": "2026-11-20T15:55:18+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -1465,7 +1495,7 @@
         {
           "city": "오산",
           "title": "조용호 오산시장, 세교3신도시 중심 ‘인구 35만 자족도시’ 청사진 구체화",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDaVhEZDdiaUx5Z0NxaldSdDc5SGVGQnNKOHVvNDZ0R2txd1ViQ1NaZ3hUOExBbWZlNGlSQ0JMWVhEZlNXNDhrMGNBQWstNHRlQjZPYS1EblF3UEpSUVdQZHFDUTRuaXM?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QOVZSZ2tRNlBMQUhpZFFFaVctMWVScEppajJtVjJZTjZLNEh6WFVDVkRfdXVGV18tZjQzdE5Bam5BUEY3MGE1OWdsdlB2QTZkT3g3aV9jaTR3YVNUME1rSGVzQmFFeW5Q?oc=5",
           "publisher": "공감신문",
           "publishedAt": "2026-11-20T14:58:19+09:00",
           "incident": false
@@ -2025,7 +2055,7 @@
     {
       "city": "화성",
       "title": "화성시 동탄농협, 김장김치 300통 담가 겨울나기 나눔",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82Q2t4U0p1cFpVcXVhbU1lYmxyeVFPV2lkNDdWaVRkM21heWlBWElfSmJBZE9rZEdzSWZ3c1FZYUZjMzNoejVBZHhha0NCY2FQOURFOTVRSlF1TG9RS1FzeV9tVzVTZWg0MF9fbTJhM0hrVFpzbDdpQtIBeEFVX3lxTE82Q2t4U0p1cFpVcXVhbU1lYmxyeVFPV2lkNDdWaVRkM21heWlBWElfSmJBZE9rZEdzSWZ3c1FZYUZjMzNoejVBZHhha0NCY2FQOURFOTVRSlF1TG9RS1FzeV9tVzVTZWg0MF9fbTJhM0hrVFpzbDdpQg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1maWFVMXZHSl9td2hJTlR4TXFsS3haMzlsV3B5UnNkRkkwTXRvZU1hVXJDcXByMWJlNUFyekluRlBuUXNwdjBmNGF6QkVtS3E3ekMzRkY1dy1pNnJBV2hNNNIBeEFVX3lxTE82Q2t4U0p1cFpVcXVhbU1lYmxyeVFPV2lkNDdWaVRkM21heWlBWElfSmJBZE9rZEdzSWZ3c1FZYUZjMzNoejVBZHhha0NCY2FQOURFOTVRSlF1TG9RS1FzeV9tVzVTZWg0MF9fbTJhM0hrVFpzbDdpQg?oc=5",
       "publisher": "뉴시스",
       "publishedAt": "2026-11-20T13:55:58+09:00",
       "incident": false,
@@ -2659,17 +2689,6 @@
       "relevance": "지역기사"
     },
     {
-      "city": "용인",
-      "title": "용인특례시 처인구, 하반기 청소년 유해환경 민‧관 합동점검",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9qZ2JMYVlSSG5OUERmNWpiX1BEOHhfcmp2Sk1SSGZYTVcwS3ZkSFJteDluT3VrZjhGQWRhN3JIYTlrQ0UxakxZX05qNHZyWFI0YTFtQjBPUFB5MnBYQzMzT2FHcF8zMTlwWEc0?oc=5",
-      "publisher": "일간투데이",
-      "publishedAt": "2026-11-20T11:06:13+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
       "city": "수원",
       "title": "수원시, 시민이 뽑은 행정·민원 개선 우수사례 4건 선정",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80SVFiMnBNZmw3SXp1SkZqRUJLVEozbVpVUGxTVHBHMTh3ZUE4d04tZG1OVHlxNFpJTWk1dEo5MGoxaHpsd0ZRdUhjYWVWOE1oaEhTYnA2emRRVy0tTFQ2VGVISXJRVWVsWjNhQzBITkrSAXRBVV95cUxPOE1QRjVTNWNSQUw3X0VYREZlOFd5OGk0Vl9NS1c0ZTB6V3RuRG5EaE9kdzdEZkZDT2ZsenJxRUV4RzdydW9tS3NaVHpBV2gybXJKbXVWM0NkNDVtR090T3dnOVVRc2FoUkF1S2hualViTVIzRQ?oc=5",
@@ -2824,7 +2843,7 @@
     {
       "city": "화성",
       "title": "[화성소식]화성산업진흥원, 창업기업·소셜벤처 IR 지원 등",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9jR2Z1X1UxTjkyWDRKM1ZTYU5kdF9VWHZ2ZFFzbVBRUE8wVUlWRW1LNDBDQ004cUtaUXo1ZWxFTDhJbTIxNnVwMUJUU1A3RTlDRXM4ZlI2X3d6Ym9zQ2F0WVJxNjF6UHVueHgwd3VUUkdWT2xDMGt1bNIBeEFVX3lxTE9jR2Z1X1UxTjkyWDRKM1ZTYU5kdF9VWHZ2ZFFzbVBRUE8wVUlWRW1LNDBDQ004cUtaUXo1ZWxFTDhJbTIxNnVwMUJUU1A3RTlDRXM4ZlI2X3d6Ym9zQ2F0WVJxNjF6UHVueHgwd3VUUkdWT2xDMGt1bA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5uOUJtaHRkTXd2cktCS0tuMzVUUHFUSC1EZzZxYmhmWnhZRGE3RFVoNEVBaHlpQ1dnX0ZCMGtFMG9qMVN5QXMwaE50bFQtb2JKdGc0S09XTm5Ic3JkdmNIM9IBeEFVX3lxTE9jR2Z1X1UxTjkyWDRKM1ZTYU5kdF9VWHZ2ZFFzbVBRUE8wVUlWRW1LNDBDQ004cUtaUXo1ZWxFTDhJbTIxNnVwMUJUU1A3RTlDRXM4ZlI2X3d6Ym9zQ2F0WVJxNjF6UHVueHgwd3VUUkdWT2xDMGt1bA?oc=5",
       "publisher": "뉴시스",
       "publishedAt": "2026-11-20T09:59:19+09:00",
       "incident": false,
@@ -3211,8 +3230,8 @@
     "incidentRetentionHours": 72,
     "generalRetentionHours": 36,
     "incidentCount": 32,
-    "groupCount": 277,
-    "relatedReports": 12,
+    "groupCount": 278,
+    "relatedReports": 13,
     "note": "기사 발행시각 기준 보존. 사건 발생시각 및 실제 긴급성은 검증되지 않음"
   }
 }
