@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T18:32:33+09:00",
+  "updatedAt": "2026-11-21T19:32:37+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -10,12 +10,23 @@
   "errors": [],
   "articles": [
     {
+      "city": "수원",
+      "title": "수원시 장안구, 수능 시기 맞아 청소년 유해환경 개선 캠페인 펼쳐",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9vMFJ2UVA4NmU4TXEtd042aXl1eDMyY2dROU1sU2FMd0V1c2lXUjZNV0pKUVI1SXlKd1Q2Y3R5QVF4TjNJeU9hWU9pOHZDMGYxYm0tRVRSWmRFS1dHT1NQWk5PeEctSDRpR0lxT0ZR?oc=5",
+      "publisher": "수원뉴스",
+      "publishedAt": "2026-11-21T18:56:12+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
       "city": "화성",
       "title": "칸화성 경찰은 베트남 문화의 날을 맞아 전시회를 개최했습니다.",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVG5zX29uUkVPLU1WLVhtWm9kTi15cUlJTWFEN1RMMlBWN010b2lkd2xzT3pJc3llY25YWVNmOVVZRzdQTGVBNnVYTEliSVBvVXFhcms1ZHdEbmZ1QUR2cGhlOWxLam1jakkwOWdfODF0N3dMZTZZaEJsZ21Ld3Y2MGhlekJ6SnFYVV9uLUlZdmkxdWZJMmU3cnpfejZfNXpYMjdCd3Vwci1HUjNOR255QTh3RQ?oc=5",
       "publisher": "Vietnam.vn",
       "publishedAt": "2026-11-21T18:21:53+09:00",
-      "incident": false,
+      "incident": true,
       "relatedArticles": [],
       "relatedCount": 0,
       "relevance": "지역기사"
@@ -191,6 +202,17 @@
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE02ZG9WR2ZEdzE0YUtpd1Q1U0ZDOWpkc21hcXJ1LVZMcXJCTzVGQk1FZ2JuTjduak9zU2VvWVdBYk9McFdUc2pSVUMwN1B0UFhiZkxHUlp0WndUQXFJRFF0Tw?oc=5",
       "publisher": "케이부동산뉴스",
       "publishedAt": "2026-11-21T13:02:11+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "용인",
+      "title": "신현녀 용인시의원, 대형사업 지연·시민 부담 대책 집중 점검",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Id3B3TWVvUW9YREx4M2JsVHVkWTlxX09QOG5FaV95UWs5WFdUMTVZSm82MzgwZEtCTE1kaFR1WXBEN3FvemRYZ0g2TlY3MGM0WUpMQ204YXlQRDhfemJtZjMtYVdNX29T?oc=5",
+      "publisher": "뉴스피크",
+      "publishedAt": "2026-11-21T12:56:58+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -586,17 +608,6 @@
       "city": "수원",
       "title": "수원시 장안구 송죽동, 환경관리원과 소통 간담회 개최",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBNNGhBY0pwbWlyVlh2TTRvVE80YVI1a1Vpb3JSQVQ3dHhkdHg1UU5IQkhQX3hKMEEyRTViaUNUUnhtdU5qVllUU1A3NW5tejlySm4yRGlSTTN5T2U4a1VfYjZqZUpTd3ZaaFdiME41Zw?oc=5",
-      "publisher": "뉴스파이어",
-      "publishedAt": "2026-11-21T00:00:16+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "수원",
-      "title": "수원시 장안구, 수능 시기 맞아 청소년 유해환경 개선 캠페인 펼쳐",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBWQnhfQUZ0Y2M4aWlqVk9vUlBjSTBNS1Nyc05FZVdrRUtLeXBVSVlPNjJuU1E5cFU5YnZzTFotNWo5eGJMUVdMNDc2bHFTOTFZY01mM0ZkSzE3ZXljcTJDVGxaT0VVdk5hN0tnY2l0RQ?oc=5",
       "publisher": "뉴스파이어",
       "publishedAt": "2026-11-21T00:00:16+09:00",
       "incident": false,
@@ -1203,6 +1214,17 @@
       "publisher": "경기일보",
       "publishedAt": "2026-11-20T17:37:14+09:00",
       "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "용인",
+      "title": "용인시의회 도시건설위, 플랫폼시티·주택정비 현안 집중 점검",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93T0dkRVg0MldwbWZCNUZnN3pzbmJlcXdwNTFNYno0eHphNGdDWW9xdElRSWNBazQzMlBsb3dkWkVuVzZ5VnRtVC00TkIyZ1lHNjE3dnJIMG5CcHZGZVE?oc=5",
+      "publisher": "아시아타임즈",
+      "publishedAt": "2026-11-20T17:37:00+09:00",
+      "incident": true,
       "relatedArticles": [],
       "relatedCount": 0,
       "relevance": "지역기사"
@@ -1943,6 +1965,14 @@
       "relatedArticles": [
         {
           "city": "용인",
+          "title": "용인시의회 도시건설위, 행정사무감사서 도시개발·주택정비 현안 집중 점검",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rWDZ2QkpBMnliS2IzQm1mclNTS3FSZDdRNnRVSHhZMk1ZcG5OMDdPUkRrUjl3OFYtWnpyS3FUV3A4N0NJNzdTd1l1TE11NDFRaE5DYjhONE9pVHFxTFNiVl9IY2dfMjBYWHhCMVFBYkk?oc=5",
+          "publisher": "신아일보",
+          "publishedAt": "2026-11-20T12:28:39+09:00",
+          "incident": true
+        },
+        {
+          "city": "용인",
           "title": "용인시의회 도시건설위, 행감서 도시개발·재난안전 현안 집중 점검",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ONzJ1ZlJSQTFPaFhBdExtdGswYTNzWV9POW5MeUI4NEZKanA2NUlMWnZhUWxndEdXRWVibjRnME1wbkh1TEZoZFBjbWdnS0Z0aUgxLWE0N3c2d0RtV2laSg?oc=5",
           "publisher": "NSP통신",
@@ -1950,7 +1980,7 @@
           "incident": true
         }
       ],
-      "relatedCount": 1,
+      "relatedCount": 2,
       "relevance": "지역기사"
     },
     {
@@ -2015,17 +2045,8 @@
       "publisher": "뉴스피크",
       "publishedAt": "2026-11-20T15:29:38+09:00",
       "incident": false,
-      "relatedArticles": [
-        {
-          "city": "수원",
-          "title": "수원시 팔달구 고등동 새마을문고, 겨울 특강 접시 만들기 수업 진행",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE50WUUyRGZKb2NOWTZTNndwU3FQTVU1S2EwOE5wSEVxZkczUjMyNFpxejhuMlFmNjd0T09Xdm5VbjlUM2k3X24zZDkzdEdBR0I0OUZkNGFoWjdfTmFuMVhlb3hXRnNsdDR3dlVTbDNIcHY2UQ?oc=5",
-          "publisher": "웹이코노미",
-          "publishedAt": "2026-11-20T15:28:23+09:00",
-          "incident": false
-        }
-      ],
-      "relatedCount": 1,
+      "relatedArticles": [],
+      "relatedCount": 0,
       "relevance": "지역기사"
     },
     {
@@ -2745,26 +2766,6 @@
       "relevance": "지역기사"
     },
     {
-      "city": "용인",
-      "title": "용인시의회 도시건설위, 행정사무감사서 도시개발·주택정비 현안 집중 점검",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rWDZ2QkpBMnliS2IzQm1mclNTS3FSZDdRNnRVSHhZMk1ZcG5OMDdPUkRrUjl3OFYtWnpyS3FUV3A4N0NJNzdTd1l1TE11NDFRaE5DYjhONE9pVHFxTFNiVl9IY2dfMjBYWHhCMVFBYkk?oc=5",
-      "publisher": "신아일보",
-      "publishedAt": "2026-11-20T12:28:39+09:00",
-      "incident": true,
-      "relatedArticles": [
-        {
-          "city": "용인",
-          "title": "용인시의회 도시건설위, 플랫폼시티·주택정비 현안 집중 점검",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93T0dkRVg0MldwbWZCNUZnN3pzbmJlcXdwNTFNYno0eHphNGdDWW9xdElRSWNBazQzMlBsb3dkWkVuVzZ5VnRtVC00TkIyZ1lHNjE3dnJIMG5CcHZGZVE?oc=5",
-          "publisher": "아시아타임즈",
-          "publishedAt": "2026-11-20T17:37:00+09:00",
-          "incident": true
-        }
-      ],
-      "relatedCount": 1,
-      "relevance": "지역기사"
-    },
-    {
       "city": "오산",
       "title": "오산시, ‘2026년 아동학대 예방의 날 기념행사’ 개최…500여명 참석",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1sbmd1WmVRUEdwZ2JveHdsNWZVbUd5SWlNR0Q2WEpNSnJsQmNNczAtTVppWUJiQ0NpU2pXY0VBdnZKR2hqaGc5Y21JVE5SVV91SlZwMXAtd1R5bEd5MXRxT2hWTVJ0MTVZb3JyRFpWZXJIRDVO0gF0QVVfeXFMTWxuZ3VaZVFQR3BnYm94d2w1ZlVtR3lJaU1HRDZYSk1KcmxCY01zMC1NWmlZQmJDQ2lTaldjRUF2dkpHaGpoZzljbUlUTlJVX3VKVnAxcC13VHlsR3kxdHFPaFZNUnQxNVlvcnJEWlZlckhENU4?oc=5",
@@ -3272,9 +3273,9 @@
   "monitoring": {
     "incidentRetentionHours": 72,
     "generalRetentionHours": 36,
-    "incidentCount": 34,
-    "groupCount": 281,
-    "relatedReports": 14,
+    "incidentCount": 35,
+    "groupCount": 282,
+    "relatedReports": 13,
     "note": "기사 발행시각 기준 보존. 사건 발생시각 및 실제 긴급성은 검증되지 않음"
   }
 }
