@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T08:29:39+09:00",
+  "updatedAt": "2026-11-21T09:32:39+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -7,16 +7,58 @@
     "오산": "정상",
     "용인": "정상"
   },
-  "errors": [
-    "날씨: 수원: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read ti"
-  ],
+  "errors": [],
   "articles": [
+    {
+      "city": "화성",
+      "title": "롯데온, 동탄서 우수 브랜드 쇼룸 운영…“소상공인 브랜드, 백화점 ‘팝업’으로 만나보세요”",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XMWd4LWQ1ekZPLVFibmprNjJGMHFPZTdwdDNhZnZlMGF0Q1FkUG9zNTlHb2g2NnNNZVJ0MktLSW5maFBXQzNkU0g1S01jRnpya0phRk5xSVhUQkttU3o1YTdpV2FkTkFiXzdz0gFvQVVfeXFMUHdxbjQxWlRWQmJfT0c1S3VOSVU1cjFMME9aU0YtNUJiSUdKNUNsamExbHNMS1BLa1dmcTFRNVRKVW50YU9mR3ZtaHpzZDFDUWNyaFV0aEZqTlVGVmJZMVpoYUpBQ1FlYmZ0ZktmTEZV?oc=5",
+      "publisher": "더퍼블릭",
+      "publishedAt": "2026-11-21T09:08:21+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "화성",
+      "title": "\"청약 없이 고르고 실거주 의무도 예외\" ‘아크메르 동탄’ 1808가구 선착순 공급",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MMVFOSThNLUZDSXpRdV85cDVnM0dTLVVOSVk4RkhWdnQzWi1hZkE2ZmdDQXl0LVBuTjA1ZFV1V0k5cmhWNGF0OWNpLWItc1VIRmpFX3V0NHdWQQ?oc=5",
+      "publisher": "파이낸셜뉴스",
+      "publishedAt": "2026-11-21T09:01:04+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "용인",
+      "title": "용인시의회, 복지현장 집중 점검…학대 예방·돌봄 공백 대책 촉구",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RMTdtVWtoTmxCWDVHb1ptWGlZdjdVOVZhLWlxMzFFSzFSR0N3Mm9RcTNLYkhFaG5zandmd1dMMDd2aV92NlpFbGcwODNybjU1ZzhiZUdnZlJ4XzhnaFZaN2d6SzRNbFVveWhBbnlKYVFqdw?oc=5",
+      "publisher": "스포츠동아",
+      "publishedAt": "2026-11-21T08:47:13+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
     {
       "city": "용인",
       "title": "[의회 브리핑]김종억 용인시의원, 행감서 환경·농업 사업 실효성 주문",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KNXVzQ040cERMU3RiXzNyUVcwd2NfQXJaNmhtSVozUnY5RlIxZWFlcG56MGwtdHV0VlV1OTZrZEE0a1dqR0RVbTZpdEhralM2MFJ5VEdNWWpRTk1XLUU3UQ?oc=5",
       "publisher": "NSP통신",
       "publishedAt": "2026-11-21T08:10:41+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "용인",
+      "title": "용인시의사회, 식약처에 자가치료 의약품 반복 반입 차단 재검토 건의",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SdkVKN3dwSEpqQklmb3QtOE1PeWNvb00wSE83WF9wZWFfNlN5a0hMczN4QjE4MjAtS2ZyRzhEUDBpMGJiX3ZEeEJJYkptMHlGdHc0M29oOA?oc=5",
+      "publisher": "MEDI:GATE NEWS",
+      "publishedAt": "2026-11-21T08:05:00+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -2682,33 +2724,11 @@
       "relevance": "지역기사"
     },
     {
-      "city": "용인",
-      "title": "용인특례시의회 문화복지위원회, \"3개구청, 사회복지국\" 행정사무감사 실시",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GTUE3d19aekRGN29qUk5USG14bEh3aVVpRzRwYUFxNS1rNnZDRnJLR3pXdUo4S1VDUE9NV2F4NHB6VllUWmk0eURiQ0NEUGw5ajhsbG1EZXFuVURCeGNEUg?oc=5",
-      "publisher": "경기경제신문",
-      "publishedAt": "2026-11-20T11:26:27+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
       "city": "화성",
       "title": "전국금속노동조합 기아자동차지부 정비지회, 화성시 아동·청소년 위해 후원금과 차량 기탁",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9LSncxbE5WUDRLN3hqUHlxT0NkVFhwd2MwZ0pCN2ZzZk9Md1A2YUt1eFAzR3dDTE1VSjNqVDRZS3ZRTE9RX0pxbXFHQ1hDak1pTThxLWZQRjM1ekNRWVZ1RDdCbGRLSkR1WGR5VWJSdGk?oc=5",
       "publisher": "화성시민신문",
       "publishedAt": "2026-11-20T11:24:59+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "용인",
-      "title": "용인특례시의회 문화복지위원회, 행정사무감사 3일차",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0zVmJDcVdtUmo1a29zNV9ka3p3U0FxTDlFLVBuRFBPaUdPWXJzNG94ajVmbUJUOEdZNkRBdUFuX0puakF4eEZGeEtKRmFYazdoMjh4aVRnVURDRGU1OG40aVEyY2F3UHJEU2Z3RzRkbw?oc=5",
-      "publisher": "뉴스파이어",
-      "publishedAt": "2026-11-20T11:18:43+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -2971,28 +2991,6 @@
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBJc2ZVU3pkaFp2YlJRMWFPeVhCdGg2VW5rS1MyWEVhYzA0VFRMRXJoeTYzV3pDdDNaYUpLdFFpRXpQcVJBZHFVeDZZYjhKdUw0Wll4a1dMRHlIaFAwcmZMQzMzRE53N0cwQ29kSVhrRQ?oc=5",
       "publisher": "뉴스퀘스트",
       "publishedAt": "2026-11-20T09:36:57+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "화성",
-      "title": "롯데온과 육성 소상공인 브랜드, 동탄서 오프라인 쇼룸",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9TazVUa3RNOW9RU0J1MHJDRG5mamJEZTFvd05vTjZKT0g4bVJFZzl6QTFBckNTOV9YNDhLVV9RemNNaVZxLTVTczU4ckJVbkhyRncyZQ?oc=5",
-      "publisher": "데일리안",
-      "publishedAt": "2026-11-20T09:31:00+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "화성",
-      "title": "신미숙 경기도의원, 외국인노동자 지원센터는 협약 후 중단·동탄트램은 지연…“경기도 약속 이행 책임져야”",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Nd0hhUFJvcWtTLUd2aGVlTTZRNzRxZWRLbGdOaFhsT2ZYeEpmQW9pU1d1M3lPOXJ0ZVJIWHBmdFFUbUw2eXhKVDBCaF9rcE9QSC04MHVXeUtVaUM5Y0h5T2xZbG1NcHZxWlE?oc=5",
-      "publisher": "경기시사투데이",
-      "publishedAt": "2026-11-20T09:26:58+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
