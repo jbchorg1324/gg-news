@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T10:56:11+09:00",
+  "updatedAt": "2026-11-21T12:04:12+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -9,6 +9,28 @@
   },
   "errors": [],
   "articles": [
+    {
+      "city": "화성",
+      "title": "강남서 경기 남부 판교·수지·동탄까지···경부축 따라 확장되는 '수도권 부촌벨트'",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5haGxBZmE5dzFtM3A4bmFjUW1qNERTYjJrVjAyS29NS3VxZHJyR0pMaUFSY1JoT29WU3RKM0RlVE9wRXdRbFh6QnB3?oc=5",
+      "publisher": "뉴스N연합",
+      "publishedAt": "2026-11-21T11:27:17+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "용인",
+      "title": "용인특례시 처인구, 수능 이후 청소년 유해환경 민관 합동점검",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1EZ2RSaUlVcENzR09iSFFWWk9SREVnU3hseTlwMnpPSjVyRTNoQ1N2ck9TbVhJN2xFdWE2OEtwQVA4cVdweVc0ZFI0R1pGajRNSnEtXzIzckdnTmlyV1BiOXFqdkVGd3k0MUE?oc=5",
+      "publisher": "www.skedaily.com",
+      "publishedAt": "2026-11-21T11:08:11+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
     {
       "city": "화성",
       "title": "\"반도체 꺾이면 동탄도 흔들\"…전문가가 짚은 경기 남부 집값의 위험 변수",
@@ -2660,17 +2682,6 @@
       "relevance": "지역기사"
     },
     {
-      "city": "용인",
-      "title": "용인시의회 자치행정위, 수의계약·시금고·체납 징수 점검…신나연 위원장 “세금 효율적·투명하게 관리해야”",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1tVWpQVUhfTFBORUtiYkp5MERkTy1yX0hvM3M1NzYxajNWelVEcGNidlFZeUNOdHlaRzgyRzBINklSMVBZdlBhVHBCRmNhRDlRM3BQdEVSekRwT0xNWmNvNmZPR2hndzFHNGp2RnZSRQ?oc=5",
-      "publisher": "월드장애인사랑뉴스",
-      "publishedAt": "2026-11-20T12:01:32+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
       "city": "화성",
       "title": "지자체, 성범죄 의사 운영 의원 폐쇄 처분…법원은 취소",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBmMXBSd0RMa1Fza1VxSDQxNS1rTjRWU2dEWnk0VUhwbXY0LUJhOE1oUlIxRnlwQmo4RVEzaE1KdW9kRkpkQThuWlBxaDBrLVd4RGhN?oc=5",
@@ -2971,17 +2982,6 @@
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE54ekRmTEgyN1RpdUY2cnhoMmRMWVBJVlhiNGFyX1RBSjY1eFNWbVZOelh0N3VhWGFPMWhDV1YxTTFDek1CNzJqRWxic1pldHN6Y2VZRHN0eHZkRlNSQ1E?oc=5",
       "publisher": "아시아타임즈",
       "publishedAt": "2026-11-20T09:52:00+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "화성",
-      "title": "화성특례시 문화자치 페스타, 28일 동탄역서 시민 참여 프로그램 개최",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZMXItQmJRd0RSZTlkZThFRGZia1NaX283V1l5Sk1KdkdTa0FWRmZsWXkwRE5sVnp3aGtDUXB0UVY3VXRvclZqVUMtUlY2eTZsY2lmRmtXZ0hWa3I4c2tGRlhR?oc=5",
-      "publisher": "CWN",
-      "publishedAt": "2026-11-20T09:47:52+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
