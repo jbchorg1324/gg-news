@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T19:32:37+09:00",
+  "updatedAt": "2026-11-21T20:29:39+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -9,6 +9,28 @@
   },
   "errors": [],
   "articles": [
+    {
+      "city": "용인",
+      "title": "임현수 용인시의원, 교통안전시설 실효성 검증과 교통행정 개선 촉구",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDY1FhMWNab2JraDhJZ3R5TER1b1VSbUJ0cmRpRjJTRVIwSXNGcGRyTVBGNlNhQzBHZHRUVnhJOVNtaDVmcDZoTGFPRzNndFBzdGlhSTlpU2ZJRlFOdXV3Y2ZDZEppSnltZC1SSElB?oc=5",
+      "publisher": "국제뉴스",
+      "publishedAt": "2026-11-21T20:18:38+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "용인",
+      "title": "용인시의회 신현녀 의원, 행정사무감사서 대형사업 지연·시민 부담 대책 점검",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hTUNCc2JsOEVORjZvUG5Ja1phNWI5RVhnY0ZNdVMwb2NrN2tObUlXM1d4OGV1S2NTRGs2aWQ1aVl0Y1QxWnBEUVQ2NzJqbmxvWFRHVmdlSjEzNC12Q2ltU2JRLUxxQ3NDUHF6Nm5n?oc=5",
+      "publisher": "국제뉴스",
+      "publishedAt": "2026-11-21T20:18:20+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
     {
       "city": "수원",
       "title": "수원시 장안구, 수능 시기 맞아 청소년 유해환경 개선 캠페인 펼쳐",
@@ -1220,17 +1242,6 @@
     },
     {
       "city": "용인",
-      "title": "용인시의회 도시건설위, 플랫폼시티·주택정비 현안 집중 점검",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93T0dkRVg0MldwbWZCNUZnN3pzbmJlcXdwNTFNYno0eHphNGdDWW9xdElRSWNBazQzMlBsb3dkWkVuVzZ5VnRtVC00TkIyZ1lHNjE3dnJIMG5CcHZGZVE?oc=5",
-      "publisher": "아시아타임즈",
-      "publishedAt": "2026-11-20T17:37:00+09:00",
-      "incident": true,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "용인",
       "title": "현대그린푸드, 용인시수지노인복지관에 겨울철 김장 김치 11,000kg 전달",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMd2c5Y2hZNEVhaTFwZDVFdXVUMXY1SGswQl9saWJST0oyT2JnVlNsTENhWkdveGNLdTZGVVBVM05WeVpwNE12SVF6WEZQdVhha1pnbFZ0b2NqMXZORDl5M0hLWEFCMTdZOEVHUmxLTXdfQQ?oc=5",
       "publisher": "웹이코노미",
@@ -1290,6 +1301,17 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51cGZoLXZYaW9TU1FidGdwYmNEUnNzdmZPVmY5eUJlODNiMFgwRktadmpuSFl4SFNWWVFyQzgtS3dNc3Jyc29ZY0ZacG1ta2RCQ05XMy1BcU84VGJxbU5mY1RYY1M3QlNwbm9XREpqR1YwOTI4d2Vn?oc=5",
       "publisher": "OhmyNews",
       "publishedAt": "2026-11-20T17:20:00+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "수원",
+      "title": "[도시정비시장 풍향계] 한국토지신탁, 수원 매탄1구역 재건축 사업시행자로 지정고시",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBVRUlDcVBoS18wM0pmZ1FRbTlBTV9zaVRkai01bG01TXEzQnBRdXc1ZzU1b0lhS1BuUkt4Ti02MjVOc0FFUVItTERTaUNwMl9UZW5NMTQ4YzhfcnFmZGZlbzFKajZPak56ZUxJNUJwRXR5Zm8?oc=5",
+      "publisher": "대한경제",
+      "publishedAt": "2026-11-20T17:09:39+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -1965,14 +1987,6 @@
       "relatedArticles": [
         {
           "city": "용인",
-          "title": "용인시의회 도시건설위, 행정사무감사서 도시개발·주택정비 현안 집중 점검",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rWDZ2QkpBMnliS2IzQm1mclNTS3FSZDdRNnRVSHhZMk1ZcG5OMDdPUkRrUjl3OFYtWnpyS3FUV3A4N0NJNzdTd1l1TE11NDFRaE5DYjhONE9pVHFxTFNiVl9IY2dfMjBYWHhCMVFBYkk?oc=5",
-          "publisher": "신아일보",
-          "publishedAt": "2026-11-20T12:28:39+09:00",
-          "incident": true
-        },
-        {
-          "city": "용인",
           "title": "용인시의회 도시건설위, 행감서 도시개발·재난안전 현안 집중 점검",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ONzJ1ZlJSQTFPaFhBdExtdGswYTNzWV9POW5MeUI4NEZKanA2NUlMWnZhUWxndEdXRWVibjRnME1wbkh1TEZoZFBjbWdnS0Z0aUgxLWE0N3c2d0RtV2laSg?oc=5",
           "publisher": "NSP통신",
@@ -1980,7 +1994,7 @@
           "incident": true
         }
       ],
-      "relatedCount": 2,
+      "relatedCount": 1,
       "relevance": "지역기사"
     },
     {
@@ -2348,17 +2362,6 @@
       "relevance": "지역기사"
     },
     {
-      "city": "용인",
-      "title": "용인시의회 도시건설위원회, 행정사무감사서 주택정비·도시개발·도시공사 운영 점검",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5WQXh4Vy1pdEFkUTBycVNaaVAzX0FIS2tDYUxPaXVqb2JlNWhYZnpFSEF1RTZkamFaVXUtbGdiektmYXJ6RndiTnpkX1BpTzhQMzZtRkQ3T0UwRl9Rbkw4U0V0VFFmMkNzT1d5UnZn?oc=5",
-      "publisher": "현대일보",
-      "publishedAt": "2026-11-20T14:55:52+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
       "city": "오산",
       "title": "오산시, 고액·상습 체납자 45명 명단 공개…체납액 13억 5,100만 원",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jNFhtYXpoU3FDVFRGM193NGpDaU9VRi11TDlMMjNqajhNZ3h3dDJ5ZE9SWUktZUJyaFFHN2huUEFNUnVwSnprTnh2dnlaem5SWjc4bFdXQ014bzdhSmJxMg?oc=5",
@@ -2480,17 +2483,6 @@
       "relevance": "지역기사"
     },
     {
-      "city": "용인",
-      "title": "용인시의회 자치행정위원회, 재무국 행정사무감사서 재정·재산관리 개선 주문",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pcU44MVlHRlMtV1VqRFBqOEtlUVI2SE1LOFdpdVdGWlpyT0tEQW51d2RVcnVCbmNLcHR2V0FkMHlEck1WeW82MU5SVElwQVIzVnFLbXBBNkZzQlJEX0JYdm8zTkxDX1U3UEctUGNR?oc=5",
-      "publisher": "현대일보",
-      "publishedAt": "2026-11-20T14:35:23+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
       "city": "화성",
       "title": "향남 롯데캐슬 시그니처, 외벽·차량 홍보물 설치 기준 논란",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TOG5tazh3Q0pLdUZfSGNfUnYyRUhWWDJWMjJMQW9sZ2JMUklBUUh1SVFTTl9ORDliY1Q2STRuX3NsR05FRW8tT3ZJUklMZkNWeG9IVTBJeW9VUjMxTWp4SlRPdXNNLXBObHc?oc=5",
@@ -2507,17 +2499,6 @@
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB1NTYzRGhTX0FBSDFjaXdIbEtYUGpKOFZQdDBoTDhWTjZRVUgtQXhCN2VqWFk0N3Y5R2tTQXlWZjZpNk1CM0VsNVd2TlQ?oc=5",
       "publisher": "아이뉴스24",
       "publishedAt": "2026-11-20T14:29:50+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "용인",
-      "title": "용인시 지역 어린이·청소년 ‘나도 금손’",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Fd1l3OE9oRkQzS0pFMm1UajZTZkxWS3hqdUdfb2tsanAzRXZhVGFzNUVTa3k1UnhyWGtVV3VnV21UZ1R0S2lyVGlEcHRMMGpjWGtaYVk1djRqaTduNWhSUXFGQUxGUXVtRXZZUzhn?oc=5",
-      "publisher": "현대일보",
-      "publishedAt": "2026-11-20T14:23:00+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -2763,6 +2744,26 @@
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "용인",
+      "title": "용인시의회 도시건설위, 행정사무감사서 도시개발·주택정비 현안 집중 점검",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rWDZ2QkpBMnliS2IzQm1mclNTS3FSZDdRNnRVSHhZMk1ZcG5OMDdPUkRrUjl3OFYtWnpyS3FUV3A4N0NJNzdTd1l1TE11NDFRaE5DYjhONE9pVHFxTFNiVl9IY2dfMjBYWHhCMVFBYkk?oc=5",
+      "publisher": "신아일보",
+      "publishedAt": "2026-11-20T12:28:39+09:00",
+      "incident": true,
+      "relatedArticles": [
+        {
+          "city": "용인",
+          "title": "용인시의회 도시건설위, 플랫폼시티·주택정비 현안 집중 점검",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93T0dkRVg0MldwbWZCNUZnN3pzbmJlcXdwNTFNYno0eHphNGdDWW9xdElRSWNBazQzMlBsb3dkWkVuVzZ5VnRtVC00TkIyZ1lHNjE3dnJIMG5CcHZGZVE?oc=5",
+          "publisher": "아시아타임즈",
+          "publishedAt": "2026-11-20T17:37:00+09:00",
+          "incident": true
+        }
+      ],
+      "relatedCount": 1,
       "relevance": "지역기사"
     },
     {
