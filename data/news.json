@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T06:28:06+09:00",
+  "updatedAt": "2026-11-23T07:28:10+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -9,6 +9,39 @@
   },
   "errors": [],
   "articles": [
+    {
+      "city": "용인",
+      "title": "용인시, 내년 노인일자리 5984명 모집…30일부터 접수",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE93RnJTU1d2S3YwLWJreVpTb2M5a0tIaC1ubmtMTjAtSmcyelBPQ2dFS1VKNDkxcFhna1BEeXdfR0NTUjM0aFM3ZG81REhhU1dJOWxZZE5xWmRYNVBucGFIRA?oc=5",
+      "publisher": "아시아경제",
+      "publishedAt": "2026-11-23T07:13:13+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "오산",
+      "title": "[전국 포커스] 오산 세교3, 3만 3000가구 공급 추진… 일자리·교통은 미정",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kdkJUYmtoRUQ1TUZHdHVXRXM1a2tKek5VbkFtQ3A0cGF0cC01N21sMkJjVW9fMmhXQTBSSjVvcGQwY3RueDkwdUhfSk0tYzFxOHVfbEhtbHFkSy1xSVNZNkdqZ0Z0amNJaXc?oc=5",
+      "publisher": "천지일보",
+      "publishedAt": "2026-11-23T07:00:00+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "화성",
+      "title": "현실화율 동결에도…동탄·광명 내년 공시가 '껑충' 예고",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jYU5UV2JpNmFtWTgyV1hjNklXb083MUVPMEE3dEdjdkZROThtd1liV3g2Z2d6a2pBMWtHazF1clQ4RDI5c2xrUEJ6cUd4VFgwTFdZ0gFYQVVfeXFMTmNERTJ1SWJuWkR4dUs2cjkybkY5bWY4LWhkQUpMU09aSko1VmxtYW5UM3QxVFNDcDdkakpHbkhfXzRUY3JxUlJWR0FkUWo5R1ZnNkZyZlhJdQ?oc=5",
+      "publisher": "SBS Biz",
+      "publishedAt": "2026-11-23T06:21:00+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
     {
       "city": "화성",
       "title": "HLB그룹, 향남에 생산 심장 구축…HLB제약 '신공장 승부수'[문대현의 메디뷰]",
@@ -1758,7 +1791,7 @@
     {
       "city": "화성",
       "title": "화성시, 영재교육원 첫 수료생 115명…내년엔 지역 기업과 탐구 수업",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE15ZGNLZTU3clJiRXkxRjZpcjBKSGN0M0FmMnlzbmt0UFFMdnJvbF9oVVlGUXAzVi1URXJVLVVWVUdwRzVJQUZnajFsb1pMSk14Mm9PeHFkWmpQVzVWMEl6UXhqckgwZHM1a1dyXzByaldjSnda?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14djdxakFoTVBlaWJmYlVKWGxhWm9FUzZVZk9XSHIwUm1vcW94amxuWEI1MDUtb1Zuamt4dFZINnZCNUhOdnkzcHVDZWNaZmFYOFlnZFdXd0FPS0pSektyZw?oc=5",
       "publisher": "아시아경제",
       "publishedAt": "2026-11-22T10:06:02+09:00",
       "incident": false,
@@ -1882,17 +1915,6 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4wR20zMnlqYXpfNHVrVk1scFc5ZUZBR1ZrT24xaXFFczBCT0pNWFBCbnZtZkN0Rk0wM29laHYzOUIxTHJ2Tkh2c3ZJcXFmcU96cFNEcjVIeFU1bGV6YnpwYTU3c1cySWlWNGJxNTN3LThZUQ?oc=5",
       "publisher": "디스커버리뉴스(DISCOVERYNEWS)",
       "publishedAt": "2026-11-22T09:20:24+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "용인",
-      "title": "용인시, 자연휴양림·농촌테마파크·한국외대 명수당에 15억 원 투입…2027년 무장애 열린관광지 조성",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA5cVBpSlVzcG9BdElPbjU4aEFRYmlJdi0xR0JwOG9YdnVIX3lfWjhVaTFpM0J5ajVQd2NFMkNGTVFkWDRwX0h6RUpqQVhqTGQwczJrZDQxVHBDNVI3V1FJSUtWb0pIV3htZ1BzMXZFMA?oc=5",
-      "publisher": "월드장애인사랑뉴스",
-      "publishedAt": "2026-11-22T09:19:31+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -2100,6 +2122,17 @@
       "relevance": "지역기사"
     },
     {
+      "city": "용인",
+      "title": "용인시의회 도시건설위, 플랫폼시티·주택정비 현안 집중 점검",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93T0dkRVg0MldwbWZCNUZnN3pzbmJlcXdwNTFNYno0eHphNGdDWW9xdElRSWNBazQzMlBsb3dkWkVuVzZ5VnRtVC00TkIyZ1lHNjE3dnJIMG5CcHZGZVE?oc=5",
+      "publisher": "아시아타임즈",
+      "publishedAt": "2026-11-20T17:37:00+09:00",
+      "incident": true,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
       "city": "수원",
       "title": "배지환 수원시의원, 행감 “IP행정전화기 구매예산 절감 재검토해야”",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mWmo5RzZEcHZOV1FGVnY2M2VsdHREaEdxenhiRF9rM2pKRTI4R2pELTJCWFhsYlNmdm41MEhfUlIxd3lfMDdSM2hvMTU4MVdQQlRHNXNkS1ZDeWNBeE1FbEtFajA4NzQxcWt4aldB?oc=5",
@@ -2131,6 +2164,14 @@
       "relatedArticles": [
         {
           "city": "용인",
+          "title": "용인시의회 도시건설위, 행정사무감사서 도시개발·주택정비 현안 집중 점검",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rWDZ2QkpBMnliS2IzQm1mclNTS3FSZDdRNnRVSHhZMk1ZcG5OMDdPUkRrUjl3OFYtWnpyS3FUV3A4N0NJNzdTd1l1TE11NDFRaE5DYjhONE9pVHFxTFNiVl9IY2dfMjBYWHhCMVFBYkk?oc=5",
+          "publisher": "신아일보",
+          "publishedAt": "2026-11-20T12:28:39+09:00",
+          "incident": true
+        },
+        {
+          "city": "용인",
           "title": "용인시의회 도시건설위, 행감서 도시개발·재난안전 현안 집중 점검",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ONzJ1ZlJSQTFPaFhBdExtdGswYTNzWV9POW5MeUI4NEZKanA2NUlMWnZhUWxndEdXRWVibjRnME1wbkh1TEZoZFBjbWdnS0Z0aUgxLWE0N3c2d0RtV2laSg?oc=5",
           "publisher": "NSP통신",
@@ -2138,7 +2179,7 @@
           "incident": true
         }
       ],
-      "relatedCount": 1,
+      "relatedCount": 2,
       "relevance": "지역기사"
     },
     {
@@ -2200,26 +2241,6 @@
       "incident": true,
       "relatedArticles": [],
       "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "용인",
-      "title": "용인시의회 도시건설위, 행정사무감사서 도시개발·주택정비 현안 집중 점검",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rWDZ2QkpBMnliS2IzQm1mclNTS3FSZDdRNnRVSHhZMk1ZcG5OMDdPUkRrUjl3OFYtWnpyS3FUV3A4N0NJNzdTd1l1TE11NDFRaE5DYjhONE9pVHFxTFNiVl9IY2dfMjBYWHhCMVFBYkk?oc=5",
-      "publisher": "신아일보",
-      "publishedAt": "2026-11-20T12:28:39+09:00",
-      "incident": true,
-      "relatedArticles": [
-        {
-          "city": "용인",
-          "title": "용인시의회 도시건설위, 플랫폼시티·주택정비 현안 집중 점검",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93T0dkRVg0MldwbWZCNUZnN3pzbmJlcXdwNTFNYno0eHphNGdDWW9xdElRSWNBazQzMlBsb3dkWkVuVzZ5VnRtVC00TkIyZ1lHNjE3dnJIMG5CcHZGZVE?oc=5",
-          "publisher": "아시아타임즈",
-          "publishedAt": "2026-11-20T17:37:00+09:00",
-          "incident": true
-        }
-      ],
-      "relatedCount": 1,
       "relevance": "지역기사"
     },
     {
@@ -2383,7 +2404,7 @@
     "incidentRetentionHours": 72,
     "generalRetentionHours": 36,
     "incidentCount": 39,
-    "groupCount": 197,
+    "groupCount": 199,
     "relatedReports": 18,
     "note": "기사 발행시각 기준 보존. 사건 발생시각 및 실제 긴급성은 검증되지 않음"
   }
