@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T05:30:02+09:00",
+  "updatedAt": "2026-11-23T06:28:06+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -9,6 +9,28 @@
   },
   "errors": [],
   "articles": [
+    {
+      "city": "화성",
+      "title": "HLB그룹, 향남에 생산 심장 구축…HLB제약 '신공장 승부수'[문대현의 메디뷰]",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5jY3VGYThESlNFcVpOMDEwY0MwYXA5OUJOam5ZMTZicjNURVpvNkpNV2VQWDRvYURoTXZUb3YzNURrYjFVUUNUdUZEZFlORE0zMjdaM3o4UlN0OHRlbVR0cQ?oc=5",
+      "publisher": "뉴스1",
+      "publishedAt": "2026-11-23T06:00:00+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "화성",
+      "title": "동탄 아파트 거래 772건 줄 때 병점은 594건 늘었다 [규제가 바꾼 거래지도①]",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QanJycC1rWEQyeXlYTk93QXZpMGd3aDc2LW0tNFJ1d042cUw4SmxlQXBYVHZiWVcydm9nUWNTOTBJVkZRcHpBUDBPN0lWeDc1aFN4Vw?oc=5",
+      "publisher": "이투데이",
+      "publishedAt": "2026-11-23T06:00:00+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
     {
       "city": "용인",
       "title": "대한노인회 용인시 처인구지회 부설 '제1기 남사노인대학' 졸업식 성료",
@@ -59,7 +81,7 @@
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TalhRcUNJMDZHQnMxQm9jVFktbGNSbUh1RzFVX1A2NUVrLW5fRDlSbEVmZ19heFJYOFRlOV9BTHpObFZBMnpNMTFlNUhzOXpEbFRzNHF0OWJrVFM5RUl1TUJidG4?oc=5",
       "publisher": "서울경제TV",
       "publishedAt": "2026-11-23T04:42:57+09:00",
-      "incident": false,
+      "incident": true,
       "relatedArticles": [],
       "relatedCount": 0,
       "relevance": "지역기사"
@@ -1976,17 +1998,6 @@
       "relevance": "지역기사"
     },
     {
-      "city": "화성",
-      "title": "이계철 화성시의회 의장, 향남 오음공원 테니스장 개장 축하",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1nNWk3d2NrRjNwTXdOMWRuMnBKeENFa1ctb2RJSVczRkFJS2xncGNaMF83ZGl0ZWpkOHRPcHdLcnNRMVNIME5ZQmpTb2lzZllacm1obzhBbzZxU3FmS1pDRWtnRC1Wc2dXaHhuNl91UFVSR19QNHZ0UlR3RVk?oc=5",
-      "publisher": "비욘드포스트",
-      "publishedAt": "2026-11-21T18:03:14+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
       "city": "수원",
       "title": "수원 영통구, 가을철 산불 대비 진화훈련 실시",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBJRU5pNlBoOUYwT3lKd0V0aVhZazFDWjh2dlJxZEdtZkQ0bDRNWGZxbVE2c1Y0MF92MU5NdFV3OTNQS1N1d21SYXdnczU0bnkxWUM5cWdSbS01Z2ZXZnFIYWk2M194WFZsVlRSV0dB?oc=5",
@@ -2089,17 +2100,6 @@
       "relevance": "지역기사"
     },
     {
-      "city": "용인",
-      "title": "용인시의회 도시건설위, 플랫폼시티·주택정비 현안 집중 점검",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93T0dkRVg0MldwbWZCNUZnN3pzbmJlcXdwNTFNYno0eHphNGdDWW9xdElRSWNBazQzMlBsb3dkWkVuVzZ5VnRtVC00TkIyZ1lHNjE3dnJIMG5CcHZGZVE?oc=5",
-      "publisher": "아시아타임즈",
-      "publishedAt": "2026-11-20T17:37:00+09:00",
-      "incident": true,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
       "city": "수원",
       "title": "배지환 수원시의원, 행감 “IP행정전화기 구매예산 절감 재검토해야”",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mWmo5RzZEcHZOV1FGVnY2M2VsdHREaEdxenhiRF9rM2pKRTI4R2pELTJCWFhsYlNmdm41MEhfUlIxd3lfMDdSM2hvMTU4MVdQQlRHNXNkS1ZDeWNBeE1FbEtFajA4NzQxcWt4aldB?oc=5",
@@ -2131,14 +2131,6 @@
       "relatedArticles": [
         {
           "city": "용인",
-          "title": "용인시의회 도시건설위, 행정사무감사서 도시개발·주택정비 현안 집중 점검",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rWDZ2QkpBMnliS2IzQm1mclNTS3FSZDdRNnRVSHhZMk1ZcG5OMDdPUkRrUjl3OFYtWnpyS3FUV3A4N0NJNzdTd1l1TE11NDFRaE5DYjhONE9pVHFxTFNiVl9IY2dfMjBYWHhCMVFBYkk?oc=5",
-          "publisher": "신아일보",
-          "publishedAt": "2026-11-20T12:28:39+09:00",
-          "incident": true
-        },
-        {
-          "city": "용인",
           "title": "용인시의회 도시건설위, 행감서 도시개발·재난안전 현안 집중 점검",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ONzJ1ZlJSQTFPaFhBdExtdGswYTNzWV9POW5MeUI4NEZKanA2NUlMWnZhUWxndEdXRWVibjRnME1wbkh1TEZoZFBjbWdnS0Z0aUgxLWE0N3c2d0RtV2laSg?oc=5",
           "publisher": "NSP통신",
@@ -2146,7 +2138,7 @@
           "incident": true
         }
       ],
-      "relatedCount": 2,
+      "relatedCount": 1,
       "relevance": "지역기사"
     },
     {
@@ -2208,6 +2200,26 @@
       "incident": true,
       "relatedArticles": [],
       "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "용인",
+      "title": "용인시의회 도시건설위, 행정사무감사서 도시개발·주택정비 현안 집중 점검",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rWDZ2QkpBMnliS2IzQm1mclNTS3FSZDdRNnRVSHhZMk1ZcG5OMDdPUkRrUjl3OFYtWnpyS3FUV3A4N0NJNzdTd1l1TE11NDFRaE5DYjhONE9pVHFxTFNiVl9IY2dfMjBYWHhCMVFBYkk?oc=5",
+      "publisher": "신아일보",
+      "publishedAt": "2026-11-20T12:28:39+09:00",
+      "incident": true,
+      "relatedArticles": [
+        {
+          "city": "용인",
+          "title": "용인시의회 도시건설위, 플랫폼시티·주택정비 현안 집중 점검",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93T0dkRVg0MldwbWZCNUZnN3pzbmJlcXdwNTFNYno0eHphNGdDWW9xdElRSWNBazQzMlBsb3dkWkVuVzZ5VnRtVC00TkIyZ1lHNjE3dnJIMG5CcHZGZVE?oc=5",
+          "publisher": "아시아타임즈",
+          "publishedAt": "2026-11-20T17:37:00+09:00",
+          "incident": true
+        }
+      ],
+      "relatedCount": 1,
       "relevance": "지역기사"
     },
     {
@@ -2370,8 +2382,8 @@
   "monitoring": {
     "incidentRetentionHours": 72,
     "generalRetentionHours": 36,
-    "incidentCount": 38,
-    "groupCount": 196,
+    "incidentCount": 39,
+    "groupCount": 197,
     "relatedReports": 18,
     "note": "기사 발행시각 기준 보존. 사건 발생시각 및 실제 긴급성은 검증되지 않음"
   }
