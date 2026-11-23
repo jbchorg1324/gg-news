@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T03:40:45+09:00",
+  "updatedAt": "2026-11-24T04:49:31+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -9,6 +9,17 @@
   },
   "errors": [],
   "articles": [
+    {
+      "city": "용인",
+      "title": "어르신 일자리 5984개… 용인시, 30일부터 접수",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1adnNBbjllc1ZKSC1HUFhxWVBuOWRTcDFYRERBSnNKWVdrNkFCeHBlaVpFTkN0OVhaNWNmWHl4cXNsNlhzZGpFOUN6eFJQTGlmNWZyWWlFbmFBSkR2VUZ4bEwzd2tJellvMXIydGFpQW5oZTlTN1HSAWZBVV95cUxQZ0NFZ19rOHFkaVd4MTdfbjZpTFM4dk9CZVg4MHdVczBoQjdCM0RoczY5SUo5d2lPbHZ4SHFxUkRBOWV0aEszTWdfVTFLZTdOb3dOYldDalk2MkppaWViMTdJMk1OYmc?oc=5",
+      "publisher": "동아일보",
+      "publishedAt": "2026-11-24T04:30:00+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
     {
       "city": "수원",
       "title": "아이엠티 본점 수원 영통구서 용인 처인구로 이전",
@@ -249,13 +260,24 @@
         {
           "city": "화성",
           "title": "자금 문턱 낮추자 실수요 몰렸다…‘아크메르 동탄’ 선착순 계약 현장 성황",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9qT2h1YlEtLWZ2NDZzQlFZQks5T1hrYl9fWDhEMWVtVEZnTC0tRjlMR2tXTWZ4dHNCeG5semxDVVpmbzR6SENlRUJWVEROZ202UU1Xb3VZQko0MUNMVjQ0WW0xUktQZE5raWl2Y2lGbUhNWkE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CQWVNOHJkTkhKaW1fOE5ldDJOZE8tN0tGYVBaZ1FtVUtKSVItNnR0T2hiRmZ1c0MweUE4NEpfcjdwaGRZaEFMd3FtUWV1TDhsYVMyV2QtSElWdWk0UE1WNWJtT2FIckdqSGtYUkc2Um15dDBN?oc=5",
           "publisher": "대한경제",
           "publishedAt": "2026-11-23T16:43:55+09:00",
           "incident": false
         }
       ],
       "relatedCount": 1,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "수원",
+      "title": "안산시남자단기청소년쉼터, 수원시남자단기청소년쉼터와 두 번째 친선 풋살경기 개최",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QOUhfcVVsMUxaRTFjcXhCZ3A4NnZwM0lkaTNJUGIxbG9JTU9IazNENnJscnVXWTJORWZzSDVfREJMcmNRYnBCanQ0SHpLTndWS1dINXM4U21yd2pqb3ZPdE5tRTgtVl8y?oc=5",
+      "publisher": "경기청소년신문",
+      "publishedAt": "2026-11-23T21:41:28+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
       "relevance": "지역기사"
     },
     {
@@ -862,7 +884,7 @@
     {
       "city": "용인",
       "title": "\"아파트 층간소음·전기차 화재 어쩌지?\"…용인시 안내서 배포 - 머니투데이",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5nOVFvN3BQUXdRRWlHMzItODBNS3dLRlVSNlhpbjJlSkhkTnpZeUtBWFhXUmR6d0hMMnkxbGhjSE9VWDVXMGNUSGRXQTctREVZY2pOWTdRTHNaNHRRMXR5V0I5Q0pDOHowMHhhOWdZa9IBb0FVX3lxTE5nOVFvN3BQUXdRRWlHMzItODBNS3dLRlVSNlhpbjJlSkhkTnpZeUtBWFhXUmR6d0hMMnkxbGhjSE9VWDVXMGNUSGRXQTctREVZY2pOWTdRTHNaNHRRMXR5V0I5Q0pDOHowMHhhOWdZaw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1wUWZPZ1VkNUl4cXkzTjdMWXFTNktheFJROG9TMG9NVkM4SEVaX1RtOTd6WmNUQzhvRFV3ZGNCWmV1TVBYZUNDTjN2ajM5Ty1jXzVCdC00blNTUFNteDE5eFg5VUxheDUxR3o0OXhhcVRORWhzanpfX1BFalHSAXxBVV95cUxNcFFmT2dVZDVJeHF5M043TFlxUzZLYXhSUThvUzBvTVZDOEhFWl9UbTk3elpjVEM4b0RVd2RjQlpldU1QWGVDQ04zdmozOU8tY181QnQtNG5TU1BTbXgxOXhYOVVMYXg1MUd6NDl4YXFUTkVoc2p6X19QRWpR?oc=5",
       "publisher": "머니투데이",
       "publishedAt": "2026-11-23T17:30:01+09:00",
       "incident": true,
@@ -1140,6 +1162,17 @@
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBLZEhwWGZQdGZkdDhIUE41WUtwZ2Q1SEhUNkhLWm5hV0pmNW5seXRBaURsZFlJSGl3ZEJYbjV0WklISVZpcG9ZWkpZVlhKTUdXNmZkVQ?oc=5",
       "publisher": "JTBC",
       "publishedAt": "2026-11-23T16:45:00+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "용인",
+      "title": "용인시, 내년 노인 일자리ㆍ사회활동 지원 참여자 5984명 모집",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9PczdCZ1p0RzllT0VOUTlDNHlHTGFGSVV1LTBZVDIyeGc4MThzbHFtd1NsNHAyVUtTb1FnN1FvWXlJVm85bEc3U3FnbFlJcUdLdFJEc0t0ZEZNdmVua1VibWpTMA?oc=5",
+      "publisher": "쿠키뉴스",
+      "publishedAt": "2026-11-23T16:44:42+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -2086,17 +2119,6 @@
       "relevance": "지역기사"
     },
     {
-      "city": "용인",
-      "title": "[현장 의정 리포트]용인시의회 도시건설위, 생활 속 교통안전 사각지대 점검",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QZW1jQ3k2Y0pBMkl1b0RLNldPRzdOYl9nY21YbkZOV1VwUE9kU0Y1Y2MwSGFNOE1rcFpnVEo5QlJwcnFNZzhzZXlfUFNsdmZCQ29FY2hwSDUwWk9LTVV6MQ?oc=5",
-      "publisher": "NSP통신",
-      "publishedAt": "2026-11-23T14:40:44+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
       "city": "화성",
       "title": "화성시자원봉사센터, 따뜻한 겨울, 사랑의 김장 나눔",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12cVpiQnZoNzFCSXN6eDJFV1NkRzhJM1ZMdmFscjE1M2ZOLXFRS2lwN3RTTDdZZXRIaGR2Yk5mSWg1MzJXYy1NR2x2Y05VMXNQdnJJN0VwUVBybHlSWF9MOTNlNnFPS3RnN2c?oc=5",
@@ -2124,17 +2146,6 @@
       "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1Da0ZQRjNxa05vWnFLNWxrSkZ5ZU1EMmhDUFIxRmJVTmsxd0QtMVRwQkpycWl1T29OOGdRTTROb0pkb0U?oc=5",
       "publisher": "수원화성신문",
       "publishedAt": "2026-11-23T14:37:00+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
-      "city": "용인",
-      "title": "용인시의회 자치행정위, 주요 행정·공공기관 현지 확인",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vZmxEbXRFWW8tNnVyODFJQ3N1OHpaYS1KWjNpS0QwRVZnUnllTlo3MXNxZGZqeGdYbldwVWV4QW1QNUlDSFpQZ3pvODVzaTRCdGxPUzVldS1kMEFqYi15STZSd2MzdGlWNUFyVdIBcEFVX3lxTE8tTl9rSlByVlozX1luSHM4SExOejVvX2VyRkZFM2pUUjJDTmxVc1dpdTlnTU5Db3d1OUY5VWxOa01JYXd6MHViVXA3Z3RKeDRNdzFlTzJaYnJGNFFsZlZNMTBCamVpWjhKazBNb2hjQko?oc=5",
-      "publisher": "내외뉴스통신",
-      "publishedAt": "2026-11-23T14:36:34+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -3221,7 +3232,7 @@
     "incidentRetentionHours": 72,
     "generalRetentionHours": 36,
     "incidentCount": 34,
-    "groupCount": 277,
+    "groupCount": 278,
     "relatedReports": 13,
     "note": "기사 발행시각 기준 보존. 사건 발생시각 및 실제 긴급성은 검증되지 않음"
   }
