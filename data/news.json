@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T04:49:31+09:00",
+  "updatedAt": "2026-11-24T06:09:12+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -12,7 +12,7 @@
     {
       "city": "용인",
       "title": "어르신 일자리 5984개… 용인시, 30일부터 접수",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1adnNBbjllc1ZKSC1HUFhxWVBuOWRTcDFYRERBSnNKWVdrNkFCeHBlaVpFTkN0OVhaNWNmWHl4cXNsNlhzZGpFOUN6eFJQTGlmNWZyWWlFbmFBSkR2VUZ4bEwzd2tJellvMXIydGFpQW5oZTlTN1HSAWZBVV95cUxQZ0NFZ19rOHFkaVd4MTdfbjZpTFM4dk9CZVg4MHdVczBoQjdCM0RoczY5SUo5d2lPbHZ4SHFxUkRBOWV0aEszTWdfVTFLZTdOb3dOYldDalk2MkppaWViMTdJMk1OYmc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBnQ0VnX2s4cWRpV3gxN19uNmlMUzh2T0JlWDgwd1VzMGhCN0IzRGhzNjlJSjl3aU9sdnhIcXFSREE5ZXRoSzNNZ19VMUtlN05vd05iV0NqWTYySmlpZWIxN0kyTU5iZ9IBZkFVX3lxTFBnQ0VnX2s4cWRpV3gxN19uNmlMUzh2T0JlWDgwd1VzMGhCN0IzRGhzNjlJSjl3aU9sdnhIcXFSREE5ZXRoSzNNZ19VMUtlN05vd05iV0NqWTYySmlpZWIxN0kyTU5iZw?oc=5",
       "publisher": "동아일보",
       "publishedAt": "2026-11-24T04:30:00+09:00",
       "incident": false,
@@ -260,7 +260,7 @@
         {
           "city": "화성",
           "title": "자금 문턱 낮추자 실수요 몰렸다…‘아크메르 동탄’ 선착순 계약 현장 성황",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CQWVNOHJkTkhKaW1fOE5ldDJOZE8tN0tGYVBaZ1FtVUtKSVItNnR0T2hiRmZ1c0MweUE4NEpfcjdwaGRZaEFMd3FtUWV1TDhsYVMyV2QtSElWdWk0UE1WNWJtT2FIckdqSGtYUkc2Um15dDBN?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9qT2h1YlEtLWZ2NDZzQlFZQks5T1hrYl9fWDhEMWVtVEZnTC0tRjlMR2tXTWZ4dHNCeG5semxDVVpmbzR6SENlRUJWVEROZ202UU1Xb3VZQko0MUNMVjQ0WW0xUktQZE5raWl2Y2lGbUhNWkE?oc=5",
           "publisher": "대한경제",
           "publishedAt": "2026-11-23T16:43:55+09:00",
           "incident": false
@@ -884,7 +884,7 @@
     {
       "city": "용인",
       "title": "\"아파트 층간소음·전기차 화재 어쩌지?\"…용인시 안내서 배포 - 머니투데이",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1wUWZPZ1VkNUl4cXkzTjdMWXFTNktheFJROG9TMG9NVkM4SEVaX1RtOTd6WmNUQzhvRFV3ZGNCWmV1TVBYZUNDTjN2ajM5Ty1jXzVCdC00blNTUFNteDE5eFg5VUxheDUxR3o0OXhhcVRORWhzanpfX1BFalHSAXxBVV95cUxNcFFmT2dVZDVJeHF5M043TFlxUzZLYXhSUThvUzBvTVZDOEhFWl9UbTk3elpjVEM4b0RVd2RjQlpldU1QWGVDQ04zdmozOU8tY181QnQtNG5TU1BTbXgxOXhYOVVMYXg1MUd6NDl4YXFUTkVoc2p6X19QRWpR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5nOVFvN3BQUXdRRWlHMzItODBNS3dLRlVSNlhpbjJlSkhkTnpZeUtBWFhXUmR6d0hMMnkxbGhjSE9VWDVXMGNUSGRXQTctREVZY2pOWTdRTHNaNHRRMXR5V0I5Q0pDOHowMHhhOWdZa9IBb0FVX3lxTE5nOVFvN3BQUXdRRWlHMzItODBNS3dLRlVSNlhpbjJlSkhkTnpZeUtBWFhXUmR6d0hMMnkxbGhjSE9VWDVXMGNUSGRXQTctREVZY2pOWTdRTHNaNHRRMXR5V0I5Q0pDOHowMHhhOWdZaw?oc=5",
       "publisher": "머니투데이",
       "publishedAt": "2026-11-23T17:30:01+09:00",
       "incident": true,
