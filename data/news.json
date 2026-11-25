@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T23:35:06+09:00",
+  "updatedAt": "2026-11-26T00:43:14+09:00",
   "newsSource": "Google 뉴스 RSS (기사 제목·발행시각·링크)",
   "status": {
     "수원": "정상",
@@ -9,6 +9,50 @@
   },
   "errors": [],
   "articles": [
+    {
+      "city": "오산",
+      "title": "오산시 신장2동, 경로당 방문해 주민 불편사항 청취",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE85OU1YWjJKanMybG81U244QzRDVk43dTExVllTT0FXTDE5VDMyM3pudU83SXpqbnFpMHNyaUtPZ2J2TmpVUjRUcUxoUHA0WXFMQXFlblU1YlU4dTNaWjhZT1BqdC1kVTRKT3Vna2hNZHFHdw?oc=5",
+      "publisher": "웹이코노미",
+      "publishedAt": "2026-11-26T00:08:04+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "오산",
+      "title": "오산시의회, 독립적 조직·예산권 보장 촉구",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aQlI2LTRNSGFWcnVKOFJzTzFBN1ZEMVNXZVhyYmFyU0RRQndGUm9zZFcybnBpX0JzUzFraTYyTmxES1U4eXNfN2JZaERzQmltWmp4RzhmZFlpZnpmZFduOWk0cERWaHYwblJYUA?oc=5",
+      "publisher": "뉴스타운",
+      "publishedAt": "2026-11-25T23:50:46+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "화성",
+      "title": "화성시인재육성재단 대표이사 선임 무산…시의회 “책임 규명·제도 개선 촉구”",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE50dmR6UUJMejNERUEwTWJFWWZvbDR5YUFBMHY4TWFsWGp3N2VUd19xRElpR01GMklwbTFRNDc3ekpjaUFrQ2NGcHdvbnNBaU84V3NJeENXOXl1cTJ3YjEwTnh5NzJ2VHp5UXNUZGpaanpyUTA?oc=5",
+      "publisher": "동방일보",
+      "publishedAt": "2026-11-25T23:45:33+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "수원",
+      "title": "수원시, 사회복지시설 보조금 관리 부실 논란…이희승 의원 “철저한 조사 촉구”",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4tY2tZU21WUW5tcV9PNkZWNjdpUGRiaUNnRTJOZ2FrVnU4Z0t3Q0FBWHQ1MEpvS1phcnpyVlhKS0gwVUJaeGFZUTkxWGJ6LTFPNk5xTkJOQjctWTZ2RU05V1Jla0VKNzlNY2t0VklaX0h3dw?oc=5",
+      "publisher": "웹이코노미",
+      "publishedAt": "2026-11-25T23:42:55+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
     {
       "city": "수원",
       "title": "수원시의회, 공항이전추진단 홍보 실적 등 저조 질타 이어져",
@@ -48,7 +92,7 @@
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKdllFVTJZLVBKVURvVzhUbEtEYU5sOFVsSlhpODBzd2hYbDZERmZKU1BHVEFDQ1hWRDViaXduT0UzNUVZNEhxRzBpYTdxODY1Q0NkXzJadHRpZDRYbDJJY21XZmk?oc=5",
       "publisher": "매일일보",
       "publishedAt": "2026-11-25T22:37:20+09:00",
-      "incident": false,
+      "incident": true,
       "relatedArticles": [],
       "relatedCount": 0,
       "relevance": "지역기사"
@@ -95,7 +139,7 @@
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hVzhWeWhqM25WRldKNWIwdWRaWDVqTElHWkhKcFBwWDk1YWxOeVFXMFJhTnRsX21fT2dwR0g3Mzhxei16elJFdXJKaTdSbjBzbENvRGlIekRWQnZ0UENlQzBfWU0?oc=5",
       "publisher": "매일일보",
       "publishedAt": "2026-11-25T22:35:05+09:00",
-      "incident": false,
+      "incident": true,
       "relatedArticles": [],
       "relatedCount": 0,
       "relevance": "지역기사"
@@ -292,6 +336,28 @@
       "publisher": "화성 투데이",
       "publishedAt": "2026-11-25T21:07:00+09:00",
       "incident": true,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "수원",
+      "title": "이재준 수원특례시장, 수원지역 국회의원에 “경기경제자유구역 수원지구 지정 위해 힘 모아달라”",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBWZWZBUzZUdFk5N3d3UnJ2M0dLX2MzbFdBRmpLcFJBN29XOXJaWkJ1Wk5sbHA5aVV0bVZ5SElsc0U0ZGFJQVdCa2VSSDZPbzFWQmxmTGRtWktJVFY1WEtybUs0OW9ZVUtOY0dV?oc=5",
+      "publisher": "투데이경제",
+      "publishedAt": "2026-11-25T21:04:31+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "용인",
+      "title": "용인시의회 자치행정위원회, 수지구·동 행정사무감사 실시",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9UVkRPN0RNcDVwTW1Ra2JlWDhCNGliNG84NlV1NUVYYWRNVEVMLXJtZ3Y1blZlRUIxNWRmVGRoaVRCcE5iUDByR2NMdlBNZEFaOXdCeDZuUW9wdEJNMHBla0FrcEZRdmhzbkNoa2dUOVBsNWt6?oc=5",
+      "publisher": "글로벌뉴스통신GNA",
+      "publishedAt": "2026-11-25T21:02:44+09:00",
+      "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
       "relevance": "지역기사"
@@ -502,17 +568,6 @@
       "relevance": "지역기사"
     },
     {
-      "city": "수원",
-      "title": "이재준 수원특례시장, 수원지역 국회의원에 “경기경제자유구역 수원지구 지정 위해 힘 모아달라”",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5MRHBHV09qSjBBU21SNHlEUzJvMEEwNVVvSzNuQ05jTzNnX0lJeURYSlo5Q1NSUXdMbW5YaWYxdndPdDk2QndsTEpxZkszSmNuZXRJMjk5Ylg0a2xMaWpSS0pXOEhkQWFDRGhwVEp1RTdUNG1w?oc=5",
-      "publisher": "경기종합뉴스",
-      "publishedAt": "2026-11-25T19:06:41+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
       "city": "오산",
       "title": "오산시, 안전문화운동 추진협의회 정기총회…민관 협력으로 체감 안전환경 만든다:경찰연합신문",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10QWtTMmo1LTZ1bi1GR1gyUkktNmZQeW9zZXNMSk5STG12dEVCWFp3T1RRcU9yOWRrMVlIUGxoRTRIYkRCTklBNWh4Z3FfaVlIZk5MYzNVQUN1QlpSQjVYazVZaV85T0VxWl83dNIBbEFVX3lxTE10QWtTMmo1LTZ1bi1GR1gyUkktNmZQeW9zZXNMSk5STG12dEVCWFp3T1RRcU9yOWRrMVlIUGxoRTRIYkRCTklBNWh4Z3FfaVlIZk5MYzNVQUN1QlpSQjVYazVZaV85T0VxWl83dA?oc=5",
@@ -540,6 +595,17 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXcTAzT05Rc3E5VXZxUFJqQVV5ZzJYNXVNWkxqX1VjR1J4bExFMkdXUTBIVUs5dzRnNlF0X0ZLbl9hb0M0aTJER3IyS2ttMnJUdWtwdTNfQzVtd3pRNjdYUHI0X2NuMGdFNmhBYVBR?oc=5",
       "publisher": "현대일보",
       "publishedAt": "2026-11-25T18:54:57+09:00",
+      "incident": false,
+      "relatedArticles": [],
+      "relatedCount": 0,
+      "relevance": "지역기사"
+    },
+    {
+      "city": "용인",
+      "title": "용인특례시의회 문화복지위원회, 3개 구 보건소 대상 2026년도 행정사무감사 실시",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5JNlJhTUZob0l0cE9aeUZzNTg2bzBjM0xYMEE5Tm9FbUtrSFFoemVKYjEwQklBZ3N1UTlXSEpkeDBJdDk5dlliVHAtd2s?oc=5",
+      "publisher": "모닝투데이",
+      "publishedAt": "2026-11-25T18:54:00+09:00",
       "incident": false,
       "relatedArticles": [],
       "relatedCount": 0,
@@ -1215,8 +1281,8 @@
     {
       "city": "오산",
       "title": "오산시 신장2동, 리버빌·은계주공 경로당 찾아 생활 불편 청취…현장 소통 행정 이어가",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1LTTJxZ25OY3hXdmRNb2laQTJEMjl4T2J3akpUXzVmN0NwUklZMXh3QTVSdEdQWDBzeUx3X1NVUWwtSG10NW1xZk0yMDBOajhWRGNzTGNKbDNoazRQal9LWlZ0R2sxZw?oc=5",
-      "publisher": "경기탑뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE84RFRzR3RFMkgxY0hKTWxKYnlxTkZGWXc0NEtPNmxucFdIODNFc3Z3UGpSSTI3d25PbzlmUUVTcms5dEpQUkFDR0VlbGp2QTZxal9NRzIyaDFFWlJHb0Rr?oc=5",
+      "publisher": "광흥타임즈",
       "publishedAt": "2026-11-25T17:10:05+09:00",
       "incident": false,
       "relatedArticles": [],
@@ -1725,7 +1791,7 @@
         {
           "city": "화성",
           "title": "[위클리오늘] 화성시의회 인사청문위원 9명, 인재육성재단 대표이사 선임 무산에 유감",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1wWkJVVEo4TXQzMFFoRlpDUUdzSllQNUFUTHFUNV8xMGdaVHF0SWtjU0JpaXVCSEl3NXpPZ2pweWZnVWZ1Z2tfNWdMSGNWb0tWOU5QYzN4WFVGN01qMjVHQ293VFR3NUs4SVozT3RB?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Cd09mcldPM0ZQaUljZ0FVZHVvT1VXTlQ2R043NlJ5OTlza296UEJaZlRsRlFOaTFnTWpzMWFaMVVGYUprWUYxSlJqbXFoVjR4RHFoRHdEaFBlTDY4LVByUmZuYmxtQnFxSXpQRlh2VQ?oc=5",
           "publisher": "위클리오늘",
           "publishedAt": "2026-11-25T15:35:41+09:00",
           "incident": false
@@ -1867,7 +1933,7 @@
     {
       "city": "수원",
       "title": "수원시, 지역 국회의원들과 정책간담회…경제자유구역 지정 협력 요청",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UaW1wUWlVd0ZCRWRJdFVxRmFaQUxzS0FobzBpNzBFUGNFdmpFbmtSeDVvUTNiZDg2ZGZSS0t5T3BGbk9FSThJQ0UxNGM1ZmRmV0Ftd1ZuZEh0Q1ptQjkzcWdDRF9jaWst?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIMEVobGpnSS0xajJLWDI5ejFlVjdaSmdoTE5Kc0E4NElic19GY3prYlhSTHU4bWNhVFRkdjNmV1JzcHZXYmpXeENXdXg1OHI5U09uV25YcllleHZiWlpXT09JVG05YWc?oc=5",
       "publisher": "팍스경제TV",
       "publishedAt": "2026-11-25T16:12:01+09:00",
       "incident": false,
@@ -2708,17 +2774,6 @@
       "relevance": "지역기사"
     },
     {
-      "city": "용인",
-      "title": "용인시노사민정協, 정년연장과 청년일자리 상생방안 토론회",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5nWXhaNkNGQ1dxMm00bVlzQ3dLUmFQVjBaNUxzSlhfUFRHWHVHdDFZeFdxNG5qbWlUMTBvb2duNGdJbnVDeDhMdjhmR3dJWWhQMTdaYVZSaXNkeVR3WHNqYnVTeDVWdmc?oc=5",
-      "publisher": "뉴스경기",
-      "publishedAt": "2026-11-25T13:40:55+09:00",
-      "incident": false,
-      "relatedArticles": [],
-      "relatedCount": 0,
-      "relevance": "지역기사"
-    },
-    {
       "city": "화성",
       "title": "화성시, 고액체납자 징수활동 평가 우수 지자체 선정",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41azZHNkt4ZlMwNFFYVVZYaWg1ckRKemQtenBRV3BOb0F3cW9mQnNVa1VyV1FmU3g4T1RnSk5kd3RkbWpSYTJYMVR4c3VtWE9xazVEMlBWRHUtRHpSVm52N0tmOEhSVmkwd3o0RFpyazQ?oc=5",
@@ -2956,7 +3011,7 @@
     {
       "city": "화성",
       "title": "[화성소식]독감 무료 예방접종 안내 등",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8wU2RFdEhXb1ZNbHNLQ2VScWM1cWNOemh3bTMzRkVudlk3Yk9CQ3ZrYm9zUVJxLXowQ0lNOUNXazBXU2t5QmRrZk9CRHlNdkxCbmFzNjhQRllRbEpZZkRjdTFTeEt3TzVLSWtkZ2N0M25Dbzg2UU9wVtIBeEFVX3lxTE8wU2RFdEhXb1ZNbHNLQ2VScWM1cWNOemh3bTMzRkVudlk3Yk9CQ3ZrYm9zUVJxLXowQ0lNOUNXazBXU2t5QmRrZk9CRHlNdkxCbmFzNjhQRllRbEpZZkRjdTFTeEt3TzVLSWtkZ2N0M25Dbzg2UU9wVg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fNzFWNFBZSUZHTm9qdWZma0tINnRrcTZRVzNmRHI0TjFKV1JGSmZPZWZpd3pfT1BjbUtlSjVnT2xFdFVrM1ZPZ05EOEIzX21zWHFRbnhYeV9VaDJxaThHZNIBeEFVX3lxTE8wU2RFdEhXb1ZNbHNLQ2VScWM1cWNOemh3bTMzRkVudlk3Yk9CQ3ZrYm9zUVJxLXowQ0lNOUNXazBXU2t5QmRrZk9CRHlNdkxCbmFzNjhQRllRbEpZZkRjdTFTeEt3TzVLSWtkZ2N0M25Dbzg2UU9wVg?oc=5",
       "publisher": "뉴시스",
       "publishedAt": "2026-11-25T10:18:55+09:00",
       "incident": false,
@@ -3591,46 +3646,46 @@
     }
   ],
   "weather": {
-    "updatedAt": "2026-11-25T08:15:34+09:00",
+    "updatedAt": "2026-11-26T00:43:14+09:00",
     "source": "Open-Meteo",
     "cities": {
       "수원": {
-        "temperature": -5.0,
+        "temperature": 2.8,
         "weatherCode": 1,
         "precipitationProbability": 0
       },
       "화성": {
-        "temperature": -2.8,
+        "temperature": 9.2,
         "weatherCode": 1,
         "precipitationProbability": 0
       },
       "용인": {
-        "temperature": -5.1,
+        "temperature": 3.8,
         "weatherCode": 1,
         "precipitationProbability": 0
       },
       "오산": {
-        "temperature": -3.7,
+        "temperature": 3.4,
         "weatherCode": 1,
         "precipitationProbability": 0
       },
       "안산": {
-        "temperature": -2.9,
+        "temperature": 10.1,
         "weatherCode": 1,
         "precipitationProbability": 0
       },
       "평택": {
-        "temperature": -3.3,
+        "temperature": 3.7,
         "weatherCode": 1,
         "precipitationProbability": 0
       },
       "이천": {
-        "temperature": -5.6,
+        "temperature": 1.8,
         "weatherCode": 1,
         "precipitationProbability": 0
       },
       "과천": {
-        "temperature": -5.2,
+        "temperature": 5.0,
         "weatherCode": 1,
         "precipitationProbability": 0
       }
@@ -3639,8 +3694,8 @@
   "monitoring": {
     "incidentRetentionHours": 72,
     "generalRetentionHours": 36,
-    "incidentCount": 77,
-    "groupCount": 301,
+    "incidentCount": 79,
+    "groupCount": 306,
     "relatedReports": 31,
     "note": "기사 발행시각 기준 보존. 사건 발생시각 및 실제 긴급성은 검증되지 않음"
   }
